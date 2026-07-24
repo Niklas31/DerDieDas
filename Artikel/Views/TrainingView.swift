@@ -2,11 +2,15 @@ import SwiftUI
 
 struct TrainingView: View {
     @EnvironmentObject private var store: AppStore
+    @EnvironmentObject private var purchase: PurchaseStore
     @State private var mode: TrainingMode = .wordToArticle
     @State private var showsTranslation = false
     @State private var currentNoun: GermanNoun?
     @State private var typedAnswer = ""
     @State private var feedback: String?
+    @State private var showsCredits = false
+    @State private var showsPaywall = false
+    @State private var reachedLimit = false
 
     var body: some View {
         NavigationStack {
@@ -39,13 +43,60 @@ struct TrainingView: View {
                     }
                 }
 
+                if reachedLimit && !purchase.isPro {
+                    Section {
+                        VStack(spacing: 12) {
+                            Image(systemName: "lock.fill")
+                                .font(.largeTitle)
+                                .foregroundStyle(.tint)
+                            Text("Você atingiu o limite de \(store.dailyFreeLimit) palavras novas de hoje.")
+                                .font(.headline)
+                                .multilineTextAlignment(.center)
+                            Text("Desbloqueie o DerDieDas Pro para treinar sem limites.")
+                                .font(.subheadline)
+                                .foregroundStyle(.secondary)
+                                .multilineTextAlignment(.center)
+                            Button("Desbloquear Pro") {
+                                showsPaywall = true
+                            }
+                            .buttonStyle(.borderedProminent)
+                        }
+                        .frame(maxWidth: .infinity)
+                        .padding(.vertical, 12)
+                    }
+                } else if !purchase.isPro {
+                    Section {
+                        Label("Restam \(store.remainingFreeViews) de \(store.dailyFreeLimit) palavras grátis hoje", systemImage: "gauge.with.dots.needle.33percent")
+                            .font(.footnote)
+                            .foregroundStyle(.secondary)
+                    }
+                }
+
                 Section("Estatísticas Extras") {
                     StatisticsSummaryView()
                 }
             }
             .navigationTitle("Treino")
+            .toolbar {
+                ToolbarItem(placement: .topBarTrailing) {
+                    Button {
+                        showsCredits = true
+                    } label: {
+                        Image(systemName: "info.circle")
+                    }
+                    .accessibilityLabel("Sobre e créditos")
+                }
+            }
+            .sheet(isPresented: $showsCredits) {
+                CreditsView()
+            }
+            .sheet(isPresented: $showsPaywall) {
+                PaywallView()
+            }
             .onAppear {
-                loadNextNoun()
+                if currentNoun == nil && !reachedLimit {
+                    loadNextNoun()
+                }
             }
             .onChange(of: mode) {
                 resetAnswer()
@@ -159,8 +210,14 @@ struct TrainingView: View {
 
     private func loadNextNoun(afterDelay: Bool = false) {
         let action = {
-            currentNoun = store.nouns.randomElement()
-            resetAnswer(keepsFeedback: false)
+            if let next = pickNextNoun() {
+                currentNoun = next
+                reachedLimit = false
+                resetAnswer(keepsFeedback: false)
+            } else {
+                currentNoun = nil
+                reachedLimit = true
+            }
         }
 
         if afterDelay {
@@ -168,6 +225,15 @@ struct TrainingView: View {
         } else {
             action()
         }
+    }
+
+    /// Sorteia a próxima palavra respeitando o limite diário do plano gratuito.
+    private func pickNextNoun() -> GermanNoun? {
+        guard let candidate = store.nouns.randomElement() else { return nil }
+        if purchase.isPro || store.registerFreeView(of: candidate) {
+            return candidate
+        }
+        return nil
     }
 
     private func resetAnswer(keepsFeedback: Bool = true) {

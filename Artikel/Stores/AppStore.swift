@@ -13,14 +13,73 @@ final class AppStore: ObservableObject {
     private let historyKey = "artikel.history"
     private let statsKey = "artikel.stats"
     private let translationsKey = "artikel.translations"
+    private let dailyViewsKey = "artikel.dailyviews"
     private let defaults = UserDefaults.standard
     private let searchResultLimit = 300
+
+    /// Quantas palavras novas por dia o plano gratuito libera.
+    let dailyFreeLimit = 10
+
+    @Published private(set) var viewedTodayIDs: Set<UUID> = []
+    private var viewedTodayDay = Calendar.current.startOfDay(for: Date())
 
     init() {
         self.nouns = Self.loadBundledNouns()
         self.history = Self.load([SearchHistoryItem].self, key: historyKey) ?? []
         self.nounStats = Self.load([NounPracticeStats].self, key: statsKey) ?? []
         self.cachedTranslations = Self.load([UUID: String].self, key: translationsKey) ?? [:]
+        loadDailyViews()
+    }
+
+    // MARK: - Limite diário (plano gratuito)
+
+    private struct DailyViewRecord: Codable {
+        var day: Date
+        var ids: [UUID]
+    }
+
+    var remainingFreeViews: Int {
+        max(0, dailyFreeLimit - viewedTodayIDs.count)
+    }
+
+    func hasSeenToday(_ noun: GermanNoun) -> Bool {
+        viewedTodayIDs.contains(noun.id)
+    }
+
+    /// Tenta liberar a exibição de uma palavra no plano gratuito.
+    /// Rever uma palavra já vista hoje é sempre liberado. Retorna `false` quando o limite foi atingido.
+    func registerFreeView(of noun: GermanNoun) -> Bool {
+        rolloverIfNeeded()
+        if viewedTodayIDs.contains(noun.id) { return true }
+        guard viewedTodayIDs.count < dailyFreeLimit else { return false }
+        viewedTodayIDs.insert(noun.id)
+        persistDailyViews()
+        return true
+    }
+
+    private func loadDailyViews() {
+        let today = Calendar.current.startOfDay(for: Date())
+        if let record = Self.load(DailyViewRecord.self, key: dailyViewsKey),
+           Calendar.current.isDate(record.day, inSameDayAs: today) {
+            viewedTodayDay = record.day
+            viewedTodayIDs = Set(record.ids)
+        } else {
+            viewedTodayDay = today
+            viewedTodayIDs = []
+        }
+    }
+
+    private func rolloverIfNeeded() {
+        let today = Calendar.current.startOfDay(for: Date())
+        if !Calendar.current.isDate(viewedTodayDay, inSameDayAs: today) {
+            viewedTodayDay = today
+            viewedTodayIDs = []
+            persistDailyViews()
+        }
+    }
+
+    private func persistDailyViews() {
+        save(DailyViewRecord(day: viewedTodayDay, ids: Array(viewedTodayIDs)), key: dailyViewsKey)
     }
 
     func search(_ query: String) -> [GermanNoun] {

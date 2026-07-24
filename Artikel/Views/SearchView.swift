@@ -3,6 +3,7 @@ import Translation
 
 struct SearchView: View {
     @EnvironmentObject private var store: AppStore
+    @EnvironmentObject private var purchase: PurchaseStore
     @State private var query: String = ""
     @State private var selectedNoun: GermanNoun?
     @State private var showsTranslation = true
@@ -10,7 +11,7 @@ struct SearchView: View {
     @State private var translationTarget: GermanNoun?
     @State private var isTranslating = false
     @State private var translationError: String?
-    @State private var showsCredits = false
+    @State private var showsPaywall = false
 
     var body: some View {
         NavigationStack {
@@ -19,6 +20,14 @@ struct SearchView: View {
                     if let selectedNoun {
                         selectedNounCard(selectedNoun)
                             .listRowSeparator(.hidden)
+                    }
+
+                    if !purchase.isPro {
+                        Section {
+                            Label("Restam \(store.remainingFreeViews) de \(store.dailyFreeLimit) palavras grátis hoje", systemImage: "gauge.with.dots.needle.33percent")
+                                .font(.footnote)
+                                .foregroundStyle(.secondary)
+                        }
                     }
 
                     if !store.history.isEmpty {
@@ -49,20 +58,10 @@ struct SearchView: View {
                 }
             }
             .navigationTitle("Buscar")
-            .toolbar {
-                ToolbarItem(placement: .topBarTrailing) {
-                    Button {
-                        showsCredits = true
-                    } label: {
-                        Image(systemName: "info.circle")
-                    }
-                    .accessibilityLabel("Créditos e licenças")
-                }
-            }
-            .sheet(isPresented: $showsCredits) {
-                CreditsView()
-            }
             .searchable(text: $query, placement: .toolbar, prompt: "Hund, cachorro, DER...")
+            .sheet(isPresented: $showsPaywall) {
+                PaywallView()
+            }
             .onAppear {
                 selectedNoun = selectedNoun ?? store.nouns.randomElement()
             }
@@ -84,6 +83,7 @@ struct SearchView: View {
 
     private func nounRow(_ noun: GermanNoun) -> some View {
         Button {
+            guard reveal(noun) else { return }
             selectedNoun = noun
             query = ""
             store.registerSearch(for: noun)
@@ -171,6 +171,15 @@ struct SearchView: View {
         .padding(.vertical, 20)
     }
 
+    /// Libera a exibição da palavra (Pro é sempre liberado). Se o limite gratuito acabou, abre a paywall.
+    private func reveal(_ noun: GermanNoun) -> Bool {
+        if purchase.isPro || store.registerFreeView(of: noun) {
+            return true
+        }
+        showsPaywall = true
+        return false
+    }
+
     private func translate(_ noun: GermanNoun) {
         translationTarget = noun
         translationError = nil
@@ -189,5 +198,6 @@ struct SearchView: View {
 #Preview {
     SearchView()
         .environmentObject(AppStore())
+        .environmentObject(PurchaseStore.shared)
 }
 

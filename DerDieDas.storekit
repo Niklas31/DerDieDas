@@ -1,0 +1,38 @@
+{
+  "identifier" : "A1B2C3D4-0000-0000-0000-DERDIEDAS001",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+    {
+      "displayPrice" : "9.90",
+      "familyShareable" : false,
+      "internalID" : "A1B2C3D4-0000-0000-0000-DERDIEDAS002",
+      "localizations" : [
+        {
+          "description" : "Acesso vitalício: palavras ilimitadas na busca e no treino, sem limite diário.",
+          "displayName" : "DerDieDas Pro",
+          "locale" : "pt_BR"
+        }
+      ],
+      "productID" : "com.nicolas.DerDieDas.pro",
+      "referenceName" : "DerDieDas Pro",
+      "type" : "NonConsumable"
+    }
+  ],
+  "settings" : {
+    "_failTransactionsEnabled" : false,
+    "_locale" : "pt_BR",
+    "_storefront" : "BRA",
+    "_storeKitErrors" : [
+
+    ]
+  },
+  "subscriptionGroups" : [
+
+  ],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}
