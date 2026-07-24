@@ -1,0 +1,193 @@
+import SwiftUI
+import Translation
+
+struct SearchView: View {
+    @EnvironmentObject private var store: AppStore
+    @State private var query: String = ""
+    @State private var selectedNoun: GermanNoun?
+    @State private var showsTranslation = true
+    @State private var translationConfiguration: TranslationSession.Configuration?
+    @State private var translationTarget: GermanNoun?
+    @State private var isTranslating = false
+    @State private var translationError: String?
+    @State private var showsCredits = false
+
+    var body: some View {
+        NavigationStack {
+            List {
+                if query.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty {
+                    if let selectedNoun {
+                        selectedNounCard(selectedNoun)
+                            .listRowSeparator(.hidden)
+                    }
+
+                    if !store.history.isEmpty {
+                        Section("Histórico") {
+                            ForEach(store.history) { item in
+                                nounRow(item.noun)
+                            }
+                        }
+                    }
+                } else {
+                    let results = store.searchCategorized(query)
+
+                    if !results.exact.isEmpty {
+                        Section("Correspondência Exata") {
+                            ForEach(results.exact) { noun in
+                                nounRow(noun)
+                            }
+                        }
+                    }
+
+                    if !results.partial.isEmpty {
+                        Section(results.exact.isEmpty ? "Resultados" : "Outros Resultados") {
+                            ForEach(results.partial) { noun in
+                                nounRow(noun)
+                            }
+                        }
+                    }
+                }
+            }
+            .navigationTitle("Buscar")
+            .toolbar {
+                ToolbarItem(placement: .topBarTrailing) {
+                    Button {
+                        showsCredits = true
+                    } label: {
+                        Image(systemName: "info.circle")
+                    }
+                    .accessibilityLabel("Créditos e licenças")
+                }
+            }
+            .sheet(isPresented: $showsCredits) {
+                CreditsView()
+            }
+            .searchable(text: $query, placement: .toolbar, prompt: "Hund, cachorro, DER...")
+            .onAppear {
+                selectedNoun = selectedNoun ?? store.nouns.randomElement()
+            }
+            .translationTask(translationConfiguration) { session in
+                guard let translationTarget else { return }
+
+                do {
+                    let response = try await session.translate(translationTarget.word)
+                    store.saveTranslation(response.targetText, for: translationTarget)
+                    translationError = nil
+                } catch {
+                    translationError = "Não foi possível traduzir agora."
+                }
+
+                isTranslating = false
+            }
+        }
+    }
+
+    private func nounRow(_ noun: GermanNoun) -> some View {
+        Button {
+            selectedNoun = noun
+            query = ""
+            store.registerSearch(for: noun)
+        } label: {
+            HStack(spacing: 12) {
+                ArticleBadge(article: noun.article, size: 14)
+                VStack(alignment: .leading, spacing: 4) {
+                    Text(noun.word)
+                        .font(.headline)
+                    Text(store.translation(for: noun) ?? "Sem tradução em português")
+                        .font(.subheadline)
+                        .foregroundStyle(.secondary)
+                }
+                Spacer()
+            }
+        }
+        .buttonStyle(.plain)
+    }
+
+    private func selectedNounCard(_ noun: GermanNoun) -> some View {
+        let translation = store.translation(for: noun)
+
+        return VStack(spacing: 12) {
+            HStack {
+                Spacer()
+                Button {
+                    showsTranslation.toggle()
+                } label: {
+                    Image(systemName: showsTranslation ? "eye" : "eye.slash")
+                        .font(.title3)
+                }
+                .buttonStyle(.borderless)
+                .accessibilityLabel(showsTranslation ? "Ocultar tradução" : "Mostrar tradução")
+            }
+
+            ArticleBadge(article: noun.article, size: 34)
+
+            Text(noun.word)
+                .font(.system(size: 34, weight: .semibold, design: .rounded))
+
+            if showsTranslation {
+                VStack(spacing: 4) {
+                    Text("Português:")
+                        .font(.caption)
+                        .foregroundStyle(.secondary)
+                    if let translation {
+                        Text(translation)
+                            .font(.title3.weight(.medium))
+                    } else {
+                        Text("Sem tradução em português")
+                            .font(.title3.weight(.medium))
+                            .foregroundStyle(.secondary)
+                    }
+                    if let plural = noun.plural {
+                        Text("Plural: \(plural)")
+                            .font(.subheadline)
+                            .foregroundStyle(.secondary)
+                    }
+
+                    if noun.portugueseTranslation.isEmpty {
+                        Button {
+                            translate(noun)
+                        } label: {
+                            Label(translation == nil ? "Traduzir" : "Atualizar tradução", systemImage: "translate")
+                        }
+                        .buttonStyle(.bordered)
+                        .disabled(isTranslating)
+                        .padding(.top, 8)
+                    }
+
+                    if isTranslating, translationTarget?.id == noun.id {
+                        ProgressView()
+                            .padding(.top, 4)
+                    }
+
+                    if let translationError, translationTarget?.id == noun.id {
+                        Text(translationError)
+                            .font(.caption)
+                            .foregroundStyle(.red)
+                    }
+                }
+            }
+        }
+        .frame(maxWidth: .infinity)
+        .padding(.vertical, 20)
+    }
+
+    private func translate(_ noun: GermanNoun) {
+        translationTarget = noun
+        translationError = nil
+        isTranslating = true
+
+        if translationConfiguration == nil {
+            translationConfiguration = TranslationSession.Configuration(
+                source: Locale.Language(identifier: "de"),
+                target: Locale.Language(identifier: "pt-BR")
+            )
+        } else {
+            translationConfiguration?.invalidate()
+        }
+    }
+}
+#Preview {
+    SearchView()
+        .environmentObject(AppStore())
+}
+
