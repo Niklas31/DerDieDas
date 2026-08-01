@@ -5,7 +5,7 @@ DerDieDas é um app para treinar os artigos (der/die/das) de substantivos em ale
 Existe em duas versões, que compartilham a mesma base de dados:
 
 - **Nativa** (SwiftUI, iOS e watchOS) — projeto `DerDieDas.xcodeproj`.
-- **Web** (PWA estático) — pasta `docs/`, publicada no GitHub Pages em <https://niklas31.github.io/DerDieDas/>.
+- **Web** (PWA estático) — pasta `docs/`, publicada no GitHub Pages em <https://derdiedas.app.br>.
 
 ## Funcionalidades
 
