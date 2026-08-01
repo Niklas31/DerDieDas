@@ -2,7 +2,7 @@ import Foundation
 
 struct NounPracticeStats: Identifiable, Codable {
     let id: UUID
-    let nounID: UUID
+    let nounID: String
     let article: GermanArticle
     let word: String
     var totalAttempts: Int

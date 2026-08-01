@@ -8,7 +8,7 @@ final class AppStore: ObservableObject {
     @Published private(set) var nouns: [GermanNoun]
     @Published private(set) var history: [SearchHistoryItem]
     @Published private(set) var nounStats: [NounPracticeStats]
-    @Published private(set) var cachedTranslations: [UUID: String]
+    @Published private(set) var cachedTranslations: [String: String]
 
     private let historyKey = "artikel.history"
     private let statsKey = "artikel.stats"
@@ -20,14 +20,14 @@ final class AppStore: ObservableObject {
     /// Quantas palavras novas por dia o plano gratuito libera.
     let dailyFreeLimit = 10
 
-    @Published private(set) var viewedTodayIDs: Set<UUID> = []
+    @Published private(set) var viewedTodayIDs: Set<String> = []
     private var viewedTodayDay = Calendar.current.startOfDay(for: Date())
 
     init() {
         self.nouns = Self.loadBundledNouns()
         self.history = Self.load([SearchHistoryItem].self, key: historyKey) ?? []
         self.nounStats = Self.load([NounPracticeStats].self, key: statsKey) ?? []
-        self.cachedTranslations = Self.load([UUID: String].self, key: translationsKey) ?? [:]
+        self.cachedTranslations = Self.load([String: String].self, key: translationsKey) ?? [:]
         loadDailyViews()
     }
 
@@ -35,7 +35,7 @@ final class AppStore: ObservableObject {
 
     private struct DailyViewRecord: Codable {
         var day: Date
-        var ids: [UUID]
+        var ids: [String]
     }
 
     var remainingFreeViews: Int {
@@ -167,7 +167,7 @@ final class AppStore: ObservableObject {
         .sorted { $0.errorRate > $1.errorRate }
     }
 
-    func noun(for id: UUID) -> GermanNoun? {
+    func noun(for id: String) -> GermanNoun? {
         nouns.first { $0.id == id }
     }
 

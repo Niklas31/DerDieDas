@@ -107,7 +107,7 @@
 		A20000000000000000000017 /* ReportWordLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportWordLink.swift; sourceTree = "<group>"; };
 		A20000000000000000000016 /* DerDieDas.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = DerDieDas.storekit; sourceTree = "<group>"; };
 		A2000000000000000000000E /* DerDieDas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DerDieDas.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A2000000000000000000000F /* GermanNouns.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = GermanNouns.json; sourceTree = "<group>"; };
+		A2000000000000000000000F /* GermanNouns.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = GermanNouns.json; path = docs/data/GermanNouns.json; sourceTree = SOURCE_ROOT; };
 		A20000000000000000000010 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A20000000000000000000011 /* Logo.icon */ = {isa = PBXFileReference; lastKnownFileType = folder.iconcomposer.icon; path = Logo.icon; sourceTree = "<group>"; };
 		A20000000000000000000012 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };

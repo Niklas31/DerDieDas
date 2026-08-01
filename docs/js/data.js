@@ -26,26 +26,24 @@ const byKey = new Map();
 const byNormalizedWord = new Map();
 
 export async function loadNouns() {
-  const response = await fetch('./data/nouns.v1.json');
+  // Mesmo arquivo que o app iOS empacota — fonte única de verdade, sem etapa de geração.
+  const response = await fetch('./data/GermanNouns.json');
   if (!response.ok) throw new Error(`Falha ao carregar a base (HTTP ${response.status})`);
 
   const payload = await response.json();
 
-  nouns = payload.rows.map(([articleIndex, word, translation, plural]) => {
-    const article = ARTICLES[articleIndex];
-    return {
-      key: `${article}|${word}`,
-      article,
-      word,
-      translation,
-      plural,
-      // pré-normalizados: a busca varre estes campos, nunca os originais
-      nWord: normalize(word),
-      nTranslation: normalize(translation),
-      nPlural: plural ? normalize(plural) : '',
-      nArticle: normalize(article),
-    };
-  });
+  nouns = payload.map(({ article, word, portugueseTranslation, plural }) => ({
+    key: `${article}|${word}`,
+    article,
+    word,
+    translation: portugueseTranslation,
+    plural,
+    // pré-normalizados: a busca varre estes campos, nunca os originais
+    nWord: normalize(word),
+    nTranslation: normalize(portugueseTranslation),
+    nPlural: plural ? normalize(plural) : '',
+    nArticle: normalize(article),
+  }));
 
   for (const noun of nouns) {
     byKey.set(noun.key, noun);

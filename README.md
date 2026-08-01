@@ -35,12 +35,17 @@ PWA estático, sem backend, sem build step: HTML + CSS + JavaScript com ES modul
 `git push` publica.
 
 ```bash
-node tools/build-web-data.mjs   # regenera docs/data/nouns.v1.json a partir do JSON do app
 python3 -m http.server 8765     # e abrir http://localhost:8765/docs/
 ```
 
-`Artikel/GermanNouns.json` é a fonte única de verdade; `docs/data/nouns.v1.json` é um artefato
-**gerado** (linhas em vez de objetos, sem o campo `id`): 2,1 MB → 486 KB, ~144 KB via gzip.
+**Uma base só, para os dois apps:** `docs/data/GermanNouns.json`. O Xcode empacota esse
+mesmo arquivo (referência com `sourceTree = SOURCE_ROOT`) e a web faz `fetch` nele —
+não existe etapa de geração nem artefato duplicado.
+
+Ele não guarda `id`: a identidade de cada substantivo é `ARTIGO|palavra`, calculada em
+`GermanNoun.id` no Swift e usada como chave no `localStorage` da web. Além de alinhar os dois
+lados, isso encolhe o arquivo de 470 KB para 167 KB comprimidos — UUIDs são aleatórios e
+não comprimem.
 
 Limitação conhecida: no iOS o WebKit só abre o teclado dentro de um gesto do usuário, então a versão
 web não abre o teclado sozinha ao iniciar (o app nativo abre). Para compensar, o campo de resposta do
@@ -60,30 +65,31 @@ Essa lista foi curada num script em Python (Google Colab):
    e aplicada por `tools/apply-corrections.py`: corrige traduções erradas e remove nomes próprios,
    marcas e siglas. Os reportes que chegam pelo botão do app entram nesse mesmo arquivo.
 
-O resultado — **11.729 substantivos, todos com tradução** — é empacotado em `Artikel/GermanNouns.json`. Cada item tem um `id` (UUID estável), usado para persistir traduções sob demanda e estatísticas.
+O resultado — **11.728 substantivos, todos com tradução** — vive em `docs/data/GermanNouns.json`. Cada item é identificado por `ARTIGO|palavra`, chave usada para persistir estatísticas, histórico e traduções sob demanda.
 
 Busca, treino e artigos funcionam offline. A tradução nativa da Apple roda no dispositivo, pode pedir download de modelos na primeira vez e não funciona no simulador.
 
 ## Estrutura
 
 ```text
-Artikel/
+Artikel/               app iOS/watchOS (SwiftUI)
   ArtikelApp.swift
-  GermanNouns.json
   PrivacyInfo.xcprivacy
   Models/
-  Stores/            AppStore.swift, PurchaseStore.swift
-  Views/             Search, History, Training, Statistics, Credits, Paywall
+  Stores/              AppStore.swift, PurchaseStore.swift
+  Views/               Search, History, Training, Statistics, Credits, Paywall
   Intents/
 DerDieDas Watch App Watch App/
 DerDieDas.storekit
 DerDieDas.xcodeproj/
-tools/build-web-data.mjs
-docs/                Web app + GitHub Pages
-  index.html         o app
-  privacidade.html   política de privacidade
+tools/
+  corrections.json     correções sobre a tradução automática
+  apply-corrections.py aplica-as na base
+docs/                  web app + GitHub Pages
+  index.html           o app
+  privacidade.html     política de privacidade
   js/ css/ icons/
-  data/nouns.v1.json GERADO — não editar à mão
+  data/GermanNouns.json  A BASE — o app iOS empacota este mesmo arquivo
 ```
 
 ## Como abrir

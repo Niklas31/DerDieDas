@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Aplica tools/corrections.json sobre Artikel/GermanNouns.json.
+"""Aplica tools/corrections.json sobre docs/data/GermanNouns.json.
 
 A base veio de tradução automática (Google Tradutor, via Colab) e tem dois tipos de
 problema: traduções erradas e palavras que não servem para aprender vocabulário
@@ -13,7 +13,7 @@ import json
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-BASE = ROOT / 'Artikel/GermanNouns.json'
+BASE = ROOT / 'docs/data/GermanNouns.json'
 CORR = ROOT / 'tools/corrections.json'
 
 
