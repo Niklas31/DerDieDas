@@ -274,6 +274,15 @@ main {
   color: var(--secondary);
 }
 
+.report-link {
+  margin-top: 4px;
+  color: var(--secondary);
+  font-size: 13px;
+  text-decoration: none;
+}
+
+.report-link:active { opacity: 0.5; }
+
 /* ------------------------------------------------------------------ treino */
 
 .training-card {

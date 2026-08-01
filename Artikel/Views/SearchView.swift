@@ -166,6 +166,9 @@ struct SearchView: View {
                     }
                 }
             }
+
+            ReportWordLink(noun: noun)
+                .padding(.top, 4)
         }
         .frame(maxWidth: .infinity)
         .padding(.vertical, 20)

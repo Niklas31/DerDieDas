@@ -6,7 +6,7 @@
 
 import { allNouns, randomNoun, nounForWord } from '../data.js';
 import { recordPractice, getPrefs, setPref } from '../store.js';
-import { el, badge, card, clear } from '../ui.js';
+import { el, badge, card, clear, reportLink } from '../ui.js';
 import { render as renderStats } from './stats.js';
 
 const ARTICLES = ['DER', 'DIE', 'DAS'];
@@ -95,6 +95,7 @@ answerInput.addEventListener('keydown', (event) => {
 // --------------------------------------------------------------------- resto
 
 const feedback = el('div', { class: 'feedback' });
+const reportSlot = el('div', { style: 'text-align:center' });
 const statsContainer = el('div');
 
 const element = el('section', { class: 'view', id: 'view-training', hidden: true }, [
@@ -102,6 +103,7 @@ const element = el('section', { class: 'view', id: 'view-training', hidden: true
   modeA,
   modeB,
   feedback,
+  reportSlot,
   statsContainer,
 ]);
 
@@ -133,6 +135,8 @@ function renderCurrent() {
 
   modeA.hidden = mode !== 'wordToArticle';
   modeB.hidden = mode !== 'articleToWord';
+
+  clear(reportSlot).append(reportLink(currentNoun));
 
   if (mode === 'wordToArticle') {
     wordLabel.textContent = currentNoun.word;

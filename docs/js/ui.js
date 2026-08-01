@@ -61,3 +61,32 @@ export function clear(node) {
   node.replaceChildren();
   return node;
 }
+
+export const CONTACT_EMAIL = 'contato@derdiedas.app.br';
+
+/**
+ * Link de reporte. Sem backend, a via mais simples é um e-mail com os dados da
+ * palavra já preenchidos — nada é enviado sem o usuário revisar e confirmar.
+ */
+export function reportLink(noun, origin = 'web') {
+  const subject = `DerDieDas — correção: ${noun.article} ${noun.word}`;
+  const body = [
+    'Encontrei algo errado nesta palavra:',
+    '',
+    `Palavra:  ${noun.word}`,
+    `Artigo:   ${noun.article}`,
+    `Tradução: ${noun.translation || '(sem tradução)'}`,
+    `Plural:   ${noun.plural || '(sem plural)'}`,
+    '',
+    'O que está errado?',
+    '',
+    '',
+    `— enviado pelo DerDieDas (${origin})`,
+  ].join('\n');
+
+  return el('a', {
+    class: 'report-link',
+    href: `mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`,
+    text: 'Reportar erro nesta palavra',
+  });
+}

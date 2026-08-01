@@ -2,7 +2,7 @@
 
 import { allNouns } from '../data.js';
 import { exportData, importData } from '../store.js';
-import { el, card, section } from '../ui.js';
+import { el, card, section, CONTACT_EMAIL } from '../ui.js';
 
 const VERSION = '1.0 (web)';
 
@@ -114,6 +114,17 @@ export function onShow() {
         linkRow('https://github.com/gambolputty/german-nouns', 'Projeto german-nouns'),
         linkRow('https://de.wiktionary.org', 'WiktionaryDE'),
         linkRow('https://creativecommons.org/licenses/by-sa/4.0/deed.pt_BR', 'Licença CC BY-SA 4.0'),
+      ])
+    ),
+
+    ...section(
+      'Contato',
+      card([
+        el('a', {
+          class: 'link-row',
+          href: `mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent('DerDieDas — contato')}`,
+          text: 'Reportar erro ou sugerir melhoria',
+        }),
       ])
     ),
 

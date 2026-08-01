@@ -41,6 +41,15 @@ struct TrainingView: View {
                                 .foregroundStyle(feedback.hasPrefix("Correto") ? .green : .red)
                         }
                     }
+
+                    Section {
+                        HStack {
+                            Spacer()
+                            ReportWordLink(noun: noun)
+                            Spacer()
+                        }
+                    }
+                    .listRowBackground(Color.clear)
                 }
 
                 if reachedLimit && !purchase.isPro {

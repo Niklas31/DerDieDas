@@ -3,7 +3,7 @@
 import { searchCategorized } from '../search.js';
 import { randomNoun } from '../data.js';
 import { getHistory, registerSearch, getPrefs, setPref } from '../store.js';
-import { el, badge, card, nounRow, section, clear } from '../ui.js';
+import { el, badge, card, nounRow, section, clear, reportLink } from '../ui.js';
 
 const SEARCH_ICON =
   '<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.75" fill="none" stroke="currentColor" stroke-width="1.9"/><path d="M15.4 15.4 20.5 20.5" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"/></svg>';
@@ -69,6 +69,8 @@ function nounCard(noun) {
       parts.push(el('div', { class: 'plural', text: `Plural: ${noun.plural}` }));
     }
   }
+
+  parts.push(reportLink(noun));
 
   return el('div', { class: 'noun-card' }, parts);
 }
