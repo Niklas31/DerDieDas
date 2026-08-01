@@ -52,7 +52,7 @@
          </BuildableReference>
       </BuildableProductRunnable>
       <StoreKitConfigurationFileReference
-         identifier = "../../../DerDieDas.storekit">
+         identifier = "../../DerDieDas.storekit">
       </StoreKitConfigurationFileReference>
    </LaunchAction>
    <ProfileAction

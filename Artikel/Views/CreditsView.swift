@@ -6,7 +6,7 @@ struct CreditsView: View {
     @State private var showsPaywall = false
 
     // Ajuste para a URL pública da sua política de privacidade (ex.: GitHub Pages).
-    private let privacyPolicyURL = URL(string: "https://niklas31.github.io/DerDieDas/")
+    private let privacyPolicyURL = URL(string: "https://niklas31.github.io/DerDieDas/privacidade.html")
 
     private var appVersion: String {
         let short = Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String ?? "1.0"

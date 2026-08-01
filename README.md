@@ -1,6 +1,11 @@
 # DerDieDas
 
-DerDieDas é um app SwiftUI (iOS e watchOS) para treinar os artigos (der/die/das) de substantivos em alemão, com tradução para o português e plural opcional.
+DerDieDas é um app para treinar os artigos (der/die/das) de substantivos em alemão, com tradução para o português e plural opcional.
+
+Existe em duas versões, que compartilham a mesma base de dados:
+
+- **Nativa** (SwiftUI, iOS e watchOS) — projeto `DerDieDas.xcodeproj`.
+- **Web** (PWA estático) — pasta `docs/`, publicada no GitHub Pages em <https://niklas31.github.io/DerDieDas/>.
 
 ## Funcionalidades
 
@@ -13,11 +18,33 @@ DerDieDas é um app SwiftUI (iOS e watchOS) para treinar os artigos (der/die/das
 - App companheiro para Apple Watch.
 - App Intents / Atalhos da Siri para consultar o artigo de uma palavra.
 
-## Modelo (freemium)
+## Modelo
+
+App nativo (freemium):
 
 - Plano gratuito: **10 palavras novas por dia** (rever uma palavra já vista no dia não conta; reseta à meia-noite).
 - **DerDieDas Pro**: compra única (não-consumível, StoreKit 2) que remove o limite. Produto `com.nicolas.DerDieDas.pro`.
 - Teste local via `DerDieDas.storekit` (já referenciado no scheme).
+
+Versão web: **gratuita e ilimitada**. Num site estático qualquer limite viveria no `localStorage` e seria
+contornável pelo devtools, então não há paywall — `FREE_LIMIT` em `docs/js/store.js` fica em `Infinity`.
+
+## Web app (`docs/`)
+
+PWA estático, sem backend, sem build step: HTML + CSS + JavaScript com ES modules nativos.
+`git push` publica.
+
+```bash
+node tools/build-web-data.mjs   # regenera docs/data/nouns.v1.json a partir do JSON do app
+python3 -m http.server 8765     # e abrir http://localhost:8765/docs/
+```
+
+`Artikel/GermanNouns.json` é a fonte única de verdade; `docs/data/nouns.v1.json` é um artefato
+**gerado** (linhas em vez de objetos, sem o campo `id`): 2,1 MB → 486 KB, ~144 KB via gzip.
+
+Limitação conhecida: no iOS o WebKit só abre o teclado dentro de um gesto do usuário, então a versão
+web não abre o teclado sozinha ao iniciar (o app nativo abre). Para compensar, o campo de resposta do
+treino é um nó de DOM permanente — o teclado não fecha entre uma palavra e outra.
 
 ## Base de dados
 
@@ -46,8 +73,13 @@ Artikel/
   Intents/
 DerDieDas Watch App Watch App/
 DerDieDas.storekit
-docs/index.html      Política de privacidade (GitHub Pages)
 DerDieDas.xcodeproj/
+tools/build-web-data.mjs
+docs/                Web app + GitHub Pages
+  index.html         o app
+  privacidade.html   política de privacidade
+  js/ css/ icons/
+  data/nouns.v1.json GERADO — não editar à mão
 ```
 
 ## Como abrir
