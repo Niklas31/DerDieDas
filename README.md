@@ -56,7 +56,11 @@ Essa lista foi curada num script em Python (Google Colab):
 2. Filtro de frequência com a biblioteca `wordfreq`, corte `1e-6` (0,0001% — ~1 ocorrência por milhão), descartando a cauda longa de termos raros.
 3. Tradução para o português com o Google Tradutor (`deep_translator`).
 
-O resultado — **12.092 substantivos, todos com tradução** — é empacotado em `Artikel/GermanNouns.json`. Cada item tem um `id` (UUID estável), usado para persistir traduções sob demanda e estatísticas.
+4. Revisão manual sobre o resultado da tradução automática, versionada em `tools/corrections.json`
+   e aplicada por `tools/apply-corrections.py`: corrige traduções erradas e remove nomes próprios,
+   marcas e siglas. Os reportes que chegam pelo botão do app entram nesse mesmo arquivo.
+
+O resultado — **11.729 substantivos, todos com tradução** — é empacotado em `Artikel/GermanNouns.json`. Cada item tem um `id` (UUID estável), usado para persistir traduções sob demanda e estatísticas.
 
 Busca, treino e artigos funcionam offline. A tradução nativa da Apple roda no dispositivo, pode pedir download de modelos na primeira vez e não funciona no simulador.
 

@@ -63,7 +63,10 @@ struct CreditsView: View {
                     Text("Num script em Python (Google Colab), essa lista passou por um filtro de frequência de uso com a biblioteca wordfreq: só permaneceram as palavras que aparecem pelo menos cerca de 1 vez por milhão no alemão real — o corte de 1e-6 (0,0001%). Isso derruba automaticamente a cauda longa de termos raros. Uma segunda passada ainda removeu duplicatas, abreviações e verbos infiltrados.")
                         .font(.subheadline)
 
-                    Text("O resultado são os 12.092 substantivos do app, cada um traduzido para o português com o Google Tradutor. Os scripts foram escritos com apoio do Google Gemini.")
+                    Text("Cada palavra foi traduzida para o português com o Google Tradutor, e os scripts foram escritos com apoio do Google Gemini. Depois disso veio uma revisão manual, que corrigiu traduções erradas e removeu nomes próprios, marcas e siglas que não servem para aprender vocabulário.")
+                        .font(.subheadline)
+
+                    Text("Achou algum erro? Use o botão de reportar — as correções entram nas próximas versões.")
                         .font(.subheadline)
                 }
 

@@ -1,0 +1,57 @@
+{
+  "_doc": "Correções aplicadas sobre a base gerada pelo Colab. 'fix' troca a tradução; 'remove' tira o substantivo da base. Aplicar com: python3 tools/apply-corrections.py",
+
+  "fix": {
+    "Dusche": "chuveiro / banho de chuveiro",
+    "Schauer": "aguaceiro / pancada de chuva",
+
+    "_comentario_fan": "O Google pivotou alemão->inglês->português: tudo que virava 'fan' virou 'fã'.",
+    "Fächer": "leque",
+    "Lüfter": "ventilador",
+    "Ventilator": "ventilador",
+
+    "_comentario_ortografia": "Trema abolido pelo Acordo Ortográfico de 1990.",
+    "Frequenz": "frequência",
+    "Häufigkeit": "frequência",
+    "Konsequenz": "consequência",
+    "Folge": "consequência / episódio / sequência",
+    "Laien-Linguistik": "linguística leiga",
+
+    "_comentario_ingles": "Traduções que ficaram em inglês.",
+    "Klo": "privada / banheiro",
+    "Eignung": "aptidão / adequação",
+    "Vermarktung": "comercialização",
+
+    "_comentario_imprecisas": "Traduções imprecisas ou abreviadas demais.",
+    "Fernsehen": "televisão",
+    "Fernseher": "televisor",
+    "Lebenslauf": "currículo",
+    "Ego": "ego",
+    "Inder": "indiano",
+    "Aue": "várzea / campina",
+    "Wehe": "contração (de parto)",
+    "Rasierer": "barbeador",
+    "Seife": "sabonete / sabão",
+    "Handtuch": "toalha",
+    "Döner": "doner kebab",
+    "Nackter": "homem nu",
+    "Hattrick": "hat-trick (três gols)",
+    "Guinness-Buch": "livro dos recordes"
+  },
+
+  "remove": {
+    "_doc": "Nomes próprios, marcas, lugares, siglas e palavras que não são substantivos comuns — passaram pelo filtro de frequência porque são comuns em texto alemão, mas não servem para aprender vocabulário.",
+
+    "pessoas": ["Alex", "Anke", "Arno", "Asterix", "Axel", "Baba", "Benjamin", "Bertram", "Beck", "Biedermann", "Biermann", "Bloch", "Bobby", "Bolle", "Burke", "Casanova", "Charlotte", "Cicero", "Curie", "Dietrich", "Dirk", "Doris", "Edda", "Einstein", "Emilia", "Emmy", "Eren", "Erika", "Fidel", "Franke", "Franziska", "Fritz", "Grimm", "Guido", "Hans", "Hausmann", "Hegel", "Henning", "Hermann", "Horst", "Hugo", "Hulk", "Ilse", "Jogi", "Judas", "Kahn", "Kai", "Kate", "Kelly", "Ken", "Kiki", "Klaus", "Kopp", "Krause", "Kris", "Lala", "Lena", "Lenz", "Locke", "Lotte", "Lulu", "Lutz", "Mara", "Messi", "Minna", "Molly", "Nana", "Obelix", "Pikachu", "Quentin", "Raab", "Ramses", "Rembrandt", "Rex", "Robinson", "Runge", "Sachs", "Schlegel", "Schott", "Schulze", "Schütte", "Seidel", "Sharon", "Stalin", "Stuart", "Tate", "Tom", "Tommy", "Vettel", "Vogt", "Weinstein", "Wendel", "Werth", "Barbie", "Jesus", "Milf"],
+
+    "mitologia": ["Andromeda", "Artemis", "Hades", "Hebe", "Hera", "Isis", "Juno", "Nemesis", "Nestor", "Odin", "Orion", "Osiris", "Poseidon", "Sirius", "Thor", "Zeus", "Golem", "Messias"],
+
+    "lugares": ["Alabama", "Allgäu", "Altmark", "Auerbach", "Bellevue", "Belvedere", "Boston", "Breisgau", "Broadway", "Bronx", "Bruck", "Buchenwald", "Bühl", "Chemnitz", "China", "Colorado", "Dahme", "Devon", "Drau", "Eichsfeld", "Elbphilharmonie", "Ems", "Enns", "Erft", "Erlangen", "Everest", "Freistadt", "Fulda", "Gail", "Ganges", "Gera", "Germania", "Gronau", "Hagen", "Hausen", "Havel", "Havelland", "Hollywood", "Holm", "Hudson", "Hunsrück", "Ilmenau", "Italia", "Kiel", "Krems", "Kurfürstendamm", "Lahn", "Lech", "Lindenstraße", "Louvre", "Lund", "Madison", "Maine", "Malta", "Medina", "Michigan", "Missouri", "Münsterland", "Namibia", "Neumarkt", "Neustadt", "Nordstadt", "Nürburgring", "Oberland", "Ohio", "Oxford", "Paris", "Plettenberg", "Reeperbahn", "Reuss", "Rheingau", "Rhön", "Riviera", "Ruhrpott", "Saale", "Salzkammergut", "Schlossberg", "Schwechat", "Schwyz", "Senegal", "Spessart", "Spreewald", "Sulz", "Tegernsee", "Thun", "Uckermark", "Waldviertel", "Wasserburg", "Waterloo", "Werra", "Westerwald", "Wisconsin", "Wuppertal", "Argen", "Este", "Mur", "Ries", "Ritten", "Steyr", "Sems"],
+
+    "marcas": ["Adobe", "Ajax", "Android", "Audi", "Bahncard", "BaFin", "Bitcoin", "Bluetooth", "Borussia", "Brockhaus", "Bundesbank", "Ferrari", "Instagram", "JavaScript", "Lufthansa", "Maggi", "Microsoft", "Mustang", "NASDAQ", "Nike", "Nissan", "Obi", "Pokemon", "Pokémon", "Porsche", "Puma", "Riedel", "Ritz", "Schalke", "Siemens", "Sputnik", "Tesla", "Thalia", "Volksbank", "Volkswagen", "Whatsapp", "Wikipedia", "Xbox", "Coca", "Guinness", "Viagra", "Concordia", "Müller-Thurgau", "Bambi", "Vox", "Hentai"],
+
+    "siglas_org": ["AStA", "Abi", "AfD", "Antifa", "Arge", "B2B", "BAföG", "C++", "CO2", "CO₂", "ErP", "Fed", "GbR", "GmbH", "GroKo", "Hamas", "Interpol", "Iban", "Mossad", "MP3", "NSDAP", "PaK", "Soko", "Wehrmacht", "Reichstag", "Bundesliga", "Bundestag", "Bundeswehr", "Oberliga", "Stasi", "Gulag", "Apartheid", "FPÖ-Wähler", "SPÖ-Wähler", "ÖVP-Wähler", "ÖFB-Cup", "TÜV-Plakette", "Fugen-s", "Gießener", "Lübecker", "Osnabrücker", "Saarbrücker", "Bundesliga"],
+
+    "nao_substantivos": ["Bei", "Die", "Von", "Oder", "Wenn", "Ist", "Ach", "Des", "Eth", "Hau", "Hehl", "Blas", "Bai", "Bim", "Ain", "Ais", "Ces", "Cis", "Fis", "Aga", "Alk", "Assi", "Chan", "Cox", "Dan", "Han", "Kata", "Lei", "Leite", "Mol", "Mus", "Par", "Ras", "Ren", "Sem", "Sen", "Khan", "Bey", "Bora", "Base", "Crime", "Gens", "Alba", "Alfa", "Alias", "Alm", "Anke", "Beta", "Chi", "Eta", "Kali", "Kappa", "Psi", "Pax", "Tara", "Tora", "Sol", "Soma", "Vita", "Imago", "Corpus", "Causa", "Dominante"]
+  }
+}

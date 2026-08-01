@@ -287,13 +287,6 @@
     "plural": "Abhängigkeiten"
   },
   {
-    "id": "efddb8d4-1e80-539e-b61a-a4be9ebe28b4",
-    "article": "DAS",
-    "word": "Abi",
-    "portugueseTranslation": "abi",
-    "plural": "Abis"
-  },
-  {
     "id": "92424e4b-67b5-5721-8c23-78a0c59dcfbf",
     "article": "DAS",
     "word": "Abitur",
@@ -966,13 +959,6 @@
     "plural": "Account-Managerinnen"
   },
   {
-    "id": "ef821c61-8988-5a2b-ba81-5a4bce5857bd",
-    "article": "DAS",
-    "word": "Ach",
-    "portugueseTranslation": "oh",
-    "plural": null
-  },
-  {
     "id": "f98eb21e-96e8-5c88-86bb-0cbd8ba2daab",
     "article": "DER",
     "word": "Ach-Laut",
@@ -1225,13 +1211,6 @@
     "plural": "Admirale"
   },
   {
-    "id": "93f9ca53-bce1-5fc4-8be7-56eb60accf6e",
-    "article": "DER",
-    "word": "Adobe",
-    "portugueseTranslation": "adobe",
-    "plural": "Adobes"
-  },
-  {
     "id": "8c668ac9-a871-5a62-a771-8579f08de05d",
     "article": "DIE",
     "word": "Adoption",
@@ -1286,13 +1265,6 @@
     "word": "Adventszeit",
     "portugueseTranslation": "época do advento",
     "plural": "Adventszeiten"
-  },
-  {
-    "id": "902774bb-65f4-5026-a5a8-aae2f74de215",
-    "article": "DIE",
-    "word": "AfD",
-    "portugueseTranslation": "afd",
-    "plural": null
   },
   {
     "id": "2934bf8e-8761-5d9f-a51f-f39551e140f8",
@@ -1377,13 +1349,6 @@
     "word": "After",
     "portugueseTranslation": "ânus",
     "plural": "After"
-  },
-  {
-    "id": "e9e9da56-8f93-5597-8cc5-ab473dd86aad",
-    "article": "DER",
-    "word": "Aga",
-    "portugueseTranslation": "ága",
-    "plural": "Agas"
   },
   {
     "id": "ead8624d-7092-5bd1-95b0-a7af049b455b",
@@ -1498,13 +1463,6 @@
     "plural": "AIDS-Tote"
   },
   {
-    "id": "8cd35376-474a-5a60-916f-0460cce84939",
-    "article": "DER",
-    "word": "Ain",
-    "portugueseTranslation": "ain",
-    "plural": null
-  },
-  {
     "id": "2052abe6-f41e-504b-a132-4b2529d2c192",
     "article": "DER",
     "word": "Airbag",
@@ -1531,20 +1489,6 @@
     "word": "Airport",
     "portugueseTranslation": "aeroporto",
     "plural": "Airports"
-  },
-  {
-    "id": "01e3e3aa-59ef-5586-82a9-9bf39a7fe648",
-    "article": "DAS",
-    "word": "Ais",
-    "portugueseTranslation": "ais",
-    "plural": "Ais"
-  },
-  {
-    "id": "7782a878-7d45-5b98-ab00-a68f15feca23",
-    "article": "DER",
-    "word": "Ajax",
-    "portugueseTranslation": "ájax",
-    "plural": null
   },
   {
     "id": "37870402-e3ef-5782-967a-91ceaeaf08c1",
@@ -1750,13 +1694,6 @@
     "plural": null
   },
   {
-    "id": "4935a23b-ea2d-534a-a083-28dbdb1cf8bf",
-    "article": "DER",
-    "word": "Alabama",
-    "portugueseTranslation": "alabama",
-    "plural": "Alabama"
-  },
-  {
     "id": "1fde5b45-26c5-5bb1-aeb1-19e136a0e9fd",
     "article": "DER",
     "word": "Alarm",
@@ -1783,13 +1720,6 @@
     "word": "Alb",
     "portugueseTranslation": "alva",
     "plural": "Alben"
-  },
-  {
-    "id": "7bd3eedd-1e3e-523a-8713-3ead90e802e8",
-    "article": "DIE",
-    "word": "Alba",
-    "portugueseTranslation": "alba",
-    "plural": "Albas"
   },
   {
     "id": "75c3d09b-85c1-5ab8-90b7-518d926316cd",
@@ -1834,25 +1764,11 @@
     "plural": "Aleppo-Kiefern"
   },
   {
-    "id": "716237c4-c522-583e-99c2-3be50e5dff83",
-    "article": "DER",
-    "word": "Alex",
-    "portugueseTranslation": "alex",
-    "plural": null
-  },
-  {
     "id": "26678770-1795-57f9-b789-c1e41d24fc92",
     "article": "DER",
     "word": "Alf",
     "portugueseTranslation": "alfa",
     "plural": null
-  },
-  {
-    "id": "46230851-72ae-5379-8a73-e4a80ba16b4f",
-    "article": "DIE",
-    "word": "Alfa",
-    "portugueseTranslation": "alfa",
-    "plural": "Alfas"
   },
   {
     "id": "6640c5fa-97ef-5ba2-814d-367769478a43",
@@ -1876,13 +1792,6 @@
     "plural": "Algorithmen"
   },
   {
-    "id": "a46a575b-bcf6-52cf-9207-96e1d24593e9",
-    "article": "DAS",
-    "word": "Alias",
-    "portugueseTranslation": "alias",
-    "plural": "Aliasse"
-  },
-  {
     "id": "30915e2d-af22-5bbe-8ff9-3761ae2b60cd",
     "article": "DAS",
     "word": "Alibi",
@@ -1895,13 +1804,6 @@
     "word": "Alien",
     "portugueseTranslation": "estrangeiro",
     "plural": "Aliens"
-  },
-  {
-    "id": "e0ba336a-1f29-5ce9-80b6-842b79950b31",
-    "article": "DER",
-    "word": "Alk",
-    "portugueseTranslation": "alk",
-    "plural": "Alke"
   },
   {
     "id": "eaf11c7a-167b-5df9-8e71-c4b2ede047fa",
@@ -2016,13 +1918,6 @@
     "plural": "Allgemeinheiten"
   },
   {
-    "id": "ce308d32-8b3b-5500-a2c4-1fb7f065da03",
-    "article": "DAS",
-    "word": "Allgäu",
-    "portugueseTranslation": "allgäu",
-    "plural": null
-  },
-  {
     "id": "d045a86c-a64c-54ce-a285-fe008e191c65",
     "article": "DIE",
     "word": "Allianz",
@@ -2056,13 +1951,6 @@
     "word": "Alltagsleben",
     "portugueseTranslation": "vida cotidiana",
     "plural": "Alltagsleben"
-  },
-  {
-    "id": "fc6cb8a3-09c6-518c-9a84-e151b0e32401",
-    "article": "DIE",
-    "word": "Alm",
-    "portugueseTranslation": "alm",
-    "plural": "Almen"
   },
   {
     "id": "75eeee4c-0611-546e-bfb7-ba0fe358e7d7",
@@ -2259,13 +2147,6 @@
     "word": "Altertum",
     "portugueseTranslation": "antiguidade",
     "plural": "Altertümer"
-  },
-  {
-    "id": "c102ac19-285d-52d3-914b-c52101eb909c",
-    "article": "DIE",
-    "word": "Altmark",
-    "portugueseTranslation": "altmark",
-    "plural": null
   },
   {
     "id": "93c75c98-4bc6-5c78-b56c-b9e42d59c1f7",
@@ -2653,20 +2534,6 @@
     "plural": "Androhungen"
   },
   {
-    "id": "dbbec444-be28-51fd-878d-1ecc5478de61",
-    "article": "DAS",
-    "word": "Android",
-    "portugueseTranslation": "android",
-    "plural": null
-  },
-  {
-    "id": "b0b5b426-459f-55ff-bafb-03f882f9789f",
-    "article": "DIE",
-    "word": "Andromeda",
-    "portugueseTranslation": "andrômeda",
-    "plural": null
-  },
-  {
     "id": "dbadc1b3-d2e5-58a7-a287-b2c210827b91",
     "article": "DIE",
     "word": "Aneignung",
@@ -2973,13 +2840,6 @@
     "word": "Anis",
     "portugueseTranslation": "anis",
     "plural": "Anise"
-  },
-  {
-    "id": "b3eff6ec-ad03-5e4e-ad0e-586e10c0f5b8",
-    "article": "DER",
-    "word": "Anke",
-    "portugueseTranslation": "anke",
-    "plural": "Anken"
   },
   {
     "id": "8f983964-49cf-58c5-b3b4-b8bdb035ea63",
@@ -3479,13 +3339,6 @@
     "plural": "Anti-Utopien"
   },
   {
-    "id": "81afc6b4-c57a-5737-b814-21a9e4c45c18",
-    "article": "DIE",
-    "word": "Antifa",
-    "portugueseTranslation": "antifa",
-    "plural": "Antifas"
-  },
-  {
     "id": "33db8615-768d-5bb6-9eb4-3c272732275f",
     "article": "DER",
     "word": "Antifaschismus",
@@ -3680,13 +3533,6 @@
     "word": "Apache",
     "portugueseTranslation": "apache",
     "plural": "Apachen"
-  },
-  {
-    "id": "d2894c9d-cf2b-5eb8-beb5-15979a4a9c45",
-    "article": "DIE",
-    "word": "Apartheid",
-    "portugueseTranslation": "apartheid",
-    "plural": null
   },
   {
     "id": "fe5ef0a0-8638-5e3f-af12-b9a9b531d8c7",
@@ -4179,20 +4025,6 @@
     "plural": null
   },
   {
-    "id": "8db14fd8-6822-5b03-9a98-2a6e9e866f79",
-    "article": "DIE",
-    "word": "Arge",
-    "portugueseTranslation": "arge",
-    "plural": "Argen"
-  },
-  {
-    "id": "83777a1e-ebd8-575b-82b0-e8659c1cff5b",
-    "article": "DIE",
-    "word": "Argen",
-    "portugueseTranslation": "argen",
-    "plural": null
-  },
-  {
     "id": "7eb32f06-9fa2-5174-8ccf-0985c28011b4",
     "article": "DER",
     "word": "Argentinier",
@@ -4312,13 +4144,6 @@
     "plural": "Armutszeugnisse"
   },
   {
-    "id": "2f9652ca-811d-562a-8bba-bb15fd6f6100",
-    "article": "DER",
-    "word": "Arno",
-    "portugueseTranslation": "arno",
-    "plural": null
-  },
-  {
     "id": "9ad9b556-5436-57a2-ba4b-74b1720997ab",
     "article": "DAS",
     "word": "Aroma",
@@ -4387,13 +4212,6 @@
     "word": "Art",
     "portugueseTranslation": "arte",
     "plural": "Arten"
-  },
-  {
-    "id": "b62c9342-ed66-58a0-b632-d2900515dec9",
-    "article": "DIE",
-    "word": "Artemis",
-    "portugueseTranslation": "ártemis",
-    "plural": null
   },
   {
     "id": "a4aac322-02b5-5704-bcfb-563c30052c0b",
@@ -4543,13 +4361,6 @@
     "plural": "Assessment-Center"
   },
   {
-    "id": "754b1be4-4ed9-579c-ab9b-1a64ae0a84f8",
-    "article": "DER",
-    "word": "Assi",
-    "portugueseTranslation": "assi",
-    "plural": "Assis"
-  },
-  {
     "id": "2dd65ebb-e4ac-5d6c-9a16-20b441ee0b3c",
     "article": "DIE",
     "word": "Assimilation",
@@ -4597,20 +4408,6 @@
     "word": "Ast",
     "portugueseTranslation": "filial",
     "plural": "Äste"
-  },
-  {
-    "id": "2241f985-78c0-5c67-aa7d-e70570f0c3bd",
-    "article": "DER",
-    "word": "AStA",
-    "portugueseTranslation": "asta",
-    "plural": "AStA"
-  },
-  {
-    "id": "aa525944-5b69-5507-a81c-ed32e87fc5fa",
-    "article": "DER",
-    "word": "Asterix",
-    "portugueseTranslation": "astérix",
-    "plural": null
   },
   {
     "id": "a7e6a36c-a1a8-554f-88c1-bc948119b671",
@@ -4907,13 +4704,6 @@
     "plural": "AU-Plaketten"
   },
   {
-    "id": "ff3a86af-b5af-55cf-9234-e126a5642a8f",
-    "article": "DER",
-    "word": "Audi",
-    "portugueseTranslation": "audi",
-    "plural": "Audi"
-  },
-  {
     "id": "7980ef3c-f035-553f-9b6e-d375cfeae22e",
     "article": "DIE",
     "word": "Audienz",
@@ -4945,15 +4735,8 @@
     "id": "08c09bc5-749a-5585-a742-d3eac974b80a",
     "article": "DIE",
     "word": "Aue",
-    "portugueseTranslation": "ai",
+    "portugueseTranslation": "várzea / campina",
     "plural": "Auen"
-  },
-  {
-    "id": "b73d1d2b-06b1-5f80-a311-10557af939eb",
-    "article": "DER",
-    "word": "Auerbach",
-    "portugueseTranslation": "auerbach",
-    "plural": "Auerbachs"
   },
   {
     "id": "eaa001c9-5b16-54d9-80e6-bef6a3afd3ba",
@@ -6601,13 +6384,6 @@
     "plural": "Awards"
   },
   {
-    "id": "ecb3d55f-632d-53b4-8486-1b7dfbd90c00",
-    "article": "DER",
-    "word": "Axel",
-    "portugueseTranslation": "axel",
-    "plural": "Axel"
-  },
-  {
     "id": "2284fb53-b2ef-5d65-aea7-26eab1d96c6c",
     "article": "DIE",
     "word": "Axt",
@@ -6627,20 +6403,6 @@
     "word": "Azur",
     "portugueseTranslation": "azul",
     "plural": null
-  },
-  {
-    "id": "625be856-8132-5a66-a0bf-fb86134b2817",
-    "article": "DAS",
-    "word": "B2B",
-    "portugueseTranslation": "b2b",
-    "plural": null
-  },
-  {
-    "id": "8581ff9c-8f6b-51a3-88f2-e3c02993d806",
-    "article": "DER",
-    "word": "Baba",
-    "portugueseTranslation": "babá",
-    "plural": "Baba"
   },
   {
     "id": "2960300c-3788-59af-92da-4db5f295c976",
@@ -6818,20 +6580,6 @@
     "plural": null
   },
   {
-    "id": "407127e3-0917-5d54-9b74-e498495f4654",
-    "article": "DIE",
-    "word": "BaFin",
-    "portugueseTranslation": "bafin",
-    "plural": null
-  },
-  {
-    "id": "5b4a3486-cff2-5c07-8fb2-050512b62103",
-    "article": "DAS",
-    "word": "BAföG",
-    "portugueseTranslation": "bafög",
-    "plural": null
-  },
-  {
     "id": "64821f1a-1fe0-5cce-b0a3-1491587faa58",
     "article": "DER",
     "word": "Bagger",
@@ -6851,13 +6599,6 @@
     "word": "Bahn",
     "portugueseTranslation": "trem",
     "plural": "Bahnen"
-  },
-  {
-    "id": "8ca7d59b-4f46-50d2-a4fd-5758dc111182",
-    "article": "DIE",
-    "word": "Bahncard",
-    "portugueseTranslation": "bahncard",
-    "plural": "Bahncards"
   },
   {
     "id": "62211826-6eda-5a9a-a322-71a4c273758d",
@@ -6900,13 +6641,6 @@
     "word": "Bahnübergang",
     "portugueseTranslation": "travessia ferroviária",
     "plural": "Bahnübergänge"
-  },
-  {
-    "id": "d85e9f7d-978f-529e-857e-2a5547fab469",
-    "article": "DIE",
-    "word": "Bai",
-    "portugueseTranslation": "bai",
-    "plural": "Baien"
   },
   {
     "id": "7b5705f8-7219-5fbd-ac45-a976617e7538",
@@ -7035,13 +6769,6 @@
     "plural": "Bamberger"
   },
   {
-    "id": "d3ebe02c-80da-5ae9-9ad6-b19b0777f089",
-    "article": "DER",
-    "word": "Bambi",
-    "portugueseTranslation": "bambi",
-    "plural": "Bambis"
-  },
-  {
     "id": "56f9ff43-cc9e-5d24-a8c9-19183179dfed",
     "article": "DER",
     "word": "Bambus",
@@ -7168,13 +6895,6 @@
     "plural": "Barbareien"
   },
   {
-    "id": "7751b79f-5105-5f7e-b20b-f56adeadea6e",
-    "article": "DIE",
-    "word": "Barbie",
-    "portugueseTranslation": "barbie",
-    "plural": "Barbies"
-  },
-  {
     "id": "7e7e54e7-69e6-5e45-a4dc-037bd0d9e4e0",
     "article": "DER",
     "word": "Barbier",
@@ -7278,13 +6998,6 @@
     "word": "Bart",
     "portugueseTranslation": "barba",
     "plural": "Bärte"
-  },
-  {
-    "id": "00b7dfa8-a4f0-5da8-8f4a-d400b10fa08f",
-    "article": "DIE",
-    "word": "Base",
-    "portugueseTranslation": "base",
-    "plural": "Basen"
   },
   {
     "id": "365dd833-13ce-522f-8c4d-8559f8dc290d",
@@ -7854,13 +7567,6 @@
     "plural": "Becher"
   },
   {
-    "id": "33ff77cd-0665-5eef-84d0-9c8ac394e14e",
-    "article": "DER",
-    "word": "Beck",
-    "portugueseTranslation": "beck",
-    "plural": "Becke"
-  },
-  {
     "id": "9265e8c7-4ae0-5d7d-b9e7-d49399e63460",
     "article": "DAS",
     "word": "Becken",
@@ -8267,13 +7973,6 @@
     "plural": "Behörden"
   },
   {
-    "id": "7ba14684-ff8f-5795-99f7-38a4dbe10b92",
-    "article": "DER",
-    "word": "Bei",
-    "portugueseTranslation": "no",
-    "plural": "Beie"
-  },
-  {
     "id": "f5638d17-fe19-5778-b117-ff766a8db3bb",
     "article": "DIE",
     "word": "Beibehaltung",
@@ -8603,13 +8302,6 @@
     "plural": null
   },
   {
-    "id": "a3be41f3-a690-5602-b7a3-cfc6f1e8872c",
-    "article": "DAS",
-    "word": "Bellevue",
-    "portugueseTranslation": "bellevue",
-    "plural": "Bellevues"
-  },
-  {
     "id": "dfa94046-dce3-5604-92c6-af1a7692b8b0",
     "article": "DER",
     "word": "Bello",
@@ -8629,13 +8321,6 @@
     "word": "Belt",
     "portugueseTranslation": "cinto",
     "plural": "Belte"
-  },
-  {
-    "id": "f2bb35bc-e572-53cb-b61c-1b85b226a700",
-    "article": "DAS",
-    "word": "Belvedere",
-    "portugueseTranslation": "belvedere",
-    "plural": "Belvederes"
   },
   {
     "id": "3cd5dac7-c501-5486-829e-efb2914fc8d2",
@@ -8692,13 +8377,6 @@
     "word": "Bengel",
     "portugueseTranslation": "pirralho",
     "plural": "Bengel"
-  },
-  {
-    "id": "ba879f26-b55c-5514-bb65-ce6239603b94",
-    "article": "DER",
-    "word": "Benjamin",
-    "portugueseTranslation": "benjamin",
-    "plural": "Benjamine"
   },
   {
     "id": "494b5416-a868-5386-96be-8ce3c83f8fe7",
@@ -8909,13 +8587,6 @@
     "word": "Berliner",
     "portugueseTranslation": "berlinense",
     "plural": "Berliner"
-  },
-  {
-    "id": "3fb63ec5-c089-5683-92d6-502d502612da",
-    "article": "DER",
-    "word": "Bertram",
-    "portugueseTranslation": "bertram",
-    "plural": null
   },
   {
     "id": "6bd18306-82a7-5a9f-95ef-1bea60896b7e",
@@ -9478,13 +9149,6 @@
     "plural": "Besucher"
   },
   {
-    "id": "5df441a7-6408-58d9-aca1-42a0813fd4c3",
-    "article": "DAS",
-    "word": "Beta",
-    "portugueseTranslation": "beta",
-    "plural": "Betas"
-  },
-  {
     "id": "83112d01-34d3-5760-8dcd-295ebc35272e",
     "article": "DIE",
     "word": "Beta-Version",
@@ -9954,13 +9618,6 @@
     "plural": "Bewässerungen"
   },
   {
-    "id": "ffa5ece4-5ad9-5c13-894c-67f7227f83da",
-    "article": "DER",
-    "word": "Bey",
-    "portugueseTranslation": "bey",
-    "plural": "Beye"
-  },
-  {
     "id": "26edf794-4bd6-5c2a-be26-5604367474f4",
     "article": "DIE",
     "word": "Bezeichnung",
@@ -10080,13 +9737,6 @@
     "plural": "Bibliothekare"
   },
   {
-    "id": "0afd066a-7a9a-52b1-a9e7-28fa68afc771",
-    "article": "DER",
-    "word": "Biedermann",
-    "portugueseTranslation": "biedermann",
-    "plural": "Biedermänner"
-  },
-  {
     "id": "15dd6a87-e361-5754-b049-b82d022739c0",
     "article": "DER",
     "word": "Bielefelder",
@@ -10134,13 +9784,6 @@
     "word": "Biergarten",
     "portugueseTranslation": "jardim de cerveja",
     "plural": "Biergärten"
-  },
-  {
-    "id": "2e00ef68-bdc8-5adc-b464-a0fd0c9dedfb",
-    "article": "DER",
-    "word": "Biermann",
-    "portugueseTranslation": "biermann",
-    "plural": "Biermänner"
   },
   {
     "id": "67c9b9ce-381e-5ee3-9a7e-511c7c393ed2",
@@ -10309,13 +9952,6 @@
     "word": "Billion",
     "portugueseTranslation": "trilhão",
     "plural": "Billionen"
-  },
-  {
-    "id": "a5ccbb26-6cb9-5f34-8f2a-7189caae725f",
-    "article": "DIE",
-    "word": "Bim",
-    "portugueseTranslation": "bim",
-    "plural": "Bims"
   },
   {
     "id": "60deb18a-3361-5dd1-b672-adfd38e0effb",
@@ -10598,13 +10234,6 @@
     "plural": "Bits"
   },
   {
-    "id": "877403a4-a112-567f-aa7c-0c965864957e",
-    "article": "DER",
-    "word": "Bitcoin",
-    "portugueseTranslation": "bitcoin",
-    "plural": "Bitcoins"
-  },
-  {
     "id": "204c5656-006b-5c37-ae72-d4c20326f239",
     "article": "DIE",
     "word": "Bitte",
@@ -10680,13 +10309,6 @@
     "word": "Blank",
     "portugueseTranslation": "em branco",
     "plural": "Blanks"
-  },
-  {
-    "id": "f97a36cb-fb5f-5e61-a7c9-d17e47174e9b",
-    "article": "DER",
-    "word": "Blas",
-    "portugueseTranslation": "blás",
-    "plural": "Blase"
   },
   {
     "id": "df6ee1fd-adb2-5986-af47-1ad971aad904",
@@ -10871,13 +10493,6 @@
     "plural": "Blizzards"
   },
   {
-    "id": "c356c9ff-c40e-5aed-90c0-f4a5ffbc83eb",
-    "article": "DER",
-    "word": "Bloch",
-    "portugueseTranslation": "bloch",
-    "plural": "Bloche"
-  },
-  {
     "id": "0d95e584-a20b-592f-b327-8e1c04c64fd7",
     "article": "DIE",
     "word": "Blockade",
@@ -10945,13 +10560,6 @@
     "article": "DER",
     "word": "Blues",
     "portugueseTranslation": "blues",
-    "plural": null
-  },
-  {
-    "id": "07d5184c-a8ce-5915-9974-efdc32978ccf",
-    "article": "DAS",
-    "word": "Bluetooth",
-    "portugueseTranslation": "bluetooth",
     "plural": null
   },
   {
@@ -11095,13 +10703,6 @@
     "plural": "Bobs"
   },
   {
-    "id": "102c02ac-e81e-51bc-b013-a003b29ea35c",
-    "article": "DER",
-    "word": "Bobby",
-    "portugueseTranslation": "bobby",
-    "plural": "Bobbys"
-  },
-  {
     "id": "b57fe910-0dfc-5782-a797-55a3e7482b62",
     "article": "DER",
     "word": "Bochumer",
@@ -11170,13 +10771,6 @@
     "word": "Bohrung",
     "portugueseTranslation": "chato",
     "plural": "Bohrungen"
-  },
-  {
-    "id": "3b935c5e-a5d3-55b6-9bdb-90b73eaf2f0e",
-    "article": "DIE",
-    "word": "Bolle",
-    "portugueseTranslation": "bolle",
-    "plural": "Bollen"
   },
   {
     "id": "5aa460c2-e3a9-5c90-898a-b74c63721118",
@@ -11305,13 +10899,6 @@
     "plural": null
   },
   {
-    "id": "a2db634c-3510-50f2-86dc-b8294ac1f1b1",
-    "article": "DIE",
-    "word": "Bora",
-    "portugueseTranslation": "bora",
-    "plural": "Boras"
-  },
-  {
     "id": "8bb3ae7e-d00f-55a7-a42c-6608f278406a",
     "article": "DAS",
     "word": "Bord",
@@ -11347,13 +10934,6 @@
     "plural": "Borge"
   },
   {
-    "id": "26d4ad5f-f2f0-5bf2-bc1c-ef5e707a93cd",
-    "article": "DIE",
-    "word": "Borussia",
-    "portugueseTranslation": "borussia",
-    "plural": null
-  },
-  {
     "id": "9392e4ac-2455-5397-b3ea-4d73df36b0f4",
     "article": "DIE",
     "word": "Bosheit",
@@ -11387,13 +10967,6 @@
     "word": "Bosse",
     "portugueseTranslation": "chefes",
     "plural": "Bossen"
-  },
-  {
-    "id": "84076e4e-29f2-5791-885b-95875b43339d",
-    "article": "DAS",
-    "word": "Boston",
-    "portugueseTranslation": "boston",
-    "plural": null
   },
   {
     "id": "a6a5cefb-0a14-5c12-816c-ecc4c07f14ce",
@@ -11662,13 +11235,6 @@
     "plural": "Breie"
   },
   {
-    "id": "e0ab4e00-d98a-5154-97af-e6e17bb7339a",
-    "article": "DER",
-    "word": "Breisgau",
-    "portugueseTranslation": "breisgau",
-    "plural": null
-  },
-  {
     "id": "24947bd9-066f-5533-a3b7-9c5e035435eb",
     "article": "DER",
     "word": "Breitbandausbau",
@@ -11879,13 +11445,6 @@
     "plural": "Briten"
   },
   {
-    "id": "bac96d56-f227-5200-9c04-2e4fbc06b190",
-    "article": "DER",
-    "word": "Broadway",
-    "portugueseTranslation": "broadway",
-    "plural": null
-  },
-  {
     "id": "c6b21992-7153-5c4f-8784-3137570e9b49",
     "article": "DAS",
     "word": "Broadway-Musical",
@@ -11897,13 +11456,6 @@
     "article": "DAS",
     "word": "Brocken",
     "portugueseTranslation": "pedaços",
-    "plural": null
-  },
-  {
-    "id": "6145b3c5-6d2f-55d6-a39c-9d34c624c331",
-    "article": "DER",
-    "word": "Brockhaus",
-    "portugueseTranslation": "brockhaus",
     "plural": null
   },
   {
@@ -11919,13 +11471,6 @@
     "word": "Brokkoli",
     "portugueseTranslation": "brócolis",
     "plural": "Brokkoli"
-  },
-  {
-    "id": "080a3e55-cafe-5bf9-a0b4-77013f3f1ec3",
-    "article": "DIE",
-    "word": "Bronx",
-    "portugueseTranslation": "bronx",
-    "plural": null
   },
   {
     "id": "a5853549-60bc-5b21-8818-ace3e80e41da",
@@ -11982,13 +11527,6 @@
     "word": "Bruchteil",
     "portugueseTranslation": "fração",
     "plural": "Bruchteile"
-  },
-  {
-    "id": "1684d248-eed6-575e-9d76-aac54bbf9a4b",
-    "article": "DIE",
-    "word": "Bruck",
-    "portugueseTranslation": "bruck",
-    "plural": "Brucken"
   },
   {
     "id": "eb056cf6-4be3-5abd-8e58-49af12adb634",
@@ -12129,13 +11667,6 @@
     "word": "Buchen",
     "portugueseTranslation": "livro",
     "plural": null
-  },
-  {
-    "id": "24d744c5-f8e9-54f4-9db2-9c017c40f5be",
-    "article": "DER",
-    "word": "Buchenwald",
-    "portugueseTranslation": "buchenwald",
-    "plural": "Buchenwälder"
   },
   {
     "id": "c1e7b2a3-68c5-58c4-9dbb-53f851382fa5",
@@ -12327,13 +11858,6 @@
     "plural": "Bundesbahnen"
   },
   {
-    "id": "a147dd71-0b6a-5e9b-9ccb-021376c35a6e",
-    "article": "DIE",
-    "word": "Bundesbank",
-    "portugueseTranslation": "bundesbank",
-    "plural": null
-  },
-  {
     "id": "f9cc1bb8-a591-5fa5-91fb-a2b5098a2b60",
     "article": "DER",
     "word": "Bundesbürger",
@@ -12416,13 +11940,6 @@
     "word": "Bundesland",
     "portugueseTranslation": "estado federal",
     "plural": "Bundesländer"
-  },
-  {
-    "id": "16110d6a-18b7-53c1-b359-8bdfadd082e6",
-    "article": "DIE",
-    "word": "Bundesliga",
-    "portugueseTranslation": "bundesliga",
-    "plural": "Bundesligen"
   },
   {
     "id": "3281c826-ffe9-5c9f-843d-f719fce4b04f",
@@ -12523,13 +12040,6 @@
     "plural": "Bundesstraßen"
   },
   {
-    "id": "cc205644-d1db-506a-800b-7f1976eff134",
-    "article": "DER",
-    "word": "Bundestag",
-    "portugueseTranslation": "bundestag",
-    "plural": "Bundestage"
-  },
-  {
     "id": "f01253d2-ddaa-5974-a43e-eb09023b85c1",
     "article": "DIE",
     "word": "Bundestagsabgeordnete",
@@ -12600,13 +12110,6 @@
     "plural": "Bundesverwaltungsgerichte"
   },
   {
-    "id": "06d15624-6400-5fa5-8631-21e89a0c55e6",
-    "article": "DIE",
-    "word": "Bundeswehr",
-    "portugueseTranslation": "bundeswehr",
-    "plural": null
-  },
-  {
     "id": "50e521c6-cc24-52ba-ad1f-603cb3a3f746",
     "article": "DER",
     "word": "Bungalow",
@@ -12647,13 +12150,6 @@
     "word": "Burka",
     "portugueseTranslation": "burca",
     "plural": "Burkas"
-  },
-  {
-    "id": "5ccb1317-2cd5-53cc-9846-6b8a432ddaba",
-    "article": "DIE",
-    "word": "Burke",
-    "portugueseTranslation": "burke",
-    "plural": "Burken"
   },
   {
     "id": "420005d9-11d2-540f-a0bb-3cf1f1769648",
@@ -12964,13 +12460,6 @@
     "plural": null
   },
   {
-    "id": "94889795-09ed-58e4-a914-04f2816818f2",
-    "article": "DER",
-    "word": "Bühl",
-    "portugueseTranslation": "bühl",
-    "plural": "Bühle"
-  },
-  {
     "id": "b5cf29c9-c6bc-5c42-9485-ec2540992ca8",
     "article": "DIE",
     "word": "Bühne",
@@ -13125,13 +12614,6 @@
     "plural": "Büsten"
   },
   {
-    "id": "7866012b-e392-5819-9807-8aaf01819eee",
-    "article": "DAS",
-    "word": "C++",
-    "portugueseTranslation": "c++",
-    "plural": null
-  },
-  {
     "id": "557668cc-e0d2-507e-a0b4-442eaabaf9db",
     "article": "DAS",
     "word": "Cabrio",
@@ -13272,13 +12754,6 @@
     "plural": "Cartoons"
   },
   {
-    "id": "9f1ff065-eb01-5a6f-88de-9d9e43fafd0e",
-    "article": "DER",
-    "word": "Casanova",
-    "portugueseTranslation": "casanova",
-    "plural": "Casanovas"
-  },
-  {
     "id": "8758aec8-3368-5f3d-ba5f-af8319b6465e",
     "article": "DAS",
     "word": "Casino",
@@ -13312,13 +12787,6 @@
     "word": "Catering",
     "portugueseTranslation": "restauração",
     "plural": "Caterings"
-  },
-  {
-    "id": "3642ea5a-37c0-5c00-9ff8-1ae8642a794d",
-    "article": "DIE",
-    "word": "Causa",
-    "portugueseTranslation": "causa",
-    "plural": "Causae"
   },
   {
     "id": "454822e2-5632-518f-93ba-57b0c86d44b7",
@@ -13440,13 +12908,6 @@
     "plural": null
   },
   {
-    "id": "89d123ff-6439-5264-a66b-d2ec1eed910e",
-    "article": "DAS",
-    "word": "Ces",
-    "portugueseTranslation": "ces",
-    "plural": "Ces"
-  },
-  {
     "id": "a3939077-3577-5658-890b-1abcb12df8ef",
     "article": "DIE",
     "word": "Challenge",
@@ -13473,13 +12934,6 @@
     "word": "Champion",
     "portugueseTranslation": "campeão",
     "plural": "Champions"
-  },
-  {
-    "id": "ec900f81-2035-5575-884d-bb254fab0267",
-    "article": "DAS",
-    "word": "Chan",
-    "portugueseTranslation": "chan",
-    "plural": null
   },
   {
     "id": "06ef3dfc-2094-5456-917d-0dd0fddddf36",
@@ -13550,13 +13004,6 @@
     "word": "Charleston",
     "portugueseTranslation": "charleston",
     "plural": "Charlestons"
-  },
-  {
-    "id": "1aab1d78-8391-573f-8dee-5c577523ead7",
-    "article": "DIE",
-    "word": "Charlotte",
-    "portugueseTranslation": "charlotte",
-    "plural": "Charlotten"
   },
   {
     "id": "53c245db-7574-531a-a40b-65fbdd245ade",
@@ -13727,13 +13174,6 @@
     "plural": "Chemiker"
   },
   {
-    "id": "39baf006-b10c-5b90-a496-dcf0ed5cd62f",
-    "article": "DIE",
-    "word": "Chemnitz",
-    "portugueseTranslation": "chemnitz",
-    "plural": null
-  },
-  {
     "id": "82be7f4a-618f-5cfb-943c-69a2f63d60ab",
     "article": "DER",
     "word": "Chemnitzer",
@@ -13753,13 +13193,6 @@
     "word": "Chemotherapie",
     "portugueseTranslation": "quimioterapia",
     "plural": "Chemotherapien"
-  },
-  {
-    "id": "f91b2ff8-31cf-523b-986a-a423a4e3548a",
-    "article": "DAS",
-    "word": "Chi",
-    "portugueseTranslation": "chi",
-    "plural": "Chis"
   },
   {
     "id": "2f7f98fb-c3e7-53bf-ac2d-65a14f31410f",
@@ -13788,13 +13221,6 @@
     "word": "Chili",
     "portugueseTranslation": "pimenta",
     "plural": "Chilis"
-  },
-  {
-    "id": "b203e45b-bdb0-50ed-a423-40034a705a51",
-    "article": "DIE",
-    "word": "China",
-    "portugueseTranslation": "china",
-    "plural": "Chinas"
   },
   {
     "id": "aa5f22d3-4c07-513c-8920-0d5bf5dd0190",
@@ -14063,25 +13489,11 @@
     "plural": "CIA-Zentralen"
   },
   {
-    "id": "9d359933-ce5d-5cac-8f82-c94c7e0d252a",
-    "article": "DER",
-    "word": "Cicero",
-    "portugueseTranslation": "cícero",
-    "plural": null
-  },
-  {
     "id": "64334b92-5190-5cf5-ad64-040f0505f194",
     "article": "DER",
     "word": "Circus",
     "portugueseTranslation": "circo",
     "plural": "Circusse"
-  },
-  {
-    "id": "1445fee0-6fe9-57f4-9f76-7480497cc312",
-    "article": "DAS",
-    "word": "Cis",
-    "portugueseTranslation": "cis",
-    "plural": "Cis"
   },
   {
     "id": "936b8477-f3d4-5cc6-b844-ee6c75b502ab",
@@ -14203,13 +13615,6 @@
     "plural": "Co-Trainerinnen"
   },
   {
-    "id": "91da45b2-b2d0-5bc7-a444-8e1ed5c57677",
-    "article": "DAS",
-    "word": "CO2",
-    "portugueseTranslation": "co2",
-    "plural": null
-  },
-  {
     "id": "8052c2db-e477-5f87-8670-c6e89a946e06",
     "article": "DER",
     "word": "Coach",
@@ -14222,13 +13627,6 @@
     "word": "Coaching",
     "portugueseTranslation": "treinamento",
     "plural": "Coachings"
-  },
-  {
-    "id": "8402ca22-d3f8-5d3d-af17-1e2b876ba459",
-    "article": "DAS",
-    "word": "Coca",
-    "portugueseTranslation": "coca",
-    "plural": "Coca"
   },
   {
     "id": "d86967c8-ddd7-545a-823a-9585004693af",
@@ -14299,13 +13697,6 @@
     "word": "College",
     "portugueseTranslation": "faculdade",
     "plural": "Colleges"
-  },
-  {
-    "id": "0981bb18-d4a6-528e-8be3-b92c9ba95bee",
-    "article": "DER",
-    "word": "Colorado",
-    "portugueseTranslation": "colorado",
-    "plural": null
   },
   {
     "id": "0d002bdb-5418-5915-aa88-f2a5846de60b",
@@ -14390,13 +13781,6 @@
     "word": "Computerspiel",
     "portugueseTranslation": "jogo de computador",
     "plural": "Computerspiele"
-  },
-  {
-    "id": "1cd4602c-5dff-5292-a69c-bca29d4a4083",
-    "article": "DIE",
-    "word": "Concordia",
-    "portugueseTranslation": "concórdia",
-    "plural": null
   },
   {
     "id": "35d6a160-367e-5339-8111-4b866263a412",
@@ -14574,13 +13958,6 @@
     "plural": "Corps"
   },
   {
-    "id": "6eb069b1-d534-5e7b-9dea-aaeb5df93e8c",
-    "article": "DAS",
-    "word": "Corpus",
-    "portugueseTranslation": "corpus",
-    "plural": "Corpora"
-  },
-  {
     "id": "e9098ce7-886b-5066-ac9f-01f511d1f44d",
     "article": "DER",
     "word": "Couch",
@@ -14705,20 +14082,6 @@
     "word": "Cowboy",
     "portugueseTranslation": "vaqueiro",
     "plural": "Cowboys"
-  },
-  {
-    "id": "8d80b124-83c4-5326-9f5f-99c39cda2b07",
-    "article": "DER",
-    "word": "Cox",
-    "portugueseTranslation": "cox",
-    "plural": "Cox"
-  },
-  {
-    "id": "950286a2-169c-5113-bc56-3444b72c4bcb",
-    "article": "DAS",
-    "word": "CO₂",
-    "portugueseTranslation": "co₂",
-    "plural": null
   },
   {
     "id": "1e7bd883-d69a-5e99-bc77-1e72091b3ebe",
@@ -14917,13 +14280,6 @@
     "plural": "Crews"
   },
   {
-    "id": "517d0642-2c2b-54e6-9a41-b9e11a5ebe18",
-    "article": "DAS",
-    "word": "Crime",
-    "portugueseTranslation": "crime",
-    "plural": "Crimes"
-  },
-  {
     "id": "c8ef63d6-1f80-5381-8476-9454da6fdd42",
     "article": "DAS",
     "word": "Cross-Country",
@@ -14999,13 +14355,6 @@
     "word": "Cup",
     "portugueseTranslation": "xícara",
     "plural": "Cups"
-  },
-  {
-    "id": "c2256e44-3cb5-5e49-975a-6fc2520540a4",
-    "article": "DAS",
-    "word": "Curie",
-    "portugueseTranslation": "curie",
-    "plural": "Curie"
   },
   {
     "id": "b0bfe378-6ffc-5026-b137-affecb588e03",
@@ -15127,13 +14476,6 @@
     "plural": "Daddys"
   },
   {
-    "id": "e9e0026e-52ff-5258-88a2-63c9e1918cba",
-    "article": "DIE",
-    "word": "Dahme",
-    "portugueseTranslation": "dahme",
-    "plural": null
-  },
-  {
     "id": "9bd73afb-08b9-5247-843c-c9e1a68a3673",
     "article": "DIE",
     "word": "Dame",
@@ -15167,13 +14509,6 @@
     "word": "Dampfmaschine",
     "portugueseTranslation": "motor a vapor",
     "plural": "Dampfmaschinen"
-  },
-  {
-    "id": "e82a8775-e118-5dd4-a955-2adf0bd688ba",
-    "article": "DER",
-    "word": "Dan",
-    "portugueseTranslation": "dan",
-    "plural": "Dan"
   },
   {
     "id": "b0b282ed-518b-5fc7-93e9-c8b1d0f11c21",
@@ -15855,13 +15190,6 @@
     "plural": "Derbys"
   },
   {
-    "id": "1a19db8c-2224-5a03-96ad-14e81eaac6da",
-    "article": "DAS",
-    "word": "Des",
-    "portugueseTranslation": "des",
-    "plural": "Des"
-  },
-  {
     "id": "61350c1e-7fbf-5db5-82c9-bcf26e7cfc29",
     "article": "DAS",
     "word": "Des-Dur",
@@ -16028,13 +15356,6 @@
     "word": "Devise",
     "portugueseTranslation": "lema",
     "plural": "Devisen"
-  },
-  {
-    "id": "cbfc8ff1-1d52-5f07-9b76-57f26a0c8e2c",
-    "article": "DAS",
-    "word": "Devon",
-    "portugueseTranslation": "devon",
-    "plural": null
   },
   {
     "id": "5ec94d83-c44b-58e2-b416-034e05839d4d",
@@ -16212,13 +15533,6 @@
     "plural": "Didaktiken"
   },
   {
-    "id": "4f8d94c3-8f69-508c-acb1-672f64b09fd9",
-    "article": "DAS",
-    "word": "Die",
-    "portugueseTranslation": "o",
-    "plural": "Dice"
-  },
-  {
     "id": "c3bfbbb1-76e5-5f9a-a7ab-f88162487d8b",
     "article": "DER",
     "word": "Dieb",
@@ -16329,13 +15643,6 @@
     "word": "Diesseits",
     "portugueseTranslation": "este lado",
     "plural": null
-  },
-  {
-    "id": "88cfd57a-6a42-5af4-b6cc-37cf80d10c07",
-    "article": "DER",
-    "word": "Dietrich",
-    "portugueseTranslation": "dietrich",
-    "plural": "Dietriche"
   },
   {
     "id": "e2749c3c-fdfa-5f3a-a973-a18d04479206",
@@ -16539,13 +15846,6 @@
     "word": "Dirigent",
     "portugueseTranslation": "condutor",
     "plural": "Dirigenten"
-  },
-  {
-    "id": "a422a97e-9c08-5aba-80dc-bb00461f5b84",
-    "article": "DIE",
-    "word": "Dirk",
-    "portugueseTranslation": "dirk",
-    "plural": "Dirken"
   },
   {
     "id": "acfb4378-34f2-5348-8243-f4e1c72aa129",
@@ -16912,13 +16212,6 @@
     "plural": "Dominä"
   },
   {
-    "id": "ce303e7b-af5a-518b-bc3b-1250eea18f43",
-    "article": "DIE",
-    "word": "Dominante",
-    "portugueseTranslation": "dominante",
-    "plural": "Dominanten"
-  },
-  {
     "id": "64dcd1e4-071c-5f03-8909-6b53ee0f462e",
     "article": "DIE",
     "word": "Dominanz",
@@ -17080,13 +16373,6 @@
     "plural": "Dorfstraßen"
   },
   {
-    "id": "6b5bcb0a-1030-5ae8-b9a7-cd927539fbe6",
-    "article": "DIE",
-    "word": "Doris",
-    "portugueseTranslation": "dóris",
-    "plural": null
-  },
-  {
     "id": "593aebd3-39df-5359-aa6f-698bbf4d3fc0",
     "article": "DER",
     "word": "Dorn",
@@ -17225,13 +16511,6 @@
     "word": "Dramaturgie",
     "portugueseTranslation": "dramaturgia",
     "plural": "Dramaturgien"
-  },
-  {
-    "id": "7bb37949-6186-5c9a-8874-c49c7a6856f7",
-    "article": "DIE",
-    "word": "Drau",
-    "portugueseTranslation": "drau",
-    "plural": null
   },
   {
     "id": "c7003b55-0439-5eae-bb3e-77d49c65c939",
@@ -17755,7 +17034,7 @@
     "id": "f2c153d9-55e0-5263-a285-eb3c7f887804",
     "article": "DIE",
     "word": "Dusche",
-    "portugueseTranslation": "banho",
+    "portugueseTranslation": "chuveiro / banho de chuveiro",
     "plural": "Duschen"
   },
   {
@@ -17874,7 +17153,7 @@
     "id": "dae5cc1e-06cc-55dd-884b-8dd9e212bdb6",
     "article": "DER",
     "word": "Döner",
-    "portugueseTranslation": "döner kebab",
+    "portugueseTranslation": "doner kebab",
     "plural": "Döner"
   },
   {
@@ -18011,13 +17290,6 @@
     "plural": null
   },
   {
-    "id": "d332be61-3c01-5a4d-863d-b1fb564c4989",
-    "article": "DIE",
-    "word": "Edda",
-    "portugueseTranslation": "edda",
-    "plural": "Eddas"
-  },
-  {
     "id": "229634db-0fe2-5fee-bd67-288d0c594461",
     "article": "DER",
     "word": "Edelmann",
@@ -18119,7 +17391,7 @@
     "id": "da024f10-b059-5edf-9dd6-e5269154d936",
     "article": "DAS",
     "word": "Ego",
-    "portugueseTranslation": "eu",
+    "portugueseTranslation": "ego",
     "plural": "Egos"
   },
   {
@@ -18291,13 +17563,6 @@
     "plural": "Eichhörnchen"
   },
   {
-    "id": "4127ca3a-9673-5374-8d66-c9d678ad83a0",
-    "article": "DAS",
-    "word": "Eichsfeld",
-    "portugueseTranslation": "eichsfeld",
-    "plural": null
-  },
-  {
     "id": "260cf82b-e4f5-58e2-9421-f9f9faaeb9c0",
     "article": "DER",
     "word": "Eid",
@@ -18434,7 +17699,7 @@
     "id": "3fd09539-290f-537a-a190-f0ff455995e6",
     "article": "DIE",
     "word": "Eignung",
-    "portugueseTranslation": "fitness",
+    "portugueseTranslation": "aptidão / adequação",
     "plural": "Eignungen"
   },
   {
@@ -18949,13 +18214,6 @@
     "plural": "Einsteiger"
   },
   {
-    "id": "e71f9f09-114f-5aff-a971-7a9c15013766",
-    "article": "DAS",
-    "word": "Einstein",
-    "portugueseTranslation": "einstein",
-    "plural": "Einstein"
-  },
-  {
     "id": "ea8517e8-81d1-5364-9b31-00313cd578ed",
     "article": "DIE",
     "word": "Einstellung",
@@ -19306,13 +18564,6 @@
     "plural": "Elben"
   },
   {
-    "id": "a7efa3d7-444e-5ad7-8f3a-d8f76d0547d2",
-    "article": "DIE",
-    "word": "Elbphilharmonie",
-    "portugueseTranslation": "elbphilharmonie",
-    "plural": null
-  },
-  {
     "id": "c36a48fe-f1c4-50a3-bf88-a347561a0c01",
     "article": "DER",
     "word": "Elch",
@@ -19593,25 +18844,11 @@
     "plural": "Emigrationen"
   },
   {
-    "id": "35431960-1234-57d0-a0ee-f524611c8d09",
-    "article": "DIE",
-    "word": "Emilia",
-    "portugueseTranslation": "emília",
-    "plural": null
-  },
-  {
     "id": "bcf0aa7a-7743-598d-85fb-67e82b7aea2a",
     "article": "DIE",
     "word": "Emission",
     "portugueseTranslation": "emissão",
     "plural": "Emissionen"
-  },
-  {
-    "id": "c3a5eaaf-0ef0-5418-b94a-2df9450edb97",
-    "article": "DER",
-    "word": "Emmy",
-    "portugueseTranslation": "emmy",
-    "plural": "Emmys"
   },
   {
     "id": "24447c59-2855-582b-a0cd-67c2391630b4",
@@ -19696,13 +18933,6 @@
     "word": "Empörung",
     "portugueseTranslation": "indignação",
     "plural": "Empörungen"
-  },
-  {
-    "id": "c120e5c8-20ba-5b4d-8a75-eb1f5c2f3f35",
-    "article": "DIE",
-    "word": "Ems",
-    "portugueseTranslation": "ems",
-    "plural": null
   },
   {
     "id": "5e309f84-e09a-5673-88fc-36b23e9dee67",
@@ -19920,13 +19150,6 @@
     "word": "Enkelin",
     "portugueseTranslation": "neta",
     "plural": "Enkelinnen"
-  },
-  {
-    "id": "ab984d22-fc2f-5a03-9381-3363003a5b8d",
-    "article": "DIE",
-    "word": "Enns",
-    "portugueseTranslation": "enns",
-    "plural": null
   },
   {
     "id": "a05a1700-cc7f-5a58-8c6a-8db9226d4ae8",
@@ -20482,13 +19705,6 @@
     "plural": "Erektionen"
   },
   {
-    "id": "e7360961-4d66-517d-b418-904330cbeacb",
-    "article": "DER",
-    "word": "Eren",
-    "portugueseTranslation": "eren",
-    "plural": "Eren"
-  },
-  {
     "id": "fc082bf3-4279-58ee-96b3-0af8a527f39a",
     "article": "DIE",
     "word": "Erfahrung",
@@ -20543,13 +19759,6 @@
     "word": "Erfrischung",
     "portugueseTranslation": "refresco",
     "plural": "Erfrischungen"
-  },
-  {
-    "id": "1eba6518-0247-5b32-bc5e-e49d8d6082fc",
-    "article": "DIE",
-    "word": "Erft",
-    "portugueseTranslation": "erft",
-    "plural": null
   },
   {
     "id": "24c5127d-3b30-5e80-9ab5-933030e47559",
@@ -20608,13 +19817,6 @@
     "plural": null
   },
   {
-    "id": "a1a91f31-99f2-5f6d-be53-380fea259ea0",
-    "article": "DIE",
-    "word": "Erika",
-    "portugueseTranslation": "érika",
-    "plural": "Eriken"
-  },
-  {
     "id": "9d9e1cb2-a81e-5cad-9524-73f11091fe7f",
     "article": "DIE",
     "word": "Erinnerung",
@@ -20669,13 +19871,6 @@
     "word": "Erlag",
     "portugueseTranslation": "sucumbiu",
     "plural": "Erläge"
-  },
-  {
-    "id": "f70effd7-1758-5ea4-a5e1-0392d480509e",
-    "article": "DAS",
-    "word": "Erlangen",
-    "portugueseTranslation": "erlangen",
-    "plural": null
   },
   {
     "id": "da7ceaba-95a1-5f1d-94ff-44144fcc6302",
@@ -20914,13 +20109,6 @@
     "word": "Erotik",
     "portugueseTranslation": "erotismo",
     "plural": null
-  },
-  {
-    "id": "7ff23dce-28eb-5073-a4fb-646986126b0c",
-    "article": "DIE",
-    "word": "ErP",
-    "portugueseTranslation": "erp",
-    "plural": "ErPs"
   },
   {
     "id": "7bfe0eac-ee2b-5b84-91e7-bdf298725d7c",
@@ -21406,25 +20594,11 @@
     "plural": "Establishments"
   },
   {
-    "id": "2da7a340-0f3b-5a7e-86db-8cfca9b58b7d",
-    "article": "DER",
-    "word": "Este",
-    "portugueseTranslation": "este",
-    "plural": "Esten"
-  },
-  {
     "id": "63032cce-5b7f-54a0-a566-e0aa65abbbc4",
     "article": "DER",
     "word": "Ester",
     "portugueseTranslation": "ésteres",
     "plural": "Ester"
-  },
-  {
-    "id": "dc717ed7-93a7-58be-bc41-a64b7ced7296",
-    "article": "DAS",
-    "word": "Eta",
-    "portugueseTranslation": "eta",
-    "plural": "Etas"
   },
   {
     "id": "f5d200fe-f1d8-574a-a437-634e607f30a3",
@@ -21453,13 +20627,6 @@
     "word": "Etat",
     "portugueseTranslation": "orçamento",
     "plural": "Etats"
-  },
-  {
-    "id": "347f3890-681a-5b24-92e2-2d19e128c9d2",
-    "article": "DAS",
-    "word": "Eth",
-    "portugueseTranslation": "ét",
-    "plural": "Eths"
   },
   {
     "id": "b2b67f63-11ff-56d3-b127-c51e4fc2fe3d",
@@ -21795,13 +20962,6 @@
     "article": "DER",
     "word": "Event-Charakter",
     "portugueseTranslation": "personagem do evento",
-    "plural": null
-  },
-  {
-    "id": "f9f4b566-4bb1-5372-bf40-a3ecac837b07",
-    "article": "DER",
-    "word": "Everest",
-    "portugueseTranslation": "everest",
     "plural": null
   },
   {
@@ -22834,13 +21994,6 @@
     "plural": null
   },
   {
-    "id": "7d718eef-922a-547c-b8d3-f48f6de52e91",
-    "article": "DIE",
-    "word": "Fed",
-    "portugueseTranslation": "fed",
-    "plural": null
-  },
-  {
     "id": "68fdb66d-a9c8-5120-9a29-27e63803c19c",
     "article": "DIE",
     "word": "Feder",
@@ -23145,14 +22298,14 @@
     "id": "d6fb501c-03b6-5b67-b283-c733f1a78024",
     "article": "DAS",
     "word": "Fernsehen",
-    "portugueseTranslation": "tv",
+    "portugueseTranslation": "televisão",
     "plural": null
   },
   {
     "id": "f17b713d-21eb-587f-96d8-c3d497b5befb",
     "article": "DER",
     "word": "Fernseher",
-    "portugueseTranslation": "tv",
+    "portugueseTranslation": "televisor",
     "plural": "Fernseher"
   },
   {
@@ -23203,13 +22356,6 @@
     "word": "Fernwärme",
     "portugueseTranslation": "aquecimento urbano",
     "plural": null
-  },
-  {
-    "id": "57aaca57-a87a-5e64-91b6-407307a1c68a",
-    "article": "DER",
-    "word": "Ferrari",
-    "portugueseTranslation": "ferrari",
-    "plural": "Ferraris"
   },
   {
     "id": "9683ae89-8179-5a7b-b33c-3f495f5a159c",
@@ -23506,13 +22652,6 @@
     "plural": "Ficker"
   },
   {
-    "id": "00a951b5-d277-50be-a564-08de7c89ecaf",
-    "article": "DIE",
-    "word": "Fidel",
-    "portugueseTranslation": "fidel",
-    "plural": "Fideln"
-  },
-  {
     "id": "968f50b5-095f-5789-a1d7-8042324c17b5",
     "article": "DER",
     "word": "Fidschi",
@@ -23770,13 +22909,6 @@
     "word": "First",
     "portugueseTranslation": "primeiro",
     "plural": "Firste"
-  },
-  {
-    "id": "bc026a96-5c47-5e25-967e-f276b066838a",
-    "article": "DAS",
-    "word": "Fis",
-    "portugueseTranslation": "fis",
-    "plural": "Fis"
   },
   {
     "id": "365167e1-b364-53b7-ba79-ffbf71c74596",
@@ -24328,7 +23460,7 @@
     "id": "8f73325f-fa57-5e7c-ab1f-54cd17bd68a3",
     "article": "DIE",
     "word": "Folge",
-    "portugueseTranslation": "conseqüência",
+    "portugueseTranslation": "consequência / episódio / sequência",
     "plural": "Folgen"
   },
   {
@@ -24626,13 +23758,6 @@
     "plural": "Foyers"
   },
   {
-    "id": "af750df7-e5ae-5115-b34f-bd8784b60a04",
-    "article": "DER",
-    "word": "FPÖ-Wähler",
-    "portugueseTranslation": "eleitores do fpö",
-    "plural": "FPÖ-Wähler"
-  },
-  {
     "id": "d6754dae-e079-5aa3-8edf-8d5b91a78c4c",
     "article": "DIE",
     "word": "Fracht",
@@ -24766,25 +23891,11 @@
     "plural": null
   },
   {
-    "id": "9f25404d-7558-5f45-be3d-36c70affd83e",
-    "article": "DER",
-    "word": "Franke",
-    "portugueseTranslation": "franke",
-    "plural": "Franken"
-  },
-  {
     "id": "e2db4152-f931-5787-aa58-195b3f311fb7",
     "article": "DER",
     "word": "Franken",
     "portugueseTranslation": "francônia",
     "plural": "Franken"
-  },
-  {
-    "id": "54c1ebab-af16-5357-883e-bd20c6103f39",
-    "article": "DIE",
-    "word": "Franziska",
-    "portugueseTranslation": "franziska",
-    "plural": "Franziskas"
   },
   {
     "id": "6e1cc083-136f-5fd8-9bbd-cb14708e0238",
@@ -25011,13 +24122,6 @@
     "plural": "Freistaaten"
   },
   {
-    "id": "ace29157-cafa-5221-90e3-a84b3b1863ce",
-    "article": "DIE",
-    "word": "Freistadt",
-    "portugueseTranslation": "freistadt",
-    "plural": "Freistädte"
-  },
-  {
     "id": "f5629592-35a4-564a-9ffc-d38f8659a080",
     "article": "DIE",
     "word": "Freistellung",
@@ -25140,7 +24244,7 @@
     "id": "6cfffb71-da05-5281-ae03-6bfc9fec2a98",
     "article": "DIE",
     "word": "Frequenz",
-    "portugueseTranslation": "freqüência",
+    "portugueseTranslation": "frequência",
     "plural": "Frequenzen"
   },
   {
@@ -25291,13 +24395,6 @@
     "plural": "Frisöre"
   },
   {
-    "id": "6b4fa20f-54db-5c01-a7d8-3cc3878620b8",
-    "article": "DER",
-    "word": "Fritz",
-    "portugueseTranslation": "fritz",
-    "plural": "Fritze"
-  },
-  {
     "id": "116d685e-21f5-51d5-b1a8-80707c10eb60",
     "article": "DIE",
     "word": "Front",
@@ -25438,13 +24535,6 @@
     "plural": "Fugen"
   },
   {
-    "id": "73621bdf-0f4d-5f56-9b53-9797be743c0f",
-    "article": "DAS",
-    "word": "Fugen-s",
-    "portugueseTranslation": "fugen-s",
-    "plural": "Fugen-s"
-  },
-  {
     "id": "52b56181-f636-506c-b3d9-bade0a3fd577",
     "article": "DER",
     "word": "Fuhrmann",
@@ -25457,13 +24547,6 @@
     "word": "Fuhrpark",
     "portugueseTranslation": "frota",
     "plural": "Fuhrparks"
-  },
-  {
-    "id": "80e16ff1-f042-5c2b-95a8-d7c0d3aa2421",
-    "article": "DIE",
-    "word": "Fulda",
-    "portugueseTranslation": "fulda",
-    "plural": null
   },
   {
     "id": "f2a7d3a7-5f74-5e69-9e7a-d31c095f9449",
@@ -25735,7 +24818,7 @@
     "id": "4a20c109-e748-560e-83a5-4c6740f25db5",
     "article": "DER",
     "word": "Fächer",
-    "portugueseTranslation": "fã",
+    "portugueseTranslation": "leque",
     "plural": "Fächer"
   },
   {
@@ -26033,13 +25116,6 @@
     "plural": "Gags"
   },
   {
-    "id": "b4c41fb6-c45b-517e-9832-ef7a00f9205c",
-    "article": "DIE",
-    "word": "Gail",
-    "portugueseTranslation": "gail",
-    "plural": null
-  },
-  {
     "id": "b6377ee3-7b15-5605-a70c-6189bcdfbac4",
     "article": "DIE",
     "word": "Gala",
@@ -26136,13 +25212,6 @@
     "word": "Gangbang",
     "portugueseTranslation": "gangbang",
     "plural": "Gangbangs"
-  },
-  {
-    "id": "5cfec8a1-86c6-55b4-9b85-ecd897d0aff3",
-    "article": "DER",
-    "word": "Ganges",
-    "portugueseTranslation": "ganges",
-    "plural": null
   },
   {
     "id": "91d1e866-87e0-5029-a23e-247965228046",
@@ -26437,13 +25506,6 @@
     "word": "Gazastreifen",
     "portugueseTranslation": "faixa de gaza",
     "plural": null
-  },
-  {
-    "id": "c3e9e496-7c52-57c2-8600-57bf1e15180d",
-    "article": "DIE",
-    "word": "GbR",
-    "portugueseTranslation": "gbr",
-    "plural": "GbRs"
   },
   {
     "id": "469599f3-6870-50e7-b81f-0e4530b1390b",
@@ -27720,13 +26782,6 @@
     "plural": "Genres"
   },
   {
-    "id": "574d4d96-6499-5f4d-aef0-bc274c24ea80",
-    "article": "DIE",
-    "word": "Gens",
-    "portugueseTranslation": "gens",
-    "plural": "Gentes"
-  },
-  {
     "id": "0dd41fc5-7299-5cd7-b0e0-8ab338ff4bda",
     "article": "DIE",
     "word": "Gentechnik",
@@ -27808,13 +26863,6 @@
     "article": "DAS",
     "word": "Gepäck",
     "portugueseTranslation": "bagagem",
-    "plural": null
-  },
-  {
-    "id": "26f27cf5-26be-524e-9092-c5b6a9763e5d",
-    "article": "DIE",
-    "word": "Gera",
-    "portugueseTranslation": "gera",
     "plural": null
   },
   {
@@ -27907,13 +26955,6 @@
     "word": "German",
     "portugueseTranslation": "alemão",
     "plural": "Germane"
-  },
-  {
-    "id": "21c2c2cb-8992-5a88-8ff9-d4477ccbd9ff",
-    "article": "DIE",
-    "word": "Germania",
-    "portugueseTranslation": "germânia",
-    "plural": null
   },
   {
     "id": "7c16ac79-d24c-568e-843e-a57aed443202",
@@ -28924,13 +27965,6 @@
     "plural": null
   },
   {
-    "id": "4d61e27a-9905-5deb-bc13-263734fa9f6e",
-    "article": "DER",
-    "word": "Gießener",
-    "portugueseTranslation": "gießen",
-    "plural": "Gießener"
-  },
-  {
     "id": "c8442ee7-c8cd-5bd1-adaa-9ab810ef810f",
     "article": "DIE",
     "word": "Gießerei",
@@ -29351,13 +28385,6 @@
     "plural": "Glühweine"
   },
   {
-    "id": "faa4079f-cfb3-5ae8-bd2e-aa08f5cb19ce",
-    "article": "DIE",
-    "word": "GmbH",
-    "portugueseTranslation": "gmbh",
-    "plural": "GmbHs"
-  },
-  {
     "id": "73cb8431-0539-51c2-b801-12e5c1ab64c1",
     "article": "DIE",
     "word": "Gnade",
@@ -29412,13 +28439,6 @@
     "word": "Goldpreis",
     "portugueseTranslation": "preço do ouro",
     "plural": "Goldpreise"
-  },
-  {
-    "id": "c95efc33-5216-5e52-bf9d-93433ffbf786",
-    "article": "DER",
-    "word": "Golem",
-    "portugueseTranslation": "golem",
-    "plural": "Golems"
   },
   {
     "id": "b525b82d-1600-5a71-ba89-92edfb2e9f90",
@@ -29841,13 +28861,6 @@
     "plural": "Grills"
   },
   {
-    "id": "74fc91c6-a44f-5c86-9ef2-ce30b1cc5c47",
-    "article": "DER",
-    "word": "Grimm",
-    "portugueseTranslation": "grimm",
-    "plural": "Grimm"
-  },
-  {
     "id": "f772db41-634c-5720-8219-8c207680ce31",
     "article": "DAS",
     "word": "Grinsen",
@@ -29869,24 +28882,10 @@
     "plural": "Grippe-Epidemien"
   },
   {
-    "id": "c4396969-984a-5f1e-b565-93ad40473561",
-    "article": "DIE",
-    "word": "GroKo",
-    "portugueseTranslation": "groko",
-    "plural": null
-  },
-  {
     "id": "0eb12b7b-3c1a-509c-8f68-8e0c71cbde56",
     "article": "DER",
     "word": "Groll",
     "portugueseTranslation": "ressentimento",
-    "plural": null
-  },
-  {
-    "id": "6efd64c4-87fd-5b61-9dd5-a78577043ad9",
-    "article": "DIE",
-    "word": "Gronau",
-    "portugueseTranslation": "gronau",
     "plural": null
   },
   {
@@ -30408,13 +29407,6 @@
     "plural": "Guides"
   },
   {
-    "id": "2b5dbe7d-bb70-5cde-82ce-f375afb2ab7a",
-    "article": "DER",
-    "word": "Guido",
-    "portugueseTranslation": "guido",
-    "plural": "Guidos"
-  },
-  {
     "id": "1d6c536e-75d1-5302-8f11-e5f75669d51d",
     "article": "DIE",
     "word": "Guinea",
@@ -30422,25 +29414,11 @@
     "plural": "Guineas"
   },
   {
-    "id": "f53ca0ce-82f7-5083-ae6c-4a94da1a6da8",
-    "article": "DAS",
-    "word": "Guinness",
-    "portugueseTranslation": "guiness",
-    "plural": "Guinness"
-  },
-  {
     "id": "92870413-f76e-588c-b738-147cf80aad2a",
     "article": "DAS",
     "word": "Guinness-Buch",
-    "portugueseTranslation": "livro guiness",
+    "portugueseTranslation": "livro dos recordes",
     "plural": "Guinness-Bücher"
-  },
-  {
-    "id": "c79eec61-ff68-5dc6-b35a-50eb04fe594e",
-    "article": "DER",
-    "word": "Gulag",
-    "portugueseTranslation": "gulag",
-    "plural": "Gulags"
   },
   {
     "id": "2bd463fb-7f4c-55e6-aff7-5e2d9928a247",
@@ -30800,13 +29778,6 @@
     "plural": null
   },
   {
-    "id": "9e2fa483-c378-5d64-ae5c-afde9adbaa2b",
-    "article": "DER",
-    "word": "Hades",
-    "portugueseTranslation": "hades",
-    "plural": null
-  },
-  {
     "id": "554af2b2-b409-5f82-a681-fce239c06ce9",
     "article": "DER",
     "word": "Hafen",
@@ -30875,13 +29846,6 @@
     "word": "Hagel",
     "portugueseTranslation": "saudação",
     "plural": null
-  },
-  {
-    "id": "e2b2d626-7a7e-5602-9a25-bc92001e3c47",
-    "article": "DER",
-    "word": "Hagen",
-    "portugueseTranslation": "hagen",
-    "plural": "Hagens"
   },
   {
     "id": "4324e522-18c0-5c4c-9e1e-8d8e0e7d05a4",
@@ -31073,13 +30037,6 @@
     "plural": "Haltungen"
   },
   {
-    "id": "abdcc2b3-78e4-5c7d-9009-3d4b46992016",
-    "article": "DIE",
-    "word": "Hamas",
-    "portugueseTranslation": "hamas",
-    "plural": null
-  },
-  {
     "id": "a41ec2a6-b5d0-5d69-8d81-88809c9cddce",
     "article": "DER",
     "word": "Hamm",
@@ -31092,13 +30049,6 @@
     "word": "Hammer",
     "portugueseTranslation": "martelo",
     "plural": "Hämmer"
-  },
-  {
-    "id": "89b814c7-2776-5190-8103-f379d2db86f2",
-    "article": "DER",
-    "word": "Han",
-    "portugueseTranslation": "han",
-    "plural": "Hane"
   },
   {
     "id": "f515ab8a-f6a6-5d27-940e-b605098b696a",
@@ -31272,7 +30222,7 @@
     "id": "1b867426-9979-5d99-9d88-9c6137d16069",
     "article": "DAS",
     "word": "Handtuch",
-    "portugueseTranslation": "toalha de mão",
+    "portugueseTranslation": "toalha",
     "plural": "Handtücher"
   },
   {
@@ -31358,13 +30308,6 @@
     "word": "Hannoveraner",
     "portugueseTranslation": "hanoverianos",
     "plural": "Hannoveraner"
-  },
-  {
-    "id": "8399ed49-9796-595a-aa86-5d02f87630bc",
-    "article": "DER",
-    "word": "Hans",
-    "portugueseTranslation": "hans",
-    "plural": "Hänse"
   },
   {
     "id": "bfa6579e-1337-5c73-87d0-169253e6e9da",
@@ -31503,15 +30446,8 @@
     "id": "42d57be9-50f3-5f7e-ab94-31ae0bf206e4",
     "article": "DER",
     "word": "Hattrick",
-    "portugueseTranslation": "carta da manga",
+    "portugueseTranslation": "hat-trick (três gols)",
     "plural": "Hattricks"
-  },
-  {
-    "id": "5e3641cc-1e9a-550e-9ec9-bfb66ae3e180",
-    "article": "DER",
-    "word": "Hau",
-    "portugueseTranslation": "hau",
-    "plural": "Haue"
   },
   {
     "id": "88e8d55e-1438-58e5-996d-791077061372",
@@ -31766,13 +30702,6 @@
     "plural": "Hausdurchsuchungen"
   },
   {
-    "id": "5c2a4eb5-b4ce-5956-a6d5-d8833d996466",
-    "article": "DER",
-    "word": "Hausen",
-    "portugueseTranslation": "hausen",
-    "plural": "Hausen"
-  },
-  {
     "id": "a8f1609b-c304-5f5a-8898-791004600fb1",
     "article": "DER",
     "word": "Hausflur",
@@ -31799,13 +30728,6 @@
     "word": "Haushälterin",
     "portugueseTranslation": "governanta",
     "plural": "Haushälterinnen"
-  },
-  {
-    "id": "9a5cc7ad-f18f-53c5-9ba3-7eb54249ec33",
-    "article": "DER",
-    "word": "Hausmann",
-    "portugueseTranslation": "hausmann",
-    "plural": "Hausmänner"
   },
   {
     "id": "09ed3818-6fd1-5f47-8fe0-9de7ef934bcd",
@@ -31892,20 +30814,6 @@
     "plural": "Havannas"
   },
   {
-    "id": "9b7261bd-d4fa-5887-bad9-1345f9a0d080",
-    "article": "DIE",
-    "word": "Havel",
-    "portugueseTranslation": "havel",
-    "plural": null
-  },
-  {
-    "id": "d2eb343e-563b-5ab4-b895-5179c84a55e2",
-    "article": "DAS",
-    "word": "Havelland",
-    "portugueseTranslation": "havelland",
-    "plural": null
-  },
-  {
     "id": "0b0bd4d2-c6c0-5224-b3a8-57272e745748",
     "article": "DIE",
     "word": "Hawaii-Insel",
@@ -31960,13 +30868,6 @@
     "word": "Hebamme",
     "portugueseTranslation": "parteira",
     "plural": "Hebammen"
-  },
-  {
-    "id": "1112ae57-27ec-587f-af00-38a980017a3d",
-    "article": "DIE",
-    "word": "Hebe",
-    "portugueseTranslation": "hebe",
-    "plural": "Heben"
   },
   {
     "id": "95a8cde9-afbe-5368-9d40-ff97442c58e3",
@@ -32025,25 +30926,11 @@
     "plural": "Hefte"
   },
   {
-    "id": "5a6547bf-a358-5a77-8673-4b450be3526f",
-    "article": "DER",
-    "word": "Hegel",
-    "portugueseTranslation": "hegel",
-    "plural": null
-  },
-  {
     "id": "992163a3-4187-5787-ba28-3c508e3a1cbb",
     "article": "DIE",
     "word": "Hegemonie",
     "portugueseTranslation": "hegemonia",
     "plural": "Hegemonien"
-  },
-  {
-    "id": "89f19393-6f37-5d46-bc03-987b25645743",
-    "article": "DAS",
-    "word": "Hehl",
-    "portugueseTranslation": "hehl",
-    "plural": null
   },
   {
     "id": "e623d398-3ffe-502f-903f-90ade0cd3bc4",
@@ -32403,24 +31290,10 @@
     "plural": "Hennen"
   },
   {
-    "id": "911f42bb-f57d-5db6-8d25-f5a8d25565c6",
-    "article": "DER",
-    "word": "Henning",
-    "portugueseTranslation": "henning",
-    "plural": null
-  },
-  {
     "id": "229ae9f0-668d-580f-8491-5405a43e9978",
     "article": "DAS",
     "word": "Henry",
     "portugueseTranslation": "henrique",
-    "plural": null
-  },
-  {
-    "id": "d2425acc-5146-5d05-8920-0a9dab4bc8fb",
-    "article": "DER",
-    "word": "Hentai",
-    "portugueseTranslation": "hentai",
     "plural": null
   },
   {
@@ -32429,13 +31302,6 @@
     "word": "Hepatitis",
     "portugueseTranslation": "hepatite",
     "plural": "Hepatitiden"
-  },
-  {
-    "id": "aef81b57-3f68-5b9b-b07d-337821382c60",
-    "article": "DIE",
-    "word": "Hera",
-    "portugueseTranslation": "hera",
-    "plural": null
   },
   {
     "id": "fec7fa92-7739-5005-88e0-35340de363da",
@@ -32534,13 +31400,6 @@
     "word": "Herleitung",
     "portugueseTranslation": "derivação",
     "plural": "Herleitungen"
-  },
-  {
-    "id": "34b111d0-aee7-58af-ba32-aee5426258bc",
-    "article": "DER",
-    "word": "Hermann",
-    "portugueseTranslation": "hermann",
-    "plural": "Hermänner"
   },
   {
     "id": "29499a2b-5b4b-579e-9ed3-69ce71f39d08",
@@ -33453,25 +32312,11 @@
     "plural": "Holes"
   },
   {
-    "id": "c92c3920-282a-5a37-bd1f-e5d49e9fb408",
-    "article": "DAS",
-    "word": "Hollywood",
-    "portugueseTranslation": "hollywood",
-    "plural": null
-  },
-  {
     "id": "b61467ef-f24d-53d6-b3f8-09fe14473354",
     "article": "DER",
     "word": "Holländer",
     "portugueseTranslation": "holandês",
     "plural": "Holländer"
-  },
-  {
-    "id": "3f36d8dd-2969-5082-bd12-5f0935b36f7d",
-    "article": "DER",
-    "word": "Holm",
-    "portugueseTranslation": "holm",
-    "plural": "Holme"
   },
   {
     "id": "c1d8d6e2-38bf-598c-b307-dfd66b8ca1da",
@@ -33670,13 +32515,6 @@
     "plural": "Horrorfilme"
   },
   {
-    "id": "d5db8e4e-5496-5660-9305-9a29d8b512fb",
-    "article": "DER",
-    "word": "Horst",
-    "portugueseTranslation": "horst",
-    "plural": "Horste"
-  },
-  {
     "id": "969fef07-6aab-5359-8591-cc66cb3602d6",
     "article": "DER",
     "word": "Hort",
@@ -33789,13 +32627,6 @@
     "plural": "Hubschrauber"
   },
   {
-    "id": "e5a31b28-2e6f-5b9c-ab09-2608921bb513",
-    "article": "DER",
-    "word": "Hudson",
-    "portugueseTranslation": "hudson",
-    "plural": null
-  },
-  {
     "id": "0c276845-da2e-516f-8ef8-ec2d47f5887c",
     "article": "DIE",
     "word": "Hufe",
@@ -33810,25 +32641,11 @@
     "plural": "Hufeisen"
   },
   {
-    "id": "af223a30-c085-5c2e-803b-8381e8848714",
-    "article": "DER",
-    "word": "Hugo",
-    "portugueseTranslation": "hugo",
-    "plural": "Hugos"
-  },
-  {
     "id": "d24f9a4b-3cc1-55b9-8ed6-2500e70a7da2",
     "article": "DAS",
     "word": "Huhn",
     "portugueseTranslation": "frango",
     "plural": "Hühner"
-  },
-  {
-    "id": "865f4e58-132c-563b-aeda-4d98135657ed",
-    "article": "DER",
-    "word": "Hulk",
-    "portugueseTranslation": "hulk",
-    "plural": "Hulke"
   },
   {
     "id": "40df5610-a234-5a7e-8f73-b2f589ddfb48",
@@ -33927,13 +32744,6 @@
     "word": "Hungerstreik",
     "portugueseTranslation": "greve de fome",
     "plural": "Hungerstreiks"
-  },
-  {
-    "id": "f1b85a85-bcdc-520f-a1c7-ff1be4cc4b44",
-    "article": "DER",
-    "word": "Hunsrück",
-    "portugueseTranslation": "hunsrück",
-    "plural": null
   },
   {
     "id": "11216b3e-2d79-5da5-8773-c1554ee5c96d",
@@ -34184,7 +32994,7 @@
     "id": "7c24d603-572c-5e3a-8b6d-dda8c478430c",
     "article": "DIE",
     "word": "Häufigkeit",
-    "portugueseTranslation": "freqüência",
+    "portugueseTranslation": "frequência",
     "plural": "Häufigkeiten"
   },
   {
@@ -34368,13 +33178,6 @@
     "word": "Hütte",
     "portugueseTranslation": "cabana",
     "plural": "Hütten"
-  },
-  {
-    "id": "ab29120c-30d0-5369-8f81-de1e23518e81",
-    "article": "DER",
-    "word": "Iban",
-    "portugueseTranslation": "iban",
-    "plural": "Iban"
   },
   {
     "id": "cebe83c0-bf9e-5eab-bf1c-73328dbb348b",
@@ -34601,20 +33404,6 @@
     "plural": null
   },
   {
-    "id": "3c690a11-9c18-52ae-bd9d-d8aad36978b8",
-    "article": "DIE",
-    "word": "Ilmenau",
-    "portugueseTranslation": "ilmenau",
-    "plural": null
-  },
-  {
-    "id": "d099debf-b633-59f3-8f67-c9437d6ddac2",
-    "article": "DIE",
-    "word": "Ilse",
-    "portugueseTranslation": "ilse",
-    "plural": null
-  },
-  {
     "id": "b5b5cb10-aa89-5ab9-a8c2-ee879f11ef18",
     "article": "DAS",
     "word": "Image",
@@ -34627,13 +33416,6 @@
     "word": "Imagination",
     "portugueseTranslation": "imaginação",
     "plural": "Imaginationen"
-  },
-  {
-    "id": "f73b28c3-1fda-5b87-8221-76f2f847857b",
-    "article": "DIE",
-    "word": "Imago",
-    "portugueseTranslation": "imago",
-    "plural": "Imagines"
   },
   {
     "id": "92a7ba62-2488-5166-8f7a-d9574f67514b",
@@ -34807,7 +33589,7 @@
     "id": "ee0afdb8-10be-5eb8-b643-89cd96dc634f",
     "article": "DER",
     "word": "Inder",
-    "portugueseTranslation": "no",
+    "portugueseTranslation": "indiano",
     "plural": "Inder"
   },
   {
@@ -35322,13 +34104,6 @@
     "plural": "Instabilitäten"
   },
   {
-    "id": "53e95c54-99ee-5e44-a82d-d054aeaf36cf",
-    "article": "DAS",
-    "word": "Instagram",
-    "portugueseTranslation": "instagram",
-    "plural": null
-  },
-  {
     "id": "ef81913c-df9e-5892-bf05-268c4abe853b",
     "article": "DIE",
     "word": "Installation",
@@ -35588,13 +34363,6 @@
     "plural": "Internetzugänge"
   },
   {
-    "id": "64792ecc-747c-59ad-8eba-da6231b37399",
-    "article": "DIE",
-    "word": "Interpol",
-    "portugueseTranslation": "interpol",
-    "plural": null
-  },
-  {
     "id": "53ca8933-a2ca-562c-a126-89afa3cfbbd2",
     "article": "DIE",
     "word": "Interpretation",
@@ -35833,13 +34601,6 @@
     "plural": null
   },
   {
-    "id": "875ba071-0404-5263-b260-13f92b1d15bb",
-    "article": "DIE",
-    "word": "Isis",
-    "portugueseTranslation": "ísis",
-    "plural": null
-  },
-  {
     "id": "382c28ea-fd3a-51f6-87b7-61eb997947d7",
     "article": "DER",
     "word": "Islam",
@@ -35887,13 +34648,6 @@
     "word": "Israeli",
     "portugueseTranslation": "israelense",
     "plural": "Israeli"
-  },
-  {
-    "id": "4cbd275e-25a0-5abd-9231-de691ebbdf77",
-    "article": "DAS",
-    "word": "Ist",
-    "portugueseTranslation": "é",
-    "plural": null
   },
   {
     "id": "0f58997e-ae65-5541-8170-a388c4d8edcc",
@@ -35949,13 +34703,6 @@
     "article": "DIE",
     "word": "IT-Wirtschaft",
     "portugueseTranslation": "economia de ti",
-    "plural": null
-  },
-  {
-    "id": "93143cec-c629-5b43-8f96-6a5df669e647",
-    "article": "DIE",
-    "word": "Italia",
-    "portugueseTranslation": "itália",
     "plural": null
   },
   {
@@ -36232,13 +34979,6 @@
     "plural": "Jasmine"
   },
   {
-    "id": "339f43f0-c06b-56eb-be29-56e54fad4254",
-    "article": "DAS",
-    "word": "JavaScript",
-    "portugueseTranslation": "javascript",
-    "plural": null
-  },
-  {
     "id": "4f94bfc7-3fb5-54fb-8fa4-b493c42cc7d3",
     "article": "DER",
     "word": "Jazz",
@@ -36279,13 +35019,6 @@
     "word": "Jersey",
     "portugueseTranslation": "camisa",
     "plural": "Jerseys"
-  },
-  {
-    "id": "8d33630a-1058-5c4c-b62e-eb0e2027be6b",
-    "article": "DER",
-    "word": "Jesus",
-    "portugueseTranslation": "jesus",
-    "plural": null
   },
   {
     "id": "9bac47f3-2536-585f-b65f-663ec3d1f825",
@@ -36363,13 +35096,6 @@
     "word": "Joghurt",
     "portugueseTranslation": "iogurte",
     "plural": "Joghurts"
-  },
-  {
-    "id": "6de7e641-cb1e-5441-a86f-d27aaf340ed1",
-    "article": "DER",
-    "word": "Jogi",
-    "portugueseTranslation": "jogi",
-    "plural": "Jogis"
   },
   {
     "id": "f264f834-d8ff-5130-9ece-c4fdec2d3044",
@@ -36475,13 +35201,6 @@
     "word": "Jubiläum",
     "portugueseTranslation": "aniversário",
     "plural": "Jubiläen"
-  },
-  {
-    "id": "33108649-ad2f-5a70-8d5b-b82ea508776d",
-    "article": "DER",
-    "word": "Judas",
-    "portugueseTranslation": "judas",
-    "plural": null
   },
   {
     "id": "ecd1ddd3-f938-5f34-840e-adc363585f44",
@@ -36650,13 +35369,6 @@
     "word": "Junkie",
     "portugueseTranslation": "viciado",
     "plural": "Junkies"
-  },
-  {
-    "id": "6ec70e8a-2965-5a40-8e1d-2348f7fe62a2",
-    "article": "DER",
-    "word": "Juno",
-    "portugueseTranslation": "juno",
-    "plural": "Junos"
   },
   {
     "id": "c9a5d4a6-5995-5eb4-984d-0d8ea368de29",
@@ -36869,20 +35581,6 @@
     "plural": "Kaffeemaschinen"
   },
   {
-    "id": "ce819ebc-25c0-5ff2-8cb2-da5aa92e95d7",
-    "article": "DER",
-    "word": "Kahn",
-    "portugueseTranslation": "kahn",
-    "plural": "Kähne"
-  },
-  {
-    "id": "1b5c4e84-2301-5d73-907a-e028b580d3c4",
-    "article": "DER",
-    "word": "Kai",
-    "portugueseTranslation": "kai",
-    "plural": "Kais"
-  },
-  {
     "id": "9e97c1e9-0a14-5d82-8bb4-830f1f6ee54e",
     "article": "DER",
     "word": "Kaiser",
@@ -36958,13 +35656,6 @@
     "word": "Kalenderjahr",
     "portugueseTranslation": "ano civil",
     "plural": "Kalenderjahre"
-  },
-  {
-    "id": "56278841-2a20-53a5-b178-da8d293d10bf",
-    "article": "DAS",
-    "word": "Kali",
-    "portugueseTranslation": "kali",
-    "plural": null
   },
   {
     "id": "5b1cdf76-4329-5e12-9289-a0b1d017726c",
@@ -37331,13 +36022,6 @@
     "plural": "Kapläne"
   },
   {
-    "id": "0a65ba5c-9b26-5b20-bff9-50d7ebc138a0",
-    "article": "DAS",
-    "word": "Kappa",
-    "portugueseTranslation": "kappa",
-    "plural": "Kappas"
-  },
-  {
     "id": "9d005570-a142-5bab-b83f-24882efed89d",
     "article": "DIE",
     "word": "Kappe",
@@ -37611,13 +36295,6 @@
     "plural": null
   },
   {
-    "id": "40ef503c-f75c-5f74-9dbe-9c225ad29fca",
-    "article": "DAS",
-    "word": "Kata",
-    "portugueseTranslation": "kata",
-    "plural": null
-  },
-  {
     "id": "fbb204e2-3a35-54c5-85dc-dac87009b06b",
     "article": "DER",
     "word": "Katalog",
@@ -37644,13 +36321,6 @@
     "word": "Katastrophenschutz",
     "portugueseTranslation": "proteção contra desastres",
     "plural": null
-  },
-  {
-    "id": "407e722e-cedc-5cff-bc40-9144b7b1536c",
-    "article": "DIE",
-    "word": "Kate",
-    "portugueseTranslation": "kate",
-    "plural": "Katen"
   },
   {
     "id": "50cd4cc5-3de2-52b1-b7f2-d21ef6161b58",
@@ -37884,25 +36554,11 @@
     "plural": "Kellnerinnen"
   },
   {
-    "id": "ea3a1184-675c-5cc2-88c4-5075aa0f7701",
-    "article": "DER",
-    "word": "Kelly",
-    "portugueseTranslation": "kelly",
-    "plural": "Kellys"
-  },
-  {
     "id": "803f02ac-b4fc-5c34-bc5c-7852740bcc91",
     "article": "DAS",
     "word": "Kelvin",
     "portugueseTranslation": "kelvin",
     "plural": "Kelvin"
-  },
-  {
-    "id": "98d58811-b232-5d9b-b918-4270b7dc646c",
-    "article": "DAS",
-    "word": "Ken",
-    "portugueseTranslation": "ken",
-    "plural": "Ken"
   },
   {
     "id": "d80c4f3d-6b35-5d88-975e-32f5323b5674",
@@ -38115,13 +36771,6 @@
     "plural": "Kfz-Spengler"
   },
   {
-    "id": "e9f7a9c3-8b6a-53bf-845c-f1cb0c29e756",
-    "article": "DER",
-    "word": "Khan",
-    "portugueseTranslation": "cã",
-    "plural": "Khane"
-  },
-  {
     "id": "3b33c4be-657b-5bc7-b462-c1d838636067",
     "article": "DER",
     "word": "KI-Algorithmus",
@@ -38178,13 +36827,6 @@
     "plural": "Kiefer"
   },
   {
-    "id": "6286ce61-2b57-5b16-9285-25fa89135e4f",
-    "article": "DER",
-    "word": "Kiel",
-    "portugueseTranslation": "kiel",
-    "plural": "Kiele"
-  },
-  {
     "id": "ae9f52a6-e683-5cdc-9be6-25c60b5d1cac",
     "article": "DER",
     "word": "Kies",
@@ -38210,13 +36852,6 @@
     "article": "DAS",
     "word": "Kiffen",
     "portugueseTranslation": "fumar maconha",
-    "plural": null
-  },
-  {
-    "id": "3ca8cb2e-0c5a-5355-9d98-174178d5dc6f",
-    "article": "DER",
-    "word": "Kiki",
-    "portugueseTranslation": "kiki",
     "plural": null
   },
   {
@@ -38759,13 +37394,6 @@
     "plural": "Klauen"
   },
   {
-    "id": "c87dd541-45d4-5a03-9710-1fdfd8488dea",
-    "article": "DIE",
-    "word": "Klaus",
-    "portugueseTranslation": "klaus",
-    "plural": "Klausen"
-  },
-  {
     "id": "95ebf741-603c-58b0-b87f-963c46b85278",
     "article": "DIE",
     "word": "Klausel",
@@ -39063,7 +37691,7 @@
     "id": "47edade7-f054-5482-9a5e-66e4de497d27",
     "article": "DAS",
     "word": "Klo",
-    "portugueseTranslation": "loo",
+    "portugueseTranslation": "privada / banheiro",
     "plural": "Klos"
   },
   {
@@ -40064,7 +38692,7 @@
     "id": "89d479c6-ba80-558e-81cd-539ab79c3e6a",
     "article": "DIE",
     "word": "Konsequenz",
-    "portugueseTranslation": "conseqüência",
+    "portugueseTranslation": "consequência",
     "plural": "Konsequenzen"
   },
   {
@@ -40488,13 +39116,6 @@
     "plural": "Kopien"
   },
   {
-    "id": "9ff0a41c-87b1-5533-a517-ebdbe497e8e0",
-    "article": "DER",
-    "word": "Kopp",
-    "portugueseTranslation": "kopp",
-    "plural": "Köppe"
-  },
-  {
     "id": "66e39099-0924-5402-82a0-e9e801323242",
     "article": "DAS",
     "word": "Koppel",
@@ -40852,13 +39473,6 @@
     "plural": "Krater"
   },
   {
-    "id": "ede9dcc2-10d7-5d82-ad23-7d3967c1b442",
-    "article": "DIE",
-    "word": "Krause",
-    "portugueseTranslation": "krause",
-    "plural": "Krausen"
-  },
-  {
     "id": "4fb09bf3-f265-5aff-b476-7c1b4ea07c0e",
     "article": "DAS",
     "word": "Kraut",
@@ -41018,13 +39632,6 @@
     "word": "Kreml-Kritiker",
     "portugueseTranslation": "críticos do kremlin",
     "plural": "Kreml-Kritiker"
-  },
-  {
-    "id": "b87fbc70-1ff0-53e5-9105-d235ed2453d4",
-    "article": "DIE",
-    "word": "Krems",
-    "portugueseTranslation": "krems",
-    "plural": null
   },
   {
     "id": "0ec6e329-38fb-506f-b568-22bb0f265c92",
@@ -41193,13 +39800,6 @@
     "word": "Krippe",
     "portugueseTranslation": "berço",
     "plural": "Krippen"
-  },
-  {
-    "id": "8fc767a5-981c-54e5-9b1b-787e67b8641b",
-    "article": "DER",
-    "word": "Kris",
-    "portugueseTranslation": "kris",
-    "plural": "Krise"
   },
   {
     "id": "8f326c87-910f-55a5-9e59-416e4f8455c4",
@@ -41669,13 +40269,6 @@
     "word": "Kurfürst",
     "portugueseTranslation": "eleitor",
     "plural": "Kurfürsten"
-  },
-  {
-    "id": "8acd29f8-461f-5668-ab16-a8cdaefcba8f",
-    "article": "DER",
-    "word": "Kurfürstendamm",
-    "portugueseTranslation": "kurfurstendamm",
-    "plural": null
   },
   {
     "id": "4609b7cd-63f7-597d-b0c5-f4a1d9101bc9",
@@ -42385,13 +40978,6 @@
     "plural": "Lagunen"
   },
   {
-    "id": "1f3d7964-70f1-5b8d-b06c-6ccca6021666",
-    "article": "DIE",
-    "word": "Lahn",
-    "portugueseTranslation": "lahn",
-    "plural": null
-  },
-  {
     "id": "023465f8-195e-5e46-9db8-6b16a511d476",
     "article": "DER",
     "word": "Laie",
@@ -42402,7 +40988,7 @@
     "id": "2b977118-74d5-5f14-86fb-ee195fdddd08",
     "article": "DIE",
     "word": "Laien-Linguistik",
-    "portugueseTranslation": "lingüística leiga",
+    "portugueseTranslation": "linguística leiga",
     "plural": null
   },
   {
@@ -42418,13 +41004,6 @@
     "word": "Laken",
     "portugueseTranslation": "folhas",
     "plural": "Laken"
-  },
-  {
-    "id": "ffa0ebc2-f221-5d16-9a0d-072d0b837175",
-    "article": "DER",
-    "word": "Lala",
-    "portugueseTranslation": "lalá",
-    "plural": "Lalas"
   },
   {
     "id": "1c13f4d9-5540-531b-b82a-877ae23fd251",
@@ -43081,7 +41660,7 @@
     "id": "311165a7-5b4c-5fd0-aca5-de09d9281b07",
     "article": "DER",
     "word": "Lebenslauf",
-    "portugueseTranslation": "cv",
+    "portugueseTranslation": "currículo",
     "plural": "Lebensläufe"
   },
   {
@@ -43244,13 +41823,6 @@
     "word": "Lebzeiten",
     "portugueseTranslation": "vidas",
     "plural": "Lebzeiten"
-  },
-  {
-    "id": "13171a14-24e8-55fd-ae9a-e8ee6e735899",
-    "article": "DER",
-    "word": "Lech",
-    "portugueseTranslation": "lech",
-    "plural": null
   },
   {
     "id": "71e7053c-5200-5248-9899-b94741b7d526",
@@ -43470,13 +42042,6 @@
     "plural": "Lehrstühle"
   },
   {
-    "id": "efd6f0e8-6cd1-5605-be8a-ea058439d3b3",
-    "article": "DIE",
-    "word": "Lei",
-    "portugueseTranslation": "lei",
-    "plural": "Leien"
-  },
-  {
     "id": "fa24e047-f5b6-57fb-b9ea-6891774ec2c2",
     "article": "DER",
     "word": "Leib",
@@ -43638,13 +42203,6 @@
     "plural": "Leitbilder"
   },
   {
-    "id": "ad7e6a79-41ee-5326-b92e-5b8be53fd43b",
-    "article": "DIE",
-    "word": "Leite",
-    "portugueseTranslation": "leite",
-    "plural": "Leiten"
-  },
-  {
     "id": "2f5ca0c1-1b0b-5662-bfbd-2cbe00987c8e",
     "article": "DER",
     "word": "Leiter",
@@ -43722,13 +42280,6 @@
     "plural": "Lektüren"
   },
   {
-    "id": "a5ab15c9-d626-5096-93b1-5fef6cf6e9c2",
-    "article": "DIE",
-    "word": "Lena",
-    "portugueseTranslation": "lena",
-    "plural": null
-  },
-  {
     "id": "45606db6-618f-5b46-b285-5d7fbe5a0564",
     "article": "DER",
     "word": "Lenker",
@@ -43748,13 +42299,6 @@
     "word": "Lenkung",
     "portugueseTranslation": "direção",
     "plural": "Lenkungen"
-  },
-  {
-    "id": "58cdc999-2782-5b41-abb9-60fa8369cbe7",
-    "article": "DER",
-    "word": "Lenz",
-    "portugueseTranslation": "lenz",
-    "plural": "Lenze"
   },
   {
     "id": "50b722b2-d9da-5223-9167-51ce1bcf4690",
@@ -44240,13 +42784,6 @@
     "plural": "Linden"
   },
   {
-    "id": "f5613464-f8fc-58de-970e-e1029b77c4a7",
-    "article": "DIE",
-    "word": "Lindenstraße",
-    "portugueseTranslation": "lindenstraße",
-    "plural": "Lindenstraßen"
-  },
-  {
     "id": "e761c6b7-d679-5561-9518-38b6cf8b9dba",
     "article": "DIE",
     "word": "Linderung",
@@ -44534,13 +43071,6 @@
     "plural": "Löcher"
   },
   {
-    "id": "dbb1d2af-2ce1-589d-bfcc-45e476b746e8",
-    "article": "DIE",
-    "word": "Locke",
-    "portugueseTranslation": "locke",
-    "plural": "Locken"
-  },
-  {
     "id": "d4f04e0c-25a4-5665-b8f3-6eab65f92cd5",
     "article": "DIE",
     "word": "Lockerung",
@@ -44716,13 +43246,6 @@
     "plural": "Lote"
   },
   {
-    "id": "06b7e7b1-a007-590e-841f-5c64dbdddc29",
-    "article": "DIE",
-    "word": "Lotte",
-    "portugueseTranslation": "lotte",
-    "plural": "Lottes"
-  },
-  {
     "id": "e968efb0-ccb5-5f32-a2d2-b22a990f46bd",
     "article": "DIE",
     "word": "Lotterie",
@@ -44749,13 +43272,6 @@
     "word": "Lounge",
     "portugueseTranslation": "saguão",
     "plural": "Lounges"
-  },
-  {
-    "id": "ded17e71-7937-5d5a-bef8-0b885711de35",
-    "article": "DER",
-    "word": "Louvre",
-    "portugueseTranslation": "louvre",
-    "plural": null
   },
   {
     "id": "19d4c179-451a-5584-8e97-26b2b1bfb7ef",
@@ -44814,13 +43330,6 @@
     "plural": "Luftfeuchtigkeiten"
   },
   {
-    "id": "a023f7f1-7166-5ce2-92c5-75dbcc09ebc1",
-    "article": "DIE",
-    "word": "Lufthansa",
-    "portugueseTranslation": "lufthansa",
-    "plural": null
-  },
-  {
     "id": "40a5ab59-f74a-5857-bd6a-bb431bdb811c",
     "article": "DIE",
     "word": "Luftlinie",
@@ -44856,13 +43365,6 @@
     "plural": "Luftwaffen"
   },
   {
-    "id": "b1fefa8d-e03c-5b55-a8b0-eaa9c1b2c39e",
-    "article": "DAS",
-    "word": "Lulu",
-    "portugueseTranslation": "lulu",
-    "plural": "Lulus"
-  },
-  {
     "id": "b871e64c-7535-5b6d-9d1a-3a84c64bebbb",
     "article": "DAS",
     "word": "Lumen",
@@ -44889,13 +43391,6 @@
     "word": "Lunch",
     "portugueseTranslation": "almoço",
     "plural": "Lunches"
-  },
-  {
-    "id": "46185ed5-42eb-5aa2-a2ea-dd33b0e050c2",
-    "article": "DER",
-    "word": "Lund",
-    "portugueseTranslation": "lund",
-    "plural": "Lunde"
   },
   {
     "id": "c4c71d0a-2b7b-5911-9b62-f9d4c17a7d0d",
@@ -44938,13 +43433,6 @@
     "word": "Lustspiel",
     "portugueseTranslation": "comédia",
     "plural": "Lustspiele"
-  },
-  {
-    "id": "41768f32-e8d5-5420-873d-cef118607ef1",
-    "article": "DER",
-    "word": "Lutz",
-    "portugueseTranslation": "lutz",
-    "plural": "Lutz"
   },
   {
     "id": "fadf5833-3026-59b8-86d0-095f934f7e48",
@@ -45073,13 +43561,6 @@
     "plural": "Löwenzähne"
   },
   {
-    "id": "600014cb-ea0f-563f-ad5e-66e567dc4c4c",
-    "article": "DER",
-    "word": "Lübecker",
-    "portugueseTranslation": "lübeck",
-    "plural": "Lübecker"
-  },
-  {
     "id": "65104f11-f785-553f-842a-de5dd837f4b8",
     "article": "DIE",
     "word": "Lücke",
@@ -45090,7 +43571,7 @@
     "id": "2ceceacb-e4fd-5c90-a7f7-311da955d254",
     "article": "DER",
     "word": "Lüfter",
-    "portugueseTranslation": "fã",
+    "portugueseTranslation": "ventilador",
     "plural": "Lüfter"
   },
   {
@@ -45213,13 +43694,6 @@
     "plural": "Madeiras"
   },
   {
-    "id": "817e03f1-54ed-573d-aa42-dcdd1ca572e4",
-    "article": "DER",
-    "word": "Madison",
-    "portugueseTranslation": "madison",
-    "plural": "Madisons"
-  },
-  {
     "id": "c655995f-7176-5cdd-8df8-5b363fe96155",
     "article": "DIE",
     "word": "Madonna",
@@ -45280,13 +43754,6 @@
     "article": "DAS",
     "word": "Magenta",
     "portugueseTranslation": "magenta",
-    "plural": null
-  },
-  {
-    "id": "9867fb45-1dd2-5cef-aba1-2dfeb16742f5",
-    "article": "DAS",
-    "word": "Maggi",
-    "portugueseTranslation": "maggi",
     "plural": null
   },
   {
@@ -45444,13 +43911,6 @@
     "plural": "Mainboards"
   },
   {
-    "id": "f2290408-47ae-55fa-b2ba-e498b527fe2a",
-    "article": "DAS",
-    "word": "Maine",
-    "portugueseTranslation": "maine",
-    "plural": null
-  },
-  {
     "id": "5d76f7f7-7696-5c2e-9190-9402d7bb70d0",
     "article": "DER",
     "word": "Mainstream",
@@ -45554,13 +44014,6 @@
     "word": "Mall",
     "portugueseTranslation": "shopping center",
     "plural": "Malls"
-  },
-  {
-    "id": "8b99bbec-6ab1-5e2b-be90-0ee23862140c",
-    "article": "DIE",
-    "word": "Malta",
-    "portugueseTranslation": "malta",
-    "plural": null
   },
   {
     "id": "80497b74-dae5-5147-8d15-018088bdb1c0",
@@ -45799,13 +44252,6 @@
     "word": "Mappe",
     "portugueseTranslation": "pasta",
     "plural": "Mappen"
-  },
-  {
-    "id": "2d17bac4-4ca3-5d1c-9e31-a771cdc6a0f1",
-    "article": "DER",
-    "word": "Mara",
-    "portugueseTranslation": "mara",
-    "plural": null
   },
   {
     "id": "c8cba2b3-efc1-5b4a-863d-5cc0f5ed8d95",
@@ -46564,13 +45010,6 @@
     "plural": "Medikationen"
   },
   {
-    "id": "bb84c21f-3e16-58e1-a1d5-c77d515f11a9",
-    "article": "DIE",
-    "word": "Medina",
-    "portugueseTranslation": "medina",
-    "plural": "Medinas"
-  },
-  {
     "id": "78c39698-8d73-5995-bd93-02f91bb18990",
     "article": "DIE",
     "word": "Meditation",
@@ -47082,20 +45521,6 @@
     "plural": "Messgeräte"
   },
   {
-    "id": "508732b0-22f0-5b36-8cba-d34884f2bcb7",
-    "article": "DIE",
-    "word": "Messi",
-    "portugueseTranslation": "messi",
-    "plural": "Messis"
-  },
-  {
-    "id": "37944cbc-9ea2-5c49-ac5d-090a1c75cd66",
-    "article": "DER",
-    "word": "Messias",
-    "portugueseTranslation": "messias",
-    "plural": "Messiasse"
-  },
-  {
     "id": "a61de77b-8def-5cc3-91a1-3094b411e900",
     "article": "DAS",
     "word": "Messing",
@@ -47271,24 +45696,10 @@
     "plural": "Michel-Kataloge"
   },
   {
-    "id": "0a3de21b-b042-5c7e-b0a2-778f236901e5",
-    "article": "DAS",
-    "word": "Michigan",
-    "portugueseTranslation": "michigan",
-    "plural": null
-  },
-  {
     "id": "48d533bd-4c6c-5688-893b-6cf406a37e52",
     "article": "DER",
     "word": "Michigan-See",
     "portugueseTranslation": "lago michigan",
-    "plural": null
-  },
-  {
-    "id": "1e5a6882-c031-5783-98df-cdffe8114e8f",
-    "article": "DAS",
-    "word": "Microsoft",
-    "portugueseTranslation": "microsoft",
     "plural": null
   },
   {
@@ -47451,13 +45862,6 @@
     "word": "Milde",
     "portugueseTranslation": "suavidade",
     "plural": null
-  },
-  {
-    "id": "551e8472-ff28-5f57-b7a5-651d2b3bc488",
-    "article": "DIE",
-    "word": "Milf",
-    "portugueseTranslation": "milf",
-    "plural": "Milfs"
   },
   {
     "id": "3ad8cfda-ca00-5261-a10f-ca14e467b95a",
@@ -47698,13 +46102,6 @@
     "plural": "Ministerräte"
   },
   {
-    "id": "f28c7a20-de95-54d4-86b4-16b3a785977b",
-    "article": "DIE",
-    "word": "Minna",
-    "portugueseTranslation": "minna",
-    "plural": "Minnas"
-  },
-  {
     "id": "f7af5518-240f-5f71-a055-c976e9b7a7a4",
     "article": "DAS",
     "word": "Minnesota",
@@ -47821,13 +46218,6 @@
     "article": "DER",
     "word": "Mississippi",
     "portugueseTranslation": "mississipi",
-    "plural": null
-  },
-  {
-    "id": "4e92500c-71a1-5c1c-b4ae-f13b9cce56ec",
-    "article": "DER",
-    "word": "Missouri",
-    "portugueseTranslation": "missouri",
     "plural": null
   },
   {
@@ -48468,13 +46858,6 @@
     "plural": "Mohne"
   },
   {
-    "id": "d75d8ae8-f7b2-585d-a78d-50aaf6ef017b",
-    "article": "DAS",
-    "word": "Mol",
-    "portugueseTranslation": "mol",
-    "plural": null
-  },
-  {
     "id": "a8579c7e-7519-527c-9348-a00cc694c022",
     "article": "DIE",
     "word": "Moldau",
@@ -48494,13 +46877,6 @@
     "word": "Moll",
     "portugueseTranslation": "menor",
     "plural": null
-  },
-  {
-    "id": "a26707fe-3fd2-5295-a6af-7e9501189c3b",
-    "article": "DER",
-    "word": "Molly",
-    "portugueseTranslation": "molly",
-    "plural": "Mollys"
   },
   {
     "id": "107c8c60-9437-5455-9c21-d8dd82742178",
@@ -48755,13 +47131,6 @@
     "plural": "Moslems"
   },
   {
-    "id": "c4bce091-635e-5881-9e41-33b0520f089e",
-    "article": "DER",
-    "word": "Mossad",
-    "portugueseTranslation": "mossad",
-    "plural": null
-  },
-  {
     "id": "33cb1669-5fd1-5465-80c9-cecd039b70b5",
     "article": "DER",
     "word": "Most",
@@ -48874,13 +47243,6 @@
     "plural": "Mozzarellas"
   },
   {
-    "id": "e7091795-9877-542e-b5d6-083e479dace1",
-    "article": "DIE",
-    "word": "MP3",
-    "portugueseTranslation": "mp3",
-    "plural": "MP3s"
-  },
-  {
     "id": "74d33b7c-fd50-5ada-9038-82d2ca68fdea",
     "article": "DIE",
     "word": "Mulde",
@@ -48949,20 +47311,6 @@
     "word": "Munition",
     "portugueseTranslation": "munição",
     "plural": "Munitionen"
-  },
-  {
-    "id": "a768c77f-4e15-5c56-8244-76d4c3704904",
-    "article": "DIE",
-    "word": "Mur",
-    "portugueseTranslation": "mur",
-    "plural": null
-  },
-  {
-    "id": "1fc0dfb7-b840-5efe-bf5c-b038877f7932",
-    "article": "DAS",
-    "word": "Mus",
-    "portugueseTranslation": "mus",
-    "plural": "Muse"
   },
   {
     "id": "c4b0c466-b702-5374-8a2e-b7798b851d4d",
@@ -49117,13 +47465,6 @@
     "word": "Must-have",
     "portugueseTranslation": "deve ter",
     "plural": "Must-haves"
-  },
-  {
-    "id": "d9054889-d3d9-5768-b530-8d13bbbc045b",
-    "article": "DER",
-    "word": "Mustang",
-    "portugueseTranslation": "mustang",
-    "plural": "Mustangs"
   },
   {
     "id": "88d4f50a-0443-543b-9f34-1bf765bc2223",
@@ -49420,13 +47761,6 @@
     "plural": "Mülleimer"
   },
   {
-    "id": "54c28898-ace5-5e96-9d5d-090782991802",
-    "article": "DER",
-    "word": "Müller-Thurgau",
-    "portugueseTranslation": "müller-thurgau",
-    "plural": "Müller-Thurgau"
-  },
-  {
     "id": "1ff2c063-a03f-5cec-ad58-5ef55ae66d9e",
     "article": "DIE",
     "word": "Mülltonne",
@@ -49453,13 +47787,6 @@
     "word": "Mündung",
     "portugueseTranslation": "boca",
     "plural": "Mündungen"
-  },
-  {
-    "id": "52db22de-fd16-573f-bc5b-b1153f0f2682",
-    "article": "DAS",
-    "word": "Münsterland",
-    "portugueseTranslation": "münsterland",
-    "plural": null
   },
   {
     "id": "fd90f8f2-6a55-5d59-932c-cd8d836effff",
@@ -49822,7 +48149,7 @@
     "id": "877ea960-f289-53ad-8504-1c0ede2e4c8b",
     "article": "DER",
     "word": "Nackter",
-    "portugueseTranslation": "nu",
+    "portugueseTranslation": "homem nu",
     "plural": "Nackte"
   },
   {
@@ -49938,20 +48265,6 @@
     "plural": "Namensänderungen"
   },
   {
-    "id": "46decd9b-8fd7-5abd-b2c9-7d56646e59a4",
-    "article": "DIE",
-    "word": "Namibia",
-    "portugueseTranslation": "namíbia",
-    "plural": null
-  },
-  {
-    "id": "716b8a77-2b19-51d3-80be-c0f93cc8f7c4",
-    "article": "DIE",
-    "word": "Nana",
-    "portugueseTranslation": "naná",
-    "plural": "Nanas"
-  },
-  {
     "id": "54a218e8-cba3-59a9-9d73-ff638e5812e7",
     "article": "DIE",
     "word": "Nanny",
@@ -49985,13 +48298,6 @@
     "word": "Narzissmus",
     "portugueseTranslation": "narcisismo",
     "plural": "Narzissmen"
-  },
-  {
-    "id": "90463c45-dee3-512b-a310-6e1ae4fcbd9e",
-    "article": "DER",
-    "word": "NASDAQ",
-    "portugueseTranslation": "nasdaq",
-    "plural": null
   },
   {
     "id": "13f14120-9cb8-5f8e-a16f-b601536b345c",
@@ -50358,13 +48664,6 @@
     "plural": null
   },
   {
-    "id": "21322011-73e7-57bf-9c3a-12bd4b3baafa",
-    "article": "DIE",
-    "word": "Nemesis",
-    "portugueseTranslation": "nêmesis",
-    "plural": null
-  },
-  {
     "id": "223c7fb5-b566-56fa-82e3-99353ad8e6af",
     "article": "DER",
     "word": "Nenner",
@@ -50447,13 +48746,6 @@
     "word": "Nest",
     "portugueseTranslation": "ninho",
     "plural": "Nester"
-  },
-  {
-    "id": "85777e43-6123-5ec6-8810-9453abb82326",
-    "article": "DER",
-    "word": "Nestor",
-    "portugueseTranslation": "nestor",
-    "plural": "Nestoren"
   },
   {
     "id": "485bb01c-bce8-51a1-8e75-3fb3ec8323d0",
@@ -50638,13 +48930,6 @@
     "plural": "Neulinge"
   },
   {
-    "id": "5516edce-46ff-581b-a3c6-6f24abba87c7",
-    "article": "DER",
-    "word": "Neumarkt",
-    "portugueseTranslation": "neumarkt",
-    "plural": null
-  },
-  {
     "id": "ed440116-5240-5e7b-a5e0-0be5cdfa6b70",
     "article": "DIE",
     "word": "Neumarkt-Brücke",
@@ -50699,13 +48984,6 @@
     "word": "Neurologie",
     "portugueseTranslation": "neurologia",
     "plural": null
-  },
-  {
-    "id": "88a1ea70-4cbe-5b62-8aba-4f65a6aa31e0",
-    "article": "DIE",
-    "word": "Neustadt",
-    "portugueseTranslation": "neustadt",
-    "plural": "Neustädte"
   },
   {
     "id": "8b1a1875-aeb1-5e58-b854-29754cedae41",
@@ -50925,13 +49203,6 @@
     "plural": "Nigger"
   },
   {
-    "id": "18f665f7-34ef-518b-87a5-046dc113c2f0",
-    "article": "DIE",
-    "word": "Nike",
-    "portugueseTranslation": "nike",
-    "plural": null
-  },
-  {
     "id": "bbcf75f9-6330-5c7d-bb21-53c0fda28273",
     "article": "DER",
     "word": "Nikolaus",
@@ -50979,13 +49250,6 @@
     "word": "Nische",
     "portugueseTranslation": "nicho",
     "plural": "Nischen"
-  },
-  {
-    "id": "d3a1cd03-0a22-5464-9b03-63067c7808ee",
-    "article": "DER",
-    "word": "Nissan",
-    "portugueseTranslation": "nissan",
-    "plural": null
   },
   {
     "id": "27f88927-a57e-5c45-9eae-9049d21460cb",
@@ -51140,13 +49404,6 @@
     "word": "Nordseite",
     "portugueseTranslation": "lado norte",
     "plural": "Nordseiten"
-  },
-  {
-    "id": "795ebdb2-da6e-5523-a060-0a355f7542fd",
-    "article": "DIE",
-    "word": "Nordstadt",
-    "portugueseTranslation": "nordstadt",
-    "plural": "Nordstädte"
   },
   {
     "id": "ef12209b-9046-5316-a59c-69a9eee43619",
@@ -51422,13 +49679,6 @@
     "plural": null
   },
   {
-    "id": "01c22b28-cdf4-5c19-813a-4204ca6a3bf0",
-    "article": "DIE",
-    "word": "NSDAP",
-    "portugueseTranslation": "nsdap",
-    "plural": null
-  },
-  {
     "id": "497160dd-d273-5f25-bd2a-8cfb5854800f",
     "article": "DIE",
     "word": "Nudel",
@@ -51604,13 +49854,6 @@
     "plural": "Nötigungen"
   },
   {
-    "id": "bb71f08d-75cf-5d56-8be7-322374400d32",
-    "article": "DER",
-    "word": "Nürburgring",
-    "portugueseTranslation": "nürburgring",
-    "plural": null
-  },
-  {
     "id": "ddd21661-b129-52c6-bc63-b95fad26f1a9",
     "article": "DER",
     "word": "Nürnberger",
@@ -51644,13 +49887,6 @@
     "word": "Obduktion",
     "portugueseTranslation": "autópsia",
     "plural": "Obduktionen"
-  },
-  {
-    "id": "d4fe993f-9df6-5457-a258-31cef3f7f81d",
-    "article": "DER",
-    "word": "Obelix",
-    "portugueseTranslation": "obélix",
-    "plural": null
   },
   {
     "id": "d6935822-2eb8-5f9e-a305-579854f4deae",
@@ -51737,13 +49973,6 @@
     "plural": "Oberkörper"
   },
   {
-    "id": "32eb0f0b-7745-5fab-a614-c50b08c874c9",
-    "article": "DAS",
-    "word": "Oberland",
-    "portugueseTranslation": "oberland",
-    "plural": null
-  },
-  {
     "id": "bc08c73b-5683-5889-b22d-f9dd90cd550a",
     "article": "DAS",
     "word": "Oberlandesgericht",
@@ -51770,13 +49999,6 @@
     "word": "Oberleutnant",
     "portugueseTranslation": "primeiro tenente",
     "plural": "Oberleutnants"
-  },
-  {
-    "id": "97180d72-1eaa-5a1d-ba35-bccf41c87b20",
-    "article": "DIE",
-    "word": "Oberliga",
-    "portugueseTranslation": "oberliga",
-    "plural": "Oberligen"
   },
   {
     "id": "25b5d041-5f1e-5551-80c5-21c5cca3d90c",
@@ -51856,13 +50078,6 @@
     "plural": null
   },
   {
-    "id": "84bc3d0d-282a-5214-9382-749bdf6738ac",
-    "article": "DAS",
-    "word": "Obi",
-    "portugueseTranslation": "obi",
-    "plural": "Obis"
-  },
-  {
     "id": "e2ba18fe-7efb-57ad-90d5-272bf7add266",
     "article": "DAS",
     "word": "Objekt",
@@ -51931,20 +50146,6 @@
     "word": "Ode",
     "portugueseTranslation": "ode",
     "plural": "Oden"
-  },
-  {
-    "id": "8c1fe42e-94eb-55ef-bf6a-a8ae10707ec5",
-    "article": "DAS",
-    "word": "Oder",
-    "portugueseTranslation": "ou",
-    "plural": "Oders"
-  },
-  {
-    "id": "d59a92bc-2311-5315-8b38-4045bcf574d5",
-    "article": "DER",
-    "word": "Odin",
-    "portugueseTranslation": "odin",
-    "plural": null
   },
   {
     "id": "a363c59b-2578-5933-80c8-7fb81af2738e",
@@ -52022,13 +50223,6 @@
     "word": "OH-Gruppe",
     "portugueseTranslation": "grupo oh",
     "plural": "OH-Gruppen"
-  },
-  {
-    "id": "ea6c8e75-c026-5d2d-9635-7916b059fc80",
-    "article": "DER",
-    "word": "Ohio",
-    "portugueseTranslation": "ohio",
-    "plural": null
   },
   {
     "id": "bb511769-9796-5418-9aab-6c2ca3336e2b",
@@ -52612,13 +50806,6 @@
     "plural": "Originaltitel"
   },
   {
-    "id": "6634dd01-b3e8-5a47-a188-76c01e690f5f",
-    "article": "DER",
-    "word": "Orion",
-    "portugueseTranslation": "órion",
-    "plural": null
-  },
-  {
     "id": "4427040b-d69a-5b71-a7bc-96e49d93d351",
     "article": "DER",
     "word": "Orkan",
@@ -52687,20 +50874,6 @@
     "word": "Ortung",
     "portugueseTranslation": "localização",
     "plural": "Ortungen"
-  },
-  {
-    "id": "c82b25f2-4265-5a5e-82ea-9e9d738479ab",
-    "article": "DER",
-    "word": "Osiris",
-    "portugueseTranslation": "osíris",
-    "plural": null
-  },
-  {
-    "id": "e945a874-07e3-50ba-8e05-5908998cb920",
-    "article": "DER",
-    "word": "Osnabrücker",
-    "portugueseTranslation": "osnabrück",
-    "plural": "Osnabrücker"
   },
   {
     "id": "118aef21-ace4-5c95-88f7-ae2a1cfa6073",
@@ -52864,13 +51037,6 @@
     "plural": "Overalls"
   },
   {
-    "id": "69953f61-bf7a-5d24-a67c-065cc5dfce5d",
-    "article": "DAS",
-    "word": "Oxford",
-    "portugueseTranslation": "oxford",
-    "plural": "Oxfords"
-  },
-  {
     "id": "b9929af9-011a-5970-891f-5da5f035b9d3",
     "article": "DER",
     "word": "Ozean",
@@ -52946,13 +51112,6 @@
     "word": "Pair",
     "portugueseTranslation": "par",
     "plural": "Pairs"
-  },
-  {
-    "id": "8029e65b-452a-5c51-a238-db3c4680eaab",
-    "article": "DIE",
-    "word": "PaK",
-    "portugueseTranslation": "pak",
-    "plural": "PaKs"
   },
   {
     "id": "3e78dee4-46fb-554e-a6ad-7f956c1b27af",
@@ -53172,13 +51331,6 @@
     "plural": "Papyri"
   },
   {
-    "id": "d57bc63d-dc48-5519-85a5-d3fe9c39659e",
-    "article": "DAS",
-    "word": "Par",
-    "portugueseTranslation": "par",
-    "plural": "Pars"
-  },
-  {
     "id": "49b48625-13e9-51fb-b868-ba1f49b8269a",
     "article": "DAS",
     "word": "Para",
@@ -53303,13 +51455,6 @@
     "word": "Parfüm",
     "portugueseTranslation": "perfume",
     "plural": "Parfüms"
-  },
-  {
-    "id": "af96667e-a72c-52f9-a16e-9c9be4c94d4a",
-    "article": "DER",
-    "word": "Paris",
-    "portugueseTranslation": "paris",
-    "plural": null
   },
   {
     "id": "7e56b7a6-b44c-5290-992a-1b807c4eb9ee",
@@ -53758,13 +51903,6 @@
     "word": "Pavillon",
     "portugueseTranslation": "pavilhão",
     "plural": "Pavillons"
-  },
-  {
-    "id": "81fe0517-8c7b-5fd4-b07d-d2ccdb89507c",
-    "article": "DER",
-    "word": "Pax",
-    "portugueseTranslation": "pax",
-    "plural": "Paxe"
   },
   {
     "id": "e1fe38f1-446d-5464-ae3a-e0883bd65cc1",
@@ -54607,13 +52745,6 @@
     "plural": "Piercings"
   },
   {
-    "id": "0813b998-6ad0-596f-b2e6-a01695cd391d",
-    "article": "DAS",
-    "word": "Pikachu",
-    "portugueseTranslation": "pikachu",
-    "plural": "Pikachu"
-  },
-  {
     "id": "785182ae-b04d-5bdb-b971-d58dd6d5d732",
     "article": "DIE",
     "word": "Pike",
@@ -55034,13 +53165,6 @@
     "plural": "Plenen"
   },
   {
-    "id": "ec8c33d1-b496-58cf-9488-95fb0e900fab",
-    "article": "DER",
-    "word": "Plettenberg",
-    "portugueseTranslation": "plettenberg",
-    "plural": null
-  },
-  {
     "id": "153c8823-b58e-58ed-b209-45d48c1df0f6",
     "article": "DAS",
     "word": "Plot",
@@ -55200,20 +53324,6 @@
     "word": "Pokalspiel",
     "portugueseTranslation": "jogo da copa",
     "plural": "Pokalspiele"
-  },
-  {
-    "id": "fb3a9fe8-14b5-516d-b1ad-8ebf1ffa78d4",
-    "article": "DAS",
-    "word": "Pokemon",
-    "portugueseTranslation": "pokémon",
-    "plural": "Pokemon"
-  },
-  {
-    "id": "7a6f76b9-178b-51de-8e9b-083b192e02fe",
-    "article": "DAS",
-    "word": "Pokémon",
-    "portugueseTranslation": "pokémon",
-    "plural": null
   },
   {
     "id": "272c0eff-163e-52fd-851e-2183f6b6e5d3",
@@ -55573,13 +53683,6 @@
     "plural": "Pornostars"
   },
   {
-    "id": "c3200757-b4ef-500a-beb1-0bd15f88bd5b",
-    "article": "DER",
-    "word": "Porsche",
-    "portugueseTranslation": "porsche",
-    "plural": "Porsches"
-  },
-  {
     "id": "c2f8608e-5bc7-5937-b989-a2357e2d6a78",
     "article": "DER",
     "word": "Port",
@@ -55655,13 +53758,6 @@
     "word": "Pose",
     "portugueseTranslation": "pose",
     "plural": "Posen"
-  },
-  {
-    "id": "2836c627-189a-5b9c-a16a-2e7cccdd08fa",
-    "article": "DER",
-    "word": "Poseidon",
-    "portugueseTranslation": "poseidon",
-    "plural": null
   },
   {
     "id": "66fd0be4-55d3-56d1-bcce-ca9a9010135d",
@@ -56945,13 +55041,6 @@
     "plural": "Pseudonyme"
   },
   {
-    "id": "db563e86-cdee-583d-a170-c34ee7ed6893",
-    "article": "DAS",
-    "word": "Psi",
-    "portugueseTranslation": "psi",
-    "plural": "Psis"
-  },
-  {
     "id": "49b01fd4-fcad-5804-8dde-e68049ded5f7",
     "article": "DIE",
     "word": "Psyche",
@@ -57125,13 +55214,6 @@
     "word": "Pulver",
     "portugueseTranslation": "pó",
     "plural": "Pulver"
-  },
-  {
-    "id": "dfb174e2-b2e6-5412-8968-cea029306968",
-    "article": "DER",
-    "word": "Puma",
-    "portugueseTranslation": "puma",
-    "plural": "Pumas"
   },
   {
     "id": "c68b1a28-aed3-565a-bc33-eb99341497ae",
@@ -57519,13 +55601,6 @@
     "plural": "Quellenangaben"
   },
   {
-    "id": "7e599b5c-158a-5075-9637-d34a3348ba4e",
-    "article": "DAS",
-    "word": "Quentin",
-    "portugueseTranslation": "quentin",
-    "plural": "Quentin"
-  },
-  {
     "id": "6ee25ec3-e638-5858-8928-810e25a288ff",
     "article": "DER",
     "word": "Quereinsteiger",
@@ -57580,13 +55655,6 @@
     "word": "Quote",
     "portugueseTranslation": "contingente",
     "plural": "Quoten"
-  },
-  {
-    "id": "7659b9fd-32fe-57bf-a4c4-14eb84065b47",
-    "article": "DIE",
-    "word": "Raab",
-    "portugueseTranslation": "raab",
-    "plural": null
   },
   {
     "id": "9ba23a5f-9c6d-5778-90a8-3cb47afbca6b",
@@ -57827,13 +55895,6 @@
     "plural": "Rampenlichter"
   },
   {
-    "id": "711f269d-928c-570e-afce-de086f710fcd",
-    "article": "DER",
-    "word": "Ramses",
-    "portugueseTranslation": "ramsés",
-    "plural": null
-  },
-  {
     "id": "745a5ed3-6ba6-5af7-8247-9231af0eec64",
     "article": "DIE",
     "word": "Ranch",
@@ -57939,13 +56000,6 @@
     "plural": "Rapse"
   },
   {
-    "id": "885bc57b-c67a-5687-909a-329e39492c58",
-    "article": "DER",
-    "word": "Ras",
-    "portugueseTranslation": "ras",
-    "plural": "Ras"
-  },
-  {
     "id": "bc25edc9-27f9-524b-a6f5-98ba2fdf26ef",
     "article": "DAS",
     "word": "Rasen",
@@ -57977,7 +56031,7 @@
     "id": "c166f432-2a27-53c7-b658-e047f11d5ead",
     "article": "DER",
     "word": "Rasierer",
-    "portugueseTranslation": "navalha",
+    "portugueseTranslation": "barbeador",
     "plural": "Rasierer"
   },
   {
@@ -58667,13 +56721,6 @@
     "plural": "Reedereien"
   },
   {
-    "id": "da322486-8875-5276-90da-34bc82ccacc0",
-    "article": "DIE",
-    "word": "Reeperbahn",
-    "portugueseTranslation": "reeperbahn",
-    "plural": "Reeperbahnen"
-  },
-  {
     "id": "2333c89b-d4cf-5bab-9a5a-c0c612546ad3",
     "article": "DAS",
     "word": "Referat",
@@ -59122,13 +57169,6 @@
     "plural": "Reichsstädte"
   },
   {
-    "id": "7d7c4fab-79d9-5b1e-98d2-4db5ef2a5403",
-    "article": "DER",
-    "word": "Reichstag",
-    "portugueseTranslation": "reichstag",
-    "plural": "Reichstage"
-  },
-  {
     "id": "7ff2448a-7064-5d3d-9a55-2d3312b5f5a7",
     "article": "DER",
     "word": "Reichtum",
@@ -59444,25 +57484,11 @@
     "plural": "Relikte"
   },
   {
-    "id": "c4cd4b43-b343-5352-9e20-8b3e7ffd3901",
-    "article": "DER",
-    "word": "Rembrandt",
-    "portugueseTranslation": "rembrandt",
-    "plural": null
-  },
-  {
     "id": "3bf19714-eae7-5eac-b2e2-7f217436ed33",
     "article": "DAS",
     "word": "Remis",
     "portugueseTranslation": "empate",
     "plural": "Remis"
-  },
-  {
-    "id": "02fcf2b7-b5f7-5267-ae84-dbfd4fa01f41",
-    "article": "DAS",
-    "word": "Ren",
-    "portugueseTranslation": "ren",
-    "plural": "Rene"
   },
   {
     "id": "8f312988-e429-5580-b389-d2e7f7b12212",
@@ -59829,13 +57855,6 @@
     "plural": null
   },
   {
-    "id": "7699f0ef-fcec-54e4-8e25-436a09311570",
-    "article": "DIE",
-    "word": "Reuss",
-    "portugueseTranslation": "reuss",
-    "plural": null
-  },
-  {
     "id": "9625a2ef-a662-5f9a-b0ac-195348eb6691",
     "article": "DER",
     "word": "Reuter",
@@ -59906,13 +57925,6 @@
     "plural": "Revuen"
   },
   {
-    "id": "cef82280-89ad-5c40-9193-3d3edcfb228c",
-    "article": "DER",
-    "word": "Rex",
-    "portugueseTranslation": "rex",
-    "plural": "Rexe"
-  },
-  {
     "id": "abee3593-8454-5caa-a6c2-6f8e965af52b",
     "article": "DIE",
     "word": "Rezension",
@@ -59945,13 +57957,6 @@
     "article": "DER",
     "word": "Rhein",
     "portugueseTranslation": "reno",
-    "plural": null
-  },
-  {
-    "id": "ebe2921b-9767-5ff0-bcf1-c8e110b2ce8a",
-    "article": "DAS",
-    "word": "Rheingau",
-    "portugueseTranslation": "rheingau",
     "plural": null
   },
   {
@@ -60011,13 +58016,6 @@
     "plural": "Rhythmen"
   },
   {
-    "id": "6ef2a20f-2bc4-5d67-a24f-7b4f412adea9",
-    "article": "DIE",
-    "word": "Rhön",
-    "portugueseTranslation": "rhon",
-    "plural": null
-  },
-  {
     "id": "5cfeaef9-1404-5b77-9c8a-5e2437e9975c",
     "article": "DER",
     "word": "Richter",
@@ -60067,13 +58065,6 @@
     "plural": "Riede"
   },
   {
-    "id": "e4c6d2e5-967e-51da-874d-0988f560c4d1",
-    "article": "DER",
-    "word": "Riedel",
-    "portugueseTranslation": "riedel",
-    "plural": "Riedel"
-  },
-  {
     "id": "367b8f79-a30d-598b-a4a2-a16935092b34",
     "article": "DIE",
     "word": "Riege",
@@ -60093,13 +58084,6 @@
     "word": "Riemen",
     "portugueseTranslation": "cinto",
     "plural": "Riemen"
-  },
-  {
-    "id": "0255fe03-4bec-59bc-b771-1e3d052c6f2f",
-    "article": "DAS",
-    "word": "Ries",
-    "portugueseTranslation": "ries",
-    "plural": "Ries"
   },
   {
     "id": "32d5337b-f7dc-5be3-b8c6-2e785f66e628",
@@ -60242,13 +58226,6 @@
     "plural": "Ritte"
   },
   {
-    "id": "18a63a9c-da07-5158-ae03-ad436cb8b265",
-    "article": "DER",
-    "word": "Ritten",
-    "portugueseTranslation": "ritten",
-    "plural": null
-  },
-  {
     "id": "3593501f-4189-5f71-9954-b4fac1992ebd",
     "article": "DER",
     "word": "Ritter",
@@ -60277,25 +58254,11 @@
     "plural": "Riten"
   },
   {
-    "id": "811943d5-37c5-558f-bacf-25e3164a9f7d",
-    "article": "DER",
-    "word": "Ritz",
-    "portugueseTranslation": "ritz",
-    "plural": "Ritze"
-  },
-  {
     "id": "ee5a699e-e5aa-583a-998d-938ea916e808",
     "article": "DIE",
     "word": "Rivalität",
     "portugueseTranslation": "rivalidade",
     "plural": "Rivalitäten"
-  },
-  {
-    "id": "18ae4884-ef6e-5445-a7cb-795de61f1199",
-    "article": "DIE",
-    "word": "Riviera",
-    "portugueseTranslation": "riviera",
-    "plural": "Rivieren"
   },
   {
     "id": "5984640c-5711-5fd4-a5e8-3ca8c12d96a1",
@@ -60338,13 +58301,6 @@
     "word": "Robe",
     "portugueseTranslation": "manto",
     "plural": "Roben"
-  },
-  {
-    "id": "abad44d0-c586-58d1-ab8e-f0c0302a5d40",
-    "article": "DER",
-    "word": "Robinson",
-    "portugueseTranslation": "robinson",
-    "plural": "Robinsons"
   },
   {
     "id": "98a27856-dc48-539f-86cc-4fb97b14c147",
@@ -60837,13 +58793,6 @@
     "plural": null
   },
   {
-    "id": "a1c8c4c5-982c-5b0e-a7a4-0cd0e3e3e99a",
-    "article": "DER",
-    "word": "Ruhrpott",
-    "portugueseTranslation": "ruhrpott",
-    "plural": null
-  },
-  {
     "id": "600361e1-d508-5e68-81f0-83d628b91c51",
     "article": "DER",
     "word": "Ruin",
@@ -60926,13 +58875,6 @@
     "word": "Runen-Inschrift",
     "portugueseTranslation": "inscrição rúnica",
     "plural": "Runen-Inschriften"
-  },
-  {
-    "id": "7341be8f-f4a1-50de-992c-561aa806a6bb",
-    "article": "DIE",
-    "word": "Runge",
-    "portugueseTranslation": "runge",
-    "plural": "Rungen"
   },
   {
     "id": "4ce7a7b2-73a4-5969-9200-59abb9f5ea99",
@@ -61271,25 +59213,11 @@
     "plural": "Säle"
   },
   {
-    "id": "1f7cc6c3-eae8-5eef-8351-0d09e1de7d3b",
-    "article": "DIE",
-    "word": "Saale",
-    "portugueseTranslation": "saale",
-    "plural": null
-  },
-  {
     "id": "d44ceb1a-966f-5655-9202-d36ab5b90f69",
     "article": "DIE",
     "word": "Saar",
     "portugueseTranslation": "sarre",
     "plural": null
-  },
-  {
-    "id": "a7b6e21f-b78b-5e2f-98ea-14c8d16cf7a5",
-    "article": "DER",
-    "word": "Saarbrücker",
-    "portugueseTranslation": "saarbrücken",
-    "plural": "Saarbrücker"
   },
   {
     "id": "31bfd63f-6030-5f97-a8a0-fdca41590a4e",
@@ -61360,13 +59288,6 @@
     "word": "Sachlichkeit",
     "portugueseTranslation": "objetividade",
     "plural": "Sachlichkeiten"
-  },
-  {
-    "id": "c0bd98e2-5abf-5be4-9a38-bf75a6d6ae2e",
-    "article": "DER",
-    "word": "Sachs",
-    "portugueseTranslation": "sachs",
-    "plural": "Sachse"
   },
   {
     "id": "af13a70b-d490-5a43-aba0-4a5cd114831f",
@@ -61598,13 +59519,6 @@
     "word": "Salzburger",
     "portugueseTranslation": "salzburgo",
     "plural": "Salzburger"
-  },
-  {
-    "id": "73b778b5-aff9-55f3-9e22-54aa3216a7d1",
-    "article": "DAS",
-    "word": "Salzkammergut",
-    "portugueseTranslation": "salzkammergut",
-    "plural": null
   },
   {
     "id": "5a8c2e0c-fb5b-54f8-b9b3-375b569a9d49",
@@ -62090,13 +60004,6 @@
     "plural": "Schalen"
   },
   {
-    "id": "e6e891e9-4416-50c9-89df-1c9ddce56c04",
-    "article": "DIE",
-    "word": "Schalke",
-    "portugueseTranslation": "schalke",
-    "plural": "Schalken"
-  },
-  {
     "id": "64efc1ec-caff-5470-bf74-8db1d742bb30",
     "article": "DER",
     "word": "Schall",
@@ -62191,7 +60098,7 @@
     "id": "20a6962d-2a11-5b36-84db-039fe8703d99",
     "article": "DER",
     "word": "Schauer",
-    "portugueseTranslation": "banho",
+    "portugueseTranslation": "aguaceiro / pancada de chuva",
     "plural": "Schauer"
   },
   {
@@ -62839,13 +60746,6 @@
     "plural": "Schlauchboote"
   },
   {
-    "id": "073ba074-6023-542a-896b-18d298c0bf53",
-    "article": "DER",
-    "word": "Schlegel",
-    "portugueseTranslation": "schlegel",
-    "plural": "Schlegel"
-  },
-  {
     "id": "6187d411-afee-59cd-b55b-37544917c257",
     "article": "DER",
     "word": "Schleier",
@@ -62942,13 +60842,6 @@
     "word": "Schlitz",
     "portugueseTranslation": "slot",
     "plural": "Schlitze"
-  },
-  {
-    "id": "d6610658-900c-5ad0-b0f7-26c31b914107",
-    "article": "DER",
-    "word": "Schlossberg",
-    "portugueseTranslation": "schlossberg",
-    "plural": "Schlossberge"
   },
   {
     "id": "6ce696a7-f229-5478-bf89-ce030d76fc01",
@@ -63413,13 +61306,6 @@
     "plural": "Schoßen"
   },
   {
-    "id": "bb037ed1-0c55-5738-ab6f-947a89d78fca",
-    "article": "DAS",
-    "word": "Schott",
-    "portugueseTranslation": "schott",
-    "plural": "Schotten"
-  },
-  {
     "id": "180a5f92-89bc-5c7f-8b3c-906a5aaa0676",
     "article": "DER",
     "word": "Schotte",
@@ -63826,13 +61712,6 @@
     "plural": null
   },
   {
-    "id": "89ddae4c-060f-5e68-8ca6-d4cd6672c277",
-    "article": "DER",
-    "word": "Schulze",
-    "portugueseTranslation": "schulze",
-    "plural": "Schulzen"
-  },
-  {
     "id": "ef04b6be-e7ce-5699-b425-46beeb08f6ef",
     "article": "DIE",
     "word": "Schulzeit",
@@ -64006,13 +61885,6 @@
     "word": "Schwarzwälder",
     "portugueseTranslation": "floresta negra",
     "plural": "Schwarzwälder"
-  },
-  {
-    "id": "b119654a-4958-520e-9468-48ee955381d2",
-    "article": "DIE",
-    "word": "Schwechat",
-    "portugueseTranslation": "schwechat",
-    "plural": null
   },
   {
     "id": "24b8ad3b-0aaa-515a-add6-998b9149594f",
@@ -64281,13 +62153,6 @@
     "plural": "Schwüre"
   },
   {
-    "id": "c391b964-9bc8-53df-bfd6-c259575a6906",
-    "article": "DIE",
-    "word": "Schwyz",
-    "portugueseTranslation": "schwyz",
-    "plural": null
-  },
-  {
     "id": "ac1f937d-db05-5c7e-9fbd-ef1c4794f62e",
     "article": "DIE",
     "word": "Schwäche",
@@ -64433,13 +62298,6 @@
     "word": "Schüssel",
     "portugueseTranslation": "tigela",
     "plural": "Schüsseln"
-  },
-  {
-    "id": "c801bd93-97e8-5c45-ab0f-1dfe59e6326e",
-    "article": "DIE",
-    "word": "Schütte",
-    "portugueseTranslation": "schutte",
-    "plural": "Schütten"
   },
   {
     "id": "36b97960-6be5-57bb-8ad6-2c6d7e6b5bee",
@@ -64659,17 +62517,10 @@
     "plural": "Seiden"
   },
   {
-    "id": "0d222868-6a08-54f2-9b15-ec374c815364",
-    "article": "DAS",
-    "word": "Seidel",
-    "portugueseTranslation": "seidel",
-    "plural": "Seidel"
-  },
-  {
     "id": "9c7e5bce-6733-5dd0-9e9b-fca252c42fef",
     "article": "DIE",
     "word": "Seife",
-    "portugueseTranslation": "sabão",
+    "portugueseTranslation": "sabonete / sabão",
     "plural": "Seifen"
   },
   {
@@ -65044,13 +62895,6 @@
     "plural": "Seltenheiten"
   },
   {
-    "id": "19818cd1-c992-5de7-b7a5-bca6841c2950",
-    "article": "DAS",
-    "word": "Sem",
-    "portugueseTranslation": "sem",
-    "plural": "Seme"
-  },
-  {
     "id": "da3dc5e8-2991-5f38-9851-27e392a99413",
     "article": "DIE",
     "word": "Semantik",
@@ -65070,13 +62914,6 @@
     "word": "Seminar",
     "portugueseTranslation": "seminário",
     "plural": "Seminare"
-  },
-  {
-    "id": "5b396a5a-024d-58e9-89da-e2f25f0bbc54",
-    "article": "DER",
-    "word": "Sen",
-    "portugueseTranslation": "sen",
-    "plural": "Sen"
   },
   {
     "id": "1b489695-a9b0-5756-8531-91200d087a6b",
@@ -65119,13 +62956,6 @@
     "word": "Sendung",
     "portugueseTranslation": "transmissão",
     "plural": "Sendungen"
-  },
-  {
-    "id": "2cf21696-ddbb-543a-8a2e-a31cb84fdbdf",
-    "article": "DER",
-    "word": "Senegal",
-    "portugueseTranslation": "senegal",
-    "plural": null
   },
   {
     "id": "9d20ee9c-2587-55f5-b1fc-b3ae967a1a3c",
@@ -65357,13 +63187,6 @@
     "word": "Shampoo",
     "portugueseTranslation": "xampu",
     "plural": "Shampoos"
-  },
-  {
-    "id": "5e638120-bf79-5af2-ab8f-f9103d98aefe",
-    "article": "DIE",
-    "word": "Sharon",
-    "portugueseTranslation": "sharon",
-    "plural": "Sharons"
   },
   {
     "id": "13aeb83c-c981-51c6-a2ba-817da28f0306",
@@ -65604,13 +63427,6 @@
     "plural": "Siegtreffer"
   },
   {
-    "id": "50c2c32d-b336-5d4b-93e9-a917d8f3bd78",
-    "article": "DAS",
-    "word": "Siemens",
-    "portugueseTranslation": "siemens",
-    "plural": "Siemens"
-  },
-  {
     "id": "c2a45506-c1f7-5a82-b5be-759e21c5eea3",
     "article": "DAS",
     "word": "Sigma",
@@ -65819,13 +63635,6 @@
     "word": "Sirene",
     "portugueseTranslation": "sirene",
     "plural": "Sirenen"
-  },
-  {
-    "id": "0d9ebae4-d4e0-5842-8378-48779d8ffba6",
-    "article": "DER",
-    "word": "Sirius",
-    "portugueseTranslation": "sírius",
-    "plural": null
   },
   {
     "id": "729c9fc8-747f-5362-bd6e-d2a927369cff",
@@ -66318,20 +64127,6 @@
     "plural": "Sojen"
   },
   {
-    "id": "8f4a1f17-c920-5ff0-9605-7b65ae73c8f6",
-    "article": "DIE",
-    "word": "Soko",
-    "portugueseTranslation": "soko",
-    "plural": "Sokos"
-  },
-  {
-    "id": "8a610c62-8966-5316-b53e-098890cc13e7",
-    "article": "DAS",
-    "word": "Sol",
-    "portugueseTranslation": "sol",
-    "plural": "Sole"
-  },
-  {
     "id": "f3315b6a-a10c-5d4a-b0bb-dbb2e602ef4e",
     "article": "DIE",
     "word": "Solaranlage",
@@ -66407,13 +64202,6 @@
     "word": "Solo-Konzert",
     "portugueseTranslation": "concerto solo",
     "plural": "Solo-Konzerte"
-  },
-  {
-    "id": "2883328d-3b85-57f3-8a31-f588499c25b4",
-    "article": "DAS",
-    "word": "Soma",
-    "portugueseTranslation": "soma",
-    "plural": "Somata"
   },
   {
     "id": "a45e0340-efd3-57af-bbf6-4181ed57075b",
@@ -67263,13 +65051,6 @@
     "plural": "Sperrungen"
   },
   {
-    "id": "8948983e-abbd-566a-9d3f-e670e8b63ece",
-    "article": "DER",
-    "word": "Spessart",
-    "portugueseTranslation": "spessart",
-    "plural": null
-  },
-  {
     "id": "131698a0-40ff-54b6-a380-20d391b3ba4a",
     "article": "DIE",
     "word": "Spezialeinheit",
@@ -67802,13 +65583,6 @@
     "plural": null
   },
   {
-    "id": "6da5f919-4557-59d0-8a21-f5e58891d415",
-    "article": "DER",
-    "word": "Spreewald",
-    "portugueseTranslation": "spreewald",
-    "plural": null
-  },
-  {
     "id": "6872f128-1c42-587d-8764-ab24e643d8b7",
     "article": "DER",
     "word": "Sprengel",
@@ -67907,13 +65681,6 @@
     "plural": "Spurensicherungen"
   },
   {
-    "id": "5d24ee59-d9ce-5206-a0ab-91dd7dfda8d2",
-    "article": "DER",
-    "word": "Sputnik",
-    "portugueseTranslation": "sputnik",
-    "plural": "Sputniks"
-  },
-  {
     "id": "b339e8b6-cd74-5f31-a84e-700ba8c5863f",
     "article": "DER",
     "word": "Spätherbst",
@@ -67926,13 +65693,6 @@
     "word": "Spätsommer",
     "portugueseTranslation": "final do verão",
     "plural": "Spätsommer"
-  },
-  {
-    "id": "2195c8eb-bc8b-5adf-b94d-359e42184cba",
-    "article": "DER",
-    "word": "SPÖ-Wähler",
-    "portugueseTranslation": "eleitores do spö",
-    "plural": "SPÖ-Wähler"
   },
   {
     "id": "a8620055-8bda-5040-b4fb-45a5ef45ed64",
@@ -68460,13 +66220,6 @@
     "plural": "Stähle"
   },
   {
-    "id": "7fda8e39-34c1-5e26-a7dc-95adc4a600e0",
-    "article": "DER",
-    "word": "Stalin",
-    "portugueseTranslation": "stálin",
-    "plural": null
-  },
-  {
     "id": "694787f0-95a8-57f5-a76e-e3fcdcba25e2",
     "article": "DER",
     "word": "Stalinismus",
@@ -68647,13 +66400,6 @@
     "word": "Startseite",
     "portugueseTranslation": "página inicial",
     "plural": "Startseiten"
-  },
-  {
-    "id": "474a7e1a-c7bc-55e6-b440-c112893c2014",
-    "article": "DER",
-    "word": "Stasi",
-    "portugueseTranslation": "stasi",
-    "plural": "Stasis"
   },
   {
     "id": "825bd90d-3d89-5c06-ad4a-0cc910ebd8a4",
@@ -69081,13 +66827,6 @@
     "word": "Steven",
     "portugueseTranslation": "steve",
     "plural": "Steven"
-  },
-  {
-    "id": "70700f0e-9e5e-593d-a2db-cd7b538c045f",
-    "article": "DIE",
-    "word": "Steyr",
-    "portugueseTranslation": "steyr",
-    "plural": null
   },
   {
     "id": "15e5828d-3d41-58f8-89a0-a5ad5c1282bb",
@@ -69853,13 +67592,6 @@
     "plural": "Strömungen"
   },
   {
-    "id": "84079aed-adb2-552a-b060-492502670487",
-    "article": "DER",
-    "word": "Stuart",
-    "portugueseTranslation": "stuart",
-    "plural": "Stuarts"
-  },
-  {
     "id": "5966eb90-5758-5885-916e-c6708b14bda6",
     "article": "DIE",
     "word": "Stube",
@@ -70222,13 +67954,6 @@
     "word": "Sultan",
     "portugueseTranslation": "sultão",
     "plural": "Sultane"
-  },
-  {
-    "id": "db458390-5b21-5ec0-b721-6d2939801e0c",
-    "article": "DIE",
-    "word": "Sulz",
-    "portugueseTranslation": "sulz",
-    "plural": "Sulzen"
   },
   {
     "id": "14e240af-6ebc-5d63-a752-1a47bb2f8060",
@@ -71078,13 +68803,6 @@
     "plural": null
   },
   {
-    "id": "7efab3ca-9b8c-5365-82bb-023c36d36e91",
-    "article": "DIE",
-    "word": "Tara",
-    "portugueseTranslation": "tara",
-    "plural": "Taren"
-  },
-  {
     "id": "4904e236-9cdb-5785-80e2-90d99601af3d",
     "article": "DER",
     "word": "Tarif",
@@ -71188,13 +68906,6 @@
     "word": "Tatbestand",
     "portugueseTranslation": "fatos do caso",
     "plural": "Tatbestände"
-  },
-  {
-    "id": "95463fe8-b8b4-58a5-a10c-bcaab5e059b0",
-    "article": "DER",
-    "word": "Tate",
-    "portugueseTranslation": "tate",
-    "plural": "Tates"
   },
   {
     "id": "a8afb007-4359-528c-907d-063aaf0a9f5d",
@@ -71447,13 +69158,6 @@
     "word": "Teer",
     "portugueseTranslation": "alcatrão",
     "plural": "Teere"
-  },
-  {
-    "id": "c1433bdc-bc2d-51b2-b664-e3fa8605b4a2",
-    "article": "DER",
-    "word": "Tegernsee",
-    "portugueseTranslation": "tegernsee",
-    "plural": null
   },
   {
     "id": "a39c33d5-3270-5a78-b554-98ab228002b7",
@@ -71855,13 +69559,6 @@
     "plural": "Terrororganisationen"
   },
   {
-    "id": "a7cc140b-f751-505a-b210-5fd752bd1cc4",
-    "article": "DAS",
-    "word": "Tesla",
-    "portugueseTranslation": "tesla",
-    "plural": "Tesla"
-  },
-  {
     "id": "49b70cb2-5fbc-574a-a06f-966c5beced0b",
     "article": "DAS",
     "word": "Tessin",
@@ -71972,13 +69669,6 @@
     "word": "Thai",
     "portugueseTranslation": "tailandês",
     "plural": "Thai"
-  },
-  {
-    "id": "13ca2585-d145-5ad0-b93d-87e8eaf332e4",
-    "article": "DIE",
-    "word": "Thalia",
-    "portugueseTranslation": "thalia",
-    "plural": null
   },
   {
     "id": "be9eccb2-8829-51c5-b210-3b75981f9f4f",
@@ -72100,13 +69790,6 @@
     "plural": "Thinge"
   },
   {
-    "id": "ca4fa985-5494-5b8b-9e87-b5523f613f71",
-    "article": "DER",
-    "word": "Thor",
-    "portugueseTranslation": "thor",
-    "plural": null
-  },
-  {
     "id": "c10f27b5-acf2-5a83-b36e-557b779b6f70",
     "article": "DER",
     "word": "Thorax",
@@ -72154,13 +69837,6 @@
     "word": "Thumbnail",
     "portugueseTranslation": "miniaturas",
     "plural": "Thumbnails"
-  },
-  {
-    "id": "9c97294a-e81e-59bf-86a8-6c60b91fd621",
-    "article": "DER",
-    "word": "Thun",
-    "portugueseTranslation": "thun",
-    "plural": "Thune"
   },
   {
     "id": "78183220-92d2-5b11-9367-a4dec1c718c6",
@@ -72597,25 +70273,11 @@
     "plural": "Tollen"
   },
   {
-    "id": "d8d6b001-3acc-595f-b895-5f7ac1ec02c6",
-    "article": "DER",
-    "word": "Tom",
-    "portugueseTranslation": "tom",
-    "plural": null
-  },
-  {
     "id": "fd501601-af2e-513e-bc8f-5cd1eaf55405",
     "article": "DIE",
     "word": "Tomate",
     "portugueseTranslation": "tomate",
     "plural": "Tomaten"
-  },
-  {
-    "id": "302bfc63-a86c-5662-b835-5da47c26b522",
-    "article": "DER",
-    "word": "Tommy",
-    "portugueseTranslation": "tommy",
-    "plural": "Tommys"
   },
   {
     "id": "aef9dfff-c3d9-571d-beba-cdf838b21e1e",
@@ -72713,13 +70375,6 @@
     "article": "DAS",
     "word": "Tor-Out",
     "portugueseTranslation": "gol fora",
-    "plural": null
-  },
-  {
-    "id": "4989bcc6-e85c-5c1e-a2dd-636f5a2166e9",
-    "article": "DIE",
-    "word": "Tora",
-    "portugueseTranslation": "torá",
     "plural": null
   },
   {
@@ -73960,20 +71615,6 @@
     "word": "Tüte",
     "portugueseTranslation": "bolsa",
     "plural": "Tüten"
-  },
-  {
-    "id": "78fc1707-ab5b-51ef-8df6-384ade7acd16",
-    "article": "DIE",
-    "word": "TÜV-Plakette",
-    "portugueseTranslation": "selo tüv",
-    "plural": "TÜV-Plaketten"
-  },
-  {
-    "id": "1274a929-091b-5654-8280-964fafe2c335",
-    "article": "DIE",
-    "word": "Uckermark",
-    "portugueseTranslation": "uckermark",
-    "plural": null
   },
   {
     "id": "a6617d16-b6e2-5d67-97b2-e1013704511e",
@@ -75694,7 +73335,7 @@
     "id": "3b080c89-3208-52fd-9fc7-56ec55fc3eaa",
     "article": "DER",
     "word": "Ventilator",
-    "portugueseTranslation": "fã",
+    "portugueseTranslation": "ventilador",
     "plural": "Ventilatoren"
   },
   {
@@ -76660,7 +74301,7 @@
     "id": "3ecedaac-2ea0-56d7-8800-3ae53494caf7",
     "article": "DIE",
     "word": "Vermarktung",
-    "portugueseTranslation": "marketing",
+    "portugueseTranslation": "comercialização",
     "plural": "Vermarktungen"
   },
   {
@@ -77567,13 +75208,6 @@
     "plural": "Vetos"
   },
   {
-    "id": "f569374e-9dba-54f3-9889-86f76cd4f6da",
-    "article": "DIE",
-    "word": "Vettel",
-    "portugueseTranslation": "vettel",
-    "plural": "Vetteln"
-  },
-  {
     "id": "0a84d876-e38c-5715-a5ea-af2394cdf139",
     "article": "DER",
     "word": "Vetter",
@@ -77585,13 +75219,6 @@
     "article": "DIE",
     "word": "Vetternwirtschaft",
     "portugueseTranslation": "nepotismo",
-    "plural": null
-  },
-  {
-    "id": "d693976d-148a-5951-b292-152896386104",
-    "article": "DAS",
-    "word": "Viagra",
-    "portugueseTranslation": "viagra",
     "plural": null
   },
   {
@@ -77840,13 +75467,6 @@
     "plural": "Visa"
   },
   {
-    "id": "dd7a834f-11d5-5c66-93f1-83911c590b04",
-    "article": "DIE",
-    "word": "Vita",
-    "portugueseTranslation": "vita",
-    "plural": "Vitae"
-  },
-  {
     "id": "1f4b20d9-7761-5bc5-8c97-3bb2a2ebd84d",
     "article": "DIE",
     "word": "Vitalität",
@@ -77910,13 +75530,6 @@
     "plural": "Vögel"
   },
   {
-    "id": "6cdec682-a323-55b7-8fee-b81f1d5b6285",
-    "article": "DER",
-    "word": "Vogt",
-    "portugueseTranslation": "vogt",
-    "plural": "Vögte"
-  },
-  {
     "id": "9f786700-5bbe-5686-bbb7-12ec5faf8f1e",
     "article": "DIE",
     "word": "Vogue",
@@ -77957,13 +75570,6 @@
     "word": "Volksabstimmung",
     "portugueseTranslation": "referendo",
     "plural": "Volksabstimmungen"
-  },
-  {
-    "id": "37e5b2d0-aac0-5bff-a883-9515b1772db5",
-    "article": "DIE",
-    "word": "Volksbank",
-    "portugueseTranslation": "volksbank",
-    "plural": "Volksbanken"
   },
   {
     "id": "34f7acbf-9222-5967-a2a2-f0889302d55d",
@@ -78062,13 +75668,6 @@
     "word": "Volksvertreter",
     "portugueseTranslation": "representantes do povo",
     "plural": "Volksvertreter"
-  },
-  {
-    "id": "ddbb070b-aa7a-552e-96df-3b5966512b2c",
-    "article": "DER",
-    "word": "Volkswagen",
-    "portugueseTranslation": "volkswagen",
-    "plural": "Volkswagen"
   },
   {
     "id": "7b313b05-ae9e-5518-8352-c994810d1385",
@@ -78216,13 +75815,6 @@
     "word": "Volumen",
     "portugueseTranslation": "volume",
     "plural": "Volumen"
-  },
-  {
-    "id": "e918e43d-1f44-5dc7-a7e1-fd50a5471494",
-    "article": "DER",
-    "word": "Von",
-    "portugueseTranslation": "de",
-    "plural": "Vons"
   },
   {
     "id": "2c51c6b0-e7c1-5eaf-9645-6e2f96893a0c",
@@ -78890,13 +76482,6 @@
     "plural": "Vota"
   },
   {
-    "id": "0ac4bf14-84d5-5788-a31a-d244a846b16a",
-    "article": "DIE",
-    "word": "Vox",
-    "portugueseTranslation": "vox",
-    "plural": "Voces"
-  },
-  {
     "id": "bacb45ca-47ca-5c4b-8c5e-694379f7ec35",
     "article": "DER",
     "word": "Vulkan",
@@ -79282,13 +76867,6 @@
     "plural": "Waldstücke"
   },
   {
-    "id": "0a7f3063-02ad-5800-9efa-b4a627bb6dc8",
-    "article": "DAS",
-    "word": "Waldviertel",
-    "portugueseTranslation": "waldviertel",
-    "plural": null
-  },
-  {
     "id": "f8d69e2a-3bfa-5ffc-8a1b-03e6446c658e",
     "article": "DER",
     "word": "Walker",
@@ -79569,13 +77147,6 @@
     "plural": "Wasser"
   },
   {
-    "id": "1b2f2750-451b-567a-9e12-9cc61e310ac3",
-    "article": "DIE",
-    "word": "Wasserburg",
-    "portugueseTranslation": "wasserburg",
-    "plural": "Wasserburgen"
-  },
-  {
     "id": "097483a4-9ffa-5519-8089-2eacb869d276",
     "article": "DER",
     "word": "Wasserdampf",
@@ -79707,13 +77278,6 @@
     "word": "Wat",
     "portugueseTranslation": "o que",
     "plural": "Wats"
-  },
-  {
-    "id": "61f71ffa-e890-5527-b01e-46942ca7c8e2",
-    "article": "DAS",
-    "word": "Waterloo",
-    "portugueseTranslation": "waterloo",
-    "plural": "Waterloos"
   },
   {
     "id": "f95a97e1-a0ad-5fe8-8fdc-158f28302188",
@@ -79915,7 +77479,7 @@
     "id": "4b55e0f0-1242-510a-aefc-9489a2edf1b4",
     "article": "DAS",
     "word": "Wehe",
-    "portugueseTranslation": "ai",
+    "portugueseTranslation": "contração (de parto)",
     "plural": null
   },
   {
@@ -79931,13 +77495,6 @@
     "word": "Wehrdienst",
     "portugueseTranslation": "serviço militar",
     "plural": "Wehrdienste"
-  },
-  {
-    "id": "22e4bc3b-33fe-5b76-8d05-bb095bd8aa44",
-    "article": "DIE",
-    "word": "Wehrmacht",
-    "portugueseTranslation": "wehrmacht",
-    "plural": "Wehrmächte"
   },
   {
     "id": "92a74181-89c0-5f8d-8146-790bf7cab034",
@@ -80141,13 +77698,6 @@
     "word": "Weinkeller",
     "portugueseTranslation": "adega",
     "plural": "Weinkeller"
-  },
-  {
-    "id": "b87b245b-4e20-5340-abe9-371f77f5b555",
-    "article": "DER",
-    "word": "Weinstein",
-    "portugueseTranslation": "weinstein",
-    "plural": null
   },
   {
     "id": "91057d8e-888a-5a3e-94fe-3bbf23b3d9b6",
@@ -80570,13 +78120,6 @@
     "plural": "Wenden"
   },
   {
-    "id": "f2b2b421-ff0d-53e8-aaac-9ba97b946bc6",
-    "article": "DIE",
-    "word": "Wendel",
-    "portugueseTranslation": "wendel",
-    "plural": "Wendeln"
-  },
-  {
     "id": "36c74d2f-d935-53c2-a81c-c6ef697906a6",
     "article": "DER",
     "word": "Wendepunkt",
@@ -80589,13 +78132,6 @@
     "word": "Wendung",
     "portugueseTranslation": "torção",
     "plural": "Wendungen"
-  },
-  {
-    "id": "16a2bd72-2a7c-5e06-8702-8f312311208c",
-    "article": "DAS",
-    "word": "Wenn",
-    "portugueseTranslation": "se",
-    "plural": "Wenn"
   },
   {
     "id": "d3b5a33d-e27d-52f2-b5f8-c366dc2afca2",
@@ -80703,25 +78239,11 @@
     "plural": "Werkzeuge"
   },
   {
-    "id": "6b752102-200c-5acd-b69b-06df950f7c4b",
-    "article": "DIE",
-    "word": "Werra",
-    "portugueseTranslation": "werra",
-    "plural": null
-  },
-  {
     "id": "f385eb81-69bf-5afb-b9db-d87c98eef5e8",
     "article": "DER",
     "word": "Wert",
     "portugueseTranslation": "valor",
     "plural": "Werte"
-  },
-  {
-    "id": "303a12a9-281d-5583-93a6-89efced25bef",
-    "article": "DAS",
-    "word": "Werth",
-    "portugueseTranslation": "werth",
-    "plural": "Werthe"
   },
   {
     "id": "bcbf1535-2f66-515b-9e2e-51492cbaa082",
@@ -80829,13 +78351,6 @@
     "plural": "Western"
   },
   {
-    "id": "40351204-6d41-5689-a7d2-f9b8c75a5429",
-    "article": "DER",
-    "word": "Westerwald",
-    "portugueseTranslation": "westerwald",
-    "plural": null
-  },
-  {
     "id": "96f4c52d-2369-5c9c-8979-9a0d7593eab4",
     "article": "DIE",
     "word": "Westküste",
@@ -80932,13 +78447,6 @@
     "word": "Wettstreit",
     "portugueseTranslation": "concorrência",
     "plural": "Wettstreite"
-  },
-  {
-    "id": "6a5bb83f-a444-5145-ac11-4a5c649d09e5",
-    "article": "DIE",
-    "word": "Whatsapp",
-    "portugueseTranslation": "whatsapp",
-    "plural": "Whatsapps"
   },
   {
     "id": "0e433c43-ab90-5241-9043-df574611b529",
@@ -81205,13 +78713,6 @@
     "word": "Wikinger",
     "portugueseTranslation": "vikings",
     "plural": "Wikinger"
-  },
-  {
-    "id": "65cab758-b8b8-5ba5-b08e-c9d862750236",
-    "article": "DIE",
-    "word": "Wikipedia",
-    "portugueseTranslation": "wikipédia",
-    "plural": "Wikipedien"
   },
   {
     "id": "0ae17c97-93c1-5e30-b089-7f568a52ca6f",
@@ -81604,13 +79105,6 @@
     "word": "Wirtshaus",
     "portugueseTranslation": "pousada",
     "plural": "Wirtshäuser"
-  },
-  {
-    "id": "20746b4d-23bb-5fdc-9d49-100b57fb2c22",
-    "article": "DAS",
-    "word": "Wisconsin",
-    "portugueseTranslation": "wisconsin",
-    "plural": null
   },
   {
     "id": "b136aa11-8562-54d7-8a3e-ff765c9fb292",
@@ -82124,13 +79618,6 @@
     "plural": "Wunschlisten"
   },
   {
-    "id": "425b4e84-1852-52c5-b8e2-84443cc3400e",
-    "article": "DAS",
-    "word": "Wuppertal",
-    "portugueseTranslation": "wuppertal",
-    "plural": null
-  },
-  {
     "id": "67067eb8-a516-566e-8da0-91838873e722",
     "article": "DER",
     "word": "Wurf",
@@ -82297,13 +79784,6 @@
     "word": "Wüste",
     "portugueseTranslation": "deserto",
     "plural": "Wüsten"
-  },
-  {
-    "id": "fb7c26fd-d534-5a02-94c4-7e44d33aaa32",
-    "article": "DIE",
-    "word": "Xbox",
-    "portugueseTranslation": "xbox",
-    "plural": null
   },
   {
     "id": "abf5e17d-752d-5b97-a6b3-6d28e005adc4",
@@ -82996,13 +80476,6 @@
     "article": "DAS",
     "word": "Zeugs",
     "portugueseTranslation": "coisa",
-    "plural": null
-  },
-  {
-    "id": "02066dd0-b85e-5406-a7fb-2a269942e789",
-    "article": "DER",
-    "word": "Zeus",
-    "portugueseTranslation": "zeus",
     "plural": null
   },
   {
@@ -84245,13 +81718,6 @@
     "plural": "Öden"
   },
   {
-    "id": "9b313ef5-ead1-58e9-b19b-c97a1d6206fd",
-    "article": "DER",
-    "word": "ÖFB-Cup",
-    "portugueseTranslation": "copa öfb",
-    "plural": null
-  },
-  {
     "id": "cc227bb1-74f6-5194-b51d-f6b4a5cb6cb6",
     "article": "DIE",
     "word": "Öffentlichkeit",
@@ -84334,13 +81800,6 @@
     "word": "Österreicher",
     "portugueseTranslation": "austríaco",
     "plural": "Österreicher"
-  },
-  {
-    "id": "10c625a4-80a7-5027-bf12-9bfe75dd2bea",
-    "article": "DER",
-    "word": "ÖVP-Wähler",
-    "portugueseTranslation": "eleitores do övp",
-    "plural": "ÖVP-Wähler"
   },
   {
     "id": "a2d18988-2d09-5827-a24b-6d2ff6796924",
