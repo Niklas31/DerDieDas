@@ -15,16 +15,16 @@ Estado em 8 de agosto de 2026, com a conta de developer recém-contratada e agua
 - [x] Textos da ficha: `ficha-app-store.md`
 - [x] Capturas de iPhone 6,9": `capturas/iphone-6.9/`
 
-## Depende de decisão sua
+## Decidido
 
-- [ ] **Vocabulário explícito** — ver `classificacao-etaria.md`. Bloqueia a resposta da
-      classificação etária, então resolva antes de preencher a ficha.
-- [ ] **Nome do app**: `DerDieDas: Artigos Alemães` ou só `DerDieDas` — ver `nome-e-marca.md`
-- [ ] **Manter suporte a iPad?** O projeto declara `TARGETED_DEVICE_FAMILY = "1,2"`, o que
-      **obriga** capturas de iPad 13" (2064 × 2752) e faz o revisor testar no iPad. Se você
-      nunca rodou o app num iPad, há duas saídas: gerar as capturas e conferir o layout, ou
-      mudar para `1` e publicar só para iPhone. Publicar só para iPhone agora e adicionar
-      iPad depois é uma atualização normal, sem penalidade.
+- [x] **Vocabulário explícito**: 33 termos removidos, base em 11.695. Classificação **4+** —
+      ver `classificacao-etaria.md`
+- [x] **Nome**: `DerDieDas: Artigos Alemães` — ver `nome-e-marca.md`
+- [x] **iPad mantido**: layout conferido no simulador do iPad Pro 13" (usa a barra de abas
+      superior do iOS 26, sem quebras) e capturas geradas em `capturas/ipad-13/`
+
+## Ainda em aberto
+
 - [ ] **Publicar o app do Apple Watch junto?** Se sim, ele exige as próprias capturas.
 
 ## Depende da Apple aprovar sua conta

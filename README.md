@@ -87,7 +87,7 @@ Essa lista foi curada num script em Python (Google Colab):
    e aplicada por `tools/apply-corrections.py`: corrige traduções erradas e remove nomes próprios,
    marcas e siglas. Os reportes que chegam pelo botão do app entram nesse mesmo arquivo.
 
-O resultado — **11.728 substantivos, todos com tradução** — vive em `docs/data/GermanNouns.json`. Cada item é identificado por `ARTIGO|palavra`, chave usada para persistir estatísticas, histórico e traduções sob demanda.
+O resultado — **11.695 substantivos, todos com tradução** — vive em `docs/data/GermanNouns.json`. Cada item é identificado por `ARTIGO|palavra`, chave usada para persistir estatísticas, histórico e traduções sob demanda.
 
 Busca, treino e artigos funcionam offline. A tradução nativa da Apple roda no dispositivo, pode pedir download de modelos na primeira vez e não funciona no simulador.
 
