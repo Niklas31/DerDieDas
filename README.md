@@ -17,6 +17,7 @@ Existe em duas versões, que compartilham a mesma base de dados:
 - Tradução sob demanda de palavras fora da base, via Translation framework da Apple (iOS 18+, no dispositivo).
 - App companheiro para Apple Watch.
 - App Intents / Atalhos da Siri para consultar o artigo de uma palavra.
+- Na web: instalável na tela de início e funcionando offline (service worker).
 
 ## Modelo
 
@@ -35,8 +36,29 @@ PWA estático, sem backend, sem build step: HTML + CSS + JavaScript com ES modul
 `git push` publica.
 
 ```bash
-python3 -m http.server 8765     # e abrir http://localhost:8765/docs/
+cd docs && python3 -m http.server 8765
 ```
+
+Sirva a partir de `docs/`, não da raiz do repositório: o escopo do service worker é a pasta
+em que ele mora, e servir de fora colocaria o app numa subpasta diferente da de produção.
+
+### Antes de todo push: `node tools/bump-sw.mjs`
+
+O service worker (`docs/sw.js`) usa **cache-first** sobre uma lista fechada de arquivos, gravada
+sob uma chave de cache versionada. É o que faz o app funcionar offline — e o que torna a versão
+do cache crítica: publicar código novo sem trocá-la deixa quem já visitou o site preso na versão
+antiga, sem conserto remoto.
+
+Por isso a versão não se escreve à mão. `tools/bump-sw.mjs` regera a lista de arquivos e usa o
+**hash do conteúdo de tudo em `docs/`** como versão — mudou um byte, muda a versão:
+
+```bash
+node tools/bump-sw.mjs
+```
+
+Quando uma versão nova é detectada, o app não troca sozinho (recarregar módulos no meio de um
+treino perderia a resposta em andamento): mostra uma barra “Nova versão disponível”, e só ao
+tocar em *Atualizar* o worker novo assume e a página recarrega.
 
 **Uma base só, para os dois apps:** `docs/data/GermanNouns.json`. O Xcode empacota esse
 mesmo arquivo (referência com `sourceTree = SOURCE_ROOT`) e a web faz `fetch` nele —
@@ -85,9 +107,13 @@ DerDieDas.xcodeproj/
 tools/
   corrections.json     correções sobre a tradução automática
   apply-corrections.py aplica-as na base
+  bump-sw.mjs          regera lista e versão do cache do service worker
+  make-web-icons.swift compõe os ícones do PWA a partir da arte do app iOS
 docs/                  web app + GitHub Pages
   index.html           o app
   privacidade.html     política de privacidade
+  sw.js                service worker (offline) — bloco GERADO, não editar à mão
+  manifest.webmanifest
   js/ css/ icons/
   data/GermanNouns.json  A BASE — o app iOS empacota este mesmo arquivo
 ```

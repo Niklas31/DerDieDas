@@ -1,6 +1,7 @@
 // Bootstrap e navegação entre abas.
 
 import { loadNouns } from './data.js';
+import { setupPWA } from './pwa.js';
 import * as search from './views/search.js';
 import * as historyView from './views/history.js';
 import * as training from './views/training.js';
@@ -59,6 +60,10 @@ window.addEventListener('hashchange', () => {
 });
 
 async function start() {
+  // Antes de carregar os dados: se a base falhar, é justamente o service worker
+  // que precisa estar de pé para servi-la do cache na próxima abertura.
+  setupPWA();
+
   try {
     await loadNouns();
   } catch (error) {

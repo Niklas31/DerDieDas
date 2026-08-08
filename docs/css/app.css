@@ -508,6 +508,78 @@ a { color: var(--tint); }
 
 .loading[hidden] { display: none; }
 
+/* -------------------------------------------------- avisos de atualizar/instalar */
+
+/* Flutuam acima da tabbar (~60px) sem empurrar o layout do app. */
+.pwa-bar {
+  position: fixed;
+  z-index: 20;
+  left: 12px;
+  right: 12px;
+  bottom: calc(66px + env(safe-area-inset-bottom));
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 11px 12px;
+  border-radius: 14px;
+  background: var(--card);
+  box-shadow: 0 6px 24px rgb(0 0 0 / 0.22);
+  transform: translateY(14px);
+  opacity: 0;
+  transition: opacity 0.22s ease, transform 0.22s ease;
+}
+
+.pwa-bar.visible {
+  transform: none;
+  opacity: 1;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .pwa-bar { transition: none; }
+}
+
+.pwa-icon {
+  width: 30px;
+  height: 30px;
+  flex: none;
+  border-radius: 7px;
+}
+
+.pwa-text {
+  flex: 1;
+  min-width: 0;
+  font-size: 13.5px;
+  line-height: 1.35;
+}
+
+.pwa-action {
+  flex: none;
+  padding: 7px 13px;
+  border: 0;
+  border-radius: 9px;
+  background: var(--tint);
+  color: #fff;
+  font: inherit;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.pwa-close {
+  flex: none;
+  width: 26px;
+  height: 26px;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: transparent;
+  color: var(--secondary);
+  font-size: 13px;
+  cursor: pointer;
+}
+
 @media (min-width: 700px) {
   .app { max-width: 640px; margin: 0 auto; }
+  .pwa-bar { left: 50%; right: auto; width: 616px; transform: translate(-50%, 14px); }
+  .pwa-bar.visible { transform: translate(-50%, 0); }
 }
