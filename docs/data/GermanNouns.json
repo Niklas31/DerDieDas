@@ -5798,7 +5798,7 @@
   {
     "article": "DAS",
     "word": "Band",
-    "portugueseTranslation": "banda",
+    "portugueseTranslation": "fita / laço",
     "plural": "Bänder"
   },
   {
@@ -6126,10 +6126,10 @@
     "plural": "Bauchgefühle"
   },
   {
-    "article": "DAS",
+    "article": "DER",
     "word": "Bauer",
-    "portugueseTranslation": "agricultor",
-    "plural": "Bauer"
+    "portugueseTranslation": "agricultor / camponês",
+    "plural": "Bauern"
   },
   {
     "article": "DAS",
@@ -7242,7 +7242,7 @@
     "plural": "Berechtigungen"
   },
   {
-    "article": "DAS",
+    "article": "DER",
     "word": "Bereich",
     "portugueseTranslation": "área",
     "plural": "Bereiche"
@@ -9846,9 +9846,9 @@
     "plural": "Browser"
   },
   {
-    "article": "DAS",
+    "article": "DER",
     "word": "Bruch",
-    "portugueseTranslation": "fratura",
+    "portugueseTranslation": "fratura / quebra",
     "plural": "Brüche"
   },
   {
@@ -18438,10 +18438,10 @@
     "plural": "Falken"
   },
   {
-    "article": "DAS",
+    "article": "DER",
     "word": "Fall",
     "portugueseTranslation": "caso",
-    "plural": "Fallen"
+    "plural": "Fälle"
   },
   {
     "article": "DAS",
@@ -31506,7 +31506,7 @@
     "plural": "Kids"
   },
   {
-    "article": "DAS",
+    "article": "DER",
     "word": "Kiefer",
     "portugueseTranslation": "mandíbula",
     "plural": "Kiefer"
@@ -40110,7 +40110,7 @@
     "plural": null
   },
   {
-    "article": "DAS",
+    "article": "DER",
     "word": "Moment",
     "portugueseTranslation": "momento",
     "plural": "Momente"
@@ -43458,10 +43458,10 @@
     "plural": "Orkane"
   },
   {
-    "article": "DAS",
+    "article": "DER",
     "word": "Ort",
-    "portugueseTranslation": "localização",
-    "plural": "Örter"
+    "portugueseTranslation": "lugar / local",
+    "plural": "Orte"
   },
   {
     "article": "DIE",
@@ -49932,10 +49932,10 @@
     "plural": "Rollatoren"
   },
   {
-    "article": "DAS",
+    "article": "DIE",
     "word": "Rolle",
-    "portugueseTranslation": "papel",
-    "plural": null
+    "portugueseTranslation": "papel / rolo",
+    "plural": "Rollen"
   },
   {
     "article": "DAS",
@@ -57030,10 +57030,10 @@
     "plural": "Sternzeichen"
   },
   {
-    "article": "DAS",
+    "article": "DIE",
     "word": "Steuer",
     "portugueseTranslation": "imposto",
-    "plural": "Steuer"
+    "plural": "Steuern"
   },
   {
     "article": "DER",
@@ -58558,6 +58558,12 @@
     "word": "Tag",
     "portugueseTranslation": "etiqueta / marcador",
     "plural": "Tags"
+  },
+  {
+    "article": "DER",
+    "word": "Tag",
+    "portugueseTranslation": "dia",
+    "plural": "Tage"
   },
   {
     "article": "DER",
@@ -66756,9 +66762,9 @@
     "plural": "Wen-Fälle"
   },
   {
-    "article": "DER",
+    "article": "DIE",
     "word": "Wende",
-    "portugueseTranslation": "vez",
+    "portugueseTranslation": "virada / mudança",
     "plural": "Wenden"
   },
   {

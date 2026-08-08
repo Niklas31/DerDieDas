@@ -40,11 +40,45 @@
     "Weg": "caminho",
     "Sage": "lenda / saga",
     "Gift": "veneno",
-    "Tag": "etiqueta / marcador"
+    "Tag": "etiqueta / marcador",
+    "_comentario_homonimos": "A deduplicação da lista de origem fundiu homônimos de gêneros diferentes num registro só, misturando artigo de um sentido com plural e tradução de outro. Corrigidos para o sentido mais comum.",
+    "Ort": "lugar / local",
+    "Bruch": "fratura / quebra",
+    "Rolle": "papel / rolo",
+    "Wende": "virada / mudança",
+    "Band": "fita / laço",
+    "Bauer": "agricultor / camponês"
   },
   "fix_article": {
     "_doc": "O artigo também erra na lista de origem. O plural denuncia: Moden é plural de die Mode, não de der Mode.",
-    "Mode": "DIE"
+    "Mode": "DIE",
+    "Fall": "DER",
+    "Ort": "DER",
+    "Bereich": "DER",
+    "Bruch": "DER",
+    "Rolle": "DIE",
+    "Wende": "DIE",
+    "Steuer": "DIE",
+    "Kiefer": "DER",
+    "Bauer": "DER",
+    "Moment": "DER"
+  },
+  "fix_plural": {
+    "_doc": "Plurais que vieram do homônimo errado. Fallen é plural de die Falle (armadilha); Bauer como plural é de das Bauer (gaiola).",
+    "Fall": "Fälle",
+    "Ort": "Orte",
+    "Rolle": "Rollen",
+    "Steuer": "Steuern",
+    "Bauer": "Bauern"
+  },
+  "add": {
+    "_doc": "Palavras que a deduplicação engoliu: a chave era só a grafia, então o homônimo que chegou primeiro ocupou o lugar do outro.",
+    "der-Tag": {
+      "article": "DER",
+      "word": "Tag",
+      "portugueseTranslation": "dia",
+      "plural": "Tage"
+    }
   },
   "remove": {
     "_doc": "Nomes próprios, marcas, lugares, siglas e palavras que não são substantivos comuns — passaram pelo filtro de frequência porque são comuns em texto alemão, mas não servem para aprender vocabulário. 'explicito' segue um critério: sai o registro pornográfico, de sexo comercial e de palavrão/insulto, que não é vocabulário A1-B1 e forçaria classificação 12+ na App Store; fica o vocabulário clínico, anatômico e de identidade (Penis, Vagina, Kondom, Homosexualität), que qualquer dicionário tem e é apropriado para 4+.",

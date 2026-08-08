@@ -89,7 +89,7 @@ Essa lista foi curada num script em Python (Google Colab):
    e aplicada por `tools/apply-corrections.py`: corrige traduções erradas e remove nomes próprios,
    marcas e siglas. Os reportes que chegam pelo botão do app entram nesse mesmo arquivo.
 
-O resultado — **11.695 substantivos, todos com tradução** — vive em `docs/data/GermanNouns.json`. Cada item é identificado por `ARTIGO|palavra`, chave usada para persistir estatísticas, histórico e traduções sob demanda.
+O resultado — **11.696 substantivos, todos com tradução** — vive em `docs/data/GermanNouns.json`. Cada item é identificado por `ARTIGO|palavra`, chave usada para persistir estatísticas, histórico e traduções sob demanda.
 
 Busca, treino e artigos funcionam offline. A tradução nativa da Apple roda no dispositivo, pode pedir download de modelos na primeira vez e não funciona no simulador.
 
@@ -123,3 +123,23 @@ docs/                  web app + GitHub Pages
 ## Como abrir
 
 Abra `DerDieDas.xcodeproj` no Xcode e rode o target `DerDieDas` em um simulador ou dispositivo físico. A tradução nativa exige iOS 18+ e deve ser testada em aparelho real.
+
+### Limitação conhecida da base
+
+A lista de origem foi deduplicada **por grafia**, e o alemão tem homônimos de gêneros
+diferentes: `der Tag` (dia) e `das Tag` (o *tag* do inglês), `die Rolle` (papel) e
+`der Rollen`, `die Steuer` (imposto) e `das Steuer` (volante). Quando dois sentidos
+colidiam, sobrava um registro só — às vezes com o artigo de um, o plural de outro e a
+tradução de um terceiro.
+
+A auditoria em `tools/` usa os **compostos como votação**: em alemão o composto herda o
+artigo do último elemento, então 27 compostos em `-tag` marcados DER provam que `Tag` é
+DER. Foi assim que apareceram `Fall`, `Ort`, `Bereich`, `Bruch`, `Rolle`, `Wende`,
+`Steuer`, `Kiefer`, `Bauer` e `Moment` com artigo errado — num app que ensina artigos,
+o pior defeito possível.
+
+**Não foi uma varredura completa.** O método só enxerga palavras que aparecem como núcleo
+de compostos, e o teste exige pelo menos quatro compostos concordando. Palavras isoladas
+passam batido. A correção de raiz é regerar a base do `german-nouns` usando
+`(artigo, palavra)` como chave em vez de só a palavra — aí nenhum sentido é engolido.
+Até lá, os reportes que chegam pelo botão do app cobrem o resto.

@@ -35,7 +35,7 @@ juntos, e repetir desperdiça caracteres.
 ## Texto promocional  · limite 170 · editável sem nova versão
 
 ```
-11.695 substantivos alemães com artigo, tradução e plural. Busca instantânea, treino nos dois sentidos e estatísticas dos erros. Offline, sem conta e sem anúncios.
+11.696 substantivos alemães com artigo, tradução e plural. Busca instantânea, treino nos dois sentidos e estatísticas dos erros. Offline, sem conta e sem anúncios.
 ```
 
 ## Descrição  · limite 4000
@@ -44,7 +44,7 @@ juntos, e repetir desperdiça caracteres.
 Decorar se cada substantivo alemão é der, die ou das é o obstáculo que quase todo brasileiro encontra ao aprender o idioma. Não existe atalho fácil — e foi para atacar exatamente essa dificuldade que o DerDieDas nasceu.
 
 UMA BASE CURADA, NÃO UM DICIONÁRIO GIGANTE
-São 11.695 substantivos realmente úteis do cotidiano, cada um com artigo, tradução em português e plural. A lista partiu de mais de 90 mil palavras do Wikcionário alemão e passou por um filtro de frequência de uso: só ficaram as que aparecem pelo menos cerca de uma vez por milhão no alemão real. Isso derruba a cauda longa de termos químicos, moedas antigas e palavras que ninguém usa.
+São 11.696 substantivos realmente úteis do cotidiano, cada um com artigo, tradução em português e plural. A lista partiu de mais de 90 mil palavras do Wikcionário alemão e passou por um filtro de frequência de uso: só ficaram as que aparecem pelo menos cerca de uma vez por milhão no alemão real. Isso derruba a cauda longa de termos químicos, moedas antigas e palavras que ninguém usa.
 
 BUSCA INSTANTÂNEA
 Digite em alemão ou em português. A busca ignora acentos e maiúsculas — procurar "strasse" encontra "Straße", "grun" encontra "grün". Também funciona por plural e por artigo, se você quiser ver só as palavras que usam das.
@@ -130,7 +130,7 @@ Como testar a compra:
 4. "DerDieDas Pro" (com.nicolas.DerDieDas.pro) é uma compra única, não-consumível, que remove o limite permanentemente. O botão "Restaurar Compras" está na mesma tela.
 
 Observações:
-- A tradução sob demanda usa o Translation framework da Apple, que roda no dispositivo. Ela não funciona no simulador e pode pedir o download do modelo de idioma na primeira vez. Todas as 11.695 palavras da base já vêm traduzidas; esse recurso só atende palavras fora da base.
+- A tradução sob demanda usa o Translation framework da Apple, que roda no dispositivo. Ela não funciona no simulador e pode pedir o download do modelo de idioma na primeira vez. Todas as 11.696 palavras da base já vêm traduzidas; esse recurso só atende palavras fora da base.
 - O app do Apple Watch depende do app do iPhone estar instalado.
 - A base de substantivos deriva do projeto aberto german-nouns (Wikcionário alemão), licenciado sob CC BY-SA 4.0. A atribuição está em Treino → ⓘ → Créditos & Licenças.
 ```

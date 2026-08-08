@@ -19,7 +19,7 @@ de plataforma em vez de virarem código duplicado:
 **1. O framework Translation da Apple** não existe no visionOS nem no watchOS, e no Mac
 Catalyst só a partir do macOS 26. Fica atrás de
 `#if os(iOS) && !targetEnvironment(macCatalyst)` em `SearchView.swift`. Fora do iPhone e
-do iPad, perde-se só a tradução de palavras **fora** da base — as 11.695 já vêm
+do iPad, perde-se só a tradução de palavras **fora** da base — as 11.696 já vêm
 traduzidas, então na prática ninguém sente falta.
 
 **2. `tabViewSearchActivation`** (a aba de busca que vira campo de texto, do iOS 26) não
