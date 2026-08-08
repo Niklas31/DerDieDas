@@ -720,6 +720,7 @@
 				SWIFT_VERSION = 5.0;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator xros xrsimulator macosx";
 				SUPPORTS_MACCATALYST = YES;
+				"CODE_SIGN_ENTITLEMENTS[sdk=macosx*]" = "Artikel/DerDieDas-Catalyst.entitlements";
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				XROS_DEPLOYMENT_TARGET = 26.0;
 				TARGETED_DEVICE_FAMILY = "1,2,7";
@@ -752,6 +753,7 @@
 				SWIFT_VERSION = 5.0;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator xros xrsimulator macosx";
 				SUPPORTS_MACCATALYST = YES;
+				"CODE_SIGN_ENTITLEMENTS[sdk=macosx*]" = "Artikel/DerDieDas-Catalyst.entitlements";
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				XROS_DEPLOYMENT_TARGET = 26.0;
 				TARGETED_DEVICE_FAMILY = "1,2,7";

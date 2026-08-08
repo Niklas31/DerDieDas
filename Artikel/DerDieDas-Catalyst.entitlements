@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<!-- Obrigatório: a Mac App Store recusa apps Catalyst sem App Sandbox. -->
+	<key>com.apple.security.app-sandbox</key>
+	<true/>
+
+	<!-- A única rede que o app usa é a da App Store, para validar a compra do Pro.
+	     Busca, treino e a base de 11.695 palavras funcionam offline. -->
+	<key>com.apple.security.network.client</key>
+	<true/>
+</dict>
+</plist>
