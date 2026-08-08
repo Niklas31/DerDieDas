@@ -1,0 +1,2730 @@
+{
+  "sentidos_ausentes": [
+    {
+      "falta": "DAS Bauer",
+      "plural": "Bauer",
+      "base_tem": "DER Bauer = agricultor / camponês"
+    },
+    {
+      "falta": "DAS Bereich",
+      "plural": "Bereiche",
+      "base_tem": "DER Bereich = área"
+    },
+    {
+      "falta": "DAS Bruch",
+      "plural": "Brüche",
+      "base_tem": "DER Bruch = fratura / quebra"
+    },
+    {
+      "falta": "DAS Fall",
+      "plural": "Fallen",
+      "base_tem": "DER Fall = caso"
+    },
+    {
+      "falta": "DAS Kiefer",
+      "plural": "Kiefer",
+      "base_tem": "DER Kiefer = mandíbula"
+    },
+    {
+      "falta": "DAS Moment",
+      "plural": "Momente",
+      "base_tem": "DER Moment = momento"
+    },
+    {
+      "falta": "DAS Ort",
+      "plural": "Örter",
+      "base_tem": "DER Ort = lugar / local"
+    },
+    {
+      "falta": "DAS Rolle",
+      "plural": null,
+      "base_tem": "DIE Rolle = papel / rolo"
+    },
+    {
+      "falta": "DAS Steuer",
+      "plural": "Steuer",
+      "base_tem": "DIE Steuer = imposto"
+    },
+    {
+      "falta": "DER Abstract",
+      "plural": "Abstracts",
+      "base_tem": "DAS Abstract = resumo"
+    },
+    {
+      "falta": "DER Account",
+      "plural": "Accounts",
+      "base_tem": "DAS Account = conta"
+    },
+    {
+      "falta": "DER Achtel",
+      "plural": "Achtel",
+      "base_tem": "DAS Achtel = oitavo"
+    },
+    {
+      "falta": "DER Alien",
+      "plural": "Aliens",
+      "base_tem": "DAS Alien = estrangeiro"
+    },
+    {
+      "falta": "DER Alphabet",
+      "plural": "Alphabeten",
+      "base_tem": "DAS Alphabet = alfabeto"
+    },
+    {
+      "falta": "DER Alt",
+      "plural": "Alte",
+      "base_tem": "DAS Alt = velho"
+    },
+    {
+      "falta": "DER Alter",
+      "plural": null,
+      "base_tem": "DAS Alter = velho"
+    },
+    {
+      "falta": "DER Array",
+      "plural": "Arrays",
+      "base_tem": "DAS Array = variedade"
+    },
+    {
+      "falta": "DER Au-pair",
+      "plural": "Au-pairs",
+      "base_tem": "DAS Au-pair = par austral"
+    },
+    {
+      "falta": "DER Back-up",
+      "plural": "Back-ups",
+      "base_tem": "DAS Back-up = backup"
+    },
+    {
+      "falta": "DER Backup",
+      "plural": "Backups",
+      "base_tem": "DAS Backup = backup"
+    },
+    {
+      "falta": "DER Band",
+      "plural": "Bände",
+      "base_tem": "DAS Band = fita / laço"
+    },
+    {
+      "falta": "DER Banner",
+      "plural": "Banner",
+      "base_tem": "DAS Banner = bandeira"
+    },
+    {
+      "falta": "DER Bariton",
+      "plural": "Baritone",
+      "base_tem": "DAS Bariton = barítono"
+    },
+    {
+      "falta": "DER Barock",
+      "plural": null,
+      "base_tem": "DAS Barock = barroco"
+    },
+    {
+      "falta": "DER Barometer",
+      "plural": "Barometer",
+      "base_tem": "DAS Barometer = barômetro"
+    },
+    {
+      "falta": "DER Bauteil",
+      "plural": "Bauteile",
+      "base_tem": "DAS Bauteil = componente"
+    },
+    {
+      "falta": "DER Bias",
+      "plural": "Bias",
+      "base_tem": "DAS Bias = viés"
+    },
+    {
+      "falta": "DER Biathlon",
+      "plural": "Biathlons",
+      "base_tem": "DAS Biathlon = biatlo"
+    },
+    {
+      "falta": "DER Biest",
+      "plural": null,
+      "base_tem": "DAS Biest = besta"
+    },
+    {
+      "falta": "DER Bikini",
+      "plural": "Bikinis",
+      "base_tem": "DAS Bikini = bikini"
+    },
+    {
+      "falta": "DER Biotop",
+      "plural": "Biotope",
+      "base_tem": "DAS Biotop = biótopo"
+    },
+    {
+      "falta": "DER Bit",
+      "plural": "Bits",
+      "base_tem": "DAS Bit = pedaço"
+    },
+    {
+      "falta": "DER Black-out",
+      "plural": "Black-outs",
+      "base_tem": "DAS Black-out = apagão"
+    },
+    {
+      "falta": "DER Blackout",
+      "plural": "Blackouts",
+      "base_tem": "DAS Blackout = apagão"
+    },
+    {
+      "falta": "DER Blank",
+      "plural": "Blanks",
+      "base_tem": "DAS Blank = em branco"
+    },
+    {
+      "falta": "DER Blog",
+      "plural": "Blogs",
+      "base_tem": "DAS Blog = blogue"
+    },
+    {
+      "falta": "DER Bock",
+      "plural": "Böcke",
+      "base_tem": "DAS Bock = desejo"
+    },
+    {
+      "falta": "DER Bolzen",
+      "plural": "Bolzen",
+      "base_tem": "DAS Bolzen = parafuso"
+    },
+    {
+      "falta": "DER Bonbon",
+      "plural": "Bonbons",
+      "base_tem": "DAS Bonbon = doce"
+    },
+    {
+      "falta": "DER Boot",
+      "plural": "Boots",
+      "base_tem": "DAS Boot = barco"
+    },
+    {
+      "falta": "DER Bord",
+      "plural": "Borde",
+      "base_tem": "DAS Bord = quadro"
+    },
+    {
+      "falta": "DER Braun",
+      "plural": null,
+      "base_tem": "DAS Braun = marrom"
+    },
+    {
+      "falta": "DER Bravo",
+      "plural": "Bravos",
+      "base_tem": "DAS Bravo = bravo"
+    },
+    {
+      "falta": "DER Brocken",
+      "plural": "Brocken",
+      "base_tem": "DAS Brocken = pedaços"
+    },
+    {
+      "falta": "DER Bund",
+      "plural": "Bünde",
+      "base_tem": "DAS Bund = federal"
+    },
+    {
+      "falta": "DER Butter",
+      "plural": null,
+      "base_tem": "DAS Butter = manteiga"
+    },
+    {
+      "falta": "DER Buy-out",
+      "plural": "Buy-outs",
+      "base_tem": "DAS Buy-out = compra"
+    },
+    {
+      "falta": "DER Cannabis",
+      "plural": null,
+      "base_tem": "DAS Cannabis = maconha"
+    },
+    {
+      "falta": "DER Cap",
+      "plural": "Caps",
+      "base_tem": "DAS Cap = boné"
+    },
+    {
+      "falta": "DER Cartoon",
+      "plural": "Cartoons",
+      "base_tem": "DAS Cartoon = desenho animado"
+    },
+    {
+      "falta": "DER Center",
+      "plural": "Center",
+      "base_tem": "DAS Center = centro"
+    },
+    {
+      "falta": "DER Chart",
+      "plural": "Charts",
+      "base_tem": "DAS Chart = gráfico"
+    },
+    {
+      "falta": "DER Check-in",
+      "plural": "Check-ins",
+      "base_tem": "DAS Check-in = check-in"
+    },
+    {
+      "falta": "DER Check-out",
+      "plural": "Check-outs",
+      "base_tem": "DAS Check-out = confira"
+    },
+    {
+      "falta": "DER Chor",
+      "plural": "Chöre",
+      "base_tem": "DAS Chor = coro"
+    },
+    {
+      "falta": "DER Comic",
+      "plural": "Comics",
+      "base_tem": "DAS Comic = quadrinhos"
+    },
+    {
+      "falta": "DER Cookie",
+      "plural": "Cookies",
+      "base_tem": "DAS Cookie = biscoitos"
+    },
+    {
+      "falta": "DER Countdown",
+      "plural": "Countdowns",
+      "base_tem": "DAS Countdown = contagem regressiva"
+    },
+    {
+      "falta": "DER Crack",
+      "plural": "Cracks",
+      "base_tem": "DAS Crack = rachadura"
+    },
+    {
+      "falta": "DER Creek",
+      "plural": "Creek",
+      "base_tem": "DAS Creek = angra"
+    },
+    {
+      "falta": "DER Curry",
+      "plural": "Currys",
+      "base_tem": "DAS Curry = caril"
+    },
+    {
+      "falta": "DER DNA-Virus",
+      "plural": "DNA-Viren",
+      "base_tem": "DAS DNA-Virus = vírus dna"
+    },
+    {
+      "falta": "DER Dart",
+      "plural": "Darts",
+      "base_tem": "DAS Dart = dardos"
+    },
+    {
+      "falta": "DER Dekor",
+      "plural": "Dekore",
+      "base_tem": "DAS Dekor = decoração"
+    },
+    {
+      "falta": "DER Diner",
+      "plural": "Diner",
+      "base_tem": "DAS Diner = jantar"
+    },
+    {
+      "falta": "DER Domino",
+      "plural": "Dominos",
+      "base_tem": "DAS Domino = dominó"
+    },
+    {
+      "falta": "DER Download",
+      "plural": "Downloads",
+      "base_tem": "DAS Download = download"
+    },
+    {
+      "falta": "DER Drittel",
+      "plural": "Drittel",
+      "base_tem": "DAS Drittel = terceiro"
+    },
+    {
+      "falta": "DER Drops",
+      "plural": "Drops",
+      "base_tem": "DAS Drops = gotas"
+    },
+    {
+      "falta": "DER Dschungel",
+      "plural": "Dschungel",
+      "base_tem": "DAS Dschungel = selva"
+    },
+    {
+      "falta": "DER Ekel",
+      "plural": null,
+      "base_tem": "DAS Ekel = nojo"
+    },
+    {
+      "falta": "DER Elternteil",
+      "plural": "Elternteile",
+      "base_tem": "DAS Elternteil = pai"
+    },
+    {
+      "falta": "DER Embryo",
+      "plural": "Embryonen",
+      "base_tem": "DAS Embryo = embrião"
+    },
+    {
+      "falta": "DER Erbe",
+      "plural": "Erben",
+      "base_tem": "DAS Erbe = herança"
+    },
+    {
+      "falta": "DER Esch",
+      "plural": null,
+      "base_tem": "DAS Esch = cinzas"
+    },
+    {
+      "falta": "DER Espresso",
+      "plural": "Espressos",
+      "base_tem": "DAS Espresso = expresso"
+    },
+    {
+      "falta": "DER Essay",
+      "plural": "Essays",
+      "base_tem": "DAS Essay = ensaio"
+    },
+    {
+      "falta": "DER Event",
+      "plural": "Events",
+      "base_tem": "DAS Event = evento"
+    },
+    {
+      "falta": "DER Fackel",
+      "plural": "Fackeln",
+      "base_tem": "DAS Fackel = tocha"
+    },
+    {
+      "falta": "DER Fakt",
+      "plural": "Fakten",
+      "base_tem": "DAS Fakt = fato"
+    },
+    {
+      "falta": "DER Fax",
+      "plural": "Faxe",
+      "base_tem": "DAS Fax = fax"
+    },
+    {
+      "falta": "DER Fes",
+      "plural": "Fese",
+      "base_tem": "DAS Fes = fez"
+    },
+    {
+      "falta": "DER Filter",
+      "plural": "Filter",
+      "base_tem": "DAS Filter = filtro"
+    },
+    {
+      "falta": "DER Final",
+      "plural": "Finals",
+      "base_tem": "DAS Final = final"
+    },
+    {
+      "falta": "DER Flair",
+      "plural": null,
+      "base_tem": "DAS Flair = talento"
+    },
+    {
+      "falta": "DER Flip-Flop",
+      "plural": "Flip-Flops",
+      "base_tem": "DAS Flip-Flop = chinelo de dedo"
+    },
+    {
+      "falta": "DER Flott",
+      "plural": null,
+      "base_tem": "DAS Flott = rápido"
+    },
+    {
+      "falta": "DER Foto",
+      "plural": "Fotos",
+      "base_tem": "DAS Foto = foto"
+    },
+    {
+      "falta": "DER Frame",
+      "plural": "Frames",
+      "base_tem": "DAS Frame = quadro"
+    },
+    {
+      "falta": "DER Fries",
+      "plural": "Friese",
+      "base_tem": "DAS Fries = friso"
+    },
+    {
+      "falta": "DER Früh",
+      "plural": null,
+      "base_tem": "DAS Früh = cedo"
+    },
+    {
+      "falta": "DER Funken",
+      "plural": "Funken",
+      "base_tem": "DAS Funken = fagulha"
+    },
+    {
+      "falta": "DER Fünftel",
+      "plural": "Fünftel",
+      "base_tem": "DAS Fünftel = quinto"
+    },
+    {
+      "falta": "DER Garnichts",
+      "plural": "Garnichtse",
+      "base_tem": "DAS Garnichts = nada mesmo"
+    },
+    {
+      "falta": "DER Gefallen",
+      "plural": "Gefallen",
+      "base_tem": "DAS Gefallen = caído"
+    },
+    {
+      "falta": "DER Gehalt",
+      "plural": "Gehalte",
+      "base_tem": "DAS Gehalt = salário"
+    },
+    {
+      "falta": "DER Genozid",
+      "plural": "Genozide",
+      "base_tem": "DAS Genozid = genocídio"
+    },
+    {
+      "falta": "DER Gewahrsam",
+      "plural": "Gewahrsame",
+      "base_tem": "DAS Gewahrsam = custódia"
+    },
+    {
+      "falta": "DER Ghetto",
+      "plural": "Ghettos",
+      "base_tem": "DAS Ghetto = gueto"
+    },
+    {
+      "falta": "DER Gift",
+      "plural": null,
+      "base_tem": "DAS Gift = veneno"
+    },
+    {
+      "falta": "DER Gig",
+      "plural": "Gigs",
+      "base_tem": "DAS Gig = show"
+    },
+    {
+      "falta": "DER Glamour",
+      "plural": null,
+      "base_tem": "DAS Glamour = glamour"
+    },
+    {
+      "falta": "DER Golf",
+      "plural": "Golfe",
+      "base_tem": "DAS Golf = golfe"
+    },
+    {
+      "falta": "DER Gong",
+      "plural": "Gongs",
+      "base_tem": "DAS Gong = gongo"
+    },
+    {
+      "falta": "DER Gospel",
+      "plural": "Gospels",
+      "base_tem": "DAS Gospel = evangelho"
+    },
+    {
+      "falta": "DER Grad",
+      "plural": "Grade",
+      "base_tem": "DAS Grad = grau"
+    },
+    {
+      "falta": "DER Graph",
+      "plural": "Graphen",
+      "base_tem": "DAS Graph = gráfico"
+    },
+    {
+      "falta": "DER Gros",
+      "plural": "Gros",
+      "base_tem": "DAS Gros = grosso"
+    },
+    {
+      "falta": "DER Gulasch",
+      "plural": "Gulasche",
+      "base_tem": "DAS Gulasch = goulash"
+    },
+    {
+      "falta": "DER Gummi",
+      "plural": "Gummi",
+      "base_tem": "DAS Gummi = borracha"
+    },
+    {
+      "falta": "DER Gun",
+      "plural": "Guns",
+      "base_tem": "DAS Gun = pistola"
+    },
+    {
+      "falta": "DER Haschisch",
+      "plural": null,
+      "base_tem": "DAS Haschisch = haxixe"
+    },
+    {
+      "falta": "DER Hashtag",
+      "plural": "Hashtags",
+      "base_tem": "DAS Hashtag = hashtag"
+    },
+    {
+      "falta": "DER Headset",
+      "plural": "Headsets",
+      "base_tem": "DAS Headset = fone de ouvido"
+    },
+    {
+      "falta": "DER Hektar",
+      "plural": "Hektare",
+      "base_tem": "DAS Hektar = hectares"
+    },
+    {
+      "falta": "DER Holocaust",
+      "plural": "Holocausts",
+      "base_tem": "DAS Holocaust = holocausto"
+    },
+    {
+      "falta": "DER Husten",
+      "plural": "Husten",
+      "base_tem": "DAS Husten = tosse"
+    },
+    {
+      "falta": "DER Indigo",
+      "plural": "Indigos",
+      "base_tem": "DAS Indigo = índigo"
+    },
+    {
+      "falta": "DER Item",
+      "plural": "Items",
+      "base_tem": "DAS Item = item"
+    },
+    {
+      "falta": "DER Jersey",
+      "plural": null,
+      "base_tem": "DAS Jersey = camisa"
+    },
+    {
+      "falta": "DER Joghurt",
+      "plural": "Joghurts",
+      "base_tem": "DAS Joghurt = iogurte"
+    },
+    {
+      "falta": "DER Jus",
+      "plural": null,
+      "base_tem": "DAS Jus = apenas"
+    },
+    {
+      "falta": "DER Juwel",
+      "plural": "Juwelen",
+      "base_tem": "DAS Juwel = jóia"
+    },
+    {
+      "falta": "DER Kader",
+      "plural": "Kader",
+      "base_tem": "DAS Kader = esquadrão"
+    },
+    {
+      "falta": "DER Kaffee",
+      "plural": "Kaffees",
+      "base_tem": "DAS Kaffee = café"
+    },
+    {
+      "falta": "DER Kajak",
+      "plural": "Kajaks",
+      "base_tem": "DAS Kajak = caiaque"
+    },
+    {
+      "falta": "DER Kalkül",
+      "plural": "Kalküle",
+      "base_tem": "DAS Kalkül = cálculo"
+    },
+    {
+      "falta": "DER Kamin",
+      "plural": "Kamine",
+      "base_tem": "DAS Kamin = chaminé"
+    },
+    {
+      "falta": "DER Kat",
+      "plural": "Kats",
+      "base_tem": "DAS Kat = gato"
+    },
+    {
+      "falta": "DER Kaugummi",
+      "plural": "Kaugummis",
+      "base_tem": "DAS Kaugummi = goma de mascar"
+    },
+    {
+      "falta": "DER Keks",
+      "plural": "Keks",
+      "base_tem": "DAS Keks = biscoito"
+    },
+    {
+      "falta": "DER Ketchup",
+      "plural": "Ketchups",
+      "base_tem": "DAS Ketchup = ketchup"
+    },
+    {
+      "falta": "DER Kilo",
+      "plural": "Kilo",
+      "base_tem": "DAS Kilo = quilo"
+    },
+    {
+      "falta": "DER Kilometer",
+      "plural": "Kilometer",
+      "base_tem": "DAS Kilometer = quilômetros"
+    },
+    {
+      "falta": "DER Kit",
+      "plural": "Kits",
+      "base_tem": "DAS Kit = conjunto"
+    },
+    {
+      "falta": "DER Koks",
+      "plural": "Kokse",
+      "base_tem": "DAS Koks = coque"
+    },
+    {
+      "falta": "DER Komplott",
+      "plural": "Komplotte",
+      "base_tem": "DAS Komplott = trama"
+    },
+    {
+      "falta": "DER Kompromiss",
+      "plural": "Kompromisse",
+      "base_tem": "DAS Kompromiss = compromisso"
+    },
+    {
+      "falta": "DER Kondom",
+      "plural": "Kondome",
+      "base_tem": "DAS Kondom = preservativo"
+    },
+    {
+      "falta": "DER Korn",
+      "plural": "Korn",
+      "base_tem": "DAS Korn = grão"
+    },
+    {
+      "falta": "DER Korpus",
+      "plural": "Korpusse",
+      "base_tem": "DAS Korpus = corpus"
+    },
+    {
+      "falta": "DER Kraut",
+      "plural": "Krauts",
+      "base_tem": "DAS Kraut = erva"
+    },
+    {
+      "falta": "DER Kredit",
+      "plural": "Kredite",
+      "base_tem": "DAS Kredit = crédito"
+    },
+    {
+      "falta": "DER Kristall",
+      "plural": "Kristalle",
+      "base_tem": "DAS Kristall = cristal"
+    },
+    {
+      "falta": "DER Kundenservice",
+      "plural": "Kundenservices",
+      "base_tem": "DAS Kundenservice = atendimento ao cliente"
+    },
+    {
+      "falta": "DER Kölsch",
+      "plural": null,
+      "base_tem": "DAS Kölsch = colônia"
+    },
+    {
+      "falta": "DER Lachs",
+      "plural": "Lachse",
+      "base_tem": "DAS Lachs = salmão"
+    },
+    {
+      "falta": "DER Lama",
+      "plural": "Lamas",
+      "base_tem": "DAS Lama = lama"
+    },
+    {
+      "falta": "DER Laptop",
+      "plural": "Laptops",
+      "base_tem": "DAS Laptop = computador portátil"
+    },
+    {
+      "falta": "DER Laster",
+      "plural": "Laster",
+      "base_tem": "DAS Laster = vice"
+    },
+    {
+      "falta": "DER Lavendel",
+      "plural": "Lavendel",
+      "base_tem": "DAS Lavendel = lavanda"
+    },
+    {
+      "falta": "DER Lee",
+      "plural": null,
+      "base_tem": "DAS Lee = sotavento"
+    },
+    {
+      "falta": "DER Legat",
+      "plural": "Legaten",
+      "base_tem": "DAS Legat = legado"
+    },
+    {
+      "falta": "DER Leut",
+      "plural": "Leute",
+      "base_tem": "DAS Leut = pessoas"
+    },
+    {
+      "falta": "DER Level",
+      "plural": "Levels",
+      "base_tem": "DAS Level = nível"
+    },
+    {
+      "falta": "DER Lieferservice",
+      "plural": "Lieferservices",
+      "base_tem": "DAS Lieferservice = serviço de entrega"
+    },
+    {
+      "falta": "DER Lift",
+      "plural": "Lifte",
+      "base_tem": "DAS Lift = elevador"
+    },
+    {
+      "falta": "DER Like",
+      "plural": "Likes",
+      "base_tem": "DAS Like = como"
+    },
+    {
+      "falta": "DER Liquid",
+      "plural": "Liquide",
+      "base_tem": "DAS Liquid = líquido"
+    },
+    {
+      "falta": "DER Liter",
+      "plural": "Liter",
+      "base_tem": "DAS Liter = litro"
+    },
+    {
+      "falta": "DER Loch",
+      "plural": "Lochs",
+      "base_tem": "DAS Loch = buraco"
+    },
+    {
+      "falta": "DER Loft",
+      "plural": "Lofts",
+      "base_tem": "DAS Loft = sótão"
+    },
+    {
+      "falta": "DER Logo",
+      "plural": "Logos",
+      "base_tem": "DAS Logo = logotipo"
+    },
+    {
+      "falta": "DER Man",
+      "plural": "Mans",
+      "base_tem": "DAS Man = homem"
+    },
+    {
+      "falta": "DER Manga",
+      "plural": "Manga",
+      "base_tem": "DAS Manga = mangá"
+    },
+    {
+      "falta": "DER Martini",
+      "plural": "Martinis",
+      "base_tem": "DAS Martini = martini"
+    },
+    {
+      "falta": "DER Mau-Mau",
+      "plural": "Mau-Mau",
+      "base_tem": "DAS Mau-Mau = mau mau"
+    },
+    {
+      "falta": "DER Mensch",
+      "plural": "Menschen",
+      "base_tem": "DAS Mensch = pessoa"
+    },
+    {
+      "falta": "DER Messer",
+      "plural": "Messer",
+      "base_tem": "DAS Messer = faca"
+    },
+    {
+      "falta": "DER Meteor",
+      "plural": "Meteore",
+      "base_tem": "DAS Meteor = meteoro"
+    },
+    {
+      "falta": "DER Meter",
+      "plural": "Meter",
+      "base_tem": "DAS Meter = metro"
+    },
+    {
+      "falta": "DER Militär",
+      "plural": "Militärs",
+      "base_tem": "DAS Militär = militares"
+    },
+    {
+      "falta": "DER Millimeter",
+      "plural": "Millimeter",
+      "base_tem": "DAS Millimeter = milímetro"
+    },
+    {
+      "falta": "DER Mittag",
+      "plural": "Mittage",
+      "base_tem": "DAS Mittag = meio-dia"
+    },
+    {
+      "falta": "DER Mode",
+      "plural": "Moden",
+      "base_tem": "DIE Mode = moda"
+    },
+    {
+      "falta": "DER Model",
+      "plural": "Model",
+      "base_tem": "DAS Model = modelo"
+    },
+    {
+      "falta": "DER Modem",
+      "plural": "Modems",
+      "base_tem": "DAS Modem = modem"
+    },
+    {
+      "falta": "DER Modul",
+      "plural": "Moduln",
+      "base_tem": "DAS Modul = módulo"
+    },
+    {
+      "falta": "DER Monat",
+      "plural": "Monate",
+      "base_tem": "DAS Monat = mês"
+    },
+    {
+      "falta": "DER Monopol",
+      "plural": "Monopole",
+      "base_tem": "DAS Monopol = monopólio"
+    },
+    {
+      "falta": "DER Morgen",
+      "plural": "Morgen",
+      "base_tem": "DAS Morgen = manhã"
+    },
+    {
+      "falta": "DER Movie",
+      "plural": "Movies",
+      "base_tem": "DAS Movie = filme"
+    },
+    {
+      "falta": "DER Narrativ",
+      "plural": "Narrative",
+      "base_tem": "DAS Narrativ = narrativa"
+    },
+    {
+      "falta": "DER Nickel",
+      "plural": "Nickel",
+      "base_tem": "DAS Nickel = níquel"
+    },
+    {
+      "falta": "DER Null",
+      "plural": "Nulls",
+      "base_tem": "DAS Null = zero"
+    },
+    {
+      "falta": "DER Nutella",
+      "plural": null,
+      "base_tem": "DAS Nutella = nutela"
+    },
+    {
+      "falta": "DER Oberteil",
+      "plural": "Oberteile",
+      "base_tem": "DAS Oberteil = principal"
+    },
+    {
+      "falta": "DER Objektiv",
+      "plural": null,
+      "base_tem": "DAS Objektiv = lente"
+    },
+    {
+      "falta": "DER Ohm",
+      "plural": "Ohme",
+      "base_tem": "DAS Ohm = ohm"
+    },
+    {
+      "falta": "DER Ozon",
+      "plural": null,
+      "base_tem": "DAS Ozon = ozônio"
+    },
+    {
+      "falta": "DER Pack",
+      "plural": "Packe",
+      "base_tem": "DAS Pack = pacote"
+    },
+    {
+      "falta": "DER Paderborner",
+      "plural": "Paderborner",
+      "base_tem": "DAS Paderborner = paderborn"
+    },
+    {
+      "falta": "DER Pardon",
+      "plural": null,
+      "base_tem": "DAS Pardon = perdão"
+    },
+    {
+      "falta": "DER Pascha",
+      "plural": "Paschas",
+      "base_tem": "DAS Pascha = paxá"
+    },
+    {
+      "falta": "DER Patch",
+      "plural": "Patches",
+      "base_tem": "DAS Patch = correção"
+    },
+    {
+      "falta": "DER Patriarchat",
+      "plural": "Patriarchate",
+      "base_tem": "DAS Patriarchat = patriarcado"
+    },
+    {
+      "falta": "DER Pesto",
+      "plural": "Pestos",
+      "base_tem": "DAS Pesto = pesto"
+    },
+    {
+      "falta": "DER Pfand",
+      "plural": "Pfänder",
+      "base_tem": "DAS Pfand = depósito"
+    },
+    {
+      "falta": "DER Pfefferspray",
+      "plural": "Pfeffersprays",
+      "base_tem": "DAS Pfefferspray = spray de pimenta"
+    },
+    {
+      "falta": "DER Pharao",
+      "plural": "Pharaonen",
+      "base_tem": "DAS Pharao = faraó"
+    },
+    {
+      "falta": "DER Phosphor",
+      "plural": null,
+      "base_tem": "DAS Phosphor = fósforo"
+    },
+    {
+      "falta": "DER Plastik",
+      "plural": null,
+      "base_tem": "DAS Plastik = plástico"
+    },
+    {
+      "falta": "DER Plot",
+      "plural": "Plots",
+      "base_tem": "DAS Plot = trama"
+    },
+    {
+      "falta": "DER Plug-in",
+      "plural": "Plug-ins",
+      "base_tem": "DAS Plug-in = plug-in"
+    },
+    {
+      "falta": "DER Podcast",
+      "plural": "Podcasts",
+      "base_tem": "DAS Podcast = podcast"
+    },
+    {
+      "falta": "DER Podest",
+      "plural": "Podeste",
+      "base_tem": "DAS Podest = pedestal"
+    },
+    {
+      "falta": "DER Polster",
+      "plural": "Polster",
+      "base_tem": "DAS Polster = almofada"
+    },
+    {
+      "falta": "DER Pony",
+      "plural": "Ponys",
+      "base_tem": "DAS Pony = pônei"
+    },
+    {
+      "falta": "DER Pool",
+      "plural": "Pools",
+      "base_tem": "DAS Pool = piscina"
+    },
+    {
+      "falta": "DER Porter",
+      "plural": "Porter",
+      "base_tem": "DAS Porter = porteiro"
+    },
+    {
+      "falta": "DER Positiv",
+      "plural": "Positive",
+      "base_tem": "DAS Positiv = positivo"
+    },
+    {
+      "falta": "DER Poster",
+      "plural": "Poster",
+      "base_tem": "DAS Poster = cartazes"
+    },
+    {
+      "falta": "DER Preview",
+      "plural": "Previews",
+      "base_tem": "DAS Preview = visualização"
+    },
+    {
+      "falta": "DER Prospekt",
+      "plural": "Prospekte",
+      "base_tem": "DAS Prospekt = folheto"
+    },
+    {
+      "falta": "DER Pub",
+      "plural": "Pubs",
+      "base_tem": "DAS Pub = pub"
+    },
+    {
+      "falta": "DER Puder",
+      "plural": "Puder",
+      "base_tem": "DAS Puder = pó"
+    },
+    {
+      "falta": "DER Puff",
+      "plural": "Puffe",
+      "base_tem": "DAS Puff = sopro"
+    },
+    {
+      "falta": "DER Pyjama",
+      "plural": "Pyjamas",
+      "base_tem": "DAS Pyjama = pijamas"
+    },
+    {
+      "falta": "DER Python",
+      "plural": "Pythons",
+      "base_tem": "DAS Python = píton"
+    },
+    {
+      "falta": "DER Quadrat",
+      "plural": "Quadraten",
+      "base_tem": "DAS Quadrat = quadrado"
+    },
+    {
+      "falta": "DER Quadratmeter",
+      "plural": "Quadratmeter",
+      "base_tem": "DAS Quadratmeter = metros quadrados"
+    },
+    {
+      "falta": "DER Quark",
+      "plural": null,
+      "base_tem": "DAS Quark = quark"
+    },
+    {
+      "falta": "DER Radio",
+      "plural": "Radios",
+      "base_tem": "DAS Radio = rádio"
+    },
+    {
+      "falta": "DER Radler",
+      "plural": "Radler",
+      "base_tem": "DAS Radler = ciclista"
+    },
+    {
+      "falta": "DER Rasen",
+      "plural": "Rasen",
+      "base_tem": "DAS Rasen = corrida"
+    },
+    {
+      "falta": "DER Raster",
+      "plural": "Raster",
+      "base_tem": "DAS Raster = grade"
+    },
+    {
+      "falta": "DER Rave",
+      "plural": "Raves",
+      "base_tem": "DAS Rave = delírio"
+    },
+    {
+      "falta": "DER Reis",
+      "plural": "Reise",
+      "base_tem": "DAS Reis = arroz"
+    },
+    {
+      "falta": "DER Review",
+      "plural": "Reviews",
+      "base_tem": "DAS Review = análise"
+    },
+    {
+      "falta": "DER Ried",
+      "plural": "Rieden",
+      "base_tem": "DAS Ried = junco"
+    },
+    {
+      "falta": "DER Riff",
+      "plural": "Riffs",
+      "base_tem": "DAS Riff = recife"
+    },
+    {
+      "falta": "DER Rolle",
+      "plural": "Rolle",
+      "base_tem": "DIE Rolle = papel / rolo"
+    },
+    {
+      "falta": "DER Safe",
+      "plural": "Safes",
+      "base_tem": "DAS Safe = seguro"
+    },
+    {
+      "falta": "DER Safety-Car",
+      "plural": "Safety-Cars",
+      "base_tem": "DAS Safety-Car = carro de segurança"
+    },
+    {
+      "falta": "DER Sakko",
+      "plural": "Sakkos",
+      "base_tem": "DAS Sakko = jaqueta"
+    },
+    {
+      "falta": "DER Sandwich",
+      "plural": "Sandwichs",
+      "base_tem": "DAS Sandwich = sanduíche"
+    },
+    {
+      "falta": "DER Schild",
+      "plural": "Schilde",
+      "base_tem": "DAS Schild = sinal"
+    },
+    {
+      "falta": "DER Schmalz",
+      "plural": null,
+      "base_tem": "DAS Schmalz = banha"
+    },
+    {
+      "falta": "DER Schnitzel",
+      "plural": "Schnitzel",
+      "base_tem": "DAS Schnitzel = schnitzel"
+    },
+    {
+      "falta": "DER Schock",
+      "plural": "Schocke",
+      "base_tem": "DAS Schock = choque"
+    },
+    {
+      "falta": "DER Schoß",
+      "plural": "Schöße",
+      "base_tem": "DIE Schoß = colo"
+    },
+    {
+      "falta": "DER Schütz",
+      "plural": "Schützen",
+      "base_tem": "DAS Schütz = sagitário"
+    },
+    {
+      "falta": "DER Service",
+      "plural": "Services",
+      "base_tem": "DAS Service = serviço"
+    },
+    {
+      "falta": "DER Shuttle",
+      "plural": "Shuttles",
+      "base_tem": "DAS Shuttle = transporte"
+    },
+    {
+      "falta": "DER Silvester",
+      "plural": "Silvester",
+      "base_tem": "DAS Silvester = véspera de ano novo"
+    },
+    {
+      "falta": "DER Sims",
+      "plural": "Simse",
+      "base_tem": "DAS Sims = sims"
+    },
+    {
+      "falta": "DER Single",
+      "plural": "Singles",
+      "base_tem": "DAS Single = solteiro"
+    },
+    {
+      "falta": "DER Skrupel",
+      "plural": "Skrupel",
+      "base_tem": "DAS Skrupel = escrúpulos"
+    },
+    {
+      "falta": "DER Smalltalk",
+      "plural": "Smalltalks",
+      "base_tem": "DAS Smalltalk = conversa fiada"
+    },
+    {
+      "falta": "DER Smart-TV",
+      "plural": "Smart-TVs",
+      "base_tem": "DAS Smart-TV = smart tv"
+    },
+    {
+      "falta": "DER Smiley",
+      "plural": "Smileys",
+      "base_tem": "DAS Smiley = sorridente"
+    },
+    {
+      "falta": "DER Snooker",
+      "plural": "Snookers",
+      "base_tem": "DAS Snooker = sinuca"
+    },
+    {
+      "falta": "DER Spagat",
+      "plural": "Spagate",
+      "base_tem": "DAS Spagat = ato de equilíbrio"
+    },
+    {
+      "falta": "DER Spam",
+      "plural": "Spams",
+      "base_tem": "DAS Spam = spam"
+    },
+    {
+      "falta": "DER Spektakel",
+      "plural": "Spektakel",
+      "base_tem": "DAS Spektakel = espetáculo"
+    },
+    {
+      "falta": "DER Spital",
+      "plural": "Spitäler",
+      "base_tem": "DAS Spital = hospital"
+    },
+    {
+      "falta": "DER Spray",
+      "plural": "Sprays",
+      "base_tem": "DAS Spray = spray"
+    },
+    {
+      "falta": "DER Start-up",
+      "plural": "Start-ups",
+      "base_tem": "DAS Start-up = comece"
+    },
+    {
+      "falta": "DER Stift",
+      "plural": "Stifte",
+      "base_tem": "DAS Stift = caneta"
+    },
+    {
+      "falta": "DER Strip-Poker",
+      "plural": null,
+      "base_tem": "DAS Strip-Poker = tira pôquer"
+    },
+    {
+      "falta": "DER Suizid",
+      "plural": "Suizide",
+      "base_tem": "DAS Suizid = suicídio"
+    },
+    {
+      "falta": "DER Swimmingpool",
+      "plural": "Swimmingpools",
+      "base_tem": "DAS Swimmingpool = piscina"
+    },
+    {
+      "falta": "DER Tape",
+      "plural": "Tapes",
+      "base_tem": "DAS Tape = fita"
+    },
+    {
+      "falta": "DER Tattoo",
+      "plural": "Tattoos",
+      "base_tem": "DAS Tattoo = tatuagem"
+    },
+    {
+      "falta": "DER Tau",
+      "plural": null,
+      "base_tem": "DAS Tau = orvalho"
+    },
+    {
+      "falta": "DER Tausend",
+      "plural": null,
+      "base_tem": "DAS Tausend = mil"
+    },
+    {
+      "falta": "DER Taxi",
+      "plural": "Taxis",
+      "base_tem": "DAS Taxi = táxi"
+    },
+    {
+      "falta": "DER Tee",
+      "plural": "Tees",
+      "base_tem": "DAS Tee = chá"
+    },
+    {
+      "falta": "DER Teer",
+      "plural": "Teere",
+      "base_tem": "DAS Teer = alcatrão"
+    },
+    {
+      "falta": "DER Teil",
+      "plural": "Teile",
+      "base_tem": "DAS Teil = papel"
+    },
+    {
+      "falta": "DER Teller",
+      "plural": "Teller",
+      "base_tem": "DAS Teller = placa"
+    },
+    {
+      "falta": "DER Tempo",
+      "plural": "Tempos",
+      "base_tem": "DAS Tempo = tempo"
+    },
+    {
+      "falta": "DER Terminal",
+      "plural": "Terminals",
+      "base_tem": "DAS Terminal = terminal"
+    },
+    {
+      "falta": "DER Thermometer",
+      "plural": "Thermometer",
+      "base_tem": "DAS Thermometer = termômetro"
+    },
+    {
+      "falta": "DER Titan",
+      "plural": "Titanen",
+      "base_tem": "DAS Titan = titânio"
+    },
+    {
+      "falta": "DER Token",
+      "plural": "Tokens",
+      "base_tem": "DAS Token = fichas"
+    },
+    {
+      "falta": "DER Tor",
+      "plural": "Toren",
+      "base_tem": "DAS Tor = meta"
+    },
+    {
+      "falta": "DER Tram",
+      "plural": "Trame",
+      "base_tem": "DAS Tram = bonde"
+    },
+    {
+      "falta": "DER Transit",
+      "plural": "Transite",
+      "base_tem": "DAS Transit = trânsito"
+    },
+    {
+      "falta": "DER Trial",
+      "plural": "Triale",
+      "base_tem": "DAS Trial = julgamento"
+    },
+    {
+      "falta": "DER Triathlon",
+      "plural": "Triathlons",
+      "base_tem": "DAS Triathlon = triatlo"
+    },
+    {
+      "falta": "DER Trikot",
+      "plural": "Trikots",
+      "base_tem": "DAS Trikot = camisa"
+    },
+    {
+      "falta": "DER Tropfen",
+      "plural": "Tropfen",
+      "base_tem": "DAS Tropfen = gotas"
+    },
+    {
+      "falta": "DER Türkis",
+      "plural": "Türkise",
+      "base_tem": "DAS Türkis = turquesa"
+    },
+    {
+      "falta": "DER Unterkiefer",
+      "plural": "Unterkiefer",
+      "base_tem": "DAS Unterkiefer = maxilar inferior"
+    },
+    {
+      "falta": "DER Verdienst",
+      "plural": "Verdienste",
+      "base_tem": "DAS Verdienst = mérito"
+    },
+    {
+      "falta": "DER Viel",
+      "plural": null,
+      "base_tem": "DAS Viel = muito"
+    },
+    {
+      "falta": "DER Viertel",
+      "plural": "Viertel",
+      "base_tem": "DAS Viertel = trimestre"
+    },
+    {
+      "falta": "DER Virus",
+      "plural": "Viren",
+      "base_tem": "DAS Virus = vírus"
+    },
+    {
+      "falta": "DER Vorsatz",
+      "plural": "Vorsätze",
+      "base_tem": "DAS Vorsatz = intenção"
+    },
+    {
+      "falta": "DER Web-Service",
+      "plural": "Web-Services",
+      "base_tem": "DAS Web-Service = serviço web"
+    },
+    {
+      "falta": "DER Weizen",
+      "plural": "Weizen",
+      "base_tem": "DAS Weizen = trigo"
+    },
+    {
+      "falta": "DER Wende",
+      "plural": "Wenden",
+      "base_tem": "DIE Wende = virada / mudança"
+    },
+    {
+      "falta": "DER Werd",
+      "plural": "Werde",
+      "base_tem": "DAS Werd = vai"
+    },
+    {
+      "falta": "DER Wetter",
+      "plural": "Wetter",
+      "base_tem": "DAS Wetter = clima"
+    },
+    {
+      "falta": "DER Work-out",
+      "plural": "Work-outs",
+      "base_tem": "DAS Work-out = dar certo"
+    },
+    {
+      "falta": "DER Workout",
+      "plural": "Workouts",
+      "base_tem": "DAS Workout = dar certo"
+    },
+    {
+      "falta": "DER Wurm",
+      "plural": "Würmer",
+      "base_tem": "DAS Wurm = minhoca"
+    },
+    {
+      "falta": "DER Yoga",
+      "plural": null,
+      "base_tem": "DAS Yoga = ioga"
+    },
+    {
+      "falta": "DER Zehntel",
+      "plural": "Zehntel",
+      "base_tem": "DAS Zehntel = décimo"
+    },
+    {
+      "falta": "DER Zelt",
+      "plural": null,
+      "base_tem": "DAS Zelt = barraca"
+    },
+    {
+      "falta": "DER Zelten",
+      "plural": "Zelten",
+      "base_tem": "DAS Zelten = camping"
+    },
+    {
+      "falta": "DER Zentimeter",
+      "plural": "Zentimeter",
+      "base_tem": "DAS Zentimeter = centímetro"
+    },
+    {
+      "falta": "DER Zepter",
+      "plural": "Zepter",
+      "base_tem": "DAS Zepter = cetro"
+    },
+    {
+      "falta": "DER Zimt",
+      "plural": "Zimte",
+      "base_tem": "DAS Zimt = canela"
+    },
+    {
+      "falta": "DER Zink",
+      "plural": "Zinken",
+      "base_tem": "DAS Zink = zinco"
+    },
+    {
+      "falta": "DER Zoll",
+      "plural": "Zölle",
+      "base_tem": "DAS Zoll = alfândega"
+    },
+    {
+      "falta": "DER Zubehör",
+      "plural": "Zubehöre",
+      "base_tem": "DAS Zubehör = acessórios"
+    },
+    {
+      "falta": "DER Zuständigkeitsbereich",
+      "plural": "Zuständigkeitsbereiche",
+      "base_tem": "DAS Zuständigkeitsbereich = área de responsabilidade"
+    },
+    {
+      "falta": "DIE Abscheu",
+      "plural": null,
+      "base_tem": "DER Abscheu = nojo"
+    },
+    {
+      "falta": "DIE Achte",
+      "plural": null,
+      "base_tem": "DER Achte = oitavo"
+    },
+    {
+      "falta": "DIE Achtel",
+      "plural": "Achtel",
+      "base_tem": "DAS Achtel = oitavo"
+    },
+    {
+      "falta": "DIE Ahne",
+      "plural": "Ahnen",
+      "base_tem": "DER Ahne = antepassado"
+    },
+    {
+      "falta": "DIE Alp",
+      "plural": "Alpen",
+      "base_tem": "DER Alp = alpes"
+    },
+    {
+      "falta": "DIE Ami",
+      "plural": "Amis",
+      "base_tem": "DER Ami = amiga"
+    },
+    {
+      "falta": "DIE App",
+      "plural": "Apps",
+      "base_tem": "DAS App = aplicativo"
+    },
+    {
+      "falta": "DIE Au-pair",
+      "plural": "Au-pairs",
+      "base_tem": "DAS Au-pair = par austral"
+    },
+    {
+      "falta": "DIE Augsburger",
+      "plural": "Augsburger",
+      "base_tem": "DER Augsburger = augsburgo"
+    },
+    {
+      "falta": "DIE Backstage",
+      "plural": "Backstages",
+      "base_tem": "DAS Backstage = nos bastidores"
+    },
+    {
+      "falta": "DIE Baguette",
+      "plural": "Baguettes",
+      "base_tem": "DAS Baguette = baguetes"
+    },
+    {
+      "falta": "DIE Ballerina",
+      "plural": "Ballerinen",
+      "base_tem": "DER Ballerina = bailarina"
+    },
+    {
+      "falta": "DIE Band",
+      "plural": "Bands",
+      "base_tem": "DAS Band = fita / laço"
+    },
+    {
+      "falta": "DIE Bar",
+      "plural": "Bars",
+      "base_tem": "DAS Bar = urso"
+    },
+    {
+      "falta": "DIE Beach",
+      "plural": "Beaches",
+      "base_tem": "DER Beach = praia"
+    },
+    {
+      "falta": "DIE Bedrängnis",
+      "plural": "Bedrängnisse",
+      "base_tem": "DAS Bedrängnis = sofrimento"
+    },
+    {
+      "falta": "DIE Beige",
+      "plural": "Beigen",
+      "base_tem": "DAS Beige = bege"
+    },
+    {
+      "falta": "DIE Bondage",
+      "plural": "Bondages",
+      "base_tem": "DAS Bondage = escravidão"
+    },
+    {
+      "falta": "DIE Bravo",
+      "plural": "Bravos",
+      "base_tem": "DAS Bravo = bravo"
+    },
+    {
+      "falta": "DIE Buckel",
+      "plural": "Buckel",
+      "base_tem": "DER Buckel = jubarte"
+    },
+    {
+      "falta": "DIE Bulle",
+      "plural": "Bullen",
+      "base_tem": "DER Bulle = touro"
+    },
+    {
+      "falta": "DIE Bus",
+      "plural": "Buses",
+      "base_tem": "DER Bus = ônibus"
+    },
+    {
+      "falta": "DIE Butter",
+      "plural": null,
+      "base_tem": "DAS Butter = manteiga"
+    },
+    {
+      "falta": "DIE COVID-19",
+      "plural": null,
+      "base_tem": "DAS COVID-19 = covid 19"
+    },
+    {
+      "falta": "DIE Cap",
+      "plural": "Caps",
+      "base_tem": "DAS Cap = boné"
+    },
+    {
+      "falta": "DIE Cast",
+      "plural": "Casts",
+      "base_tem": "DER Cast = elenco"
+    },
+    {
+      "falta": "DIE Chick",
+      "plural": "Chicks",
+      "base_tem": "DAS Chick = garota"
+    },
+    {
+      "falta": "DIE Coca-Cola",
+      "plural": "Coca-Colas",
+      "base_tem": "DAS Coca-Cola = coca cola"
+    },
+    {
+      "falta": "DIE Cola",
+      "plural": "Colas",
+      "base_tem": "DAS Cola = cola"
+    },
+    {
+      "falta": "DIE Comedian",
+      "plural": "Comedians",
+      "base_tem": "DER Comedian = comediante"
+    },
+    {
+      "falta": "DIE Consultant",
+      "plural": "Consultants",
+      "base_tem": "DER Consultant = consultor"
+    },
+    {
+      "falta": "DIE Couch",
+      "plural": "Couchs",
+      "base_tem": "DER Couch = sofá"
+    },
+    {
+      "falta": "DIE Country",
+      "plural": null,
+      "base_tem": "DER Country = país"
+    },
+    {
+      "falta": "DIE County",
+      "plural": "Countys",
+      "base_tem": "DAS County = condado"
+    },
+    {
+      "falta": "DIE Coupe",
+      "plural": "Coupes",
+      "base_tem": "DER Coupe = cupê"
+    },
+    {
+      "falta": "DIE Demo",
+      "plural": "Demos",
+      "base_tem": "DAS Demo = demonstração"
+    },
+    {
+      "falta": "DIE Deutsche",
+      "plural": null,
+      "base_tem": "DAS Deutsche = alemão"
+    },
+    {
+      "falta": "DIE Diamant",
+      "plural": null,
+      "base_tem": "DER Diamant = diamante"
+    },
+    {
+      "falta": "DIE Draft",
+      "plural": "Drafts",
+      "base_tem": "DER Draft = rascunho"
+    },
+    {
+      "falta": "DIE Dschungel",
+      "plural": "Dschungel",
+      "base_tem": "DAS Dschungel = selva"
+    },
+    {
+      "falta": "DIE Ecstasy",
+      "plural": null,
+      "base_tem": "DAS Ecstasy = êxtase"
+    },
+    {
+      "falta": "DIE Eimer",
+      "plural": "Eimeren",
+      "base_tem": "DER Eimer = balde"
+    },
+    {
+      "falta": "DIE Elf",
+      "plural": "Elfen",
+      "base_tem": "DER Elf = onze"
+    },
+    {
+      "falta": "DIE Erkenntnis",
+      "plural": "Erkenntnisse",
+      "base_tem": "DAS Erkenntnis = conhecimento"
+    },
+    {
+      "falta": "DIE Ersparnis",
+      "plural": "Ersparnisse",
+      "base_tem": "DAS Ersparnis = poupança"
+    },
+    {
+      "falta": "DIE Euro",
+      "plural": "Euros",
+      "base_tem": "DER Euro = euro"
+    },
+    {
+      "falta": "DIE Fackel",
+      "plural": "Fackeln",
+      "base_tem": "DAS Fackel = tocha"
+    },
+    {
+      "falta": "DIE Feature",
+      "plural": "Features",
+      "base_tem": "DAS Feature = recurso"
+    },
+    {
+      "falta": "DIE Fidschi",
+      "plural": "Fidschi",
+      "base_tem": "DER Fidschi = fiji"
+    },
+    {
+      "falta": "DIE Finne",
+      "plural": "Finnen",
+      "base_tem": "DER Finne = barbatana"
+    },
+    {
+      "falta": "DIE Firewall",
+      "plural": "Firewalls",
+      "base_tem": "DER Firewall = firewall"
+    },
+    {
+      "falta": "DIE Flat",
+      "plural": "Flats",
+      "base_tem": "DAS Flat = plano"
+    },
+    {
+      "falta": "DIE Flur",
+      "plural": "Fluren",
+      "base_tem": "DER Flur = corredor"
+    },
+    {
+      "falta": "DIE Foto",
+      "plural": "Fotos",
+      "base_tem": "DAS Foto = foto"
+    },
+    {
+      "falta": "DIE Frame",
+      "plural": "Framen",
+      "base_tem": "DAS Frame = quadro"
+    },
+    {
+      "falta": "DIE Franchise",
+      "plural": "Franchisen",
+      "base_tem": "DAS Franchise = franquia"
+    },
+    {
+      "falta": "DIE Freie",
+      "plural": null,
+      "base_tem": "DAS Freie = livre"
+    },
+    {
+      "falta": "DIE Früh",
+      "plural": null,
+      "base_tem": "DAS Früh = cedo"
+    },
+    {
+      "falta": "DIE Funke",
+      "plural": "Funken",
+      "base_tem": "DER Funke = fagulha"
+    },
+    {
+      "falta": "DIE Gang",
+      "plural": "Gangs",
+      "base_tem": "DER Gang = engrenagem"
+    },
+    {
+      "falta": "DIE Gate",
+      "plural": "Gaten",
+      "base_tem": "DAS Gate = portão"
+    },
+    {
+      "falta": "DIE Gaudi",
+      "plural": null,
+      "base_tem": "DAS Gaudi = gaudí"
+    },
+    {
+      "falta": "DIE Geisel",
+      "plural": "Geiseln",
+      "base_tem": "DER Geisel = refém"
+    },
+    {
+      "falta": "DIE Genüge",
+      "plural": null,
+      "base_tem": "DAS Genüge = suficiente"
+    },
+    {
+      "falta": "DIE Gest",
+      "plural": null,
+      "base_tem": "DER Gest = gesto"
+    },
+    {
+      "falta": "DIE Gift",
+      "plural": "Giften",
+      "base_tem": "DAS Gift = veneno"
+    },
+    {
+      "falta": "DIE Gig",
+      "plural": "Gigs",
+      "base_tem": "DAS Gig = show"
+    },
+    {
+      "falta": "DIE Green-Fee",
+      "plural": "Green-Fees",
+      "base_tem": "DAS Green-Fee = taxa verde"
+    },
+    {
+      "falta": "DIE Grüne",
+      "plural": null,
+      "base_tem": "DAS Grüne = verdes"
+    },
+    {
+      "falta": "DIE Gun",
+      "plural": "Guns",
+      "base_tem": "DAS Gun = pistola"
+    },
+    {
+      "falta": "DIE Haft",
+      "plural": null,
+      "base_tem": "DER Haft = detenção"
+    },
+    {
+      "falta": "DIE Hall",
+      "plural": "Halls",
+      "base_tem": "DER Hall = salão"
+    },
+    {
+      "falta": "DIE Havanna",
+      "plural": "Havannas",
+      "base_tem": "DER Havanna = havana"
+    },
+    {
+      "falta": "DIE Hebamme",
+      "plural": "Hebammen",
+      "base_tem": "DER Hebamme = parteira"
+    },
+    {
+      "falta": "DIE Hefe",
+      "plural": "Hefen",
+      "base_tem": "DAS Hefe = levedura"
+    },
+    {
+      "falta": "DIE Heide",
+      "plural": "Heiden",
+      "base_tem": "DER Heide = pagão"
+    },
+    {
+      "falta": "DIE Heroin",
+      "plural": "Heroinnen",
+      "base_tem": "DAS Heroin = heroína"
+    },
+    {
+      "falta": "DIE Hesse",
+      "plural": "Hessen",
+      "base_tem": "DER Hesse = hesse"
+    },
+    {
+      "falta": "DIE Hightech",
+      "plural": null,
+      "base_tem": "DAS Hightech = alta tecnologia"
+    },
+    {
+      "falta": "DIE Hindu",
+      "plural": "Hindu",
+      "base_tem": "DER Hindu = hindu"
+    },
+    {
+      "falta": "DIE Hisbollah",
+      "plural": null,
+      "base_tem": "DER Hisbollah = hezbolá"
+    },
+    {
+      "falta": "DIE Hundert",
+      "plural": null,
+      "base_tem": "DAS Hundert = centenas"
+    },
+    {
+      "falta": "DIE Hut",
+      "plural": "Huten",
+      "base_tem": "DER Hut = chapéu"
+    },
+    {
+      "falta": "DIE Hybride",
+      "plural": "Hybriden",
+      "base_tem": "DER Hybride = híbrido"
+    },
+    {
+      "falta": "DIE Info",
+      "plural": "Infos",
+      "base_tem": "DAS Info = informações"
+    },
+    {
+      "falta": "DIE Inka",
+      "plural": "Inka",
+      "base_tem": "DER Inka = inca"
+    },
+    {
+      "falta": "DIE Israeli",
+      "plural": "Israeli",
+      "base_tem": "DER Israeli = israelense"
+    },
+    {
+      "falta": "DIE Jade",
+      "plural": "Jaden",
+      "base_tem": "DER Jade = jade"
+    },
+    {
+      "falta": "DIE Jam",
+      "plural": "Jams",
+      "base_tem": "DAS Jam = geléia"
+    },
+    {
+      "falta": "DIE Joghurt",
+      "plural": "Joghurts",
+      "base_tem": "DAS Joghurt = iogurte"
+    },
+    {
+      "falta": "DIE Jus",
+      "plural": null,
+      "base_tem": "DAS Jus = apenas"
+    },
+    {
+      "falta": "DIE Kanon",
+      "plural": null,
+      "base_tem": "DER Kanon = cânone"
+    },
+    {
+      "falta": "DIE Kiefer",
+      "plural": "Kiefern",
+      "base_tem": "DER Kiefer = mandíbula"
+    },
+    {
+      "falta": "DIE Kiste",
+      "plural": "Kisten",
+      "base_tem": "DER Kiste = caixa"
+    },
+    {
+      "falta": "DIE Kiwi",
+      "plural": "Kiwis",
+      "base_tem": "DER Kiwi = kiwi"
+    },
+    {
+      "falta": "DIE Koma",
+      "plural": "Komas",
+      "base_tem": "DAS Koma = coma"
+    },
+    {
+      "falta": "DIE Kombi",
+      "plural": "Kombis",
+      "base_tem": "DER Kombi = perua"
+    },
+    {
+      "falta": "DIE Koppel",
+      "plural": "Koppeln",
+      "base_tem": "DAS Koppel = paddock"
+    },
+    {
+      "falta": "DIE Korpus",
+      "plural": null,
+      "base_tem": "DAS Korpus = corpus"
+    },
+    {
+      "falta": "DIE Kunde",
+      "plural": "Kunden",
+      "base_tem": "DER Kunde = cliente"
+    },
+    {
+      "falta": "DIE Lake",
+      "plural": "Laken",
+      "base_tem": "DER Lake = lago"
+    },
+    {
+      "falta": "DIE Laube",
+      "plural": "Lauben",
+      "base_tem": "DER Laube = mandril"
+    },
+    {
+      "falta": "DIE Lee",
+      "plural": null,
+      "base_tem": "DAS Lee = sotavento"
+    },
+    {
+      "falta": "DIE Leiter",
+      "plural": "Leitern",
+      "base_tem": "DER Leiter = diretor"
+    },
+    {
+      "falta": "DIE Limo",
+      "plural": "Limos",
+      "base_tem": "DAS Limo = limusine"
+    },
+    {
+      "falta": "DIE Long-COVID",
+      "plural": null,
+      "base_tem": "DAS Long-COVID = covid longo"
+    },
+    {
+      "falta": "DIE Machete",
+      "plural": "Macheten",
+      "base_tem": "DER Machete = facão"
+    },
+    {
+      "falta": "DIE Mail",
+      "plural": "Mails",
+      "base_tem": "DAS Mail = e-mail"
+    },
+    {
+      "falta": "DIE Mangel",
+      "plural": "Mangeln",
+      "base_tem": "DER Mangel = falta"
+    },
+    {
+      "falta": "DIE Mare",
+      "plural": null,
+      "base_tem": "DAS Mare = égua"
+    },
+    {
+      "falta": "DIE Mark",
+      "plural": "Mark",
+      "base_tem": "DAS Mark = marca"
+    },
+    {
+      "falta": "DIE Mast",
+      "plural": "Masten",
+      "base_tem": "DER Mast = mastro"
+    },
+    {
+      "falta": "DIE Mate",
+      "plural": "Maten",
+      "base_tem": "DER Mate = amigo"
+    },
+    {
+      "falta": "DIE Matte",
+      "plural": "Matten",
+      "base_tem": "DAS Matte = esteira"
+    },
+    {
+      "falta": "DIE Maya",
+      "plural": null,
+      "base_tem": "DER Maya = maia"
+    },
+    {
+      "falta": "DIE Maß",
+      "plural": "Maß",
+      "base_tem": "DAS Maß = dimensão"
+    },
+    {
+      "falta": "DIE Memphis",
+      "plural": null,
+      "base_tem": "DER Memphis = mênfis"
+    },
+    {
+      "falta": "DIE Mittel",
+      "plural": null,
+      "base_tem": "DAS Mittel = médio"
+    },
+    {
+      "falta": "DIE Mod",
+      "plural": "Mods",
+      "base_tem": "DER Mod = modo"
+    },
+    {
+      "falta": "DIE Mosaik",
+      "plural": "Mosaiken",
+      "base_tem": "DAS Mosaik = mosaico"
+    },
+    {
+      "falta": "DIE Mund",
+      "plural": null,
+      "base_tem": "DER Mund = boca"
+    },
+    {
+      "falta": "DIE Mystery",
+      "plural": "Mysterys",
+      "base_tem": "DAS Mystery = mistérios"
+    },
+    {
+      "falta": "DIE Neffe",
+      "plural": "Neffen",
+      "base_tem": "DER Neffe = sobrinho"
+    },
+    {
+      "falta": "DIE Null",
+      "plural": "Nullen",
+      "base_tem": "DAS Null = zero"
+    },
+    {
+      "falta": "DIE Nutella",
+      "plural": null,
+      "base_tem": "DAS Nutella = nutela"
+    },
+    {
+      "falta": "DIE Orange",
+      "plural": "Orangen",
+      "base_tem": "DAS Orange = laranja"
+    },
+    {
+      "falta": "DIE Otter",
+      "plural": "Ottern",
+      "base_tem": "DER Otter = lontra"
+    },
+    {
+      "falta": "DIE Pad",
+      "plural": "Pads",
+      "base_tem": "DAS Pad = almofada"
+    },
+    {
+      "falta": "DIE Papa",
+      "plural": null,
+      "base_tem": "DER Papa = papai"
+    },
+    {
+      "falta": "DIE Paprika",
+      "plural": "Paprika",
+      "base_tem": "DER Paprika = páprica"
+    },
+    {
+      "falta": "DIE Partikel",
+      "plural": "Partikeln",
+      "base_tem": "DAS Partikel = partículas"
+    },
+    {
+      "falta": "DIE Pauschale",
+      "plural": "Pauschalen",
+      "base_tem": "DAS Pauschale = taxa fixa"
+    },
+    {
+      "falta": "DIE Perl",
+      "plural": null,
+      "base_tem": "DAS Perl = pérola"
+    },
+    {
+      "falta": "DIE Pier",
+      "plural": "Piers",
+      "base_tem": "DER Pier = cais"
+    },
+    {
+      "falta": "DIE Plastik",
+      "plural": "Plastiken",
+      "base_tem": "DAS Plastik = plástico"
+    },
+    {
+      "falta": "DIE Preview",
+      "plural": "Previews",
+      "base_tem": "DAS Preview = visualização"
+    },
+    {
+      "falta": "DIE Prison",
+      "plural": "Prisons",
+      "base_tem": "DAS Prison = prisão"
+    },
+    {
+      "falta": "DIE Promi",
+      "plural": "Promis",
+      "base_tem": "DER Promi = celebridade"
+    },
+    {
+      "falta": "DIE Präses",
+      "plural": "Präsides",
+      "base_tem": "DER Präses = presidente"
+    },
+    {
+      "falta": "DIE Pudel",
+      "plural": "Pudeln",
+      "base_tem": "DER Pudel = poodle"
+    },
+    {
+      "falta": "DIE Puls",
+      "plural": null,
+      "base_tem": "DER Puls = pulso"
+    },
+    {
+      "falta": "DIE Python",
+      "plural": "Pythons",
+      "base_tem": "DAS Python = píton"
+    },
+    {
+      "falta": "DIE Rallye",
+      "plural": "Rallyes",
+      "base_tem": "DAS Rallye = corrida"
+    },
+    {
+      "falta": "DIE Range",
+      "plural": "Rangen",
+      "base_tem": "DER Range = faixa"
+    },
+    {
+      "falta": "DIE Rechtsaußen",
+      "plural": "Rechtsaußen",
+      "base_tem": "DER Rechtsaußen = extremo direito"
+    },
+    {
+      "falta": "DIE Regensburger",
+      "plural": "Regensburger",
+      "base_tem": "DER Regensburger = ratisbona"
+    },
+    {
+      "falta": "DIE Reiter",
+      "plural": "Reitern",
+      "base_tem": "DER Reiter = equestre"
+    },
+    {
+      "falta": "DIE Review",
+      "plural": "Reviews",
+      "base_tem": "DAS Review = análise"
+    },
+    {
+      "falta": "DIE Ried",
+      "plural": "Rieden",
+      "base_tem": "DAS Ried = junco"
+    },
+    {
+      "falta": "DIE Riese",
+      "plural": "Riesen",
+      "base_tem": "DER Riese = gigante"
+    },
+    {
+      "falta": "DIE Robot",
+      "plural": "Roboten",
+      "base_tem": "DER Robot = robô"
+    },
+    {
+      "falta": "DIE Rollo",
+      "plural": "Rollos",
+      "base_tem": "DAS Rollo = rolo"
+    },
+    {
+      "falta": "DIE Salami",
+      "plural": "Salami",
+      "base_tem": "DER Salami = salame"
+    },
+    {
+      "falta": "DIE Samba",
+      "plural": "Sambas",
+      "base_tem": "DER Samba = samba"
+    },
+    {
+      "falta": "DIE Schneid",
+      "plural": null,
+      "base_tem": "DER Schneid = corte"
+    },
+    {
+      "falta": "DIE Schotte",
+      "plural": "Schotten",
+      "base_tem": "DER Schotte = escocês"
+    },
+    {
+      "falta": "DIE Schwarzwälder",
+      "plural": "Schwarzwälder",
+      "base_tem": "DER Schwarzwälder = floresta negra"
+    },
+    {
+      "falta": "DIE See",
+      "plural": "Seen",
+      "base_tem": "DER See = lago"
+    },
+    {
+      "falta": "DIE Sellerie",
+      "plural": "Selleries",
+      "base_tem": "DER Sellerie = salsão"
+    },
+    {
+      "falta": "DIE Serge",
+      "plural": "Sergen",
+      "base_tem": "DER Serge = sarja"
+    },
+    {
+      "falta": "DIE Sie",
+      "plural": "Sie",
+      "base_tem": "DER Sie = ela"
+    },
+    {
+      "falta": "DIE Sieben",
+      "plural": "Siebenen",
+      "base_tem": "DAS Sieben = sete"
+    },
+    {
+      "falta": "DIE Siebziger",
+      "plural": "Siebziger",
+      "base_tem": "DER Siebziger = anos setenta"
+    },
+    {
+      "falta": "DIE Single",
+      "plural": "Singles",
+      "base_tem": "DAS Single = solteiro"
+    },
+    {
+      "falta": "DIE Soda",
+      "plural": null,
+      "base_tem": "DAS Soda = refrigerante"
+    },
+    {
+      "falta": "DIE Soja",
+      "plural": "Sojen",
+      "base_tem": "DAS Soja = soja"
+    },
+    {
+      "falta": "DIE Sone",
+      "plural": "Sone",
+      "base_tem": "DAS Sone = sono"
+    },
+    {
+      "falta": "DIE Sowieso",
+      "plural": "Sowiesos",
+      "base_tem": "DER Sowieso = de qualquer forma"
+    },
+    {
+      "falta": "DIE Spam",
+      "plural": "Spams",
+      "base_tem": "DAS Spam = spam"
+    },
+    {
+      "falta": "DIE Specht",
+      "plural": null,
+      "base_tem": "DER Specht = pica-pau"
+    },
+    {
+      "falta": "DIE Staffel",
+      "plural": "Staffeln",
+      "base_tem": "DER Staffel = esquadrão"
+    },
+    {
+      "falta": "DIE Stage",
+      "plural": "Stages",
+      "base_tem": "DER Stage = estágio"
+    },
+    {
+      "falta": "DIE Stift",
+      "plural": "Stiften",
+      "base_tem": "DAS Stift = caneta"
+    },
+    {
+      "falta": "DIE Tausend",
+      "plural": "Tausenden",
+      "base_tem": "DAS Tausend = mil"
+    },
+    {
+      "falta": "DIE Thai",
+      "plural": "Thai",
+      "base_tem": "DER Thai = tailandês"
+    },
+    {
+      "falta": "DIE Thüringer",
+      "plural": "Thüringer",
+      "base_tem": "DER Thüringer = turíngia"
+    },
+    {
+      "falta": "DIE Tiroler",
+      "plural": null,
+      "base_tem": "DER Tiroler = tirolês"
+    },
+    {
+      "falta": "DIE Tram",
+      "plural": "Trams",
+      "base_tem": "DAS Tram = bonde"
+    },
+    {
+      "falta": "DIE Transgender",
+      "plural": "Transgender",
+      "base_tem": "DER Transgender = transgênero"
+    },
+    {
+      "falta": "DIE Trasse",
+      "plural": "Trassen",
+      "base_tem": "DAS Trasse = rota"
+    },
+    {
+      "falta": "DIE Tsunami",
+      "plural": "Tsunamis",
+      "base_tem": "DER Tsunami = tsunami"
+    },
+    {
+      "falta": "DIE Type",
+      "plural": "Typen",
+      "base_tem": "DER Type = tipo"
+    },
+    {
+      "falta": "DIE Uni",
+      "plural": "Unis",
+      "base_tem": "DAS Uni = universidade"
+    },
+    {
+      "falta": "DIE Vesper",
+      "plural": "Vespern",
+      "base_tem": "DAS Vesper = vésperas"
+    },
+    {
+      "falta": "DIE Viertel",
+      "plural": "Viertel",
+      "base_tem": "DAS Viertel = trimestre"
+    },
+    {
+      "falta": "DIE Wehe",
+      "plural": "Wehen",
+      "base_tem": "DAS Wehe = contração (de parto)"
+    },
+    {
+      "falta": "DIE Wehr",
+      "plural": "Wehren",
+      "base_tem": "DAS Wehr = açude"
+    },
+    {
+      "falta": "DIE Werd",
+      "plural": "Werde",
+      "base_tem": "DAS Werd = vai"
+    },
+    {
+      "falta": "DIE Wiener",
+      "plural": "Wiener",
+      "base_tem": "DER Wiener = vienense"
+    },
+    {
+      "falta": "DIE Zehner",
+      "plural": "Zehner",
+      "base_tem": "DER Zehner = dezenas"
+    },
+    {
+      "falta": "DIE Zehntausend",
+      "plural": "Zehntausenden",
+      "base_tem": "DAS Zehntausend = dez mil"
+    },
+    {
+      "falta": "DIE Zehntel",
+      "plural": "Zehntel",
+      "base_tem": "DAS Zehntel = décimo"
+    },
+    {
+      "falta": "DIE Zucchini",
+      "plural": "Zucchini",
+      "base_tem": "DER Zucchini = abobrinha"
+    },
+    {
+      "falta": "DIE Zwiebel",
+      "plural": "Zwiebeln",
+      "base_tem": "DER Zwiebel = cebola"
+    }
+  ],
+  "artigo_divergente_da_fonte": [],
+  "artigo_suspeito_por_compostos": [
+    {
+      "palavra": "Ion",
+      "base": "DAS",
+      "compostos_dizem": "DIE",
+      "votos": "211/214",
+      "traducao": "íon",
+      "exemplos": [
+        "Action",
+        "Adaption",
+        "Addition",
+        "Administration"
+      ]
+    },
+    {
+      "palavra": "Schaft",
+      "base": "DER",
+      "compostos_dizem": "DIE",
+      "votos": "51/51",
+      "traducao": "haste",
+      "exemplos": [
+        "Arbeiterschaft",
+        "Bekanntschaft",
+        "Belegschaft",
+        "Bereitschaft"
+      ]
+    },
+    {
+      "palavra": "Tor",
+      "base": "DAS",
+      "compostos_dizem": "DER",
+      "votos": "41/43",
+      "traducao": "meta",
+      "exemplos": [
+        "Administrator",
+        "Castor",
+        "Diktator",
+        "Direktor"
+      ]
+    },
+    {
+      "palavra": "Ale",
+      "base": "DAS",
+      "compostos_dizem": "DIE",
+      "votos": "15/17",
+      "traducao": "cerveja",
+      "exemplos": [
+        "Berlinale",
+        "Biennale",
+        "Diagonale",
+        "Filiale"
+      ]
+    },
+    {
+      "palavra": "Ade",
+      "base": "DAS",
+      "compostos_dizem": "DIE",
+      "votos": "14/15",
+      "traducao": "adeus",
+      "exemplos": [
+        "Ballade",
+        "Blockade",
+        "Brigade",
+        "Dekade"
+      ]
+    },
+    {
+      "palavra": "Sie",
+      "base": "DER",
+      "compostos_dizem": "DIE",
+      "votos": "8/8",
+      "traducao": "ela",
+      "exemplos": [
+        "Anästhesie",
+        "Autopsie",
+        "Bourgeoisie",
+        "Epilepsie"
+      ]
+    },
+    {
+      "palavra": "Samt",
+      "base": "DER",
+      "compostos_dizem": "DAS",
+      "votos": "8/8",
+      "traducao": "veludo",
+      "exemplos": [
+        "Arbeitsamt",
+        "Bezirksamt",
+        "Bundesamt",
+        "Gesundheitsamt"
+      ]
+    },
+    {
+      "palavra": "Gin",
+      "base": "DER",
+      "compostos_dizem": "DIE",
+      "votos": "6/7",
+      "traducao": "gin",
+      "exemplos": [
+        "Herzogin",
+        "Kollegin",
+        "Königin",
+        "Psychologin"
+      ]
+    },
+    {
+      "palavra": "Riff",
+      "base": "DAS",
+      "compostos_dizem": "DER",
+      "votos": "6/6",
+      "traducao": "recife",
+      "exemplos": [
+        "Angriff",
+        "Begriff",
+        "Eingriff",
+        "Inbegriff"
+      ]
+    },
+    {
+      "palavra": "Teller",
+      "base": "DAS",
+      "compostos_dizem": "DER",
+      "votos": "6/6",
+      "traducao": "placa",
+      "exemplos": [
+        "Antragsteller",
+        "Aussteller",
+        "Darsteller",
+        "Hersteller"
+      ]
+    },
+    {
+      "palavra": "Ring",
+      "base": "DER",
+      "compostos_dizem": "DAS",
+      "votos": "6/6",
+      "traducao": "anel",
+      "exemplos": [
+        "Bike-Sharing",
+        "Car-Sharing",
+        "Carsharing",
+        "Catering"
+      ]
+    },
+    {
+      "palavra": "Tanz",
+      "base": "DER",
+      "compostos_dizem": "DIE",
+      "votos": "5/5",
+      "traducao": "dança",
+      "exemplos": [
+        "Akzeptanz",
+        "Distanz",
+        "Instanz",
+        "Konstanz"
+      ]
+    },
+    {
+      "palavra": "Aber",
+      "base": "DAS",
+      "compostos_dizem": "DER",
+      "votos": "5/5",
+      "traducao": "mas",
+      "exemplos": [
+        "Befehlshaber",
+        "Inhaber",
+        "Liebhaber",
+        "Machthaber"
+      ]
+    },
+    {
+      "palavra": "Wehr",
+      "base": "DAS",
+      "compostos_dizem": "DIE",
+      "votos": "5/5",
+      "traducao": "açude",
+      "exemplos": [
+        "Bürgerwehr",
+        "Feuerwehr",
+        "Gegenwehr",
+        "Landwehr"
+      ]
+    },
+    {
+      "palavra": "Bot",
+      "base": "DER",
+      "compostos_dizem": "DAS",
+      "votos": "4/4",
+      "traducao": "robô",
+      "exemplos": [
+        "Berufsverbot",
+        "Fahrverbot",
+        "Hausverbot",
+        "Rauchverbot"
+      ]
+    },
+    {
+      "palavra": "Log",
+      "base": "DAS",
+      "compostos_dizem": "DER",
+      "votos": "4/4",
+      "traducao": "registro",
+      "exemplos": [
+        "Dialog",
+        "Katalog",
+        "Monolog",
+        "Prolog"
+      ]
+    }
+  ]
+}

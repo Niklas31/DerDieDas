@@ -50,20 +50,36 @@ def main():
     antes = len(nouns)
     aplicadas, artigos_aplicados, plurais_aplicados = set(), set(), set()
 
+    def procurar(tabela, noun):
+        """Acha a correção para este substantivo, aceitando chave qualificada.
+
+        `"Tag"` vale para todos os sentidos; `"DER|Tag"` vale só para um. Sem isso,
+        corrigir "das Tag = etiqueta" sobrescreveria também "der Tag = dia" — o mesmo
+        erro de chavear pela grafia que criou o problema que estas correções consertam.
+        """
+        qualificada = f"{noun['article']}|{noun['word']}"
+        if qualificada in tabela:
+            return qualificada, tabela[qualificada]
+        if noun['word'] in tabela:
+            return noun['word'], tabela[noun['word']]
+        return None, None
+
     resultado = []
     for noun in nouns:
         word = noun['word']
         if word in removals:
             continue
-        if word in fixes:
-            noun['portugueseTranslation'] = fixes[word]
-            aplicadas.add(word)
+        chave, valor = procurar(fixes, noun)
+        if chave:
+            noun['portugueseTranslation'] = valor
+            aplicadas.add(chave)
         if word in article_fixes:
             noun['article'] = article_fixes[word]
             artigos_aplicados.add(word)
-        if word in plural_fixes:
-            noun['plural'] = plural_fixes[word]
-            plurais_aplicados.add(word)
+        chave, valor = procurar(plural_fixes, noun)
+        if chave:
+            noun['plural'] = valor
+            plurais_aplicados.add(chave)
         resultado.append(noun)
 
     # A identidade é ARTIGO|palavra, então um "der Tag" convive com o "das Tag".

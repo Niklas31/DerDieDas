@@ -1538,7 +1538,7 @@
   {
     "article": "DAS",
     "word": "Alien",
-    "portugueseTranslation": "estrangeiro",
+    "portugueseTranslation": "alienígena / extraterrestre",
     "plural": "Aliens"
   },
   {
@@ -1722,12 +1722,6 @@
     "plural": null
   },
   {
-    "article": "DAS",
-    "word": "Alt",
-    "portugueseTranslation": "velho",
-    "plural": null
-  },
-  {
     "article": "DER",
     "word": "Altbau",
     "portugueseTranslation": "prédio antigo",
@@ -1766,7 +1760,7 @@
   {
     "article": "DAS",
     "word": "Alter",
-    "portugueseTranslation": "velho",
+    "portugueseTranslation": "idade",
     "plural": "Alter"
   },
   {
@@ -4004,7 +3998,7 @@
   {
     "article": "DAS",
     "word": "Au-pair",
-    "portugueseTranslation": "par austral",
+    "portugueseTranslation": "au pair",
     "plural": "Au-pairs"
   },
   {
@@ -8812,12 +8806,6 @@
     "word": "Blamage",
     "portugueseTranslation": "embaraço",
     "plural": "Blamagen"
-  },
-  {
-    "article": "DAS",
-    "word": "Blank",
-    "portugueseTranslation": "em branco",
-    "plural": "Blanks"
   },
   {
     "article": "DIE",

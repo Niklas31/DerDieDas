@@ -40,14 +40,19 @@
     "Weg": "caminho",
     "Sage": "lenda / saga",
     "Gift": "veneno",
-    "Tag": "etiqueta / marcador",
     "_comentario_homonimos": "A deduplicação da lista de origem fundiu homônimos de gêneros diferentes num registro só, misturando artigo de um sentido com plural e tradução de outro. Corrigidos para o sentido mais comum.",
     "Ort": "lugar / local",
     "Bruch": "fratura / quebra",
     "Rolle": "papel / rolo",
     "Wende": "virada / mudança",
     "Band": "fita / laço",
-    "Bauer": "agricultor / camponês"
+    "Bauer": "agricultor / camponês",
+    "Alter": "idade",
+    "Au-pair": "au pair",
+    "Alien": "alienígena / extraterrestre",
+    "DAS|Tag": "etiqueta / marcador",
+    "DER|Tag": "dia",
+    "_comentario_chave_qualificada": "Chave pode ser só a grafia ('Rock') ou qualificada por artigo ('DER|Tag'). Use a qualificada quando a grafia tiver mais de um sentido, senão a correção de um sobrescreve o outro."
   },
   "fix_article": {
     "_doc": "O artigo também erra na lista de origem. O plural denuncia: Moden é plural de die Mode, não de der Mode.",
@@ -458,7 +463,9 @@
       "Imago",
       "Corpus",
       "Causa",
-      "Dominante"
+      "Dominante",
+      "Alt",
+      "Blank"
     ],
     "explicito": [
       "Analsex",

@@ -89,7 +89,7 @@ Essa lista foi curada num script em Python (Google Colab):
    e aplicada por `tools/apply-corrections.py`: corrige traduções erradas e remove nomes próprios,
    marcas e siglas. Os reportes que chegam pelo botão do app entram nesse mesmo arquivo.
 
-O resultado — **11.696 substantivos, todos com tradução** — vive em `docs/data/GermanNouns.json`. Cada item é identificado por `ARTIGO|palavra`, chave usada para persistir estatísticas, histórico e traduções sob demanda.
+O resultado — **11.694 substantivos, todos com tradução** — vive em `docs/data/GermanNouns.json`. Cada item é identificado por `ARTIGO|palavra`, chave usada para persistir estatísticas, histórico e traduções sob demanda.
 
 Busca, treino e artigos funcionam offline. A tradução nativa da Apple roda no dispositivo, pode pedir download de modelos na primeira vez e não funciona no simulador.
 
@@ -132,14 +132,29 @@ diferentes: `der Tag` (dia) e `das Tag` (o *tag* do inglês), `die Rolle` (papel
 colidiam, sobrava um registro só — às vezes com o artigo de um, o plural de outro e a
 tradução de um terceiro.
 
-A auditoria em `tools/` usa os **compostos como votação**: em alemão o composto herda o
-artigo do último elemento, então 27 compostos em `-tag` marcados DER provam que `Tag` é
-DER. Foi assim que apareceram `Fall`, `Ort`, `Bereich`, `Bruch`, `Rolle`, `Wende`,
-`Steuer`, `Kiefer`, `Bauer` e `Moment` com artigo errado — num app que ensina artigos,
-o pior defeito possível.
+`tools/audit-base.py` procura esses casos de três jeitos e **não altera nada** — só
+aponta candidatos, porque a decisão é humana:
 
-**Não foi uma varredura completa.** O método só enxerga palavras que aparecem como núcleo
-de compostos, e o teste exige pelo menos quatro compostos concordando. Palavras isoladas
-passam batido. A correção de raiz é regerar a base do `german-nouns` usando
-`(artigo, palavra)` como chave em vez de só a palavra — aí nenhum sentido é engolido.
-Até lá, os reportes que chegam pelo botão do app cobrem o resto.
+1. **Sentidos ausentes**: compara com o `german-nouns` e lista os gêneros que a base não tem.
+2. **Artigo divergente**: quando a fonte conhece um gênero só e não é o da base.
+3. **Votação pelos compostos**: em alemão o composto herda o artigo do último elemento,
+   então 27 compostos em `-tag` marcados DER provam que `Tag` é DER.
+
+Foi a votação que revelou `Fall`, `Ort`, `Bereich`, `Bruch`, `Rolle`, `Wende`, `Steuer`,
+`Kiefer`, `Bauer` e `Moment` com artigo errado — num app que ensina artigos, o pior
+defeito possível.
+
+```bash
+python3 -m venv .venv && .venv/bin/pip install german-nouns && .venv/bin/python tools/audit-base.py
+```
+
+**Regerar a base inteira do `german-nouns` foi testado e descartado.** O corte de
+frequência sozinho deixa passar 2.733 entradas que os regex do Colab filtravam —
+locuções (`Platz der Vereinten Nationen`), sufixos soltos (`-ung`), fragmentos
+(`DAS Gif`) —, e 2.231 delas viriam sem tradução. Adicionar em bloco todos os gêneros
+que a fonte conhece seria pior ainda: ela registra variantes raras (`das Bereich`,
+`das Kiefer`) ao lado das corretas, e o app passaria a ensinar que ambas valem.
+
+A varredura não é completa: a votação só enxerga palavras que são núcleo de compostos, e
+exige quatro concordando para não gerar falso positivo — `Akzeptanz` termina em "tanz"
+sem ser composto de `Tanz`. O resto depende dos reportes que chegam pelo botão do app.

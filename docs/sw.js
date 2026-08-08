@@ -10,7 +10,7 @@
 // visitaram o site continuarão servindo a versão antiga do cache.
 
 // <<<GENERATED>>>
-const CACHE = 'ddd-71f5ef6d2400';
+const CACHE = 'ddd-f8f07d62876b';
 const ASSETS = [
   './',
   './css/app.css',
