@@ -28,8 +28,7 @@ Estado em 8 de agosto de 2026, com a conta de developer recém-contratada e agua
 - [x] **Apple Watch**: app instalado e rodando no relógio físico; capturas em 416×496
 - [x] **Vision Pro**: roda no simulador; captura em 3840×2160 em `capturas/visionos/`
 - [x] **Mac**: escolhido o build Catalyst, com o App Sandbox que a Mac App Store exige
-- [ ] **Capturas do Mac** — o app Catalyst roda, mas capturar exige permissão de Gravação
-      de Tela. Abra o app e capture com `⌘⇧4` + espaço (1280×800 ou 2560×1600).
+- [x] **Capturas do Mac**: em `capturas/mac/`, recompostas para 2560×1600
 
 ## Depende da Apple aprovar sua conta
 

@@ -8,7 +8,7 @@ Estado em 8 de agosto de 2026.
 | iPad | ✅ | ✅ simulador | ✅ 2064×2752 |
 | Apple Watch | ✅ | ✅ **relógio físico** | ✅ 416×496 |
 | Apple Vision Pro | ✅ | ✅ simulador | ✅ 3840×2160 |
-| Mac (Catalyst) | ✅ | ✅ abriu no Mac | ❌ faltam |
+| Mac (Catalyst) | ✅ | ✅ abriu no Mac | ✅ 2560×1600 |
 | Apple TV | ❌ | — | — |
 
 ## O que foi preciso mudar
@@ -50,15 +50,21 @@ Além disso:
 | `iphone-6.9/` | 1320×2868 | simulador do iPhone 17 Pro Max |
 | `ipad-13/` | 2064×2752 | simulador do iPad Pro 13" (M5) |
 | `visionos/` | 3840×2160 | simulador do Apple Vision Pro |
+| `mac/` | 2560×1600 | app Catalyst no Mac |
 | Apple Watch | 416×496 | Apple Watch Series 11 de 46 mm, aparelho físico |
 
 As capturas do Watch vieram do relógio de verdade (botão lateral + coroa). Mantenha os
 arquivos originais: qualquer app que recomprima muda o tamanho e o upload é recusado.
 
-**Faltam as do Mac.** O app Catalyst roda, mas não consigo capturá-lo — `screencapture`
-exige permissão de Gravação de Tela e o AppleScript exige Automação, ajustes de segurança
-do sistema. Abra o app, ajuste a janela e capture com `⌘⇧4` + espaço; a App Store aceita
-1280×800 ou 2560×1600.
+As do Mac vieram de capturas de janela (`⌘⇧4` + espaço), que saem no tamanho da janela —
+1136×880 no caso. **A App Store só aceita 1280×800, 1440×900, 2560×1600 ou 2880×1800** e
+recusa o envio fora disso, então elas foram ampliadas e centralizadas sobre o lilás da
+marca até 2560×1600. Para refazer:
+
+```bash
+sips --resampleWidth 1700 entrada.png --out saida.png
+sips --padToHeightWidth 1600 2560 --padColor D9CAFA saida.png --out saida.png
+```
 
 ## Apple TV: não recomendo
 
