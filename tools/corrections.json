@@ -31,7 +31,20 @@
     "Döner": "doner kebab",
     "Nackter": "homem nu",
     "Hattrick": "hat-trick (três gols)",
-    "Guinness-Buch": "livro dos recordes"
+    "Guinness-Buch": "livro dos recordes",
+    "_comentario_homografos": "Palavras alemãs homógrafas de palavras inglesas: o pivô alemão->inglês->português traduziu o sentido inglês. O plural da própria base denuncia cada caso.",
+    "First": "cumeeira (do telhado)",
+    "Most": "mosto",
+    "Rock": "saia",
+    "Dose": "lata",
+    "Weg": "caminho",
+    "Sage": "lenda / saga",
+    "Gift": "veneno",
+    "Tag": "etiqueta / marcador"
+  },
+  "fix_article": {
+    "_doc": "O artigo também erra na lista de origem. O plural denuncia: Moden é plural de die Mode, não de der Mode.",
+    "Mode": "DIE"
   },
   "remove": {
     "_doc": "Nomes próprios, marcas, lugares, siglas e palavras que não são substantivos comuns — passaram pelo filtro de frequência porque são comuns em texto alemão, mas não servem para aprender vocabulário. 'explicito' segue um critério: sai o registro pornográfico, de sexo comercial e de palavrão/insulto, que não é vocabulário A1-B1 e forçaria classificação 12+ na App Store; fica o vocabulário clínico, anatômico e de identidade (Penis, Vagina, Kondom, Homosexualität), que qualquer dicionário tem e é apropriado para 4+.",
