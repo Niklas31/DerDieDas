@@ -29,6 +29,38 @@ final class AppStore: ObservableObject {
         self.nounStats = Self.load([NounPracticeStats].self, key: statsKey) ?? []
         self.cachedTranslations = Self.load([String: String].self, key: translationsKey) ?? [:]
         loadDailyViews()
+        discardOrphanedRecords()
+    }
+
+    /// Descarta registros presos a identificadores que não existem mais.
+    ///
+    /// A identidade do substantivo passou de UUID para `ARTIGO|palavra`. Registros
+    /// gravados pelo esquema antigo continuam decodificando — um UUID vira String sem
+    /// erro —, mas nunca mais casam com palavra nenhuma. Sem esta limpeza eles ficariam
+    /// congelados nas estatísticas para sempre, e praticar a mesma palavra criaria uma
+    /// segunda entrada começando do zero: na prática, parece que o app parou de contar.
+    ///
+    /// Também cobre as palavras removidas da base na revisão das traduções.
+    private func discardOrphanedRecords() {
+        let validIDs = Set(nouns.map(\.id))
+
+        let previousStats = nounStats.count
+        nounStats.removeAll { !validIDs.contains($0.nounID) }
+        if nounStats.count != previousStats { save(nounStats, key: statsKey) }
+
+        let previousTranslations = cachedTranslations.count
+        cachedTranslations = cachedTranslations.filter { validIDs.contains($0.key) }
+        if cachedTranslations.count != previousTranslations {
+            save(cachedTranslations, key: translationsKey)
+        }
+
+        let previousHistory = history.count
+        history.removeAll { !validIDs.contains($0.noun.id) }
+        if history.count != previousHistory { save(history, key: historyKey) }
+
+        let previousViews = viewedTodayIDs.count
+        viewedTodayIDs = viewedTodayIDs.filter { validIDs.contains($0) }
+        if viewedTodayIDs.count != previousViews { persistDailyViews() }
     }
 
     // MARK: - Limite diário (plano gratuito)
