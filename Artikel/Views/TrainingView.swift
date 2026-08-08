@@ -103,7 +103,17 @@ struct TrainingView: View {
                 PaywallView()
             }
             .onAppear {
-                if currentNoun == nil && !reachedLimit {
+                // Quem é Pro nunca fica travado, mesmo que tenha batido o limite antes de comprar.
+                if currentNoun == nil && (purchase.isPro || !reachedLimit) {
+                    loadNextNoun()
+                }
+            }
+            .onChange(of: purchase.isPro) { _, isPro in
+                // Ao desbloquear o Pro, retoma o treino na hora: sem isto a tela ficaria
+                // sem palavra até o app ser reaberto, porque reachedLimit continuava true.
+                guard isPro else { return }
+                reachedLimit = false
+                if currentNoun == nil {
                     loadNextNoun()
                 }
             }
