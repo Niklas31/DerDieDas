@@ -10,12 +10,18 @@ struct RootTabView: View {
     @State private var selectedTab: AppTab = .search
 
     var body: some View {
+        // A aba de busca que vira campo de texto é exclusiva do iOS; no visionOS
+        // o TabView já é um painel lateral e não tem esse comportamento.
+        #if os(iOS)
         if #available(iOS 26.0, *) {
             tabs
                 .tabViewSearchActivation(.searchTabSelection)
         } else {
             tabs
         }
+        #else
+        tabs
+        #endif
     }
 
     private var tabs: some View {

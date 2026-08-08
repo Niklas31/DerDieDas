@@ -50,7 +50,7 @@ final class PurchaseStore: ObservableObject {
         defer { isPurchasing = false }
 
         do {
-            let result = try await proProduct.purchase()
+            let result = try await startPurchase(of: proProduct)
             switch result {
             case .success(let verification):
                 guard case .verified(let transaction) = verification else {
@@ -72,6 +72,27 @@ final class PurchaseStore: ObservableObject {
             lastError = "A compra falhou. Tente novamente."
             return false
         }
+    }
+
+    /// Dispara a compra.
+    ///
+    /// O visionOS não tem `Product.purchase()`: lá a folha de pagamento precisa ser
+    /// ancorada numa cena, senão o sistema não sabe em qual janela apresentá-la.
+    private func startPurchase(of product: Product) async throws -> Product.PurchaseResult {
+        #if os(visionOS)
+        guard let scene = UIApplication.shared.connectedScenes
+            .first(where: { $0.activationState == .foregroundActive }) ?? UIApplication.shared.connectedScenes.first
+        else {
+            throw PurchaseError.noScene
+        }
+        return try await product.purchase(confirmIn: scene)
+        #else
+        return try await product.purchase()
+        #endif
+    }
+
+    private enum PurchaseError: Error {
+        case noScene
     }
 
     func restore() async {

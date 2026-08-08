@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3707E5942FE47EFC0067E6E0 /* DerDieDas Watch App Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 3707E5762FE47EFB0067E6E0 /* DerDieDas Watch App Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3707E5942FE47EFC0067E6E0 /* DerDieDas Watch App Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 3707E5762FE47EFB0067E6E0 /* DerDieDas Watch App Watch App.app */; platformFilters = (ios, ); settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		3707E59F2FE47F4C0067E6E0 /* GermanNouns.json in Resources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000000F /* GermanNouns.json */; };
 		3707E5A02FE47F8E0067E6E0 /* GermanNoun.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000003 /* GermanNoun.swift */; };
 		3707E5A12FE47FA10067E6E0 /* GermanArticle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000002 /* GermanArticle.swift */; };
@@ -436,16 +436,25 @@
 /* Begin PBXTargetDependency section */
 		3707E5842FE47EFC0067E6E0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
+			platformFilters = (
+				ios,
+			);
 			target = 3707E5752FE47EFB0067E6E0 /* DerDieDas Watch App Watch App */;
 			targetProxy = 3707E5832FE47EFC0067E6E0 /* PBXContainerItemProxy */;
 		};
 		3707E58E2FE47EFC0067E6E0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
+			platformFilters = (
+				ios,
+			);
 			target = 3707E5752FE47EFB0067E6E0 /* DerDieDas Watch App Watch App */;
 			targetProxy = 3707E58D2FE47EFC0067E6E0 /* PBXContainerItemProxy */;
 		};
 		3707E5932FE47EFC0067E6E0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
+			platformFilters = (
+				ios,
+			);
 			target = 3707E5752FE47EFB0067E6E0 /* DerDieDas Watch App Watch App */;
 			targetProxy = 3707E5922FE47EFC0067E6E0 /* PBXContainerItemProxy */;
 		};
@@ -709,7 +718,11 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.nicolas.DerDieDas;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator xros xrsimulator macosx";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				XROS_DEPLOYMENT_TARGET = 26.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
 			};
 			name = Debug;
 		};
@@ -737,7 +750,11 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.nicolas.DerDieDas;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator xros xrsimulator macosx";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				XROS_DEPLOYMENT_TARGET = 26.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
 			};
 			name = Release;
 		};

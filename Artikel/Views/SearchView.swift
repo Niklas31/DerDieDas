@@ -1,5 +1,12 @@
 import SwiftUI
+
+// A tradução sob demanda existe só no iPhone e no iPad: o framework Translation da
+// Apple não existe no visionOS nem no watchOS, e no Mac Catalyst só a partir do
+// macOS 26. Nas outras plataformas o app perde apenas a tradução de palavras fora
+// da base — as 11.695 da base já vêm traduzidas.
+#if os(iOS) && !targetEnvironment(macCatalyst)
 import Translation
+#endif
 
 struct SearchView: View {
     @EnvironmentObject private var store: AppStore
@@ -7,7 +14,9 @@ struct SearchView: View {
     @State private var query: String = ""
     @State private var selectedNoun: GermanNoun?
     @State private var showsTranslation = true
+    #if os(iOS) && !targetEnvironment(macCatalyst)
     @State private var translationConfiguration: TranslationSession.Configuration?
+    #endif
     @State private var translationTarget: GermanNoun?
     @State private var isTranslating = false
     @State private var translationError: String?
@@ -65,6 +74,7 @@ struct SearchView: View {
             .onAppear {
                 selectedNoun = selectedNoun ?? store.nouns.randomElement()
             }
+            #if os(iOS) && !targetEnvironment(macCatalyst)
             .translationTask(translationConfiguration) { session in
                 guard let translationTarget else { return }
 
@@ -78,6 +88,7 @@ struct SearchView: View {
 
                 isTranslating = false
             }
+            #endif
         }
     }
 
@@ -143,6 +154,7 @@ struct SearchView: View {
                             .foregroundStyle(.secondary)
                     }
 
+                    #if os(iOS) && !targetEnvironment(macCatalyst)
                     if noun.portugueseTranslation.isEmpty {
                         Button {
                             translate(noun)
@@ -153,6 +165,7 @@ struct SearchView: View {
                         .disabled(isTranslating)
                         .padding(.top, 8)
                     }
+                    #endif
 
                     if isTranslating, translationTarget?.id == noun.id {
                         ProgressView()
@@ -183,6 +196,7 @@ struct SearchView: View {
         return false
     }
 
+    #if os(iOS) && !targetEnvironment(macCatalyst)
     private func translate(_ noun: GermanNoun) {
         translationTarget = noun
         translationError = nil
@@ -197,6 +211,7 @@ struct SearchView: View {
             translationConfiguration?.invalidate()
         }
     }
+    #endif
 }
 #Preview {
     SearchView()

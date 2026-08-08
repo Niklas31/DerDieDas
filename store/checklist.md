@@ -25,7 +25,10 @@ Estado em 8 de agosto de 2026, com a conta de developer recém-contratada e agua
 
 ## Ainda em aberto
 
-- [ ] **Publicar o app do Apple Watch junto?** Se sim, ele exige as próprias capturas.
+- [ ] **Capturas do Apple Watch** — falta o runtime de simulador (7 GB) ou tirar do relógio físico
+- [ ] **Capturas do Vision Pro** — falta o runtime de simulador (10 GB); só há 13 GB livres
+- [ ] **Mac**: decidir entre publicar o build Catalyst (exige capturas de Mac) ou marcar
+      "Designed for iPad" no App Store Connect, que não exige nada. Ver `plataformas.md`
 
 ## Depende da Apple aprovar sua conta
 
