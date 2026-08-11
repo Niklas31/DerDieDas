@@ -52,7 +52,8 @@ import argparse
 import json
 import os
 import sys
-import time
+import threading
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -192,6 +193,7 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('--lote', type=int, default=40, help='substantivos por chamada')
     ap.add_argument('--max-lotes', type=int, default=0, help='0 = até acabar')
+    ap.add_argument('--paralelo', type=int, default=6, help='chamadas simultâneas')
     ap.add_argument('--amostra', type=int, metavar='N',
                     help='imprime o prompt de N substantivos e sai, sem chamar nada')
     ap.add_argument('--so-faltantes', action='store_true', help='conta e sai')
@@ -219,24 +221,38 @@ def main():
     if args.max_lotes:
         lotes = lotes[:args.max_lotes]
 
-    falhas = 0
-    for numero, lote in enumerate(lotes, 1):
+    # Em série, 293 lotes levariam quase duas horas. Os lotes são independentes por
+    # construção — cada um só depende do seu próprio prompt —, então paralelizar é
+    # seguro. A trava protege só a escrita: gravar a cada lote é o que torna a
+    # interrupção barata, e duas threads gravando ao mesmo tempo corromperiam o arquivo.
+    trava = threading.Lock()
+    concluidos = falhas = 0
+
+    def processar(indice_lote):
+        numero, lote = indice_lote
         try:
-            resposta = validar(chamar_modelo(montar_prompt(lote)), lote)
+            return numero, validar(chamar_modelo(montar_prompt(lote)), lote), None
         except (ValueError, json.JSONDecodeError) as erro:
-            falhas += 1
-            print(f'  lote {numero}/{len(lotes)}: descartado — {erro}')
-            if falhas >= 5:
-                print('! cinco lotes seguidos falharam; parando para não queimar chamadas')
-                break
-            continue
+            return numero, None, erro
 
-        falhas = 0
-        senses.update(resposta)
-        gravar(senses, base)   # a cada lote: interromper aqui não perde trabalho
-        print(f'  lote {numero}/{len(lotes)}: +{len(resposta)}  (total {len(senses)})')
-        time.sleep(0.2)
+    with ThreadPoolExecutor(max_workers=args.paralelo) as executor:
+        futuros = [executor.submit(processar, item) for item in enumerate(lotes, 1)]
+        for futuro in as_completed(futuros):
+            numero, resposta, erro = futuro.result()
+            with trava:
+                if erro is not None:
+                    falhas += 1
+                    print(f'  lote {numero}: descartado — {erro}')
+                    continue
+                falhas = 0
+                concluidos += 1
+                senses.update(resposta)
+                gravar(senses, base)
+                if concluidos % 10 == 0 or concluidos == len(lotes):
+                    print(f'  {concluidos}/{len(lotes)} lotes  ({len(senses)} sentidos)')
 
+    if falhas:
+        print(f'! {falhas} lotes ficaram de fora; rode de novo para pegar só eles')
     gravar(senses, base)
     print(f'\ntools/senses.json com {len(senses)}/{base["count"]} sentidos')
     return 0
