@@ -6,14 +6,15 @@ struct HistoryView: View {
     var body: some View {
         NavigationStack {
             List {
-                if store.history.isEmpty {
+                let historico = store.historyEntries
+                if historico.isEmpty {
                     ContentUnavailableView(
                         "Nenhuma busca ainda",
                         systemImage: "clock",
                         description: Text("As palavras buscadas aparecerão aqui.")
                     )
                 } else {
-                    ForEach(store.history) { item in
+                    ForEach(historico) { item in
                         VStack(alignment: .leading, spacing: 5) {
                             Text("\(item.noun.article.rawValue) • \(item.noun.word)")
                                 .font(.headline)

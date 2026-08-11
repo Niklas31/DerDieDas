@@ -7,7 +7,16 @@ struct TrainingView: View {
     @State private var showsTranslation = false
     @State private var currentNoun: GermanNoun?
     @State private var typedAnswer = ""
-    @State private var feedback: String?
+    @State private var feedback: Feedback?
+
+    /// O acerto vem como dado, não como formato do texto.
+    ///
+    /// Antes a cor saía de `feedback.hasPrefix("Correto")` — traduzir a interface teria
+    /// pintado todo acerto de vermelho, e nada no compilador avisaria.
+    private struct Feedback {
+        let text: String
+        let isCorrect: Bool
+    }
     @State private var showsCredits = false
     @State private var showsPaywall = false
     @State private var reachedLimit = false
@@ -18,7 +27,7 @@ struct TrainingView: View {
                 Section {
                     Picker("Modo", selection: $mode) {
                         ForEach(TrainingMode.allCases) { mode in
-                            Text(mode.rawValue).tag(mode)
+                            Text(mode.label).tag(mode)
                         }
                     }
                     Toggle("Mostrar tradução durante o treino", isOn: $showsTranslation)
@@ -36,9 +45,9 @@ struct TrainingView: View {
 
                     if let feedback {
                         Section {
-                            Text(feedback)
+                            Text(feedback.text)
                                 .font(.headline)
-                                .foregroundStyle(feedback.hasPrefix("Correto") ? .green : .red)
+                                .foregroundStyle(feedback.isCorrect ? .green : .red)
                         }
                     }
 
@@ -199,7 +208,10 @@ struct TrainingView: View {
     private func submitArticle(_ article: GermanArticle, for noun: GermanNoun) {
         let isCorrect = article == noun.article
         store.recordPractice(noun: noun, isCorrect: isCorrect)
-        feedback = isCorrect ? "Correto" : "Era \(noun.article.rawValue)"
+        feedback = Feedback(
+            text: isCorrect ? String(localized: "Correto") : String(localized: "Era \(noun.article.rawValue)"),
+            isCorrect: isCorrect
+        )
         loadNextNoun(afterDelay: true)
     }
 
@@ -213,11 +225,17 @@ struct TrainingView: View {
         store.recordPractice(noun: matchingNoun ?? noun, isCorrect: isCorrect)
 
         if let matchingNoun {
-            feedback = isCorrect
-                ? "Correto: \(matchingNoun.article.rawValue) \(matchingNoun.word)"
-                : "\(matchingNoun.word) usa \(matchingNoun.article.rawValue)"
+            feedback = Feedback(
+                text: isCorrect
+                    ? String(localized: "Correto: \(matchingNoun.article.rawValue) \(matchingNoun.word)")
+                    : String(localized: "\(matchingNoun.word) usa \(matchingNoun.article.rawValue)"),
+                isCorrect: isCorrect
+            )
         } else {
-            feedback = "Palavra não encontrada no vocabulário"
+            feedback = Feedback(
+                text: String(localized: "Palavra não encontrada no vocabulário"),
+                isCorrect: false
+            )
         }
 
         loadNextNoun(afterDelay: true)

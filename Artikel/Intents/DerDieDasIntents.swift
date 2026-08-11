@@ -23,7 +23,10 @@ struct LookupNounIntent: AppIntent {
         
         guard !matchesToShow.isEmpty else {
             let dialog = IntentDialog("Não encontrei o artigo para '\(word)'.")
-            return .result(value: "Não encontrado", dialog: dialog)
+            // Vazio, não "Não encontrado": este valor é lido por automações dos Atalhos,
+            // que comparariam com uma frase em português e quebrariam ao traduzir. O texto
+            // que a pessoa ouve continua no diálogo.
+            return .result(value: "", dialog: dialog)
         }
 
         if matchesToShow.count == 1 {

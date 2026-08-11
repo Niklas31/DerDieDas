@@ -7,6 +7,14 @@ final class AppStore: ObservableObject {
 
     @Published private(set) var nouns: [GermanNoun]
     @Published private(set) var history: [SearchHistoryItem]
+
+    /// Índice por `ARTIGO|palavra`. O histórico resolve uma chave por linha exibida, e
+    /// varrer 11.694 substantivos a cada linha custa caro num relógio.
+    private var nounsByID: [String: GermanNoun] = [:]
+
+    /// `true` quando a base empacotada não pôde ser lida e o app está com as palavras
+    /// de emergência. Sem isto a falha se disfarça de "app funcionando com 10 palavras".
+    @Published private(set) var didFailToLoadBase = false
     @Published private(set) var nounStats: [NounPracticeStats]
     @Published private(set) var cachedTranslations: [String: String]
 
@@ -24,12 +32,27 @@ final class AppStore: ObservableObject {
     private var viewedTodayDay = Calendar.current.startOfDay(for: Date())
 
     init() {
-        self.nouns = Self.loadBundledNouns()
-        self.history = Self.load([SearchHistoryItem].self, key: historyKey) ?? []
+        let loaded = Self.loadBundledNouns()
+        self.nouns = loaded.nouns
+        self.didFailToLoadBase = loaded.usedFallback
+        self.history = Self.load(LenientArray<SearchHistoryItem>.self, key: historyKey)?.elements ?? []
         self.nounStats = Self.load([NounPracticeStats].self, key: statsKey) ?? []
         self.cachedTranslations = Self.load([String: String].self, key: translationsKey) ?? [:]
+        self.nounsByID = Dictionary(loaded.nouns.map { ($0.id, $0) }, uniquingKeysWith: { first, _ in first })
         loadDailyViews()
         discardOrphanedRecords()
+    }
+
+    /// O histórico já resolvido contra a base atual.
+    ///
+    /// Chaves que não casam com nada — palavra removida numa revisão da base — somem da
+    /// lista em vez de virar linha vazia. `discardOrphanedRecords` as apaga do disco; isto
+    /// protege a exibição no intervalo.
+    var historyEntries: [HistoryEntry] {
+        history.compactMap { item in
+            guard let noun = nounsByID[item.nounID] else { return nil }
+            return HistoryEntry(id: item.id, noun: noun, searchedAt: item.searchedAt)
+        }
     }
 
     /// Descarta registros presos a identificadores que não existem mais.
@@ -55,7 +78,7 @@ final class AppStore: ObservableObject {
         }
 
         let previousHistory = history.count
-        history.removeAll { !validIDs.contains($0.noun.id) }
+        history.removeAll { !validIDs.contains($0.nounID) }
         if history.count != previousHistory { save(history, key: historyKey) }
 
         let previousViews = viewedTodayIDs.count
@@ -200,7 +223,7 @@ final class AppStore: ObservableObject {
     }
 
     func noun(for id: String) -> GermanNoun? {
-        nouns.first { $0.id == id }
+        nounsByID[id]
     }
 
     func translation(for noun: GermanNoun) -> String? {
@@ -224,23 +247,90 @@ final class AppStore: ObservableObject {
         defaults.set(data, forKey: key)
     }
 
+    /// Array que descarta o elemento ilegível em vez de se perder inteiro.
+    ///
+    /// `JSONDecoder().decode([T].self, …)` é tudo ou nada: um registro estragado no meio
+    /// leva junto os outros 49. Para o histórico, perder uma linha é aceitável; perder a
+    /// lista não é.
+    private struct LenientArray<Element: Decodable>: Decodable {
+        let elements: [Element]
+
+        /// Consome uma posição sem interpretá-la, para o cursor avançar.
+        private struct Skip: Decodable {
+            init(from decoder: Decoder) throws {
+                _ = try? decoder.singleValueContainer()
+            }
+        }
+
+        init(from decoder: Decoder) throws {
+            var container = try decoder.unkeyedContainer()
+            var result: [Element] = []
+            while !container.isAtEnd {
+                let before = container.currentIndex
+                if let element = try? container.decode(Element.self) {
+                    result.append(element)
+                } else {
+                    _ = try? container.decode(Skip.self)
+                }
+                // Se nenhum dos dois avançou, o laço giraria para sempre.
+                if container.currentIndex == before { break }
+            }
+            elements = result
+        }
+    }
+
+    /// Lê um valor gravado, e **preserva os bytes quando não consegue**.
+    ///
+    /// Antes isto era `try?` puro: um formato que mudasse virava `nil`, o chamador
+    /// assumia `[]`, e a primeira gravação seguinte apagava o original para sempre.
+    /// A cópia em `<chave>.salvage` transforma perda definitiva em coisa recuperável.
     private static func load<T: Decodable>(_ type: T.Type, key: String) -> T? {
         guard let data = UserDefaults.standard.data(forKey: key) else { return nil }
-        return try? JSONDecoder().decode(type, from: data)
+        do {
+            return try JSONDecoder().decode(type, from: data)
+        } catch {
+            let salvageKey = "\(key).salvage"
+            if UserDefaults.standard.data(forKey: salvageKey) == nil {
+                UserDefaults.standard.set(data, forKey: salvageKey)
+            }
+            assertionFailure("Falha ao decodificar \(key): \(error). Bytes salvos em \(salvageKey).")
+            return nil
+        }
     }
 }
 
 private extension AppStore {
-    static func loadBundledNouns() -> [GermanNoun] {
-        guard
-            let url = Bundle.main.url(forResource: "GermanNouns", withExtension: "json"),
-            let data = try? Data(contentsOf: url),
-            let nouns = try? JSONDecoder().decode([GermanNoun].self, from: data)
-        else {
-            return seedNouns
+    struct BundledNouns {
+        let nouns: [GermanNoun]
+        /// `true` quando caiu nas dez palavras de emergência.
+        let usedFallback: Bool
+    }
+
+    /// Carrega a base empacotada, **reclamando alto** se não conseguir.
+    ///
+    /// A falha aqui é traiçoeira: o app abre, funciona e tem dez palavras. Sem um sinal,
+    /// isso passa por bug de conteúdo em vez de falha de carregamento — e é exatamente o
+    /// que uma mudança de formato provoca.
+    static func loadBundledNouns() -> BundledNouns {
+        guard let url = Bundle.main.url(forResource: "GermanNouns", withExtension: "json") else {
+            assertionFailure("GermanNouns.json não está no bundle.")
+            return BundledNouns(nouns: seedNouns, usedFallback: true)
         }
 
-        return nouns.sorted { lhs, rhs in
+        let nouns: [GermanNoun]
+        do {
+            nouns = try JSONDecoder().decode([GermanNoun].self, from: Data(contentsOf: url))
+        } catch {
+            assertionFailure("GermanNouns.json não pôde ser lido: \(error)")
+            return BundledNouns(nouns: seedNouns, usedFallback: true)
+        }
+
+        guard !nouns.isEmpty else {
+            assertionFailure("GermanNouns.json decodificou vazio.")
+            return BundledNouns(nouns: seedNouns, usedFallback: true)
+        }
+
+        let ordenados = nouns.sorted { lhs, rhs in
             let lhsHasTranslation = !lhs.portugueseTranslation.isEmpty
             let rhsHasTranslation = !rhs.portugueseTranslation.isEmpty
 
@@ -250,6 +340,8 @@ private extension AppStore {
 
             return lhs.word.localizedCaseInsensitiveCompare(rhs.word) == .orderedAscending
         }
+
+        return BundledNouns(nouns: ordenados, usedFallback: false)
     }
 
     static let seedNouns: [GermanNoun] = [

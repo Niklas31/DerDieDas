@@ -1,7 +1,7 @@
 {
-  "name": "DerDieDas — artigos em alemão",
+  "name": "DerDieDas",
   "short_name": "DerDieDas",
-  "description": "Treine os artigos der, die e das de substantivos alemães, com tradução em português e plural.",
+  "description": "Treine os artigos der, die e das de substantivos alemães, com tradução e plural.",
   "lang": "pt-BR",
   "start_url": "./",
   "scope": "./",

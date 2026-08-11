@@ -39,9 +39,10 @@ struct SearchView: View {
                         }
                     }
 
-                    if !store.history.isEmpty {
+                    let historico = store.historyEntries
+                    if !historico.isEmpty {
                         Section("Histórico") {
-                            ForEach(store.history) { item in
+                            ForEach(historico) { item in
                                 nounRow(item.noun)
                             }
                         }
