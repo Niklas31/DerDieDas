@@ -62,9 +62,25 @@ Quando uma versão nova é detectada, o app não troca sozinho (recarregar módu
 treino perderia a resposta em andamento): mostra uma barra “Nova versão disponível”, e só ao
 tocar em *Atualizar* o worker novo assume e a página recarrega.
 
-**Uma base só, para os dois apps:** `docs/data/GermanNouns.json`. O Xcode empacota esse
-mesmo arquivo (referência com `sourceTree = SOURCE_ROOT`) e a web faz `fetch` nele —
-não existe etapa de geração nem artefato duplicado.
+**Uma base só, para os dois apps:** `docs/data/GermanNouns.json` traz os fatos do alemão
+— artigo, palavra e plural — e `docs/data/lang/<idioma>.json` traz as traduções. O Xcode
+empacota os dois (referência com `sourceTree = SOURCE_ROOT`; `lang/` é referência de
+**pasta**, então um idioma novo entra sozinho) e a web faz `fetch` neles.
+
+Os dois são **gerados** por `tools/apply-corrections.py` a partir de
+`tools/translations/<idioma>.json` e `tools/corrections.json`. Não edite `docs/data/`.
+
+O pacote é um array alinhado por índice à ordem da base, não um mapa chaveado: custa
+55 KB comprimidos contra 112 KB, porque o mapa repetiria a palavra alemã nos dois
+arquivos e o gzip não enxerga entre respostas HTTP diferentes. Com isso o usuário baixa
+**153 KB** (98 de base + 55 de um idioma) contra 171 KB do arquivo único de antes, e cada
+idioma a mais custa 55 KB sob demanda em vez de inchar o arquivo de todo mundo.
+
+Depender da ordem só é seguro porque ela é determinística — `(word.lower(), article)`,
+injetiva sobre as 11.694 linhas — e existe um único escritor. O campo `digest` torna a
+invariante verificável: quem carrega compara, e um pacote fora de sincronia é descartado
+**inteiro**. Aplicar pela metade daria a cada palavra a tradução da vizinha, o que parece
+certo e ensina errado.
 
 Ele não guarda `id`: a identidade de cada substantivo é `ARTIGO|palavra`, calculada em
 `GermanNoun.id` no Swift e usada como chave no `localStorage` da web. Além de alinhar os dois

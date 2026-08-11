@@ -17,7 +17,7 @@ struct ReportWordLink: View {
 
         Palavra:  \(noun.word)
         Artigo:   \(noun.article.rawValue)
-        Tradução: \(noun.portugueseTranslation.isEmpty ? "(sem tradução)" : noun.portugueseTranslation)
+        Tradução: \(noun.translation.isEmpty ? "(sem tradução)" : noun.translation)
         Plural:   \(noun.plural ?? "(sem plural)")
 
         O que está errado?

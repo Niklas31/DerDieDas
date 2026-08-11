@@ -1,6 +1,6 @@
 // Bootstrap e navegação entre abas.
 
-import { loadNouns } from './data.js';
+import { loadBase, loadPack, warmPack } from './data.js';
 import { setupPWA } from './pwa.js';
 import * as search from './views/search.js';
 import * as historyView from './views/history.js';
@@ -65,12 +65,16 @@ async function start() {
   setupPWA();
 
   try {
-    await loadNouns();
+    await loadBase();
   } catch (error) {
     loading.textContent = 'Não foi possível carregar a base de substantivos.';
     console.error(error);
     return;
   }
+
+  // Best-effort de propósito: sem o pacote o app ainda ensina artigo e plural, que é o
+  // que ele existe para ensinar. Uma tela de erro aqui seria desproporcional.
+  await loadPack('pt-BR');
 
   container.append(search.element, historyView.element, training.element, about.element);
 
@@ -81,6 +85,10 @@ async function start() {
   show(views[initial] ? initial : 'search');
 
   loading.hidden = true;
+
+  // Depois de a interface aparecer, não antes: isto é seguro de falhar e não deve
+  // atrasar o primeiro desenho.
+  warmPack();
 }
 
 start();

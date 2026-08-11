@@ -36,8 +36,21 @@ function walk(dir) {
 
 const files = walk(docs).sort();
 
+/**
+ * Os pacotes de idioma ficam **fora** do precache.
+ *
+ * O install é atômico — `Promise.all` sobre a lista inteira — e é isso que garante que o
+ * app entra e sai do cache de uma vez. Se cada idioma novo entrasse na lista, o usuário
+ * baixaria cinco pacotes para usar um, e uma única falha abortaria a instalação inteira.
+ * Eles são cacheados no primeiro uso, por `sw.js`.
+ */
+const isPack = (file) => file.startsWith('data/lang/');
+
+const core = files.filter((file) => !isPack(file));
+const packs = files.filter(isPack);
+
 // index.html é referenciado como './' — é assim que o navegador pede a página.
-const assets = files.map((file) => (file === 'index.html' ? './' : `./${file}`)).sort();
+const assets = core.map((file) => (file === 'index.html' ? './' : `./${file}`)).sort();
 
 const source = readFileSync(swPath, 'utf8');
 const pattern = /\/\/ <<<GENERATED>>>[\s\S]*?\/\/ <<<END GENERATED>>>/;
@@ -57,12 +70,23 @@ hash.update(source.replace(pattern, ''));
 
 const version = `ddd-${hash.digest('hex').slice(0, 12)}`;
 
+/** Hash de cada pacote isolado: é a chave de cache dele, e muda só quando ele muda. */
+const packHashes = packs.map((file) => {
+  const hash = createHash('sha256').update(readFileSync(join(docs, file))).digest('hex');
+  return [`./${file}`, hash.slice(0, 12)];
+});
+
 const block = [
   '// <<<GENERATED>>>',
   `const CACHE = '${version}';`,
   'const ASSETS = [',
   ...assets.map((asset) => `  '${asset}',`),
   '];',
+  '// Pacotes de idioma: fora do precache, cacheados sob demanda e versionados um a um,',
+  '// para que um deploy não apague a tradução de quem está offline.',
+  'const PACKS = {',
+  ...packHashes.map(([path, hash]) => `  '${path}': '${hash}',`),
+  '};',
   '// <<<END GENERATED>>>',
 ].join('\n');
 
@@ -70,4 +94,5 @@ const previous = source.match(/const CACHE = '([^']+)'/)?.[1];
 writeFileSync(swPath, source.replace(pattern, block));
 
 console.log(`${assets.length} arquivos no precache`);
+console.log(`${packHashes.length} pacotes de idioma sob demanda: ${packHashes.map(([p]) => p.split('/').pop()).join(', ') || '(nenhum)'}`);
 console.log(previous === version ? `versão inalterada: ${version}` : `${previous} → ${version}`);

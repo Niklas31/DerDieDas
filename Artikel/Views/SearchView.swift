@@ -156,7 +156,7 @@ struct SearchView: View {
                     }
 
                     #if os(iOS) && !targetEnvironment(macCatalyst)
-                    if noun.portugueseTranslation.isEmpty {
+                    if noun.translation.isEmpty {
                         Button {
                             translate(noun)
                         } label: {

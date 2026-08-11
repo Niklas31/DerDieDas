@@ -31,8 +31,12 @@ final class AppStore: ObservableObject {
     @Published private(set) var viewedTodayIDs: Set<String> = []
     private var viewedTodayDay = Calendar.current.startOfDay(for: Date())
 
+    /// Idioma da tradução. Fixo por enquanto; o seletor e a resolução pelo aparelho
+    /// entram junto com o segundo pacote.
+    static let defaultLanguage = "pt-BR"
+
     init() {
-        let loaded = Self.loadBundledNouns()
+        let loaded = Self.loadBundledNouns(language: Self.defaultLanguage)
         self.nouns = loaded.nouns
         self.didFailToLoadBase = loaded.usedFallback
         self.history = Self.load(LenientArray<SearchHistoryItem>.self, key: historyKey)?.elements ?? []
@@ -227,8 +231,8 @@ final class AppStore: ObservableObject {
     }
 
     func translation(for noun: GermanNoun) -> String? {
-        if !noun.portugueseTranslation.isEmpty {
-            return noun.portugueseTranslation
+        if !noun.translation.isEmpty {
+            return noun.translation
         }
 
         return cachedTranslations[noun.id]
@@ -306,33 +310,56 @@ private extension AppStore {
         let usedFallback: Bool
     }
 
-    /// Carrega a base empacotada, **reclamando alto** se não conseguir.
+    /// A base como está no arquivo: fatos do alemão, mais a invariante de ordem.
+    private struct NounBase: Decodable {
+        let count: Int
+        let digest: String
+        let nouns: [GermanNoun]
+    }
+
+    /// Um pacote de idioma: traduções na mesma ordem da base.
+    private struct TranslationPack: Decodable {
+        let language: String
+        let count: Int
+        let digest: String
+        let translations: [String]
+    }
+
+    /// Carrega a base empacotada e funde o pacote do idioma, **reclamando alto** ao falhar.
     ///
     /// A falha aqui é traiçoeira: o app abre, funciona e tem dez palavras. Sem um sinal,
     /// isso passa por bug de conteúdo em vez de falha de carregamento — e é exatamente o
     /// que uma mudança de formato provoca.
-    static func loadBundledNouns() -> BundledNouns {
+    ///
+    /// A ordem das etapas não é negociável: **decodificar → conferir digest → fundir por
+    /// índice → ordenar**. A ordenação põe os traduzidos primeiro, então fundir depois dela
+    /// alinharia o pacote contra a ordem errada e produziria um dado sutilmente errado e
+    /// perfeitamente plausível — o pior tipo de defeito.
+    static func loadBundledNouns(language: String) -> BundledNouns {
         guard let url = Bundle.main.url(forResource: "GermanNouns", withExtension: "json") else {
             assertionFailure("GermanNouns.json não está no bundle.")
             return BundledNouns(nouns: seedNouns, usedFallback: true)
         }
 
-        let nouns: [GermanNoun]
+        let base: NounBase
         do {
-            nouns = try JSONDecoder().decode([GermanNoun].self, from: Data(contentsOf: url))
+            base = try JSONDecoder().decode(NounBase.self, from: Data(contentsOf: url))
         } catch {
             assertionFailure("GermanNouns.json não pôde ser lido: \(error)")
             return BundledNouns(nouns: seedNouns, usedFallback: true)
         }
 
-        guard !nouns.isEmpty else {
-            assertionFailure("GermanNouns.json decodificou vazio.")
+        guard !base.nouns.isEmpty, base.nouns.count == base.count else {
+            assertionFailure("GermanNouns.json veio vazio ou com contagem inconsistente.")
             return BundledNouns(nouns: seedNouns, usedFallback: true)
         }
 
+        var nouns = base.nouns
+        applyPack(language: language, to: &nouns, baseDigest: base.digest)
+
         let ordenados = nouns.sorted { lhs, rhs in
-            let lhsHasTranslation = !lhs.portugueseTranslation.isEmpty
-            let rhsHasTranslation = !rhs.portugueseTranslation.isEmpty
+            let lhsHasTranslation = !lhs.translation.isEmpty
+            let rhsHasTranslation = !rhs.translation.isEmpty
 
             if lhsHasTranslation != rhsHasTranslation {
                 return lhsHasTranslation
@@ -344,16 +371,45 @@ private extension AppStore {
         return BundledNouns(nouns: ordenados, usedFallback: false)
     }
 
+    /// Aplica um pacote por índice, ou nenhum.
+    ///
+    /// Se digest ou contagem divergirem, o pacote é descartado **inteiro** e o app fica
+    /// sem tradução naquele idioma. Aplicar pela metade produziria palavras com a tradução
+    /// da vizinha, que é pior que não traduzir: parece certo e ensina errado.
+    static func applyPack(language: String, to nouns: inout [GermanNoun], baseDigest: String) {
+        guard let url = Bundle.main.url(forResource: language, withExtension: "json",
+                                        subdirectory: "lang")
+                ?? Bundle.main.url(forResource: language, withExtension: "json") else {
+            assertionFailure("Pacote de idioma \(language) não está no bundle.")
+            return
+        }
+
+        guard let pack = try? JSONDecoder().decode(TranslationPack.self, from: Data(contentsOf: url)) else {
+            assertionFailure("Pacote \(language) não pôde ser lido.")
+            return
+        }
+
+        guard pack.digest == baseDigest, pack.count == nouns.count,
+              pack.translations.count == nouns.count else {
+            assertionFailure("Pacote \(language) fora de sincronia com a base — descartado.")
+            return
+        }
+
+        for index in nouns.indices {
+            nouns[index].translation = pack.translations[index]
+        }
+    }
+
     static let seedNouns: [GermanNoun] = [
-        GermanNoun(article: .der, word: "Hund", portugueseTranslation: "Cachorro", plural: "Hunde"),
-        GermanNoun(article: .die, word: "Blume", portugueseTranslation: "Flor", plural: "Blumen"),
-        GermanNoun(article: .das, word: "Haus", portugueseTranslation: "Casa", plural: "Häuser"),
-        GermanNoun(article: .der, word: "Tisch", portugueseTranslation: "Mesa", plural: "Tische"),
-        GermanNoun(article: .die, word: "Tür", portugueseTranslation: "Porta", plural: "Türen"),
-        GermanNoun(article: .das, word: "Buch", portugueseTranslation: "Livro", plural: "Bücher"),
-        GermanNoun(article: .der, word: "Apfel", portugueseTranslation: "Maçã", plural: "Äpfel"),
-        GermanNoun(article: .die, word: "Zeit", portugueseTranslation: "Tempo", plural: nil),
-        GermanNoun(article: .das, word: "Kind", portugueseTranslation: "Criança", plural: "Kinder"),
-        GermanNoun(article: .der, word: "Stuhl", portugueseTranslation: "Cadeira", plural: "Stühle")
+        GermanNoun(article: .der, word: "Hund", translation: "Cachorro", plural: "Hunde"),
+        GermanNoun(article: .die, word: "Blume", translation: "Flor", plural: "Blumen"),
+        GermanNoun(article: .das, word: "Haus", translation: "Casa", plural: "Häuser"),
+        GermanNoun(article: .der, word: "Tisch", translation: "Mesa", plural: "Tische"),
+        GermanNoun(article: .die, word: "Tür", translation: "Porta", plural: "Türen"),
+        GermanNoun(article: .das, word: "Buch", translation: "Livro", plural: "Bücher"),
+        GermanNoun(article: .der, word: "Apfel", translation: "Maçã", plural: "Äpfel"),
+        GermanNoun(article: .die, word: "Zeit", translation: "Tempo", plural: nil),
+        GermanNoun(article: .das, word: "Kind", translation: "Criança", plural: "Kinder"),
+        GermanNoun(article: .der, word: "Stuhl", translation: "Cadeira", plural: "Stühle")
     ]
 }

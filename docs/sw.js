@@ -10,7 +10,7 @@
 // visitaram o site continuarão servindo a versão antiga do cache.
 
 // <<<GENERATED>>>
-const CACHE = 'ddd-4b46b5a9667a';
+const CACHE = 'ddd-40f248532cf2';
 const ASSETS = [
   './',
   './css/app.css',
@@ -34,10 +34,30 @@ const ASSETS = [
   './manifest.webmanifest',
   './privacidade.html',
 ];
+// Pacotes de idioma: fora do precache, cacheados sob demanda e versionados um a um,
+// para que um deploy não apague a tradução de quem está offline.
+const PACKS = {
+  './data/lang/pt-BR.json': '920d0781b812',
+};
 // <<<END GENERATED>>>
 
 /** Caminhos absolutos do precache, para casar com as requisições da página. */
 const PRECACHED = new Set(ASSETS.map((path) => new URL(path, self.registration.scope).pathname));
+
+/**
+ * Cache dos pacotes de idioma, com nome **estável entre versões**.
+ *
+ * O `activate` apaga todo cache `ddd-*` que não seja o atual. Se os pacotes morassem num
+ * cache versionado, todo deploy apagaria a tradução de quem está offline — a pessoa
+ * atualizaria o app e perderia o idioma até voltar a ter internet. Aqui o nome não muda;
+ * quem versiona é a chave de cada entrada, `caminho?h=hash`.
+ */
+const PACK_CACHE = 'ddd-packs';
+
+/** Caminho absoluto do pacote → hash, para casar com as requisições da página. */
+const PACK_PATHS = new Map(
+  Object.entries(PACKS).map(([path, hash]) => [new URL(path, self.registration.scope).pathname, hash])
+);
 
 const INDEX = new URL('./', self.registration.scope).pathname;
 
@@ -89,8 +109,21 @@ self.addEventListener('activate', (event) => {
     (async () => {
       const names = await caches.keys();
       await Promise.all(
-        names.filter((name) => name.startsWith('ddd-') && name !== CACHE).map((name) => caches.delete(name))
+        names
+          .filter((name) => name.startsWith('ddd-') && name !== CACHE && name !== PACK_CACHE)
+          .map((name) => caches.delete(name))
       );
+
+      // Dentro do cache dos pacotes, poda por hash em vez de apagar tudo: o pacote cujo
+      // conteúdo não mudou mantém a chave e sobrevive ao deploy.
+      const packCache = await caches.open(PACK_CACHE);
+      const validas = new Set(
+        [...PACK_PATHS].map(([path, hash]) => new URL(`${path}?h=${hash}`, self.location.origin).href)
+      );
+      for (const request of await packCache.keys()) {
+        if (!validas.has(request.url)) await packCache.delete(request);
+      }
+
       await self.clients.claim();
     })()
   );
@@ -121,6 +154,26 @@ self.addEventListener('fetch', (event) => {
         } catch {
           return (await fromOwnCache(INDEX)) ?? Response.error();
         }
+      })()
+    );
+    return;
+  }
+
+  // Pacote de idioma: cache-first no cache que atravessa deploys. O `?h=` na chave e na
+  // ida à rede resolve de quebra o max-age=600 do GitHub Pages, pelo mesmo motivo
+  // documentado em `precache`.
+  const packHash = PACK_PATHS.get(url.pathname);
+  if (packHash) {
+    event.respondWith(
+      (async () => {
+        const cache = await caches.open(PACK_CACHE);
+        const versionada = `${url.pathname}?h=${packHash}`;
+        const cached = await cache.match(versionada);
+        if (cached) return cached;
+
+        const response = await fetch(versionada, { cache: 'reload' });
+        if (response.ok) cache.put(versionada, response.clone());
+        return response;
       })()
     );
     return;
