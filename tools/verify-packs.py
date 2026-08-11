@@ -250,8 +250,11 @@ def sinal_forma(base, traducoes):
             motivos.append('pontuação final')
         if traducao != traducao.strip():
             motivos.append('espaço nas bordas')
-        if any(s and s[0].isupper() for s in sentidos):
-            motivos.append('maiúscula inicial')
+        # Não há checagem de maiúscula inicial. Havia, e era uma suposição portuguesa
+        # aplicada a todo idioma: em inglês `December`, `Tuesday`, `Germany` e `CD-ROM`
+        # são obrigatoriamente maiúsculos. Ela produziu 398 falsos positivos no primeiro
+        # pacote inglês e nunca pegou um erro verdadeiro em português — o que o sinal
+        # queria pegar (frase no lugar de lema) já é coberto por tamanho e pontuação.
         if motivos:
             achados.append({
                 'palavra': f"{noun['article']}|{noun['word']}",

@@ -2101,5 +2101,1732 @@
       ]
     }
   ],
-  "sem_traducao": []
+  "sem_traducao": [],
+  "pivo_ingles": [
+    {
+      "palavra": "DER|Afro",
+      "traducao": "afro",
+      "ingles": "afro"
+    },
+    {
+      "palavra": "DER|After",
+      "traducao": "ânus",
+      "ingles": "anus"
+    },
+    {
+      "palavra": "DIE|Agenda",
+      "traducao": "agenda",
+      "ingles": "agenda"
+    },
+    {
+      "palavra": "DER|Airbag",
+      "traducao": "airbag",
+      "ingles": "airbag"
+    },
+    {
+      "palavra": "DIE|Akne",
+      "traducao": "acne",
+      "ingles": "acne"
+    },
+    {
+      "palavra": "DAS|Album",
+      "traducao": "álbum",
+      "ingles": "album"
+    },
+    {
+      "palavra": "DIE|Algebra",
+      "traducao": "álgebra",
+      "ingles": "algebra"
+    },
+    {
+      "palavra": "DAS|Alibi",
+      "traducao": "álibi",
+      "ingles": "alibi"
+    },
+    {
+      "palavra": "DER|Anime",
+      "traducao": "anime",
+      "ingles": "anime"
+    },
+    {
+      "palavra": "DER|Anus",
+      "traducao": "ânus",
+      "ingles": "anus"
+    },
+    {
+      "palavra": "DER|Apache",
+      "traducao": "apache",
+      "ingles": "apache"
+    },
+    {
+      "palavra": "DIE|Arena",
+      "traducao": "arena",
+      "ingles": "arena"
+    },
+    {
+      "palavra": "DIE|Arie",
+      "traducao": "ária",
+      "ingles": "aria"
+    },
+    {
+      "palavra": "DAS|Arsenal",
+      "traducao": "arsenal",
+      "ingles": "arsenal"
+    },
+    {
+      "palavra": "DAS|Au-pair",
+      "traducao": "au pair",
+      "ingles": "au pair"
+    },
+    {
+      "palavra": "DIE|Aura",
+      "traducao": "aura",
+      "ingles": "aura"
+    },
+    {
+      "palavra": "DIE|Aurora",
+      "traducao": "aurora",
+      "ingles": "aurora"
+    },
+    {
+      "palavra": "DAS|Back-up",
+      "traducao": "backup",
+      "ingles": "backup"
+    },
+    {
+      "palavra": "DAS|Backup",
+      "traducao": "backup",
+      "ingles": "backup"
+    },
+    {
+      "palavra": "DER|Bacon",
+      "traducao": "bacon",
+      "ingles": "bacon"
+    },
+    {
+      "palavra": "DAS|Badminton",
+      "traducao": "badminton",
+      "ingles": "badminton"
+    },
+    {
+      "palavra": "DIE|Banane",
+      "traducao": "banana",
+      "ingles": "banana"
+    },
+    {
+      "palavra": "DAS|Banjo",
+      "traducao": "banjo",
+      "ingles": "banjo"
+    },
+    {
+      "palavra": "DIE|Basilika",
+      "traducao": "basílica",
+      "ingles": "basilica"
+    },
+    {
+      "palavra": "DAS|Bikini",
+      "traducao": "bikini",
+      "ingles": "bikini"
+    },
+    {
+      "palavra": "DAS|Bingo",
+      "traducao": "bingo",
+      "ingles": "bingo"
+    },
+    {
+      "palavra": "DAS|Biogas",
+      "traducao": "biogás",
+      "ingles": "biogas"
+    },
+    {
+      "palavra": "DAS|Bistro",
+      "traducao": "bistro",
+      "ingles": "bistro"
+    },
+    {
+      "palavra": "DAS|Bistum",
+      "traducao": "diocese",
+      "ingles": "diocese"
+    },
+    {
+      "palavra": "DIE|Blockchain",
+      "traducao": "blockchain",
+      "ingles": "blockchain"
+    },
+    {
+      "palavra": "DER|Blues",
+      "traducao": "blues",
+      "ingles": "blues"
+    },
+    {
+      "palavra": "DIE|Boa",
+      "traducao": "boa",
+      "ingles": "boa"
+    },
+    {
+      "palavra": "DER|Bonus",
+      "traducao": "bônus",
+      "ingles": "bonus"
+    },
+    {
+      "palavra": "DER|Bourbon",
+      "traducao": "bourbon",
+      "ingles": "bourbon"
+    },
+    {
+      "palavra": "DIE|Boutique",
+      "traducao": "boutique",
+      "ingles": "boutique"
+    },
+    {
+      "palavra": "DER|Brexit",
+      "traducao": "brexit",
+      "ingles": "brexit"
+    },
+    {
+      "palavra": "DIE|Brezel",
+      "traducao": "pretzel",
+      "ingles": "pretzel"
+    },
+    {
+      "palavra": "DIE|Bronze",
+      "traducao": "bronze",
+      "ingles": "bronze"
+    },
+    {
+      "palavra": "DER|Brunch",
+      "traducao": "brunch",
+      "ingles": "brunch"
+    },
+    {
+      "palavra": "DAS|Byte",
+      "traducao": "byte",
+      "ingles": "byte"
+    },
+    {
+      "palavra": "DER|Cache",
+      "traducao": "cache",
+      "ingles": "cache"
+    },
+    {
+      "palavra": "DIE|Cafeteria",
+      "traducao": "cafeteria",
+      "ingles": "cafeteria"
+    },
+    {
+      "palavra": "DAS|Café",
+      "traducao": "café",
+      "ingles": "cafe"
+    },
+    {
+      "palavra": "DAS|Camping",
+      "traducao": "camping",
+      "ingles": "camping"
+    },
+    {
+      "palavra": "DER|Campus",
+      "traducao": "campus",
+      "ingles": "campus"
+    },
+    {
+      "palavra": "DAS|Chassis",
+      "traducao": "chassis",
+      "ingles": "chassis"
+    },
+    {
+      "palavra": "DAS|Check-in",
+      "traducao": "check-in",
+      "ingles": "check-in"
+    },
+    {
+      "palavra": "DER|Chip",
+      "traducao": "chip",
+      "ingles": "chip"
+    },
+    {
+      "palavra": "DAS|Cola",
+      "traducao": "cola",
+      "ingles": "cola"
+    },
+    {
+      "palavra": "DIE|Currywurst",
+      "traducao": "currywurst",
+      "ingles": "currywurst"
+    },
+    {
+      "palavra": "DIE|Debatte",
+      "traducao": "debate",
+      "ingles": "debate"
+    },
+    {
+      "palavra": "DAS|Defizit",
+      "traducao": "déficit",
+      "ingles": "deficit"
+    },
+    {
+      "palavra": "DAS|Dessous",
+      "traducao": "lingerie",
+      "ingles": "lingerie"
+    },
+    {
+      "palavra": "DER|Diabetes",
+      "traducao": "diabetes",
+      "ingles": "diabetes"
+    },
+    {
+      "palavra": "DIE|Diagonale",
+      "traducao": "diagonal",
+      "ingles": "diagonal"
+    },
+    {
+      "palavra": "DIE|Diaspora",
+      "traducao": "diáspora",
+      "ingles": "diaspora"
+    },
+    {
+      "palavra": "DER|Diesel",
+      "traducao": "diesel",
+      "ingles": "diesel"
+    },
+    {
+      "palavra": "DIE|Diva",
+      "traducao": "diva",
+      "ingles": "diva"
+    },
+    {
+      "palavra": "DIE|Diözese",
+      "traducao": "diocese",
+      "ingles": "diocese"
+    },
+    {
+      "palavra": "DAS|Dogma",
+      "traducao": "dogma",
+      "ingles": "dogma"
+    },
+    {
+      "palavra": "DIE|Dosis",
+      "traducao": "dose",
+      "ingles": "dose"
+    },
+    {
+      "palavra": "DAS|Download",
+      "traducao": "download",
+      "ingles": "download"
+    },
+    {
+      "palavra": "DAS|Drama",
+      "traducao": "drama",
+      "ingles": "drama"
+    },
+    {
+      "palavra": "DAS|Drehmoment",
+      "traducao": "torque",
+      "ingles": "torque"
+    },
+    {
+      "palavra": "DIE|Drohne",
+      "traducao": "drone",
+      "ingles": "drone"
+    },
+    {
+      "palavra": "DER|Dschihad",
+      "traducao": "jihad",
+      "ingles": "jihad"
+    },
+    {
+      "palavra": "DAS|Duo",
+      "traducao": "duo",
+      "ingles": "duo"
+    },
+    {
+      "palavra": "DER|Döner",
+      "traducao": "doner kebab",
+      "ingles": "doner kebab"
+    },
+    {
+      "palavra": "DER|Ebola",
+      "traducao": "ébola",
+      "ingles": "Ebola"
+    },
+    {
+      "palavra": "DAS|Ego",
+      "traducao": "ego",
+      "ingles": "ego"
+    },
+    {
+      "palavra": "DIE|Elite",
+      "traducao": "elite",
+      "ingles": "elite"
+    },
+    {
+      "palavra": "DAS|Emoji",
+      "traducao": "emoji",
+      "ingles": "emoji"
+    },
+    {
+      "palavra": "DER|Erfinder",
+      "traducao": "inventor",
+      "ingles": "inventor"
+    },
+    {
+      "palavra": "DAS|Ethernet",
+      "traducao": "ethernet",
+      "ingles": "ethernet"
+    },
+    {
+      "palavra": "DER|Euro",
+      "traducao": "euro",
+      "ingles": "euro"
+    },
+    {
+      "palavra": "DIE|Expo",
+      "traducao": "expo",
+      "ingles": "expo"
+    },
+    {
+      "palavra": "DAS|Extra",
+      "traducao": "extra",
+      "ingles": "extra"
+    },
+    {
+      "palavra": "DAS|Fahrenheit",
+      "traducao": "fahrenheit",
+      "ingles": "fahrenheit"
+    },
+    {
+      "palavra": "DER|Fanboy",
+      "traducao": "fanboy",
+      "ingles": "fanboy"
+    },
+    {
+      "palavra": "DIE|Fauna",
+      "traducao": "fauna",
+      "ingles": "fauna"
+    },
+    {
+      "palavra": "DAS|Fax",
+      "traducao": "fax",
+      "ingles": "fax"
+    },
+    {
+      "palavra": "DAS|Festival",
+      "traducao": "festival",
+      "ingles": "festival"
+    },
+    {
+      "palavra": "DIE|Festschrift",
+      "traducao": "festschrift",
+      "ingles": "festschrift"
+    },
+    {
+      "palavra": "DAS|Fiasko",
+      "traducao": "fiasco",
+      "ingles": "fiasco"
+    },
+    {
+      "palavra": "DER|Firewall",
+      "traducao": "firewall",
+      "ingles": "firewall"
+    },
+    {
+      "palavra": "DIE|Firmware",
+      "traducao": "firmware",
+      "ingles": "firmware"
+    },
+    {
+      "palavra": "DIE|Fitness",
+      "traducao": "fitness",
+      "ingles": "fitness"
+    },
+    {
+      "palavra": "DIE|Flora",
+      "traducao": "flora",
+      "ingles": "flora"
+    },
+    {
+      "palavra": "DIE|Formel",
+      "traducao": "fórmula",
+      "ingles": "formula"
+    },
+    {
+      "palavra": "DAS|Forum",
+      "traducao": "fórum",
+      "ingles": "forum"
+    },
+    {
+      "palavra": "DAS|Fossil",
+      "traducao": "fóssil",
+      "ingles": "fossil"
+    },
+    {
+      "palavra": "DER|Frontmann",
+      "traducao": "frontman",
+      "ingles": "frontman"
+    },
+    {
+      "palavra": "DER|Futsal",
+      "traducao": "futsal",
+      "ingles": "futsal"
+    },
+    {
+      "palavra": "DIE|Gala",
+      "traducao": "gala",
+      "ingles": "gala"
+    },
+    {
+      "palavra": "DAS|Gas",
+      "traducao": "gás",
+      "ingles": "gas"
+    },
+    {
+      "palavra": "DAS|Gel",
+      "traducao": "gel",
+      "ingles": "gel"
+    },
+    {
+      "palavra": "DAS|Gen",
+      "traducao": "gene",
+      "ingles": "gene"
+    },
+    {
+      "palavra": "DER|Generalmajor",
+      "traducao": "major general",
+      "ingles": "major general"
+    },
+    {
+      "palavra": "DAS|Gerücht",
+      "traducao": "rumor",
+      "ingles": "rumor"
+    },
+    {
+      "palavra": "DAS|Gesicht",
+      "traducao": "face",
+      "ingles": "face"
+    },
+    {
+      "palavra": "DAS|Glamour",
+      "traducao": "glamour",
+      "ingles": "glamour"
+    },
+    {
+      "palavra": "DAS|Gluten",
+      "traducao": "glúten",
+      "ingles": "gluten"
+    },
+    {
+      "palavra": "DIE|Gondel",
+      "traducao": "gôndola",
+      "ingles": "gondola"
+    },
+    {
+      "palavra": "DER|Gourmet",
+      "traducao": "gourmet",
+      "ingles": "gourmet"
+    },
+    {
+      "palavra": "DER|Größenwahn",
+      "traducao": "megalomania",
+      "ingles": "megalomania"
+    },
+    {
+      "palavra": "DAS|Gulasch",
+      "traducao": "goulash",
+      "ingles": "goulash"
+    },
+    {
+      "palavra": "DIE|Gunst",
+      "traducao": "favor",
+      "ingles": "favor"
+    },
+    {
+      "palavra": "DER|Guru",
+      "traducao": "guru",
+      "ingles": "guru"
+    },
+    {
+      "palavra": "DER|Halbfinal",
+      "traducao": "semifinal",
+      "ingles": "semifinal"
+    },
+    {
+      "palavra": "DIE|Halbinsel",
+      "traducao": "península",
+      "ingles": "peninsula"
+    },
+    {
+      "palavra": "DER|Halo",
+      "traducao": "halo",
+      "ingles": "halo"
+    },
+    {
+      "palavra": "DIE|Hardware",
+      "traducao": "hardware",
+      "ingles": "hardware"
+    },
+    {
+      "palavra": "DAS|Harvard",
+      "traducao": "harvard",
+      "ingles": "harvard"
+    },
+    {
+      "palavra": "DAS|Hashtag",
+      "traducao": "hashtag",
+      "ingles": "hashtag"
+    },
+    {
+      "palavra": "DER|Hercules",
+      "traducao": "hércules",
+      "ingles": "hercules"
+    },
+    {
+      "palavra": "DER|Herkules",
+      "traducao": "hércules",
+      "ingles": "hercules"
+    },
+    {
+      "palavra": "DER|Herpes",
+      "traducao": "herpes",
+      "ingles": "herpes"
+    },
+    {
+      "palavra": "DIE|Herzegowina",
+      "traducao": "herzegovina",
+      "ingles": "herzegovina"
+    },
+    {
+      "palavra": "DER|Hindu",
+      "traducao": "hindu",
+      "ingles": "Hindu"
+    },
+    {
+      "palavra": "DER|Hip-Hop",
+      "traducao": "hip-hop",
+      "ingles": "hip-hop"
+    },
+    {
+      "palavra": "DER|Hiphop",
+      "traducao": "hip-hop",
+      "ingles": "hip-hop"
+    },
+    {
+      "palavra": "DER|Hippie",
+      "traducao": "hippie",
+      "ingles": "hippie"
+    },
+    {
+      "palavra": "DER|Hobbit",
+      "traducao": "hobbit",
+      "ingles": "hobbit"
+    },
+    {
+      "palavra": "DER|Horror",
+      "traducao": "horror",
+      "ingles": "horror"
+    },
+    {
+      "palavra": "DAS|Hospital",
+      "traducao": "hospital",
+      "ingles": "hospital"
+    },
+    {
+      "palavra": "DAS|Hostel",
+      "traducao": "hostel",
+      "ingles": "hostel"
+    },
+    {
+      "palavra": "DAS|Hotel",
+      "traducao": "hotel",
+      "ingles": "hotel"
+    },
+    {
+      "palavra": "DER|Humor",
+      "traducao": "humor",
+      "ingles": "humor"
+    },
+    {
+      "palavra": "DIE|Ich-Libido",
+      "traducao": "ego-libido",
+      "ingles": "ego-libido"
+    },
+    {
+      "palavra": "DAS|Ideal",
+      "traducao": "ideal",
+      "ingles": "ideal"
+    },
+    {
+      "palavra": "DER|Imam",
+      "traducao": "imam",
+      "ingles": "imam"
+    },
+    {
+      "palavra": "DAS|Indigo",
+      "traducao": "índigo",
+      "ingles": "indigo"
+    },
+    {
+      "palavra": "DAS|Individuum",
+      "traducao": "individual",
+      "ingles": "individual"
+    },
+    {
+      "palavra": "DAS|Inferno",
+      "traducao": "inferno",
+      "ingles": "inferno"
+    },
+    {
+      "palavra": "DER|Inka",
+      "traducao": "inca",
+      "ingles": "Inca"
+    },
+    {
+      "palavra": "DAS|Interface",
+      "traducao": "interface",
+      "ingles": "interface"
+    },
+    {
+      "palavra": "DAS|Interieur",
+      "traducao": "interior",
+      "ingles": "interior"
+    },
+    {
+      "palavra": "DAS|Intermezzo",
+      "traducao": "intermezzo",
+      "ingles": "intermezzo"
+    },
+    {
+      "palavra": "DAS|Internet",
+      "traducao": "internet",
+      "ingles": "internet"
+    },
+    {
+      "palavra": "DAS|Ion",
+      "traducao": "íon",
+      "ingles": "ion"
+    },
+    {
+      "palavra": "DAS|Item",
+      "traducao": "item",
+      "ingles": "item"
+    },
+    {
+      "palavra": "DER|Jackpot",
+      "traducao": "jackpot",
+      "ingles": "jackpot"
+    },
+    {
+      "palavra": "DER|Jazz",
+      "traducao": "jazz",
+      "ingles": "jazz"
+    },
+    {
+      "palavra": "DIE|Jeans",
+      "traducao": "jeans",
+      "ingles": "jeans"
+    },
+    {
+      "palavra": "DAS|Judo",
+      "traducao": "judo",
+      "ingles": "judo"
+    },
+    {
+      "palavra": "DER|Junior",
+      "traducao": "júnior",
+      "ingles": "junior"
+    },
+    {
+      "palavra": "DIE|Kamera",
+      "traducao": "câmera",
+      "ingles": "camera"
+    },
+    {
+      "palavra": "DER|Kantor",
+      "traducao": "cantor",
+      "ingles": "cantor"
+    },
+    {
+      "palavra": "DAS|Karaoke",
+      "traducao": "karaokê",
+      "ingles": "karaoke"
+    },
+    {
+      "palavra": "DAS|Karate",
+      "traducao": "karatê",
+      "ingles": "karate"
+    },
+    {
+      "palavra": "DAS|Kartell",
+      "traducao": "cartel",
+      "ingles": "cartel"
+    },
+    {
+      "palavra": "DAS|Ketchup",
+      "traducao": "ketchup",
+      "ingles": "ketchup"
+    },
+    {
+      "palavra": "DER|Kitsch",
+      "traducao": "kitsch",
+      "ingles": "kitsch"
+    },
+    {
+      "palavra": "DAS|Klavier",
+      "traducao": "piano",
+      "ingles": "piano"
+    },
+    {
+      "palavra": "DIE|Kleopatra",
+      "traducao": "cleópatra",
+      "ingles": "cleopatra"
+    },
+    {
+      "palavra": "DIE|Klitoris",
+      "traducao": "clitóris",
+      "ingles": "clitoris"
+    },
+    {
+      "palavra": "DER|Klon",
+      "traducao": "clone",
+      "ingles": "clone"
+    },
+    {
+      "palavra": "DAS|Koma",
+      "traducao": "coma",
+      "ingles": "coma"
+    },
+    {
+      "palavra": "DAS|Kongo",
+      "traducao": "congo",
+      "ingles": "congo"
+    },
+    {
+      "palavra": "DIE|Konsole",
+      "traducao": "console",
+      "ingles": "console"
+    },
+    {
+      "palavra": "DER|Konsul",
+      "traducao": "cônsul",
+      "ingles": "consul"
+    },
+    {
+      "palavra": "DER|Kosmos",
+      "traducao": "cosmos",
+      "ingles": "cosmos"
+    },
+    {
+      "palavra": "DAS|Krankenhaus",
+      "traducao": "hospital",
+      "ingles": "hospital"
+    },
+    {
+      "palavra": "DER|Kreml",
+      "traducao": "kremlin",
+      "ingles": "kremlin"
+    },
+    {
+      "palavra": "DIE|Kriminelle",
+      "traducao": "criminal",
+      "ingles": "criminal"
+    },
+    {
+      "palavra": "DER|Krimineller",
+      "traducao": "criminal",
+      "ingles": "criminal"
+    },
+    {
+      "palavra": "DAS|Kung-Fu",
+      "traducao": "kung fu",
+      "ingles": "kung fu"
+    },
+    {
+      "palavra": "DIE|Kurie",
+      "traducao": "cúria",
+      "ingles": "curia"
+    },
+    {
+      "palavra": "DER|Landgraf",
+      "traducao": "landgrave",
+      "ingles": "landgrave"
+    },
+    {
+      "palavra": "DIE|Larve",
+      "traducao": "larva",
+      "ingles": "larva"
+    },
+    {
+      "palavra": "DAS|Latex",
+      "traducao": "látex",
+      "ingles": "latex"
+    },
+    {
+      "palavra": "DER|Latino",
+      "traducao": "latino",
+      "ingles": "latino"
+    },
+    {
+      "palavra": "DIE|Lava",
+      "traducao": "lava",
+      "ingles": "lava"
+    },
+    {
+      "palavra": "DIE|Lawine",
+      "traducao": "avalanche",
+      "ingles": "avalanche"
+    },
+    {
+      "palavra": "DIE|Libido",
+      "traducao": "libido",
+      "ingles": "libido"
+    },
+    {
+      "palavra": "DER|Lotus",
+      "traducao": "lótus",
+      "ingles": "lotus"
+    },
+    {
+      "palavra": "DIE|Lungenentzündung",
+      "traducao": "pneumonia",
+      "ingles": "pneumonia"
+    },
+    {
+      "palavra": "DER|Maestro",
+      "traducao": "maestro",
+      "ingles": "maestro"
+    },
+    {
+      "palavra": "DIE|Mafia",
+      "traducao": "máfia",
+      "ingles": "mafia"
+    },
+    {
+      "palavra": "DAS|Magenta",
+      "traducao": "magenta",
+      "ingles": "magenta"
+    },
+    {
+      "palavra": "DAS|Mahnmal",
+      "traducao": "memorial",
+      "ingles": "memorial"
+    },
+    {
+      "palavra": "DAS|Makro",
+      "traducao": "macro",
+      "ingles": "macro"
+    },
+    {
+      "palavra": "DIE|Malaria",
+      "traducao": "malária",
+      "ingles": "malaria"
+    },
+    {
+      "palavra": "DIE|Malware",
+      "traducao": "malware",
+      "ingles": "malware"
+    },
+    {
+      "palavra": "DAS|Manga",
+      "traducao": "mangá",
+      "ingles": "manga"
+    },
+    {
+      "palavra": "DAS|Mantra",
+      "traducao": "mantra",
+      "ingles": "mantra"
+    },
+    {
+      "palavra": "DAS|Manual",
+      "traducao": "manual",
+      "ingles": "manual"
+    },
+    {
+      "palavra": "DIE|Marina",
+      "traducao": "marina",
+      "ingles": "marina"
+    },
+    {
+      "palavra": "DAS|Marketing",
+      "traducao": "marketing",
+      "ingles": "marketing"
+    },
+    {
+      "palavra": "DER|Markgraf",
+      "traducao": "margrave",
+      "ingles": "margrave"
+    },
+    {
+      "palavra": "DAS|Martini",
+      "traducao": "martini",
+      "ingles": "martini"
+    },
+    {
+      "palavra": "DAS|Marzipan",
+      "traducao": "marzipan",
+      "ingles": "marzipan"
+    },
+    {
+      "palavra": "DAS|Massaker",
+      "traducao": "massacre",
+      "ingles": "massacre"
+    },
+    {
+      "palavra": "DAS|Material",
+      "traducao": "material",
+      "ingles": "material"
+    },
+    {
+      "palavra": "DAS|Megawatt",
+      "traducao": "megawatt",
+      "ingles": "megawatt"
+    },
+    {
+      "palavra": "DER|Mentor",
+      "traducao": "mentor",
+      "ingles": "mentor"
+    },
+    {
+      "palavra": "DAS|Menü",
+      "traducao": "menu",
+      "ingles": "menu"
+    },
+    {
+      "palavra": "DAS|Metall",
+      "traducao": "metal",
+      "ingles": "metal"
+    },
+    {
+      "palavra": "DAS|Mineral",
+      "traducao": "mineral",
+      "ingles": "mineral"
+    },
+    {
+      "palavra": "DER|Mini",
+      "traducao": "mini",
+      "ingles": "mini"
+    },
+    {
+      "palavra": "DAS|Mixtape",
+      "traducao": "mixtape",
+      "ingles": "mixtape"
+    },
+    {
+      "palavra": "DAS|Modem",
+      "traducao": "modem",
+      "ingles": "modem"
+    },
+    {
+      "palavra": "DIE|Mongolei",
+      "traducao": "mongólia",
+      "ingles": "Mongolia"
+    },
+    {
+      "palavra": "DER|Monitor",
+      "traducao": "monitor",
+      "ingles": "monitor"
+    },
+    {
+      "palavra": "DAS|Motel",
+      "traducao": "motel",
+      "ingles": "motel"
+    },
+    {
+      "palavra": "DIE|Mundharmonika",
+      "traducao": "harmônica",
+      "ingles": "harmonica"
+    },
+    {
+      "palavra": "DAS|Müsli",
+      "traducao": "muesli",
+      "ingles": "muesli"
+    },
+    {
+      "palavra": "DER|Nachbau",
+      "traducao": "réplica",
+      "ingles": "replica"
+    },
+    {
+      "palavra": "DAS|Neon",
+      "traducao": "néon",
+      "ingles": "neon"
+    },
+    {
+      "palavra": "DER|Nerd",
+      "traducao": "nerd",
+      "ingles": "nerd"
+    },
+    {
+      "palavra": "DIE|Netzhaut",
+      "traducao": "retina",
+      "ingles": "retina"
+    },
+    {
+      "palavra": "DER|Ninja",
+      "traducao": "ninja",
+      "ingles": "ninja"
+    },
+    {
+      "palavra": "DAS|Nirvana",
+      "traducao": "nirvana",
+      "ingles": "nirvana"
+    },
+    {
+      "palavra": "DIE|Nostalgie",
+      "traducao": "nostalgia",
+      "ingles": "nostalgia"
+    },
+    {
+      "palavra": "DAS|Nylon",
+      "traducao": "nylon",
+      "ingles": "nylon"
+    },
+    {
+      "palavra": "DIE|Oase",
+      "traducao": "oásis",
+      "ingles": "oasis"
+    },
+    {
+      "palavra": "DIE|Oboe",
+      "traducao": "oboé",
+      "ingles": "oboe"
+    },
+    {
+      "palavra": "DIE|Ode",
+      "traducao": "ode",
+      "ingles": "ode"
+    },
+    {
+      "palavra": "DAS|Ohm",
+      "traducao": "ohm",
+      "ingles": "ohm"
+    },
+    {
+      "palavra": "DAS|Oktoberfest",
+      "traducao": "oktoberfest",
+      "ingles": "oktoberfest"
+    },
+    {
+      "palavra": "DAS|Omega",
+      "traducao": "ómega",
+      "ingles": "omega"
+    },
+    {
+      "palavra": "DIE|Oper",
+      "traducao": "ópera",
+      "ingles": "opera"
+    },
+    {
+      "palavra": "DAS|Original",
+      "traducao": "original",
+      "ingles": "original"
+    },
+    {
+      "palavra": "DAS|Oval",
+      "traducao": "oval",
+      "ingles": "oval"
+    },
+    {
+      "palavra": "DER|Panda",
+      "traducao": "panda",
+      "ingles": "panda"
+    },
+    {
+      "palavra": "DAS|Panorama",
+      "traducao": "panorama",
+      "ingles": "panorama"
+    },
+    {
+      "palavra": "DIE|Paranoia",
+      "traducao": "paranóia",
+      "ingles": "paranoia"
+    },
+    {
+      "palavra": "DAS|Parfum",
+      "traducao": "perfume",
+      "ingles": "perfume"
+    },
+    {
+      "palavra": "DAS|Parfüm",
+      "traducao": "perfume",
+      "ingles": "perfume"
+    },
+    {
+      "palavra": "DAS|Pathos",
+      "traducao": "pathos",
+      "ingles": "pathos"
+    },
+    {
+      "palavra": "DAS|Pedal",
+      "traducao": "pedal",
+      "ingles": "pedal"
+    },
+    {
+      "palavra": "DER|Penis",
+      "traducao": "pênis",
+      "ingles": "penis"
+    },
+    {
+      "palavra": "DAS|Pesto",
+      "traducao": "pesto",
+      "ingles": "pesto"
+    },
+    {
+      "palavra": "DAS|Phishing",
+      "traducao": "phishing",
+      "ingles": "phishing"
+    },
+    {
+      "palavra": "DAS|Piano",
+      "traducao": "piano",
+      "ingles": "piano"
+    },
+    {
+      "palavra": "DAS|Piercing",
+      "traducao": "piercing",
+      "ingles": "piercing"
+    },
+    {
+      "palavra": "DAS|Pixel",
+      "traducao": "pixel",
+      "ingles": "pixel"
+    },
+    {
+      "palavra": "DIE|Pizza",
+      "traducao": "pizza",
+      "ingles": "pizza"
+    },
+    {
+      "palavra": "DAS|Placebo",
+      "traducao": "placebo",
+      "ingles": "placebo"
+    },
+    {
+      "palavra": "DAS|Plasma",
+      "traducao": "plasma",
+      "ingles": "plasma"
+    },
+    {
+      "palavra": "DER|Playboy",
+      "traducao": "playboy",
+      "ingles": "playboy"
+    },
+    {
+      "palavra": "DER|Plural",
+      "traducao": "plural",
+      "ingles": "plural"
+    },
+    {
+      "palavra": "DAS|Podcast",
+      "traducao": "podcast",
+      "ingles": "podcast"
+    },
+    {
+      "palavra": "DAS|Portal",
+      "traducao": "portal",
+      "ingles": "portal"
+    },
+    {
+      "palavra": "DAS|Portfolio",
+      "traducao": "portfólio",
+      "ingles": "portfolio"
+    },
+    {
+      "palavra": "DIE|Posaune",
+      "traducao": "trombone",
+      "ingles": "trombone"
+    },
+    {
+      "palavra": "DIE|Pose",
+      "traducao": "pose",
+      "ingles": "pose"
+    },
+    {
+      "palavra": "DER|Professor",
+      "traducao": "professor",
+      "ingles": "professor"
+    },
+    {
+      "palavra": "DIE|Propaganda",
+      "traducao": "propaganda",
+      "ingles": "propaganda"
+    },
+    {
+      "palavra": "DAS|Pub",
+      "traducao": "pub",
+      "ingles": "pub"
+    },
+    {
+      "palavra": "DER|Pudel",
+      "traducao": "poodle",
+      "ingles": "poodle"
+    },
+    {
+      "palavra": "DER|Punk",
+      "traducao": "punk",
+      "ingles": "punk"
+    },
+    {
+      "palavra": "DER|Quarterback",
+      "traducao": "quarterback",
+      "ingles": "quarterback"
+    },
+    {
+      "palavra": "DAS|Radio",
+      "traducao": "rádio",
+      "ingles": "radio"
+    },
+    {
+      "palavra": "DAS|Reality-TV",
+      "traducao": "reality tv",
+      "ingles": "reality TV"
+    },
+    {
+      "palavra": "DER|Redakteur",
+      "traducao": "editor",
+      "ingles": "editor"
+    },
+    {
+      "palavra": "DIE|Redakteurin",
+      "traducao": "editor",
+      "ingles": "editor"
+    },
+    {
+      "palavra": "DER|Reggae",
+      "traducao": "reggae",
+      "ingles": "reggae"
+    },
+    {
+      "palavra": "DAS|Regime",
+      "traducao": "regime",
+      "ingles": "regime"
+    },
+    {
+      "palavra": "DAS|Requiem",
+      "traducao": "réquiem",
+      "ingles": "requiem"
+    },
+    {
+      "palavra": "DIE|Retina",
+      "traducao": "retina",
+      "ingles": "retina"
+    },
+    {
+      "palavra": "DAS|Ritual",
+      "traducao": "ritual",
+      "ingles": "ritual"
+    },
+    {
+      "palavra": "DAS|Roaming",
+      "traducao": "roaming",
+      "ingles": "roaming"
+    },
+    {
+      "palavra": "DIE|Safari",
+      "traducao": "safári",
+      "ingles": "safari"
+    },
+    {
+      "palavra": "DIE|Saga",
+      "traducao": "saga",
+      "ingles": "saga"
+    },
+    {
+      "palavra": "DER|Samba",
+      "traducao": "samba",
+      "ingles": "samba"
+    },
+    {
+      "palavra": "DER|Samurai",
+      "traducao": "samurai",
+      "ingles": "samurai"
+    },
+    {
+      "palavra": "DIE|Sauna",
+      "traducao": "sauna",
+      "ingles": "sauna"
+    },
+    {
+      "palavra": "DIE|Schadenfreude",
+      "traducao": "schadenfreude",
+      "ingles": "schadenfreude"
+    },
+    {
+      "palavra": "DIE|Scharia",
+      "traducao": "sharia",
+      "ingles": "sharia"
+    },
+    {
+      "palavra": "DER|Schlumpf",
+      "traducao": "smurf",
+      "ingles": "smurf"
+    },
+    {
+      "palavra": "DIE|Schnittstelle",
+      "traducao": "interface",
+      "ingles": "interface"
+    },
+    {
+      "palavra": "DIE|Schoko",
+      "traducao": "chocolate",
+      "ingles": "chocolate"
+    },
+    {
+      "palavra": "DIE|Schokolade",
+      "traducao": "chocolate",
+      "ingles": "chocolate"
+    },
+    {
+      "palavra": "DAS|Selfie",
+      "traducao": "selfie",
+      "ingles": "selfie"
+    },
+    {
+      "palavra": "DER|Sensor",
+      "traducao": "sensor",
+      "ingles": "sensor"
+    },
+    {
+      "palavra": "DAS|Serum",
+      "traducao": "sérum",
+      "ingles": "serum"
+    },
+    {
+      "palavra": "DAS|Sigma",
+      "traducao": "sigma",
+      "ingles": "sigma"
+    },
+    {
+      "palavra": "DAS|Silikon",
+      "traducao": "silicone",
+      "ingles": "silicone"
+    },
+    {
+      "palavra": "DER|Slalom",
+      "traducao": "slalom",
+      "ingles": "slalom"
+    },
+    {
+      "palavra": "DER|Slogan",
+      "traducao": "slogan",
+      "ingles": "slogan"
+    },
+    {
+      "palavra": "DAS|Smart-TV",
+      "traducao": "smart tv",
+      "ingles": "smart TV"
+    },
+    {
+      "palavra": "DAS|Smartphone",
+      "traducao": "smartphone",
+      "ingles": "smartphone"
+    },
+    {
+      "palavra": "DAS|Sofa",
+      "traducao": "sofá",
+      "ingles": "sofa"
+    },
+    {
+      "palavra": "DAS|Solo",
+      "traducao": "solo",
+      "ingles": "solo"
+    },
+    {
+      "palavra": "DIE|Sonate",
+      "traducao": "sonata",
+      "ingles": "sonata"
+    },
+    {
+      "palavra": "DER|Sopran",
+      "traducao": "soprano",
+      "ingles": "soprano"
+    },
+    {
+      "palavra": "DAS|Spa",
+      "traducao": "spa",
+      "ingles": "spa"
+    },
+    {
+      "palavra": "DER|Speck",
+      "traducao": "bacon",
+      "ingles": "bacon"
+    },
+    {
+      "palavra": "DER|Speichel",
+      "traducao": "saliva",
+      "ingles": "saliva"
+    },
+    {
+      "palavra": "DIE|Speisekarte",
+      "traducao": "menu",
+      "ingles": "menu"
+    },
+    {
+      "palavra": "DAS|Spital",
+      "traducao": "hospital",
+      "ingles": "hospital"
+    },
+    {
+      "palavra": "DAS|Spray",
+      "traducao": "spray",
+      "ingles": "spray"
+    },
+    {
+      "palavra": "DER|Status",
+      "traducao": "status",
+      "ingles": "status"
+    },
+    {
+      "palavra": "DIE|Suite",
+      "traducao": "suíte",
+      "ingles": "suite"
+    },
+    {
+      "palavra": "DAS|Sushi",
+      "traducao": "sushi",
+      "ingles": "sushi"
+    },
+    {
+      "palavra": "DIE|Tagesordnung",
+      "traducao": "agenda",
+      "ingles": "agenda"
+    },
+    {
+      "palavra": "DAS|Tai-Chi",
+      "traducao": "tai chi",
+      "ingles": "tai chi"
+    },
+    {
+      "palavra": "DER|Tango",
+      "traducao": "tango",
+      "ingles": "tango"
+    },
+    {
+      "palavra": "DAS|Tao",
+      "traducao": "tao",
+      "ingles": "tao"
+    },
+    {
+      "palavra": "DAS|Taxi",
+      "traducao": "táxi",
+      "ingles": "taxi"
+    },
+    {
+      "palavra": "DER|Tequila",
+      "traducao": "tequila",
+      "ingles": "tequila"
+    },
+    {
+      "palavra": "DAS|Terminal",
+      "traducao": "terminal",
+      "ingles": "terminal"
+    },
+    {
+      "palavra": "DER|Terror",
+      "traducao": "terror",
+      "ingles": "terror"
+    },
+    {
+      "palavra": "DAS|Tessin",
+      "traducao": "ticino",
+      "ingles": "ticino"
+    },
+    {
+      "palavra": "DAS|Tier",
+      "traducao": "animal",
+      "ingles": "animal"
+    },
+    {
+      "palavra": "DER|Tofu",
+      "traducao": "tofu",
+      "ingles": "tofu"
+    },
+    {
+      "palavra": "DER|Tornado",
+      "traducao": "tornado",
+      "ingles": "tornado"
+    },
+    {
+      "palavra": "DER|Torpedo",
+      "traducao": "torpedo",
+      "ingles": "torpedo"
+    },
+    {
+      "palavra": "DAS|Trauma",
+      "traducao": "trauma",
+      "ingles": "trauma"
+    },
+    {
+      "palavra": "DAS|Tribunal",
+      "traducao": "tribunal",
+      "ingles": "tribunal"
+    },
+    {
+      "palavra": "DAS|Trio",
+      "traducao": "trio",
+      "ingles": "trio"
+    },
+    {
+      "palavra": "DER|Troll",
+      "traducao": "troll",
+      "ingles": "troll"
+    },
+    {
+      "palavra": "DER|Tsunami",
+      "traducao": "tsunami",
+      "ingles": "tsunami"
+    },
+    {
+      "palavra": "DIE|Tuba",
+      "traducao": "tuba",
+      "ingles": "tuba"
+    },
+    {
+      "palavra": "DER|Tumor",
+      "traducao": "tumor",
+      "ingles": "tumor"
+    },
+    {
+      "palavra": "DAS|Tutorial",
+      "traducao": "tutorial",
+      "ingles": "tutorial"
+    },
+    {
+      "palavra": "DER|Urknall",
+      "traducao": "big bang",
+      "ingles": "big bang"
+    },
+    {
+      "palavra": "DIE|Utopie",
+      "traducao": "utopia",
+      "ingles": "utopia"
+    },
+    {
+      "palavra": "DIE|Vagina",
+      "traducao": "vagina",
+      "ingles": "vagina"
+    },
+    {
+      "palavra": "DER|Van",
+      "traducao": "van",
+      "ingles": "van"
+    },
+    {
+      "palavra": "DIE|Venus",
+      "traducao": "vênus",
+      "ingles": "Venus"
+    },
+    {
+      "palavra": "DAS|Verbrechen",
+      "traducao": "crime",
+      "ingles": "crime"
+    },
+    {
+      "palavra": "DER|Verbrecher",
+      "traducao": "criminal",
+      "ingles": "criminal"
+    },
+    {
+      "palavra": "DAS|Veto",
+      "traducao": "veto",
+      "ingles": "veto"
+    },
+    {
+      "palavra": "DAS|Video",
+      "traducao": "vídeo",
+      "ingles": "video"
+    },
+    {
+      "palavra": "DIE|Viola",
+      "traducao": "viola",
+      "ingles": "viola"
+    },
+    {
+      "palavra": "DAS|Virus",
+      "traducao": "vírus",
+      "ingles": "virus"
+    },
+    {
+      "palavra": "DAS|Visum",
+      "traducao": "visa",
+      "ingles": "visa"
+    },
+    {
+      "palavra": "DAS|Volt",
+      "traducao": "volt",
+      "ingles": "volt"
+    },
+    {
+      "palavra": "DAS|Volumen",
+      "traducao": "volume",
+      "ingles": "volume"
+    },
+    {
+      "palavra": "DIE|Waffel",
+      "traducao": "waffle",
+      "ingles": "waffle"
+    },
+    {
+      "palavra": "DIE|Webcam",
+      "traducao": "webcam",
+      "ingles": "webcam"
+    },
+    {
+      "palavra": "DER|Werkstoff",
+      "traducao": "material",
+      "ingles": "material"
+    },
+    {
+      "palavra": "DER|Wodka",
+      "traducao": "vodka",
+      "ingles": "vodka"
+    },
+    {
+      "palavra": "DAS|Yang",
+      "traducao": "yang",
+      "ingles": "yang"
+    },
+    {
+      "palavra": "DAS|Yin",
+      "traducao": "yin",
+      "ingles": "yin"
+    },
+    {
+      "palavra": "DAS|Zebra",
+      "traducao": "zebra",
+      "ingles": "zebra"
+    },
+    {
+      "palavra": "DAS|Zelten",
+      "traducao": "camping",
+      "ingles": "camping"
+    },
+    {
+      "palavra": "DAS|Zen",
+      "traducao": "zen",
+      "ingles": "zen"
+    },
+    {
+      "palavra": "DAS|Zumba",
+      "traducao": "zumba",
+      "ingles": "zumba"
+    },
+    {
+      "palavra": "DIE|Ära",
+      "traducao": "era",
+      "ingles": "era"
+    },
+    {
+      "palavra": "DIE|Übelkeit",
+      "traducao": "náusea",
+      "ingles": "nausea"
+    },
+    {
+      "palavra": "DAS|Über-Ich",
+      "traducao": "superego",
+      "ingles": "superego"
+    },
+    {
+      "palavra": "DIE|Überdosis",
+      "traducao": "overdose",
+      "ingles": "overdose"
+    }
+  ]
 }
