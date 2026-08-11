@@ -287,13 +287,35 @@ def montar_prompt(lote, lang):
     return INSTRUCOES.format(idioma=idioma) + '\nSubstantive:\n' + '\n'.join(linhas)
 
 
-# Uma tradução é um lema, não uma frase: sem pontuação final, sem artigo do idioma
-# destino, no máximo três sentidos. Sem isto os pacotes ficam incoerentes entre si e o
-# sinal de forma do verify-packs.py dispara em massa depois.
-ARTIGO_DESTINO = re.compile(
-    r'^(o|a|os|as|um|uma|the|a|an|el|la|los|las|un|una|le|la|les|un|une|des)\s',
-    re.IGNORECASE,
-)
+# Artigo inicial: por idioma, e **removido** em vez de rejeitado.
+#
+# A primeira versão juntava os artigos de todos os idiomas numa expressão só e reprovava
+# o lote inteiro. Custou 21 lotes de 60 palavras: `un working group` bateu no artigo
+# francês dentro de uma tradução inglesa, e `das Ich -> the self` foi reprovado sendo
+# que em inglês o artigo é obrigatório ali.
+#
+# Reprovar 60 palavras por causa de uma é desproporcional, e a correção certa é trivial:
+# tirar o artigo dá o lema que se queria — `a fatura` vira `fatura`, `the afterlife` vira
+# `afterlife`. Continua valendo para o caso que motivou a regra, sem punir o resto.
+ARTIGOS = {
+    'pt-BR': r'o|a|os|as|um|uma|uns|umas',
+    'pt': r'o|a|os|as|um|uma|uns|umas',
+    'en': r'the|a|an',
+    'es': r'el|la|los|las|un|una|unos|unas',
+    'fr': r'le|la|les|un|une|des',
+    'it': r'il|lo|la|i|gli|le|un|uno|una',
+    'nl': r'de|het|een',
+}
+
+
+def sem_artigo(texto, lang):
+    padrao = ARTIGOS.get(lang)
+    if not padrao:
+        return texto
+    return ' / '.join(
+        re.sub(rf'^({padrao})\s+', '', parte.strip(), flags=re.IGNORECASE) or parte.strip()
+        for parte in texto.split(' / ')
+    )
 
 
 def validar(resposta, lote):
@@ -319,14 +341,12 @@ def validar(resposta, lote):
             raise ValueError(f'{chave}: mais de três sentidos — {texto!r}')
         if texto.rstrip().endswith(('.', ';', ',')):
             raise ValueError(f'{chave}: pontuação final — {texto!r}')
-        if ARTIGO_DESTINO.match(texto):
-            raise ValueError(f'{chave}: começa com artigo — {texto!r}')
     return resposta
 
 
-def fundir(resposta, traducoes, sinais):
+def fundir(resposta, traducoes, sinais, lang):
     for chave, entrada in resposta.items():
-        traducoes[chave] = entrada['uebersetzung'].strip()
+        traducoes[chave] = sem_artigo(entrada['uebersetzung'].strip(), lang)
         if entrada['mehrdeutig'] or entrada['verwechselbar_mit'].strip():
             sinais[chave] = {
                 'mehrdeutig': entrada['mehrdeutig'],
@@ -380,7 +400,7 @@ def ingerir(base, lang, pasta):
         lote = [indice[c] for c in chaves[numero] if c in indice]
         try:
             dados = json.loads(arquivo.read_text(encoding='utf-8'))
-            fundir(validar(dados, lote), traducoes, sinais)
+            fundir(validar(dados, lote), traducoes, sinais, lang)
             aceitos += 1
         except (ValueError, json.JSONDecodeError) as erro:
             rejeitados += 1
@@ -430,7 +450,7 @@ def via_api(lotes, lang, modelo, paralelo):
                 if erro is not None:
                     print(f'  lote {numero}: descartado — {erro}')
                     continue
-                fundir(resposta, traducoes, sinais)
+                fundir(resposta, traducoes, sinais, lang)
                 gravar_fonte(lang, traducoes)
                 gravar_sinais(sinais)
                 feitos += 1

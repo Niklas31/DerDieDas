@@ -43,6 +43,9 @@ SOURCES_DIR = ROOT / 'tools/translations'
 SCHEMA = 2
 ORDER = 'word.lower(),article'
 
+# Abaixo disto o idioma está em andamento, não pronto — e não vira pacote publicável.
+COBERTURA_MINIMA = 99.0
+
 
 def sem_comentarios(tabela):
     """As chaves iniciadas por `_` são documentação embutida no JSON."""
@@ -174,6 +177,24 @@ def main():
                 sem_traducao += 1
             alinhado.append(valor)
 
+        faltando = sorted(set(fixes) - corrigidas)
+        cobertura = 100 * (len(alinhado) - sem_traducao) / len(alinhado)
+
+        # Um idioma pela metade não é publicável, e o modo de falha é silencioso: o
+        # pacote carrega, o digest confere, e o usuário simplesmente vê palavras sem
+        # tradução sem entender por quê. Gerar um idioma leva horas e é retomável, então
+        # é normal a fonte estar incompleta no meio do caminho — o que não pode é isso
+        # virar artefato publicado por descuido.
+        if cobertura < COBERTURA_MINIMA:
+            print(f'  {lang}: {cobertura:.1f}% traduzidas — PACOTE NÃO GERADO '
+                  f'(mínimo {COBERTURA_MINIMA}%)')
+            print(f'      idioma em andamento: {sem_traducao} palavras ainda sem tradução')
+            if not (PACKS_DIR / f'{lang}.json').exists():
+                print(f'      docs/data/lang/{lang}.json não existe e continua não existindo')
+            else:
+                print(f'      docs/data/lang/{lang}.json ficou como estava')
+            continue
+
         (PACKS_DIR / f'{lang}.json').write_text(json.dumps({
             'schema': SCHEMA,
             'language': lang,
@@ -182,8 +203,6 @@ def main():
             'translations': alinhado,
         }, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
 
-        faltando = sorted(set(fixes) - corrigidas)
-        cobertura = 100 * (len(alinhado) - sem_traducao) / len(alinhado)
         print(f'  {lang}: {len(alinhado)} entradas, {cobertura:.1f}% traduzidas, '
               f'{len(corrigidas)}/{len(fixes)} correções aplicadas')
         if sem_traducao:

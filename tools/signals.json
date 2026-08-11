@@ -1,0 +1,2042 @@
+{
+  "_doc": "Ambiguidade e confusão por palavra alemã, subproduto da tradução. Neutro de idioma: acumula entre os pacotes e serve os próximos.",
+  "count": 509,
+  "signals": {
+    "DAS|Acid": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "chemische Säure heißt 'Säure', nicht 'Acid'"
+    },
+    "DAS|Aktiv": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "Adjektiv 'aktiv' (tätig)"
+    },
+    "DAS|All": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "englisch 'all' (alle)"
+    },
+    "DAS|Alter": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "englisch 'alter' (verändern)"
+    },
+    "DAS|Amt": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DAS|Aroma": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DAS|Bad": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": "englisch 'bad' (schlecht)"
+    },
+    "DAS|Band": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": "englisch 'band' (Musikgruppe), im Deutschen 'die Band'"
+    },
+    "DAS|Bar": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "meist 'die Bar'"
+    },
+    "DAS|Becken": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DAS|Black-out": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DAS|Blackberry": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "englisch 'blackberry' (die Brombeere)"
+    },
+    "DAS|Blackout": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DAS|Blatt": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DAS|Bock": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "meist 'der Bock'"
+    },
+    "DAS|Bolzen": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "meist 'der Bolzen' (Metallstift)"
+    },
+    "DAS|Chatten": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "der historische Stamm 'die Chatten'"
+    },
+    "DAS|Endspiel": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DAS|Engagement": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": "englisch 'engagement' (Verlobung)"
+    },
+    "DAS|Erbe": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": "der Erbe (Person, Erbe/Erbin)"
+    },
+    "DAS|Fach": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DAS|Fahrwerk": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DAS|Gaudi": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "Architekt Antoni Gaudí"
+    },
+    "DAS|Gebet": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "das Gebiet"
+    },
+    "DAS|Gebiet": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": "das Gebet"
+    },
+    "DAS|Gebiss": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DAS|Gebot": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DAS|Gefallen": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DAS|Gefährt": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "der Gefährte (Begleiter)"
+    },
+    "DAS|Gefälle": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DAS|Gehalt": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "der Gehalt (Inhalt)"
+    },
+    "DAS|Gelände": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DAS|Genus": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DAS|Gericht": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DAS|German": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "englisch 'German' (deutsch / Deutscher)"
+    },
+    "DAS|Geschick": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DAS|Geschirr": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DAS|Geschlecht": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DAS|Geschoss": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DAS|Geschäft": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DAS|Gewebe": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DAS|Gift": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "englisch 'gift' (Geschenk)"
+    },
+    "DAS|Glied": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DAS|Glück": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DAS|Golf": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "der Golf (Sport, Meerbusen, Auto)"
+    },
+    "DAS|His": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "englisch 'his' (Possessivpronomen)"
+    },
+    "DAS|Hoch": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DAS|Hähnchen": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DAS|Iren": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "der Ire (Pl. Iren)"
+    },
+    "DAS|Jus": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DAS|Kabinett": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DAS|Kaffee": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": "der Kaffee (Getränk, Standarddeutsch)"
+    },
+    "DAS|Koks": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DAS|Kolleg": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": "Kollege"
+    },
+    "DAS|Kommando": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DAS|Kontra": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DAS|Koppel": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "die Koppel (Weide)"
+    },
+    "DAS|Korn": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DAS|Korpus": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DAS|Kostüm": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DAS|Kraut": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DAS|Kätzchen": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DAS|Kölsch": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DAS|Köpfchen": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DAS|Körbchen": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DAS|Lachs": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "der Lachs (der Fisch)"
+    },
+    "DAS|Lager": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DAS|Laken": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "die Lake (Salzlake)"
+    },
+    "DAS|Land": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DAS|Laster": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DAS|Laufband": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DAS|Legat": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DAS|Mare": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "englisch 'mare' (Stute)"
+    },
+    "DAS|Mark": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": "englisch 'mark' (Zeichen), die Mark (Währung)"
+    },
+    "DAS|Matt": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "englisch 'mat' (Matte)"
+    },
+    "DAS|Matte": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "die Matte (Turnmatte)"
+    },
+    "DAS|Mem": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "das Meme (Internet-Meme)"
+    },
+    "DAS|Memory": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "englisch 'memory' (Gedächtnis)"
+    },
+    "DAS|Mensch": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "der Mensch (Person)"
+    },
+    "DAS|Mittel": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DAS|Mobil": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": "das Mobile (Hängedeko)"
+    },
+    "DAS|Opfer": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DAS|Orange": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "die Orange (die Frucht)"
+    },
+    "DAS|Orchester": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "die Orchestra"
+    },
+    "DAS|Organ": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DAS|Paar": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DAS|Pack": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "das Pack (Gesindel, kein Plural)"
+    },
+    "DAS|Paderborner": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "der Paderborner (die Person)"
+    },
+    "DAS|Reis": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "der Reis (Lebensmittel)"
+    },
+    "DAS|Revier": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DAS|Rezept": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DAS|Riß": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "Riss"
+    },
+    "DAS|Rohr": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DAS|Ruder": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DAS|Rät": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "Rätsel"
+    },
+    "DAS|Rätsel": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DAS|Sieben": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "die Zahl sieben (seven)"
+    },
+    "DAS|Silicon": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "chemisches Element Silizium (silicon)"
+    },
+    "DAS|Soll": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DAS|Testament": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DAS|Tex": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "Name 'Tex' oder Textsatzsystem TeX"
+    },
+    "DAS|Theater": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DAS|Thing": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "englisch 'thing' (Sache) und deutsches 'Ding'"
+    },
+    "DAS|Thorn": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "deutsches Wort 'Dorn' (Pflanzenstachel)"
+    },
+    "DAS|Tief": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DAS|Titan": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "'der Titan' (Riese, mythologische Gestalt)"
+    },
+    "DAS|Tor": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DAS|Transparent": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "Adjektiv 'transparent' (durchsichtig)"
+    },
+    "DAS|Trauerspiel": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DAS|Treiben": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DAS|Trial": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "englisch 'trial' (Gerichtsprozess)"
+    },
+    "DAS|Tropfen": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "'der Tropfen' (ein einzelner Tropfen)"
+    },
+    "DAS|Tuch": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DAS|Unglück": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DER|Abbau": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DER|Aberglaube": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "Aberglauben (Nebenform)"
+    },
+    "DER|Aberglauben": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "Aberglaube (Nebenform)"
+    },
+    "DER|Abfall": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DER|Abgang": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DER|Abgeordneter": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "die Abgeordnete (feminin)"
+    },
+    "DER|Ablauf": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DER|Abriss": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DER|Absatz": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DER|Abschlag": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DER|Abschluss": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DER|Abstieg": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DER|Abzug": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DER|Achter": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DER|After": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "englisch 'after' (nach, später)"
+    },
+    "DER|Akkord": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DER|Akteur": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DER|Akut": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "Adjektiv 'akut' (dringend)"
+    },
+    "DER|Alb": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "Alben (Plural von Album)"
+    },
+    "DER|Alben": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "Album (Standardform)"
+    },
+    "DER|Albtraum": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "Alptraum (Nebenschreibweise)"
+    },
+    "DER|Alp": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "Alpe (Bergweide)"
+    },
+    "DER|Alptraum": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "Albtraum (Hauptschreibweise)"
+    },
+    "DER|Amazon": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "Amazonas (der Fluss)"
+    },
+    "DER|Amazonas": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "Amazon (das Unternehmen)"
+    },
+    "DER|Amerikaner": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DER|Anbau": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DER|Anfall": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DER|Anflug": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DER|Anger": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "englisch 'anger' (Wut)"
+    },
+    "DER|Anhänger": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DER|Anlauf": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DER|Anleger": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DER|Anpfiff": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DER|Ansatz": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DER|Anschluss": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DER|Anstoß": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DER|Appell": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DER|Ara": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "Ära (Zeitalter)"
+    },
+    "DER|Bach": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "englischer Name 'Bach' (Komponist)"
+    },
+    "DER|Bachelor": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "englisch 'bachelor' (unverheirateter Mann)"
+    },
+    "DER|Ball": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DER|Barren": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DER|Bauer": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DER|Beamer": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "englisch 'beamer' (Slang für BMW)"
+    },
+    "DER|Belag": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DER|Beleg": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DER|Belt": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "englisch 'belt' (Gürtel)"
+    },
+    "DER|Berliner": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DER|Bestand": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DER|Betrieb": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DER|Bezug": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DER|Binder": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DER|Blender": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "englisch 'blender' (Mixer)"
+    },
+    "DER|Boden": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DER|Body": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "englisch 'body' (Körper)"
+    },
+    "DER|Bogen": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DER|Bordeaux": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DER|Camper": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DER|Castor": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "englisch 'castor' (Rizinus, Rolle)"
+    },
+    "DER|Chapeau": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DER|Engländer": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DER|Enkel": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DER|Entwickler": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DER|Entwurf": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DER|Erhalt": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DER|Erlass": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DER|Erwerb": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DER|Erzeuger": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DER|Fall": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DER|Falter": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DER|Fidschi": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DER|Gedanken": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "der Gedanke (Standardform)"
+    },
+    "DER|Gefährte": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "das Gefährt (Fahrzeug)"
+    },
+    "DER|Gegenstand": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DER|Geist": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DER|Genius": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DER|Gewinn": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DER|Gläubiger": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "der/die Gläubige (gläubiger Mensch)"
+    },
+    "DER|Gore": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "Politiker Al Gore"
+    },
+    "DER|Herzschlag": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DER|Himmel": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DER|Hock": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "englisch 'hock' (Fesselgelenk/Wein)"
+    },
+    "DER|Hof": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DER|Hort": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DER|Hub": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": "englisch 'hub' (Nabe/Knotenpunkt, Pl. Hubs)"
+    },
+    "DER|Hummer": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "englisch 'Hummer' (Fahrzeugmarke)"
+    },
+    "DER|Hut": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "englisch 'hut' (Hütte)"
+    },
+    "DER|Hänger": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DER|Hörer": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DER|Imbiss": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DER|Inder": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "der Indianer (amerikanischer Ureinwohner)"
+    },
+    "DER|Indianer": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "der Inder (Person aus Indien)"
+    },
+    "DER|Inn": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "englisch 'inn' (Gasthaus)"
+    },
+    "DER|Isch": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "das Ich"
+    },
+    "DER|Jahrgang": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DER|Jura": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DER|Knick": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DER|Knoten": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DER|Knöchel": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DER|Kodex": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DER|Kolben": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DER|Kollege": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "Kolleg"
+    },
+    "DER|Kommandant": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "Kommandeur"
+    },
+    "DER|Kommandeur": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "Kommandant"
+    },
+    "DER|Kommissar": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DER|Komplex": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DER|Konjunktiv": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "englisch 'conjunctive' (Bedeutungsunterschied)"
+    },
+    "DER|Kopf": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DER|Krach": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DER|Kreis": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DER|Kreisel": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DER|Kreislauf": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DER|Kreuzer": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DER|Kreuzweg": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DER|Kumpel": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DER|Kurs": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DER|Kümmel": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DER|Lake": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "das Laken (Bettlaken)"
+    },
+    "DER|Lappen": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DER|Late": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "englisch 'late' (spät)"
+    },
+    "DER|Lecker": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "englisch 'lecker'-Fehlschluss (kein englisches Wort)"
+    },
+    "DER|Leichter": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "englisch 'lighter' (Feuerzeug)"
+    },
+    "DER|Mate": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "englisch 'mate' (Kumpel)"
+    },
+    "DER|Maßstab": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DER|Meister": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DER|Merlin": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "Merlin (Zauberer)"
+    },
+    "DER|Met": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "englisch 'met' (traf/getroffen)"
+    },
+    "DER|Metal": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "das Metall (Werkstoff)"
+    },
+    "DER|Milan": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "Milan (Stadt, italienisch)"
+    },
+    "DER|Mir": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "englisch 'mir' (mir, Pronomen)"
+    },
+    "DER|Mist": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": "englisch 'mist' (Nebel)"
+    },
+    "DER|Mittelstand": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DER|Orden": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": "die Order"
+    },
+    "DER|Ordner": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DER|Page": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "englisch 'page' (Seite)"
+    },
+    "DER|Pair": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "das Paar"
+    },
+    "DER|Panzer": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DER|Papas": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "der Papa"
+    },
+    "DER|Paprika": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DER|Regierungsrat": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DER|Reicher": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "die Reiche"
+    },
+    "DER|Reif": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": "die Reife"
+    },
+    "DER|Reifen": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DER|Reihen": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "Reigen"
+    },
+    "DER|Reiseführer": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DER|Reisender": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "die Reisende"
+    },
+    "DER|Reiz": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DER|Renner": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DER|Reuter": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": "Reiter"
+    },
+    "DER|Riegel": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DER|Riemen": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DER|Robot": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "Roboter"
+    },
+    "DER|Roch": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "Rock"
+    },
+    "DER|Rock": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "englisch 'rock' (Stein, Musik)"
+    },
+    "DER|Rocken": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "rocken (Verb), Rock"
+    },
+    "DER|Rocker": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DER|Rom": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "Rom (Stadt)"
+    },
+    "DER|Roman": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "englisch 'roman' (römisch)"
+    },
+    "DER|Romane": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "Roman"
+    },
+    "DER|Rost": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DER|Ruin": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "die Ruine"
+    },
+    "DER|Rummel": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DER|Rumpf": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DER|Russ": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "Ruß, Russe"
+    },
+    "DER|Römer": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DER|Sie": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": "das Pronomen 'sie' (informell: sie, ihr)"
+    },
+    "DER|Siebziger": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DER|Simson": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DER|Sinus": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DER|Skin": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DER|Skorpion": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DER|Slip": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "englisch 'slip' (Unterrock, Ausrutscher)"
+    },
+    "DER|Smoking": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "englisch 'smoking' (rauchen)"
+    },
+    "DER|Than": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "englisch 'than' (Vergleichswort)"
+    },
+    "DER|Thüringer": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DER|Tic": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "deutsches Wort 'Tick'"
+    },
+    "DER|Tick": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DER|Tiefgang": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DER|Toast": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DER|Ton": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DER|Train": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "englisch 'train' (Eisenbahnzug)"
+    },
+    "DER|Trakt": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DER|Treiber": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DER|Trip": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DER|Tritt": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DER|Trojaner": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DER|Träger": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DER|Turkey": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "englisch 'turkey' (Truthahn), Ländername Türkei"
+    },
+    "DER|Typ": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DER|Type": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "'der Typ' (Art, Mann)"
+    },
+    "DER|Umbruch": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DER|Umfang": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DER|Umschlag": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DER|Umzug": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DER|Unter": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "englisch 'under' (unter)"
+    },
+    "DER|Untergang": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DER|Untergrund": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DER|Unterhalt": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DER|Upper": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "englisch 'upper' (Schuhoberteil)"
+    },
+    "DIE|Abbildung": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DIE|Abfahrt": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DIE|Abfindung": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DIE|Abfuhr": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DIE|Abgabe": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DIE|Abgeordnete": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "der Abgeordnete (maskulin)"
+    },
+    "DIE|Abhängige": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "der Abhängige (maskulin)"
+    },
+    "DIE|Abhängigkeit": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DIE|Abkürzung": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DIE|Ableitung": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DIE|Ablösung": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DIE|Abnahme": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DIE|Abrechnung": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DIE|Absage": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DIE|Abstimmung": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DIE|Abwehr": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DIE|Abwicklung": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DIE|Achse": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DIE|Acht": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DIE|Achtung": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DIE|Affaire": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "Affäre (Hauptschreibweise)"
+    },
+    "DIE|Affäre": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "Affaire (Nebenschreibweise)"
+    },
+    "DIE|Ahnung": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DIE|Aktion": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DIE|Alpe": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "Alp (Albtraum)"
+    },
+    "DIE|Ambulanz": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": "englisch 'ambulance' (Krankenwagen)"
+    },
+    "DIE|Analysis": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "englisch 'analysis' (allgemein: Analyse)"
+    },
+    "DIE|Anfechtung": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DIE|Angabe": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DIE|Angel": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DIE|Anlage": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DIE|Annahme": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DIE|Anordnung": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DIE|Ansicht": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DIE|Anzeige": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DIE|Applikation": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DIE|Arme": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "Plural von 'der Arm'"
+    },
+    "DIE|Art": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": "englisch 'art' (Kunst)"
+    },
+    "DIE|Bahn": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DIE|Bank": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": "englisch 'bank' (Geldinstitut), im Deutschen Pl. Banken"
+    },
+    "DIE|Bearbeitung": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DIE|Befestigung": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DIE|Beförderung": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DIE|Begehung": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DIE|Beherrschung": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DIE|Behinderung": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DIE|Beihilfe": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DIE|Beilage": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DIE|Berufung": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DIE|Berühmtheit": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DIE|Besatzung": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DIE|Beschneidung": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DIE|Besetzung": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DIE|Besprechung": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DIE|Bestimmung": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DIE|Beute": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DIE|Bewährung": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DIE|Bilanz": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DIE|Bildung": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DIE|Billion": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "englisch 'billion' (deutsch: Milliarde)"
+    },
+    "DIE|Bindung": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DIE|Birne": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DIE|Blase": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DIE|Blende": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DIE|Blütezeit": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DIE|Boa": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DIE|Champagne": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "englisch 'champagne' (Sekt) heißt auf Deutsch 'Champagner'"
+    },
+    "DIE|Charge": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": "englisch 'charge' (Anklage, Gebühr, aufladen)"
+    },
+    "DIE|Charta": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "englisch 'charter' (auch Vercharterung)"
+    },
+    "DIE|Entbindung": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DIE|Ente": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DIE|Entfernung": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DIE|Entspannung": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DIE|Erde": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DIE|Erhebung": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DIE|Erinnerung": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DIE|Erklärung": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DIE|Erregung": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DIE|Erscheinung": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DIE|Europa": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DIE|Evidenz": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "englisch 'evidence' (Beweismittel)"
+    },
+    "DIE|Exposition": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DIE|Exzellenz": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DIE|Fakultät": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DIE|Farbe": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DIE|Fassung": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DIE|Feder": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DIE|Feststellung": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DIE|Ficke": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "vulgäres 'ficken'"
+    },
+    "DIE|Figur": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DIE|Garde": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DIE|Garderobe": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DIE|Gattung": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DIE|Gegenwart": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DIE|Gegenüberstellung": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DIE|Gelegenheit": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DIE|Gemeinde": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DIE|Gemeine": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DIE|Genesis": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DIE|Gerade": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DIE|Geschichte": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DIE|Gesellschaft": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DIE|Gewalt": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DIE|Gläubige": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "der Gläubiger (Kreditgeber)"
+    },
+    "DIE|Heuer": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "das Dialektwort 'heuer' (dieses Jahr)"
+    },
+    "DIE|Hilfestellung": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DIE|Historie": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DIE|Hoheit": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DIE|Hornhaut": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DIE|Hufe": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "der Huf (Pl. Hufe, Tierfuß)"
+    },
+    "DIE|Instanz": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DIE|Iris": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DIE|Isolierung": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DIE|Jungfrau": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DIE|Kohle": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DIE|Kolonne": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": "Kolumne"
+    },
+    "DIE|Kolumne": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "Kolonne"
+    },
+    "DIE|Kommissarin": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DIE|Kommune": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DIE|Kompetenz": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DIE|Kondition": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DIE|Konstellation": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DIE|Kreuzung": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DIE|Krippe": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DIE|Kritik": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DIE|Kugel": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DIE|Kulisse": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DIE|Kupplung": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DIE|Küche": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DIE|Lage": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DIE|Marke": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DIE|Masche": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DIE|Mass": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "englisch 'mass' (Masse)"
+    },
+    "DIE|Masse": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DIE|Media": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "das Medium, Pl. Medien"
+    },
+    "DIE|Mehrzahl": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DIE|Meisterin": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DIE|Melde": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "die Meldung"
+    },
+    "DIE|Menge": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DIE|Messe": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DIE|Miene": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "die Mine (Sprengkörper)"
+    },
+    "DIE|Mies": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "mies (ugs. für schlecht)"
+    },
+    "DIE|Military": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "englisch 'military' (Militär)"
+    },
+    "DIE|Milliarde": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "englisch 'milliard' (veraltet)"
+    },
+    "DIE|Mine": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": "englisch 'mine' (meins)"
+    },
+    "DIE|Mitgift": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "das Gift (Giftstoff)"
+    },
+    "DIE|Optik": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DIE|Orchestra": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "das Orchester (gebräuchlichere Form)"
+    },
+    "DIE|Order": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "der Orden"
+    },
+    "DIE|Ordre": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "die Order"
+    },
+    "DIE|Orgel": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "das Organ (Körperorgan)"
+    },
+    "DIE|Palette": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DIE|Pampa": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DIE|Panne": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DIE|Parabel": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DIE|Regie": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DIE|Regulation": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "Regulierung"
+    },
+    "DIE|Regulierung": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "Regulation"
+    },
+    "DIE|Reiche": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "der Reicher"
+    },
+    "DIE|Reife": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "der Reif"
+    },
+    "DIE|Reihe": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DIE|Rein": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "Rinne"
+    },
+    "DIE|Reine": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DIE|Reinigung": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DIE|Reisende": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "der Reisender"
+    },
+    "DIE|Reisezeit": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DIE|Rente": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "englisch 'rent' (Miete)"
+    },
+    "DIE|Replik": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DIE|Resignation": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "Rücktritt (Amt)"
+    },
+    "DIE|Resonanz": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DIE|Restauration": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DIE|Revanche": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DIE|Revision": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DIE|Riege": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DIE|Rinde": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DIE|Rolle": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DIE|Ruh": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "Ruhe"
+    },
+    "DIE|Ruhr": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DIE|Ruine": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "der Ruin"
+    },
+    "DIE|Rus": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "Ruß"
+    },
+    "DIE|Räumung": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DIE|Röhre": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DIE|Sicherheit": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DIE|Sicherung": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DIE|Sichtung": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DIE|Sommerzeit": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DIE|These": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "englisch 'these' (diese)"
+    },
+    "DIE|Tolle": {
+      "mehrdeutig": false,
+      "verwechselbar_mit": "englisch 'toll' (kein Bezug)"
+    },
+    "DIE|Tonne": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DIE|Traube": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DIE|Trias": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DIE|Trägheit": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DIE|Unbekannte": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DIE|Unterhaltung": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    },
+    "DIE|Unterlage": {
+      "mehrdeutig": true,
+      "verwechselbar_mit": ""
+    }
+  }
+}
