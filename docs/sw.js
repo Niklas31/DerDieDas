@@ -10,7 +10,7 @@
 // visitaram o site continuarão servindo a versão antiga do cache.
 
 // <<<GENERATED>>>
-const CACHE = 'ddd-40f248532cf2';
+const CACHE = 'ddd-d783154ec6d0';
 const ASSETS = [
   './',
   './css/app.css',
@@ -37,7 +37,7 @@ const ASSETS = [
 // Pacotes de idioma: fora do precache, cacheados sob demanda e versionados um a um,
 // para que um deploy não apague a tradução de quem está offline.
 const PACKS = {
-  './data/lang/pt-BR.json': '920d0781b812',
+  './data/lang/pt-BR.json': 'da34bf4b0ecf',
 };
 // <<<END GENERATED>>>
 
