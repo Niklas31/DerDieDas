@@ -51,7 +51,7 @@ export function nounRow(noun, onClick) {
       el('div', { class: 'row-word', text: noun.word }),
       el('div', {
         class: 'row-sub',
-        text: noun.translation || 'Sem tradução em português',
+        text: noun.translation || 'Sem tradução',
       }),
     ]),
   ]);

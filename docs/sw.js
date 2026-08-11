@@ -10,7 +10,7 @@
 // visitaram o site continuarão servindo a versão antiga do cache.
 
 // <<<GENERATED>>>
-const CACHE = 'ddd-aed9fc67f398';
+const CACHE = 'ddd-2df600b58448';
 const ASSETS = [
   './',
   './css/app.css',
@@ -21,6 +21,7 @@ const ASSETS = [
   './icons/icon-maskable-512.png',
   './js/data.js',
   './js/format.js',
+  './js/locale.js',
   './js/main.js',
   './js/pwa.js',
   './js/search.js',

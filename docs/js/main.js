@@ -1,6 +1,8 @@
 // Bootstrap e navegação entre abas.
 
 import { loadBase, loadPack, warmPack } from './data.js';
+import { resolve, browserLanguages } from './locale.js';
+import { getPrefs } from './store.js';
 import { setupPWA } from './pwa.js';
 import * as search from './views/search.js';
 import * as historyView from './views/history.js';
@@ -74,7 +76,7 @@ async function start() {
 
   // Best-effort de propósito: sem o pacote o app ainda ensina artigo e plural, que é o
   // que ele existe para ensinar. Uma tela de erro aqui seria desproporcional.
-  await loadPack('pt-BR');
+  await loadPack(resolve(getPrefs().translationLang, browserLanguages()));
 
   container.append(search.element, historyView.element, training.element, about.element);
 

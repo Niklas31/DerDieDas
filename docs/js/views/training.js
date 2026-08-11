@@ -4,7 +4,8 @@
 // nunca é removido do DOM. Ao avançar de palavra só trocamos texto e limpamos o valor,
 // para que o teclado do iOS permaneça aberto durante todo o treino.
 
-import { allNouns, randomNoun, nounForWord } from '../data.js';
+import { allNouns, randomNoun, nounForWord, loadPack, activeLanguage } from '../data.js';
+import { LANGUAGES, resolve, browserLanguages } from '../locale.js';
 import { recordPractice, getPrefs, setPref } from '../store.js';
 import { el, badge, card, clear, reportLink } from '../ui.js';
 import { render as renderStats } from './stats.js';
@@ -24,8 +25,19 @@ const modeSelect = el('select', { 'aria-label': 'Modo de treino' }, [
 
 const translationToggle = el('input', { type: 'checkbox' });
 
+// "Automático" é obrigatório, não enfeite: sem ele, quem experimenta o inglês uma vez
+// fica preso a uma escolha explícita e não tem como voltar a seguir o navegador.
+const languageSelect = el('select', { 'aria-label': 'Idioma da tradução' }, [
+  el('option', { value: '', text: 'Automático' }),
+  ...LANGUAGES.map((idioma) => el('option', { value: idioma.code, text: idioma.label })),
+]);
+
 const controls = card([
   el('div', { class: 'control-row' }, [el('span', { text: 'Modo' }), modeSelect]),
+  el('div', { class: 'control-row' }, [
+    el('span', { text: 'Idioma da tradução' }),
+    languageSelect,
+  ]),
   el('div', { class: 'control-row' }, [
     el('span', { text: 'Mostrar tradução durante o treino' }),
     el('label', { class: 'switch' }, [translationToggle, el('span')]),
@@ -121,7 +133,7 @@ function renderTranslationBlock(noun) {
     el('div', { class: 'label', text: 'Tradução:' }),
     el('div', {
       class: 'translation',
-      text: noun.translation || 'Sem tradução em português',
+      text: noun.translation || 'Sem tradução',
     })
   );
   if (noun.plural) {
@@ -213,10 +225,30 @@ translationToggle.addEventListener('change', () => {
   renderCurrent();
 });
 
+languageSelect.addEventListener('change', async () => {
+  // String vazia é "Automático" — grava `null`, ausência de escolha, e não o idioma
+  // resolvido. Gravar o resolvido congelaria a preferência no primeiro uso.
+  const escolha = languageSelect.value || null;
+  setPref('translationLang', escolha);
+
+  const anterior = activeLanguage();
+  const alvo = resolve(escolha, browserLanguages());
+  if (alvo === anterior) return;
+
+  // Se o pacote novo não vier — offline, ou arquivo fora de sincronia —, `loadPack`
+  // devolve `false` e as traduções antigas continuam na memória. Voltar o seletor ao que
+  // está de fato em uso evita a tela mentir que trocou.
+  if (!(await loadPack(alvo))) {
+    languageSelect.value = activeLanguage() === resolve(null, browserLanguages()) ? '' : activeLanguage();
+  }
+  renderCurrent();
+});
+
 export function init() {
   const prefs = getPrefs();
   modeSelect.value = prefs.mode;
   translationToggle.checked = prefs.showTranslationInTraining;
+  languageSelect.value = prefs.translationLang ?? '';
   loadNextNoun();
 }
 

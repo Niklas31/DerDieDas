@@ -22,7 +22,7 @@ struct HistoryView: View {
                                 Text(translation)
                                     .font(.subheadline)
                             } else {
-                                Text("Sem tradução em português")
+                                Text("Sem tradução")
                                     .font(.subheadline)
                                     .foregroundStyle(.secondary)
                             }

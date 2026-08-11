@@ -1,0 +1,27 @@
+{
+  "_doc": "Tabela única contra a qual Swift e JavaScript são verificados. Uma divergência entre as duas implementações é invisível — o app e o site mostram idiomas diferentes para a mesma pessoa e ninguém descobre até um usuário reclamar. Rode tools/check-language.sh depois de mexer em qualquer regra de resolução.",
+  "cases": [
+    { "porque": "aparelho em português brasileiro", "override": null, "preferred": ["pt-BR"], "esperado": "pt-BR" },
+    { "porque": "português europeu colapsa no que temos", "override": null, "preferred": ["pt-PT"], "esperado": "pt-BR" },
+    { "porque": "português de Angola idem", "override": null, "preferred": ["pt-AO"], "esperado": "pt-BR" },
+    { "porque": "português sem região", "override": null, "preferred": ["pt"], "esperado": "pt-BR" },
+    { "porque": "inglês americano", "override": null, "preferred": ["en-US"], "esperado": "en" },
+    { "porque": "inglês britânico", "override": null, "preferred": ["en-GB"], "esperado": "en" },
+    { "porque": "sublinhado em vez de hífen, como alguns Android mandam", "override": null, "preferred": ["pt_BR"], "esperado": "pt-BR" },
+    { "porque": "caixa alta na região", "override": null, "preferred": ["PT-br"], "esperado": "pt-BR" },
+
+    { "porque": "primeiro idioma sem pacote, segundo com", "override": null, "preferred": ["de-DE", "en-US"], "esperado": "en" },
+    { "porque": "ordem de preferência é respeitada", "override": null, "preferred": ["en-US", "pt-BR"], "esperado": "en" },
+    { "porque": "ordem inversa", "override": null, "preferred": ["pt-BR", "en-US"], "esperado": "pt-BR" },
+    { "porque": "alemão puro cai no padrão", "override": null, "preferred": ["de-DE"], "esperado": "en" },
+    { "porque": "nenhum idioma conhecido", "override": null, "preferred": ["ja-JP", "ko-KR"], "esperado": "en" },
+    { "porque": "lista vazia", "override": null, "preferred": [], "esperado": "en" },
+
+    { "porque": "escolha explícita vence o aparelho", "override": "en", "preferred": ["pt-BR"], "esperado": "en" },
+    { "porque": "escolha explícita vence o aparelho, ao contrário", "override": "pt-BR", "preferred": ["en-US"], "esperado": "pt-BR" },
+    { "porque": "escolha explícita também colapsa região", "override": "pt-PT", "preferred": ["en-US"], "esperado": "pt-BR" },
+    { "porque": "escolha gravada de um idioma que não existe mais volta a seguir o aparelho", "override": "es", "preferred": ["pt-BR"], "esperado": "pt-BR" },
+    { "porque": "escolha inválida e aparelho desconhecido caem no padrão", "override": "klingon", "preferred": ["ja-JP"], "esperado": "en" },
+    { "porque": "override vazio é ausência de escolha", "override": "", "preferred": ["pt-BR"], "esperado": "pt-BR" }
+  ]
+}

@@ -16,11 +16,19 @@ final class AppStore: ObservableObject {
     /// de emergência. Sem isto a falha se disfarça de "app funcionando com 10 palavras".
     @Published private(set) var didFailToLoadBase = false
     @Published private(set) var nounStats: [NounPracticeStats]
-    @Published private(set) var cachedTranslations: [String: String]
+
+    /// Traduções vindas do framework da Apple, **por idioma**.
+    ///
+    /// `[idioma: [palavra: tradução]]`. Sem a dimensão de idioma, uma tradução em
+    /// português apareceria depois que a pessoa trocasse para inglês — e pareceria dado
+    /// nosso, não cache.
+    @Published private(set) var cachedTranslations: [String: [String: String]]
 
     private let historyKey = "artikel.history"
     private let statsKey = "artikel.stats"
-    private let translationsKey = "artikel.translations"
+    private let translationsKey = "artikel.translations.v2"
+    private let legacyTranslationsKey = "artikel.translations"
+    private let languageKey = "artikel.translationLanguage"
     private let dailyViewsKey = "artikel.dailyviews"
     private let defaults = UserDefaults.standard
     private let searchResultLimit = 300
@@ -31,17 +39,35 @@ final class AppStore: ObservableObject {
     @Published private(set) var viewedTodayIDs: Set<String> = []
     private var viewedTodayDay = Calendar.current.startOfDay(for: Date())
 
-    /// Idioma da tradução. Fixo por enquanto; o seletor e a resolução pelo aparelho
-    /// entram junto com o segundo pacote.
-    static let defaultLanguage = "pt-BR"
+    /// Idioma em uso agora — resolvido, nunca gravado.
+    @Published private(set) var translationLanguage: TranslationLanguage
+
+    /// A escolha explícita da pessoa, ou `nil` para seguir o aparelho.
+    ///
+    /// Só isto vai para o disco. Gravar o idioma **resolvido** congelaria no primeiro
+    /// lançamento o idioma que o aparelho tinha naquele dia, e trocar o idioma do iPhone
+    /// depois não mudaria mais nada — uma escolha que a pessoa nunca fez, impossível de
+    /// desfazer sem reinstalar.
+    @Published private(set) var languageOverride: String?
 
     init() {
-        let loaded = Self.loadBundledNouns(language: Self.defaultLanguage)
+        let override = UserDefaults.standard.string(forKey: languageKey)
+        let language = TranslationLanguage.resolve(
+            override: override,
+            preferred: Locale.preferredLanguages
+        )
+        self.languageOverride = override
+        self.translationLanguage = language
+
+        let loaded = Self.loadBundledNouns(language: language.rawValue)
         self.nouns = loaded.nouns
         self.didFailToLoadBase = loaded.usedFallback
         self.history = Self.load(LenientArray<SearchHistoryItem>.self, key: historyKey)?.elements ?? []
         self.nounStats = Self.load([NounPracticeStats].self, key: statsKey) ?? []
-        self.cachedTranslations = Self.load([String: String].self, key: translationsKey) ?? [:]
+        self.cachedTranslations = Self.loadTranslationCache(
+            key: translationsKey,
+            legacyKey: legacyTranslationsKey
+        )
         self.nounsByID = Dictionary(loaded.nouns.map { ($0.id, $0) }, uniquingKeysWith: { first, _ in first })
         loadDailyViews()
         discardOrphanedRecords()
@@ -75,9 +101,15 @@ final class AppStore: ObservableObject {
         nounStats.removeAll { !validIDs.contains($0.nounID) }
         if nounStats.count != previousStats { save(nounStats, key: statsKey) }
 
-        let previousTranslations = cachedTranslations.count
-        cachedTranslations = cachedTranslations.filter { validIDs.contains($0.key) }
-        if cachedTranslations.count != previousTranslations {
+        // Um nível a mais que antes: o cache agora é [idioma: [palavra: tradução]], então
+        // a limpeza precisa entrar em cada idioma em vez de filtrar o topo — que
+        // compararia códigos de idioma contra identificadores de palavra e apagaria tudo.
+        let previousTranslations = cachedTranslations.values.reduce(0) { $0 + $1.count }
+        cachedTranslations = cachedTranslations.compactMapValues { porIdioma in
+            let limpo = porIdioma.filter { validIDs.contains($0.key) }
+            return limpo.isEmpty ? nil : limpo
+        }
+        if cachedTranslations.values.reduce(0, { $0 + $1.count }) != previousTranslations {
             save(cachedTranslations, key: translationsKey)
         }
 
@@ -235,15 +267,66 @@ final class AppStore: ObservableObject {
             return noun.translation
         }
 
-        return cachedTranslations[noun.id]
+        return cachedTranslations[translationLanguage.rawValue]?[noun.id]
     }
 
     func saveTranslation(_ translation: String, for noun: GermanNoun) {
         let cleanedTranslation = translation.trimmingCharacters(in: .whitespacesAndNewlines)
         guard !cleanedTranslation.isEmpty else { return }
 
-        cachedTranslations[noun.id] = cleanedTranslation
+        cachedTranslations[translationLanguage.rawValue, default: [:]][noun.id] = cleanedTranslation
         save(cachedTranslations, key: translationsKey)
+    }
+
+    // MARK: - Idioma da tradução
+
+    /// Troca o idioma, ou volta a seguir o aparelho quando `language` é `nil`.
+    ///
+    /// Recarrega a base porque a tradução é fundida por índice no carregamento, não
+    /// consultada palavra a palavra. É trabalho síncrono de uns poucos décimos de
+    /// segundo, aceitável para uma ação deliberada e rara — e o preço de um formato que
+    /// custa metade do tamanho no download.
+    func setTranslationLanguage(_ language: TranslationLanguage?) {
+        let override = language?.rawValue
+        let resolvido = TranslationLanguage.resolve(
+            override: override,
+            preferred: Locale.preferredLanguages
+        )
+
+        languageOverride = override
+        if let override {
+            defaults.set(override, forKey: languageKey)
+        } else {
+            defaults.removeObject(forKey: languageKey)
+        }
+
+        guard resolvido != translationLanguage else { return }
+        translationLanguage = resolvido
+
+        let loaded = Self.loadBundledNouns(language: resolvido.rawValue)
+        nouns = loaded.nouns
+        didFailToLoadBase = loaded.usedFallback
+        nounsByID = Dictionary(loaded.nouns.map { ($0.id, $0) }, uniquingKeysWith: { first, _ in first })
+    }
+
+    /// Lê o cache de traduções, migrando o formato antigo de um idioma só.
+    ///
+    /// Antes de existirem idiomas, o cache era `[palavra: tradução]` e tudo ali dentro era
+    /// português. O conteúdo antigo entra sob `"pt-BR"` em vez de ser descartado: são
+    /// traduções que a pessoa já baixou pelo framework da Apple, e jogá-las fora faria o
+    /// app parecer que esqueceu o que sabia.
+    private static func loadTranslationCache(key: String, legacyKey: String) -> [String: [String: String]] {
+        if let atual = load([String: [String: String]].self, key: key) {
+            return atual
+        }
+        if let antigo = load([String: String].self, key: legacyKey), !antigo.isEmpty {
+            let migrado = [TranslationLanguage.ptBR.rawValue: antigo]
+            if let data = try? JSONEncoder().encode(migrado) {
+                UserDefaults.standard.set(data, forKey: key)
+            }
+            return migrado
+        }
+        return [:]
     }
 
     private func save<T: Encodable>(_ value: T, key: String) {

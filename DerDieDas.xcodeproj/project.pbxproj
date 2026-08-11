@@ -15,6 +15,7 @@
 		3707E5A22FE47FAB0067E6E0 /* SearchHistoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000004 /* SearchHistoryItem.swift */; };
 		3707E5A32FE47FB70067E6E0 /* PracticeStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000005 /* PracticeStats.swift */; };
 		3707E5A42FE47FC30067E6E0 /* TrainingMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000006 /* TrainingMode.swift */; };
+		A40000000000000000000099 /* TranslationLanguage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000099 /* TranslationLanguage.swift */; };
 		3707E5A52FE47FD60067E6E0 /* ArticleBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000009 /* ArticleBadge.swift */; };
 		3707E5A62FE480120067E6E0 /* AppStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000007 /* AppStore.swift */; };
 		3707E5AA2FE490A70067E6E0 /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3707E5A92FE490A70067E6E0 /* Date+Extensions.swift */; };
@@ -29,6 +30,7 @@
 		A10000000000000000000004 /* SearchHistoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000004 /* SearchHistoryItem.swift */; };
 		A10000000000000000000005 /* PracticeStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000005 /* PracticeStats.swift */; };
 		A10000000000000000000006 /* TrainingMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000006 /* TrainingMode.swift */; };
+		A10000000000000000000099 /* TranslationLanguage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000099 /* TranslationLanguage.swift */; };
 		A10000000000000000000007 /* AppStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000007 /* AppStore.swift */; };
 		A10000000000000000000008 /* RootTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000008 /* RootTabView.swift */; };
 		A10000000000000000000009 /* ArticleBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000009 /* ArticleBadge.swift */; };
@@ -96,6 +98,7 @@
 		A20000000000000000000004 /* SearchHistoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchHistoryItem.swift; sourceTree = "<group>"; };
 		A20000000000000000000005 /* PracticeStats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeStats.swift; sourceTree = "<group>"; };
 		A20000000000000000000006 /* TrainingMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingMode.swift; sourceTree = "<group>"; };
+		A20000000000000000000099 /* TranslationLanguage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslationLanguage.swift; sourceTree = "<group>"; };
 		A20000000000000000000007 /* AppStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStore.swift; sourceTree = "<group>"; };
 		A20000000000000000000008 /* RootTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabView.swift; sourceTree = "<group>"; };
 		A20000000000000000000009 /* ArticleBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleBadge.swift; sourceTree = "<group>"; };
@@ -191,6 +194,7 @@
 				A20000000000000000000004 /* SearchHistoryItem.swift */,
 				A20000000000000000000005 /* PracticeStats.swift */,
 				A20000000000000000000006 /* TrainingMode.swift */,
+				A20000000000000000000099 /* TranslationLanguage.swift */,
 				3707E5A92FE490A70067E6E0 /* Date+Extensions.swift */,
 				3707E5B02FE492510067E6E0 /* GermanNounQuery.swift */,
 			);
@@ -396,6 +400,7 @@
 				3707E5AB2FE490A70067E6E0 /* Date+Extensions.swift in Sources */,
 				3707E5A52FE47FD60067E6E0 /* ArticleBadge.swift in Sources */,
 				3707E5A42FE47FC30067E6E0 /* TrainingMode.swift in Sources */,
+				A40000000000000000000099 /* TranslationLanguage.swift in Sources */,
 				3707E5A62FE480120067E6E0 /* AppStore.swift in Sources */,
 				3707E5B22FE492510067E6E0 /* GermanNounQuery.swift in Sources */,
 				3707E5A02FE47F8E0067E6E0 /* GermanNoun.swift in Sources */,
@@ -423,6 +428,7 @@
 				A10000000000000000000004 /* SearchHistoryItem.swift in Sources */,
 				A10000000000000000000005 /* PracticeStats.swift in Sources */,
 				A10000000000000000000006 /* TrainingMode.swift in Sources */,
+				A10000000000000000000099 /* TranslationLanguage.swift in Sources */,
 				A10000000000000000000007 /* AppStore.swift in Sources */,
 				A10000000000000000000008 /* RootTabView.swift in Sources */,
 				A10000000000000000000009 /* ArticleBadge.swift in Sources */,

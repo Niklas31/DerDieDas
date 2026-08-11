@@ -16,6 +16,8 @@ struct SearchView: View {
     @State private var showsTranslation = true
     #if os(iOS) && !targetEnvironment(macCatalyst)
     @State private var translationConfiguration: TranslationSession.Configuration?
+    /// Para qual idioma a configuração acima foi criada — ela não sabe dizer sozinha.
+    @State private var configuredLanguage: String?
     #endif
     @State private var translationTarget: GermanNoun?
     @State private var isTranslating = false
@@ -105,7 +107,7 @@ struct SearchView: View {
                 VStack(alignment: .leading, spacing: 4) {
                     Text(noun.word)
                         .font(.headline)
-                    Text(store.translation(for: noun) ?? "Sem tradução em português")
+                    Text(store.translation(for: noun) ?? "Sem tradução")
                         .font(.subheadline)
                         .foregroundStyle(.secondary)
                 }
@@ -138,14 +140,17 @@ struct SearchView: View {
 
             if showsTranslation {
                 VStack(spacing: 4) {
-                    Text("Português:")
+                    // O rótulo nomeia o idioma que está de fato carregado. Fixá-lo em
+                    // "Português" fazia o cartão anunciar português e mostrar inglês —
+                    // que é pior que não ter rótulo, porque afirma o errado.
+                    Text("\(store.translationLanguage.label):")
                         .font(.caption)
                         .foregroundStyle(.secondary)
                     if let translation {
                         Text(translation)
                             .font(.title3.weight(.medium))
                     } else {
-                        Text("Sem tradução em português")
+                        Text("Sem tradução")
                             .font(.title3.weight(.medium))
                             .foregroundStyle(.secondary)
                     }
@@ -181,7 +186,7 @@ struct SearchView: View {
                 }
             }
 
-            ReportWordLink(noun: noun, language: AppStore.defaultLanguage)
+            ReportWordLink(noun: noun, language: store.translationLanguage.rawValue)
                 .padding(.top, 4)
         }
         .frame(maxWidth: .infinity)
@@ -203,10 +208,17 @@ struct SearchView: View {
         translationError = nil
         isTranslating = true
 
-        if translationConfiguration == nil {
+        // `invalidate()` refaz a sessão, mas **não** muda o idioma de destino: ele foi
+        // fixado quando a configuração nasceu. Reaproveitá-la depois que a pessoa troca de
+        // idioma faria o app traduzir para o alvo antigo pelo resto da vida do processo —
+        // devolvendo texto plausível, em português, para quem pediu inglês. Uma
+        // configuração nova é a única forma de mudar o alvo.
+        let idioma = store.translationLanguage.rawValue
+        if translationConfiguration == nil || configuredLanguage != idioma {
+            configuredLanguage = idioma
             translationConfiguration = TranslationSession.Configuration(
                 source: Locale.Language(identifier: "de"),
-                target: Locale.Language(identifier: "pt-BR")
+                target: Locale.Language(identifier: idioma)
             )
         } else {
             translationConfiguration?.invalidate()

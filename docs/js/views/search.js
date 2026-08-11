@@ -1,7 +1,8 @@
 // Aba Buscar — porte de Artikel/Views/SearchView.swift.
 
 import { searchCategorized } from '../search.js';
-import { randomNoun } from '../data.js';
+import { randomNoun, activeLanguage } from '../data.js';
+import { LANGUAGES } from '../locale.js';
 import { getHistory, registerSearch, getPrefs, setPref } from '../store.js';
 import { el, badge, card, nounRow, section, clear, reportLink } from '../ui.js';
 
@@ -58,11 +59,18 @@ function nounCard(noun) {
   const parts = [eye, badge(noun.article, 34), el('div', { class: 'word', text: noun.word })];
 
   if (showsTranslation) {
-    parts.push(el('div', { class: 'label', text: 'Português:' }));
+    // O rótulo nomeia o idioma que está de fato carregado. Fixá-lo em "Português" fazia
+    // o cartão anunciar português e mostrar inglês — pior que não ter rótulo, porque
+    // afirma o errado.
+    const idioma = LANGUAGES.find((l) => l.code === activeLanguage());
+    const nome = idioma?.label ?? activeLanguage();
+    parts.push(el('div', { class: 'label', text: `${nome}:` }));
     parts.push(
       el('div', {
         class: 'translation',
-        text: noun.translation || 'Sem tradução em português',
+        // Só "Sem tradução": o rótulo logo acima já nomeia o idioma, e é o mesmo texto
+        // que o app nativo usa.
+        text: noun.translation || 'Sem tradução',
       })
     );
     if (noun.plural) {

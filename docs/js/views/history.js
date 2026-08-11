@@ -10,7 +10,7 @@ const element = el('section', { class: 'view', id: 'view-history', hidden: true 
 function historyRow({ noun, at }) {
   const parts = [
     el('div', { class: 'row-word', text: `${noun.article} • ${noun.word}` }),
-    el('div', { class: 'row-sub', text: noun.translation || 'Sem tradução em português' }),
+    el('div', { class: 'row-sub', text: noun.translation || 'Sem tradução' }),
   ];
 
   if (noun.plural) {

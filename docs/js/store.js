@@ -4,6 +4,7 @@
 // com todos os outros repositórios publicados no GitHub Pages.
 
 import { ARTICLES, keyFor, nounForKey } from './data.js';
+import { match } from './locale.js';
 
 const PREFIX = 'ddd.';
 const HISTORY_LIMIT = 50;
@@ -15,6 +16,10 @@ const DEFAULT_PREFS = {
   mode: 'wordToArticle',
   showTranslationInTraining: false,
   showTranslationInCard: true,
+  // `null` = seguir o navegador. Só a escolha explícita é gravada; o idioma resolvido
+  // nunca, senão a preferência congela no primeiro acesso e trocar o idioma do navegador
+  // depois não muda mais nada.
+  translationLang: null,
 };
 
 function read(key, fallback) {
@@ -157,6 +162,11 @@ export function importData(json) {
   }
   if (parsed.prefs && typeof parsed.prefs === 'object') {
     prefs = { ...DEFAULT_PREFS, ...parsed.prefs };
+    // Um idioma que não existe mais — export antigo, ou pacote retirado — vira ausência
+    // de escolha em vez de escolha impossível, e o app volta a seguir o navegador.
+    if (prefs.translationLang && !match(prefs.translationLang)) {
+      prefs.translationLang = null;
+    }
     write('prefs', prefs);
   }
 }

@@ -21,6 +21,18 @@ struct TrainingView: View {
     @State private var showsPaywall = false
     @State private var reachedLimit = false
 
+    /// A escolha explícita, não o idioma resolvido.
+    ///
+    /// O `Picker` precisa distinguir "segue o aparelho" de "escolhi português", e os dois
+    /// mostram português para quem tem iPhone em português. Ler o resolvido faria a
+    /// opção pular sozinha de "Automático" para "Português" ao abrir a tela.
+    private var languageSelection: Binding<String?> {
+        Binding(
+            get: { store.languageOverride },
+            set: { store.setTranslationLanguage($0.flatMap(TranslationLanguage.init(rawValue:))) }
+        )
+    }
+
     var body: some View {
         NavigationStack {
             List {
@@ -31,6 +43,16 @@ struct TrainingView: View {
                         }
                     }
                     Toggle("Mostrar tradução durante o treino", isOn: $showsTranslation)
+
+                    // "Automático" é obrigatório, não enfeite: sem ele, quem experimenta
+                    // o inglês uma vez fica preso a uma escolha explícita para sempre e
+                    // não tem como voltar a seguir o aparelho.
+                    Picker("Idioma da tradução", selection: languageSelection) {
+                        Text("Automático").tag(String?.none)
+                        ForEach(TranslationLanguage.allCases) { idioma in
+                            Text(idioma.label).tag(String?.some(idioma.rawValue))
+                        }
+                    }
                 }
 
                 if let noun = currentNoun {
@@ -54,7 +76,7 @@ struct TrainingView: View {
                     Section {
                         HStack {
                             Spacer()
-                            ReportWordLink(noun: noun, language: AppStore.defaultLanguage)
+                            ReportWordLink(noun: noun, language: store.translationLanguage.rawValue)
                             Spacer()
                         }
                     }
@@ -192,7 +214,7 @@ struct TrainingView: View {
                 Text("Tradução:")
                     .font(.caption)
                     .foregroundStyle(.secondary)
-                Text(translation ?? "Sem tradução em português")
+                Text(translation ?? "Sem tradução")
                     .font(.title3.weight(.medium))
                     .foregroundStyle(translation == nil ? .secondary : .primary)
                 if let plural = noun.plural {
