@@ -92,7 +92,8 @@
     "Steuer": "DIE",
     "Kiefer": "DER",
     "Bauer": "DER",
-    "Moment": "DER"
+    "Moment": "DER",
+    "Wehe": "DIE"
   },
   "fix_plural": {
     "_doc": "Plurais que vieram do homônimo errado. Fallen é plural de die Falle (armadilha); Bauer como plural é de das Bauer (gaiola).",
@@ -100,7 +101,8 @@
     "Ort": "Orte",
     "Rolle": "Rollen",
     "Steuer": "Steuern",
-    "Bauer": "Bauern"
+    "Bauer": "Bauern",
+    "Wehe": "Wehen"
   },
   "add": {
     "_doc": "Palavras que a deduplicação engoliu: a chave era só a grafia, então o homônimo que chegou primeiro ocupou o lugar do outro.",

@@ -54,7 +54,7 @@ struct TrainingView: View {
                     Section {
                         HStack {
                             Spacer()
-                            ReportWordLink(noun: noun)
+                            ReportWordLink(noun: noun, language: AppStore.defaultLanguage)
                             Spacer()
                         }
                     }

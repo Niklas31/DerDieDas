@@ -1,5 +1,6 @@
 .DS_Store
 .venv/
+tools/batches/
 DerivedData/
 *.xcuserdata/
 xcuserdata/

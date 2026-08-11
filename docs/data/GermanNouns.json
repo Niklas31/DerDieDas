@@ -2,7 +2,7 @@
   "schema": 2,
   "order": "word.lower(),article",
   "count": 11694,
-  "digest": "3f75e99cd54ae4b9",
+  "digest": "cc61f7cc1efe197d",
   "nouns": [
     {
       "article": "DIE",
@@ -55175,9 +55175,9 @@
       "plural": "Wehe"
     },
     {
-      "article": "DAS",
+      "article": "DIE",
       "word": "Wehe",
-      "plural": null
+      "plural": "Wehen"
     },
     {
       "article": "DAS",

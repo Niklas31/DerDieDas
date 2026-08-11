@@ -181,7 +181,7 @@ struct SearchView: View {
                 }
             }
 
-            ReportWordLink(noun: noun)
+            ReportWordLink(noun: noun, language: AppStore.defaultLanguage)
                 .padding(.top, 4)
         }
         .frame(maxWidth: .infinity)
