@@ -58,6 +58,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 BASE = ROOT / 'docs/data/GermanNouns.json'
+CORR = ROOT / 'tools/corrections.json'
 SAIDA = ROOT / 'tools/senses.json'
 
 SCHEMA = 1
@@ -163,7 +164,19 @@ def validar(resposta, lote):
     return resposta
 
 
-def chamar_modelo(prompt):
+def chaves_do_gabarito():
+    """As palavras que têm correção humana em pt-BR — o gabarito da Fase 2.
+
+    Rodar só elas custa centavos e responde a pergunta que importa antes de gastar com
+    as 11.694: este modelo consegue desambiguar as palavras que já erraram uma vez?
+    """
+    corrections = json.loads(CORR.read_text(encoding='utf-8'))
+    fix = {k: v for k, v in corrections.get('fix', {}).items() if not k.startswith('_')}
+    tabela = fix if all(isinstance(v, str) for v in fix.values()) else fix.get('pt-BR', {})
+    return {k: v for k, v in tabela.items() if not k.startswith('_')}
+
+
+def chamar_modelo(prompt, modelo=MODELO):
     """Backend único: API da Anthropic, temperatura 0.
 
     Fica isolado de propósito — todo o resto deste arquivo (prompt, validação, retomada)
@@ -178,7 +191,7 @@ def chamar_modelo(prompt):
 
     cliente = anthropic.Anthropic()
     resposta = cliente.messages.create(
-        model=MODELO,
+        model=modelo,
         max_tokens=8000,
         temperature=0,
         messages=[{'role': 'user', 'content': prompt}],
@@ -190,23 +203,39 @@ def chamar_modelo(prompt):
 
 
 def main():
+    global SAIDA
     ap = argparse.ArgumentParser()
     ap.add_argument('--lote', type=int, default=40, help='substantivos por chamada')
     ap.add_argument('--max-lotes', type=int, default=0, help='0 = até acabar')
     ap.add_argument('--paralelo', type=int, default=6, help='chamadas simultâneas')
+    ap.add_argument('--modelo', default=MODELO)
+    ap.add_argument('--saida', type=Path, help=f'padrão: {SAIDA.relative_to(ROOT)}')
+    ap.add_argument('--gabarito', action='store_true',
+                    help='só as palavras com correção humana em pt-BR')
     ap.add_argument('--amostra', type=int, metavar='N',
                     help='imprime o prompt de N substantivos e sai, sem chamar nada')
     ap.add_argument('--so-faltantes', action='store_true', help='conta e sai')
     args = ap.parse_args()
 
+    if args.saida:
+        SAIDA = args.saida
+
     base = carregar_base()
     senses = carregar_saida(base)
-    faltantes = [
-        n for n in base['nouns']
-        if f"{n['article']}|{n['word']}" not in senses
-    ]
 
-    print(f'Base {base["count"]}, sentidos {len(senses)}, faltam {len(faltantes)}')
+    universo = base['nouns']
+    if args.gabarito:
+        gabarito = chaves_do_gabarito()
+        universo = [
+            n for n in base['nouns']
+            if f"{n['article']}|{n['word']}" in gabarito or n['word'] in gabarito
+        ]
+
+    faltantes = [n for n in universo if f"{n['article']}|{n['word']}" not in senses]
+
+    escopo = 'gabarito' if args.gabarito else 'base'
+    print(f'{escopo} {len(universo)}, sentidos {len(senses)}, faltam {len(faltantes)}'
+          f'   [{args.modelo}]')
     if args.so_faltantes:
         return 0
     if args.amostra:
@@ -231,7 +260,7 @@ def main():
     def processar(indice_lote):
         numero, lote = indice_lote
         try:
-            return numero, validar(chamar_modelo(montar_prompt(lote)), lote), None
+            return numero, validar(chamar_modelo(montar_prompt(lote), args.modelo), lote), None
         except (ValueError, json.JSONDecodeError) as erro:
             return numero, None, erro
 
