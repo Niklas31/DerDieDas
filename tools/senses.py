@@ -176,6 +176,22 @@ def chaves_do_gabarito():
     return {k: v for k, v in tabela.items() if not k.startswith('_')}
 
 
+def eh_fatal(erro):
+    """Erros que não melhoram na segunda tentativa.
+
+    Chave inválida, sem saldo, modelo que não existe: insistir só queima tempo e
+    esconde a causa atrás de 293 tracebacks iguais. Já limite de taxa e queda de rede
+    são temporários — esses valem uma nova execução, que retoma de onde parou.
+    """
+    try:
+        import anthropic
+    except ImportError:
+        return False
+    if isinstance(erro, (anthropic.AuthenticationError, anthropic.PermissionDeniedError)):
+        return True
+    return isinstance(erro, anthropic.NotFoundError)
+
+
 def chamar_modelo(prompt, modelo=MODELO):
     """Backend único: API da Anthropic, temperatura 0.
 
@@ -263,12 +279,23 @@ def main():
             return numero, validar(chamar_modelo(montar_prompt(lote), args.modelo), lote), None
         except (ValueError, json.JSONDecodeError) as erro:
             return numero, None, erro
+        except Exception as erro:                       # noqa: BLE001 — rede e API
+            return numero, None, erro
 
     with ThreadPoolExecutor(max_workers=args.paralelo) as executor:
         futuros = [executor.submit(processar, item) for item in enumerate(lotes, 1)]
         for futuro in as_completed(futuros):
             numero, resposta, erro = futuro.result()
             with trava:
+                # Chave inválida, sem saldo ou modelo inexistente não melhoram na
+                # segunda tentativa: erram os 293 lotes igual. Parar na primeira poupa
+                # a espera e deixa a causa legível, em vez de um traceback de thread.
+                if erro is not None and eh_fatal(erro):
+                    print(f'\n! {erro}')
+                    print('! nada a tentar de novo; parando.')
+                    for pendente in futuros:
+                        pendente.cancel()
+                    break
                 if erro is not None:
                     falhas += 1
                     print(f'  lote {numero}: descartado — {erro}')
@@ -283,7 +310,8 @@ def main():
     if falhas:
         print(f'! {falhas} lotes ficaram de fora; rode de novo para pegar só eles')
     gravar(senses, base)
-    print(f'\ntools/senses.json com {len(senses)}/{base["count"]} sentidos')
+    pedidas = {f"{n['article']}|{n['word']}" for n in universo}
+    print(f'\n{SAIDA} com {len(pedidas & set(senses))}/{len(pedidas)} sentidos do {escopo}')
     return 0
 
 
