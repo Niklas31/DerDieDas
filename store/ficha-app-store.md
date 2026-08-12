@@ -120,23 +120,31 @@ A compra exige uma captura de tela de revisão: use a tela do paywall
 (Treino → ⓘ → "Desbloquear palavras ilimitadas"). Ela precisa mostrar o preço formatado —
 se aparecer "Carregando…" no botão, o produto não carregou e a captura não serve.
 
-A captura pronta está em `store/capturas/iap/paywall-1320x2868.png`.
+A captura pronta está em `store/capturas/iap/paywall-1284x2778.png`.
 
-**Cuidado com o "The dimensions of one or more screenshots are wrong":** a mensagem mente.
-1320 × 2868 é tamanho válido — o que o App Store Connect recusa é o **canal alfa** que o
-Preview do macOS acrescenta ao redimensionar. Confira antes de enviar:
+**Este campo NÃO usa a lista de tamanhos da vitrine.** É a armadilha central: 1320 × 2868 é
+o tamanho obrigatório das capturas de 6,9" do app e é **recusado aqui**. A captura de
+revisão da compra aceita a lista antiga — no iPhone, 1242 × 2688 ou 1284 × 2778. Por isso
+`store/capturas/iphone-6.9/` não serve para este campo e existe `store/capturas/iap/`.
+
+E a mensagem de erro engana: ela diz "The dimensions of one or more screenshots are wrong"
+para qualquer recusa, inclusive quando a dimensão está certa. Uma captura vinda do iPhone
+chega com três problemas invisíveis, e nenhum deles é o tamanho:
+
+| o que vem do iPhone | por que atrapalha |
+|---|---|
+| canal alfa (se você redimensionou no Preview) | a Apple exige imagem achatada |
+| perfil Display P3 + chunk `cICP` | sinalização de gama larga/HDR que o validador não espera |
+| chunk `eXIf` | guarda as dimensões originais, que não batem com as novas |
+
+`tools/preparar-captura-iap.sh` faz os três consertos e o redimensionamento. Confira o
+resultado com:
 
 ```
-sips -g pixelWidth -g pixelHeight -g hasAlpha -g bitsPerSample arquivo.png
+sips -g pixelWidth -g pixelHeight -g hasAlpha -g bitsPerSample -g profile arquivo.png
 ```
 
-Precisa dar `hasAlpha: no` e `bitsPerSample: 8`. Para achatar, passe por JPEG, que não
-admite alfa nem 16 bits por construção:
-
-```
-sips -s format jpeg -s formatOptions best entrada.png --out tmp.jpg
-sips -s format png tmp.jpg --out saida.png
-```
+Precisa dar `hasAlpha: no`, `bitsPerSample: 8` e perfil sRGB.
 
 ---
 
