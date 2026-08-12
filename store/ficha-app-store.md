@@ -117,7 +117,11 @@ criado no App Store Connect com **exatamente** o mesmo ID, senão a tela de comp
 aparece vazia em produção.
 
 A compra exige uma captura de tela de revisão: use a tela do paywall
-(Treino → esgotar o limite diário → "Desbloquear Pro").
+(Treino → ⓘ → "Desbloquear palavras ilimitadas"). Ela precisa mostrar o preço formatado —
+se aparecer "Carregando…" no botão, o produto não carregou e a captura não serve.
+
+Pode ser tirada no iPhone e enviada direto do aparelho: o App Store Connect aceita upload
+pelo Safari, sem precisar passar o arquivo para o Mac.
 
 ---
 
@@ -126,11 +130,12 @@ A compra exige uma captura de tela de revisão: use a tela do paywall
 ```
 O app funciona inteiramente offline e não exige conta, login ou qualquer dado do usuário.
 
-Como testar a compra:
-1. Aba Treino.
-2. Responda 10 palavras diferentes — o plano gratuito libera 10 palavras novas por dia.
-3. Ao atingir o limite aparece a tela "Desbloquear Pro".
-4. "DerDieDas Pro" (com.nicolas.DerDieDas.pro) é uma compra única, não-consumível, que remove o limite permanentemente. O botão "Restaurar Compras" está na mesma tela.
+Como testar a compra (caminho curto):
+1. Aba Treino → botão ⓘ no canto superior direito.
+2. Toque em "Desbloquear palavras ilimitadas". A tela de compra abre imediatamente.
+3. "DerDieDas Pro" (com.nicolas.DerDieDas.pro) é uma compra única, não-consumível, que remove o limite diário permanentemente. O botão "Restaurar Compras" está na mesma tela.
+
+A mesma tela também aparece sozinha ao esgotar o limite: responda 10 palavras novas na aba Treino — o plano gratuito libera 10 por dia, e rever uma palavra já vista hoje não conta.
 
 Observações:
 - A tradução sob demanda usa o Translation framework da Apple, que roda no dispositivo. Ela não funciona no simulador e pode pedir o download do modelo de idioma na primeira vez. Todas as 11.694 palavras da base já vêm traduzidas; esse recurso só atende palavras fora da base.

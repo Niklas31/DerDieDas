@@ -79,7 +79,7 @@ export function onShow() {
       'Sobre',
       paragraphs(
         'Aprender alemão tem um obstáculo que quase todo brasileiro conhece: decorar se cada substantivo é der, die ou das. Não existe atalho fácil — e foi para atacar exatamente essa dificuldade que o DerDieDas nasceu.',
-        'Em vez de jogar você contra um dicionário gigante cheio de termos técnicos e palavras raras, o app oferece uma seleção curada de substantivos realmente úteis do cotidiano (níveis A1 a B1), cada um com artigo, tradução em português e plural. Treinando o vocabulário certo, você também começa a enxergar os padrões escondidos da língua: palavras terminadas em -ung são sempre die, as em -chen são das, infinitivos substantivados são das, e por aí vai.',
+        'Em vez de jogar você contra um dicionário gigante cheio de termos técnicos e palavras raras, o app oferece uma seleção curada de substantivos realmente úteis do cotidiano (níveis A1 a B1), cada um com artigo, tradução e plural. A tradução pode ser em português ou em inglês — a escolha fica na aba Treino, e no automático o app segue o idioma do navegador. Treinando o vocabulário certo, você também começa a enxergar os padrões escondidos da língua: palavras terminadas em -ung são sempre die, as em -chen são das, infinitivos substantivados são das, e por aí vai.',
         'Com busca instantânea, dois modos de treino, histórico e estatísticas dos seus erros, o DerDieDas foi feito para caber na sua rotina e transformar a parte mais espinhosa do alemão em prática rápida — e sem frustração.'
       )
     ),
@@ -89,7 +89,8 @@ export function onShow() {
       paragraphs(
         'O ponto de partida foi a lista aberta german-nouns, compilada do Wikcionário alemão (WiktionaryDE): mais de 90 mil substantivos com artigo e plural — a maioria composta por termos químicos, moedas antigas e palavras raríssimas que ninguém usa no dia a dia.',
         'Num script em Python (Google Colab), essa lista passou por um filtro de frequência de uso com a biblioteca wordfreq: só permaneceram as palavras que aparecem pelo menos cerca de 1 vez por milhão no alemão real — o corte de 1e-6 (0,0001%). Isso derruba automaticamente a cauda longa de termos raros. Uma segunda passada ainda removeu duplicatas, abreviações e verbos infiltrados.',
-        `O resultado são os ${total} substantivos do app, cada um traduzido para o português com o Google Tradutor. Os scripts foram escritos com apoio do Google Gemini.`
+        `O resultado são os ${total} substantivos do app. As traduções para o português começaram no Google Tradutor e passaram por uma revisão manual, que consertou os erros de desambiguação — der Rock é saia, não pedra; das Tag é etiqueta, não dia. Um tradutor automático não tem como acertar isso, porque decide sem saber o artigo.`,
+        'O pacote em inglês veio depois, gerado com o Claude, da Anthropic, recebendo o artigo e o plural junto com cada palavra — é justamente esse contexto que separa Röcke (saias) de Rocks (o gênero musical). Cada pacote é conferido por um script que compara as duas versões e sinaliza traduções suspeitas para revisão. Os scripts foram escritos com apoio do Google Gemini.'
       )
     ),
 
@@ -98,7 +99,8 @@ export function onShow() {
       card([
         creditRow('Base de dados', 'german-nouns · WiktionaryDE'),
         creditRow('Filtro de frequência', 'wordfreq · corte 1e-6'),
-        creditRow('Traduções', 'Google Tradutor'),
+        creditRow('Tradução em português', 'Google Tradutor · revisão manual'),
+        creditRow('Tradução em inglês', 'Claude · Anthropic'),
         creditRow('Scripts', 'Google Gemini · Colab'),
         creditRow('Versão nativa', 'SwiftUI · iOS e watchOS'),
       ])
@@ -108,7 +110,9 @@ export function onShow() {
       'Créditos & Licenças',
       card([
         el('p', {
-          text: 'A base de artigos e plurais vem do projeto aberto german-nouns, compilado do WiktionaryDE e publicado sob a licença Creative Commons Atribuição-CompartilhaIgual 4.0 (CC BY-SA 4.0). As traduções para o português foram geradas com o Google Tradutor.',
+          // As traduções não vêm do german-nouns e não herdam a CC BY-SA — dizer de onde
+          // cada parte veio é o que mantém a atribuição correta.
+          text: 'A base de artigos e plurais vem do projeto aberto german-nouns, compilado do WiktionaryDE e publicado sob a licença Creative Commons Atribuição-CompartilhaIgual 4.0 (CC BY-SA 4.0). As traduções não fazem parte dessa base: as em português vieram do Google Tradutor com revisão manual, e as em inglês foram geradas com o Claude, da Anthropic.',
           style: 'font-size:13px;color:var(--secondary)',
         }),
         linkRow('https://github.com/gambolputty/german-nouns', 'Projeto german-nouns'),
