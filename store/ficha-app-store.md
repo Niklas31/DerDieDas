@@ -120,8 +120,23 @@ A compra exige uma captura de tela de revisão: use a tela do paywall
 (Treino → ⓘ → "Desbloquear palavras ilimitadas"). Ela precisa mostrar o preço formatado —
 se aparecer "Carregando…" no botão, o produto não carregou e a captura não serve.
 
-Pode ser tirada no iPhone e enviada direto do aparelho: o App Store Connect aceita upload
-pelo Safari, sem precisar passar o arquivo para o Mac.
+A captura pronta está em `store/capturas/iap/paywall-1320x2868.png`.
+
+**Cuidado com o "The dimensions of one or more screenshots are wrong":** a mensagem mente.
+1320 × 2868 é tamanho válido — o que o App Store Connect recusa é o **canal alfa** que o
+Preview do macOS acrescenta ao redimensionar. Confira antes de enviar:
+
+```
+sips -g pixelWidth -g pixelHeight -g hasAlpha -g bitsPerSample arquivo.png
+```
+
+Precisa dar `hasAlpha: no` e `bitsPerSample: 8`. Para achatar, passe por JPEG, que não
+admite alfa nem 16 bits por construção:
+
+```
+sips -s format jpeg -s formatOptions best entrada.png --out tmp.jpg
+sips -s format png tmp.jpg --out saida.png
+```
 
 ---
 
