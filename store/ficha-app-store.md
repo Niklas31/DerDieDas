@@ -26,7 +26,7 @@ Dicionário e treino diário
 ## Palavras-chave  · limite 100, separadas por vírgula, sem espaços
 
 ```
-alemao,deutsch,artigo,substantivo,vocabulario,gramatica,flashcard,idioma,traducao,plural,a1,b1
+alemao,deutsch,artigo,substantivo,vocabulario,gramatica,flashcard,traducao,plural,a1,b1,ingles
 ```
 
 Não repita palavras que já estão no nome ou no subtítulo — a Apple indexa os três campos
@@ -44,7 +44,10 @@ juntos, e repetir desperdiça caracteres.
 Decorar se cada substantivo alemão é der, die ou das é o obstáculo que quase todo brasileiro encontra ao aprender o idioma. Não existe atalho fácil — e foi para atacar exatamente essa dificuldade que o DerDieDas nasceu.
 
 UMA BASE CURADA, NÃO UM DICIONÁRIO GIGANTE
-São 11.694 substantivos realmente úteis do cotidiano, cada um com artigo, tradução em português e plural. A lista partiu de mais de 90 mil palavras do Wikcionário alemão e passou por um filtro de frequência de uso: só ficaram as que aparecem pelo menos cerca de uma vez por milhão no alemão real. Isso derruba a cauda longa de termos químicos, moedas antigas e palavras que ninguém usa.
+São 11.694 substantivos realmente úteis do cotidiano, cada um com artigo, tradução e plural. A lista partiu de mais de 90 mil palavras do Wikcionário alemão e passou por um filtro de frequência de uso: só ficaram as que aparecem pelo menos cerca de uma vez por milhão no alemão real. Isso derruba a cauda longa de termos químicos, moedas antigas e palavras que ninguém usa.
+
+TRADUÇÃO EM PORTUGUÊS OU EM INGLÊS
+Escolha o idioma da tradução na aba Treino, ou deixe no automático e o app segue o idioma do seu iPhone. Útil para quem já estuda alemão a partir do inglês e prefere não passar pelo português no meio do caminho.
 
 BUSCA INSTANTÂNEA
 Digite em alemão ou em português. A busca ignora acentos e maiúsculas — procurar "strasse" encontra "Straße", "grun" encontra "grün". Também funciona por plural e por artigo, se você quiser ver só as palavras que usam das.
