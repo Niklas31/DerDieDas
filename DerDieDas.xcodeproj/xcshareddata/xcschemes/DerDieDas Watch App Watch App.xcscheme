@@ -30,6 +30,7 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "A50000000000000000000001"
                BuildableName = "DerDieDas.app"
+               BlueprintName = "DerDieDas"
                ReferencedContainer = "container:DerDieDas.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
