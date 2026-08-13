@@ -1,0 +1,33 @@
+Decorar se cada substantivo alemão é der, die ou das é o obstáculo que quase todo brasileiro encontra ao aprender o idioma. Não existe atalho fácil — e foi para atacar exatamente essa dificuldade que o DerDieDas nasceu.
+
+UMA BASE CURADA, NÃO UM DICIONÁRIO GIGANTE
+São 11.694 substantivos realmente úteis do cotidiano, cada um com artigo, tradução e plural. A lista partiu de mais de 90 mil palavras do Wikcionário alemão e passou por um filtro de frequência de uso: só ficaram as que aparecem pelo menos cerca de uma vez por milhão no alemão real. Isso derruba a cauda longa de termos químicos, moedas antigas e palavras que ninguém usa.
+
+TRADUÇÃO EM PORTUGUÊS OU EM INGLÊS
+Escolha o idioma da tradução na aba Treino, ou deixe no automático e o app segue o idioma do seu iPhone. Útil para quem já estuda alemão a partir do inglês e prefere não passar pelo português no meio do caminho.
+
+BUSCA INSTANTÂNEA
+Digite em alemão ou em português. A busca ignora acentos e maiúsculas — procurar "strasse" encontra "Straße", "grun" encontra "grün". Também funciona por plural e por artigo, se você quiser ver só as palavras que usam das.
+
+DOIS MODOS DE TREINO
+• Palavra → Artigo: aparece o substantivo, você escolhe der, die ou das.
+• Artigo → Palavra: aparece o artigo, você escreve uma palavra que o use.
+Com a opção de mostrar ou esconder a tradução durante a prática.
+
+ESTATÍSTICAS QUE MOSTRAM ONDE VOCÊ ERRA
+As palavras que mais escapam, os artigos com maior índice de erro e quando você praticou cada uma pela última vez. Treinando o vocabulário certo, os padrões escondidos da língua começam a aparecer sozinhos: palavras terminadas em -ung são sempre die, as em -chen são das, infinitivos substantivados são das.
+
+FUNCIONA OFFLINE, DE VERDADE
+A base inteira fica no aparelho. Sem internet, sem conta, sem login, sem anúncios e sem rastreadores. Nada do que você faz sai do seu iPhone.
+
+TAMBÉM NO APPLE WATCH E NA SIRI
+Consulte o artigo de uma palavra pelo relógio ou pergunte à Siri, sem tirar o telefone do bolso.
+
+PLANO GRATUITO E DERDIEDAS PRO
+O plano gratuito libera 10 palavras novas por dia — rever uma palavra que você já viu hoje não conta, e o limite reinicia à meia-noite. O DerDieDas Pro é uma compra única, sem assinatura e sem mensalidade, que remove o limite para sempre.
+
+VERSÃO WEB GRATUITA
+Quem preferir usar no computador ou no Android encontra a versão web, gratuita e ilimitada, em derdiedas.app.br.
+
+CRÉDITOS
+A base de artigos e plurais vem do projeto aberto german-nouns, compilado do Wikcionário alemão e publicado sob licença Creative Commons Atribuição-CompartilhaIgual 4.0 (CC BY-SA 4.0). Encontrou uma tradução errada? Há um botão para reportar em cada palavra — as correções entram nas próximas versões.
