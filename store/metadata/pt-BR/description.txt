@@ -26,8 +26,5 @@ Consulte o artigo de uma palavra pelo relógio ou pergunte à Siri, sem tirar o 
 PLANO GRATUITO E DERDIEDAS PRO
 O plano gratuito libera 10 palavras novas por dia — rever uma palavra que você já viu hoje não conta, e o limite reinicia à meia-noite. O DerDieDas Pro é uma compra única, sem assinatura e sem mensalidade, que remove o limite para sempre.
 
-VERSÃO WEB GRATUITA
-Quem preferir usar no computador ou no Android encontra a versão web, gratuita e ilimitada, em derdiedas.app.br.
-
 CRÉDITOS
 A base de artigos e plurais vem do projeto aberto german-nouns, compilado do Wikcionário alemão e publicado sob licença Creative Commons Atribuição-CompartilhaIgual 4.0 (CC BY-SA 4.0). Encontrou uma tradução errada? Há um botão para reportar em cada palavra — as correções entram nas próximas versões.

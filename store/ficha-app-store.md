@@ -69,9 +69,6 @@ Consulte o artigo de uma palavra pelo relógio ou pergunte à Siri, sem tirar o 
 PLANO GRATUITO E DERDIEDAS PRO
 O plano gratuito libera 10 palavras novas por dia — rever uma palavra que você já viu hoje não conta, e o limite reinicia à meia-noite. O DerDieDas Pro é uma compra única, sem assinatura e sem mensalidade, que remove o limite para sempre.
 
-VERSÃO WEB GRATUITA
-Quem preferir usar no computador ou no Android encontra a versão web, gratuita e ilimitada, em derdiedas.app.br.
-
 CRÉDITOS
 A base de artigos e plurais vem do projeto aberto german-nouns, compilado do Wikcionário alemão e publicado sob licença Creative Commons Atribuição-CompartilhaIgual 4.0 (CC BY-SA 4.0). Encontrou uma tradução errada? Há um botão para reportar em cada palavra — as correções entram nas próximas versões.
 ```
@@ -150,21 +147,115 @@ Precisa dar `hasAlpha: no`, `bitsPerSample: 8` e perfil sRGB.
 
 ## Notas para a equipe de revisão
 
+Em inglês de propósito: o revisor lê dezenas por dia, e a Apple respondeu em inglês. Este
+texto responde aos oito itens do pedido 2.1 da primeira revisão — **antes** de reenviar,
+preencha a lista de aparelhos testados, que é a única parte que só você sabe.
+
 ```
-O app funciona inteiramente offline e não exige conta, login ou qualquer dado do usuário.
+NO ACCOUNT, NO LOGIN, NO SERVER
+The app works entirely offline. There is no account, no login, no sign-up, and no user data
+of any kind. Nothing is transmitted anywhere. No demo credentials are needed or possible.
 
-Como testar a compra (caminho curto):
-1. Aba Treino → botão ⓘ no canto superior direito.
-2. Toque em "Desbloquear palavras ilimitadas". A tela de compra abre imediatamente.
-3. "DerDieDas Pro" (com.nicolas.DerDieDas.pro) é uma compra única, não-consumível, que remove o limite diário permanentemente. O botão "Restaurar Compras" está na mesma tela.
+1. WHAT THE APP DOES AND WHO IT IS FOR
+German nouns each carry one of three grammatical genders, marked by the articles der, die
+or das. The article is not predictable from the word and must be memorized. This is the
+single biggest obstacle for Brazilian and other non-native learners of German, and it is
+what this app addresses.
 
-A mesma tela também aparece sozinha ao esgotar o limite: responda 10 palavras novas na aba Treino — o plano gratuito libera 10 por dia, e rever uma palavra já vista hoje não conta.
+The app bundles 11,694 curated German nouns, each with its article, its plural and a
+translation. The user can search any noun, practice in two directions, and see statistics
+of the words they get wrong most often. Target audience: people learning German at the A1
+to B1 levels.
 
-Observações:
-- A tradução sob demanda usa o Translation framework da Apple, que roda no dispositivo. Ela não funciona no simulador e pode pedir o download do modelo de idioma na primeira vez. Todas as 11.694 palavras da base já vêm traduzidas; esse recurso só atende palavras fora da base.
-- O app do Apple Watch depende do app do iPhone estar instalado.
-- A base de substantivos deriva do projeto aberto german-nouns (Wikcionário alemão), licenciado sob CC BY-SA 4.0. A atribuição está em Treino → ⓘ → Créditos & Licenças.
+2. DEVICES AND OPERATING SYSTEMS TESTED
+[PREENCHER ANTES DE ENVIAR — liste apenas o que você realmente testou, por exemplo:
+"iPhone 17 Pro, iOS 27.0" / "iPad Air 11-inch (M3), iPadOS 27.0" / "Apple Watch Series 10,
+watchOS 11". Não invente aparelhos: se algo não foi testado, não liste.]
+
+3. HOW TO SET UP AND REACH THE MAIN FEATURES
+No setup at all. Install and open.
+- Search tab: type a German or Portuguese word. Try "Hund". Accents and case are ignored,
+  so "strasse" finds "Straße".
+- Training tab: two modes. "Palavra -> Artigo" shows a noun, you pick der/die/das.
+  "Artigo -> Palavra" shows an article, you type any noun that uses it.
+- Training tab -> "Idioma da tradução": switches translations between Portuguese and
+  English, or follows the device language when set to "Automático".
+- History tab: words you looked up before.
+
+4. IN-APP PURCHASE — WHAT IT BUYS AND HOW TO REACH IT
+There is exactly one purchase: "DerDieDas Pro" (com.nicolas.DerDieDas.pro), a
+non-consumable one-time purchase. There are no subscriptions.
+
+The free plan allows 10 NEW words per day, across search and training combined. Re-opening
+a word already seen today does not count. The counter resets at midnight. The purchase
+removes this daily limit permanently. Nothing else is gated: the full 11,694-word database,
+both translation languages, all statistics and the Apple Watch app are available for free.
+
+Shortest path to the purchase screen:
+  Training tab -> (i) button, top right -> "Desbloquear palavras ilimitadas"
+The purchase screen shows the price and a "Restaurar Compras" (Restore Purchases) button.
+
+The same screen also appears on its own once the daily limit is reached: answer 10 different
+words in the Training tab.
+
+5. EXTERNAL SERVICES, TOOLS AND PLATFORMS
+At runtime the app calls no external service whatsoever. Specifically: no servers of ours,
+no analytics, no advertising, no third-party SDKs, no trackers, and no AI service.
+
+Two Apple frameworks are used:
+- StoreKit 2, for the single in-app purchase.
+- Translation (Apple's on-device translation), used only for words the user searches that
+  are NOT in the bundled database. All 11,694 bundled words already ship translated, so
+  this is a rare fallback. It runs on the device and may ask to download a language model
+  the first time. It does not work in the Simulator.
+
+The noun database is a static JSON file compiled into the app at build time. The word list,
+the translations and the review of them were all produced offline during development; no
+generation happens on the user's device or at runtime.
+
+6. REGIONAL DIFFERENCES
+None. The app behaves identically in every region and every country. There is no
+geo-restricted content, no regional pricing logic in the app, and no feature that varies by
+location. The app never requests location.
+
+The only thing that varies is the translation language shown next to each German word,
+which follows the device language (Portuguese or English) and can be changed by the user in
+the Training tab. The German content — article, word, plural — is the same everywhere.
+
+7. THIRD-PARTY MATERIAL AND AUTHORIZATION
+The articles and plurals derive from "german-nouns", an open dataset compiled from the
+German Wiktionary and published under Creative Commons Attribution-ShareAlike 4.0
+(CC BY-SA 4.0), which permits redistribution with attribution. Attribution is given inside
+the app at Training tab -> (i) -> "Créditos & Licenças", with links to the project, to the
+German Wiktionary and to the license text, and it is also stated in the App Store
+description. The app is not part of any regulated industry.
+
+8. PRIVACY
+Search history and practice statistics are stored only on the device, in the app's own
+storage. They are never transmitted and are removed when the app is deleted. This matches
+the "Data Not Collected" declaration and the privacy policy at
+https://derdiedas.app.br/privacidade.html
 ```
+
+### Roteiro da gravação de tela
+
+A Apple pede um vídeo feito em **aparelho físico**, começando pela abertura do app. A
+revisão anterior rodou num **iPad Air 11-inch (M3)** — se você tiver um iPad, grave nele,
+porque é o aparelho em que eles já olharam.
+
+1. Abrir o app a partir da tela de início (o vídeo precisa começar aqui)
+2. Aba Buscar → digitar `Hund` → tocar no resultado → mostrar o cartão com artigo,
+   tradução e plural
+3. Aba Treino → responder duas ou três palavras, uma delas errada, para mostrar o retorno
+4. Trocar "Idioma da tradução" para English e mostrar a mesma palavra em inglês
+5. Ligar "Mostrar tradução durante o treino"
+6. Rolar até as Estatísticas Extras
+7. Aba Histórico
+8. Treino → ⓘ → mostrar Créditos & Licenças (a atribuição CC BY-SA)
+9. Voltar e tocar em "Desbloquear palavras ilimitadas" → **a tela de compra com o preço
+   visível** → tocar em Desbloquear e mostrar a folha de pagamento da Apple
+
+O passo 9 é o mais importante: foi a compra que eles não conseguiram avaliar.
 
 ---
 
