@@ -1,0 +1,60 @@
+No account, no login, no server. The app works entirely offline and collects no user data,
+so no demo credentials are needed or possible.
+
+1. SCREEN RECORDING
+Uploaded with this reply. It starts at app launch and covers search, both training modes,
+switching the translation language, statistics, credits and the full purchase flow.
+
+2. DEVICES AND OS TESTED
+[PREENCHER: liste apenas o que voce realmente testou]
+
+3. WHAT THE APP DOES AND WHO IT IS FOR
+Every German noun carries one of three grammatical genders, marked by der, die or das. The
+article cannot be predicted from the word and has to be memorized, which is the main
+obstacle for learners. The app bundles 11,694 curated German nouns, each with its article,
+plural and translation, so the user can look any of them up, practice in two directions and
+see which words they get wrong most often. Audience: German learners at A1-B1 level.
+
+4. SETUP AND HOW TO REACH THE FEATURES
+No setup. Install and open.
+- Search tab: type a German or Portuguese word, e.g. "Hund". Accents and case are ignored.
+- Training tab: "Palavra -> Artigo" shows a noun and you pick der/die/das. "Artigo ->
+  Palavra" shows an article and you type a noun that uses it.
+- Training tab -> "Idioma da traducao": switches translations between Portuguese and
+  English, or follows the device language.
+- History tab: words looked up before.
+
+5. EXTERNAL SERVICES, TOOLS AND PLATFORMS
+At runtime the app calls no external service at all: no servers of ours, no analytics, no
+ads, no third-party SDKs, no trackers and no AI service. Two Apple frameworks are used:
+StoreKit 2 for the single purchase, and Translation (on-device) as a fallback for searched
+words outside the bundled database - all 11,694 bundled words already ship translated. The
+database is a static JSON file compiled into the app; the word list and its translations
+were produced offline during development, never on the user device.
+
+6. REGIONAL DIFFERENCES
+None. The app behaves identically in every country: no geo-restricted content, no location
+access, no feature that varies by region. The only variable is the translation language
+shown next to each German word, which follows the device language and can be changed by the
+user. The German content is the same everywhere.
+
+7. THIRD-PARTY MATERIAL
+Articles and plurals derive from "german-nouns", an open dataset compiled from the German
+Wiktionary and published under CC BY-SA 4.0, which permits redistribution with attribution.
+Attribution is inside the app at Training tab -> (i) -> "Creditos & Licencas", with links to
+the project, the Wiktionary and the license, and also in the App Store description. The app
+is not part of a regulated industry.
+
+8. IN-APP PURCHASE
+One purchase only: "DerDieDas Pro" (com.nicolas.DerDieDas.pro), non-consumable, one-time,
+no subscriptions. The free plan allows 10 NEW words per day across search and training;
+re-opening a word already seen today does not count, and the counter resets at midnight.
+The purchase removes that daily limit permanently. Nothing else is gated - the full
+database, both translation languages, all statistics and the Apple Watch app are free.
+To reach it: Training tab -> (i) button, top right -> "Desbloquear palavras ilimitadas".
+That screen shows the price and a "Restaurar Compras" (Restore Purchases) button. It also
+appears on its own after answering 10 different words in the Training tab.
+
+Search history and practice statistics stay on the device and are never transmitted, which
+matches the "Data Not Collected" declaration and the privacy policy at
+https://derdiedas.app.br/privacidade.html

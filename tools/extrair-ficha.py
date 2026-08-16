@@ -29,6 +29,7 @@ CAMPOS = {
     'Texto promocional': 'promotional_text.txt',
     'Descrição': 'description.txt',
     'Novidades desta versão': 'release_notes.txt',
+    'Notas para a equipe de revisão': 'review_notes.txt',
 }
 
 # Estes não vivem em bloco de código na ficha, e sim numa tabela — mais legível lá,

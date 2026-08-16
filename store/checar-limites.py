@@ -16,6 +16,9 @@ LIMITES = {
     "Texto promocional": 170,
     "Descrição": 4000,
     "Novidades desta versão": 4000,
+    # O campo de resposta à App Review tem o mesmo teto de 4000, e é fácil estourar
+    # porque as notas crescem a cada rodada de revisão.
+    "Notas para a equipe de revisão": 4000,
 }
 
 ficha = Path(__file__).parent / "ficha-app-store.md"
